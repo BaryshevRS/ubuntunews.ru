@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.scss'
 import { getSortedPostsData } from "../lib/posts";
 
 export default function Home({allPostsData}: any) {
-  console.log('allPostsData', allPostsData);
+  // console.log('allPostsData', allPostsData);
   return (
     <div className={styles.container}>
       <Head>
@@ -18,10 +18,15 @@ export default function Home({allPostsData}: any) {
         </h1>
 
         <section>
+          <div>
+            <hr/>
+            <Link href={`/about`}><a>About</a></Link>
+            <hr/>
+          </div>
           <ul>
           {allPostsData.map(({ id, date, title }: any) => (
               <li key={id}>
-                <Link href={`posts/${id}`}><a>{title}</a></Link>
+                <Link href={`/posts/${id}`}><a>{title}</a></Link>
                 <br />
                 {id}
                 <br />
