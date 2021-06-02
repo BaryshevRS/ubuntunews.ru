@@ -19,6 +19,7 @@
     "@types/next": "^9.0.0",
     "@types/react": "^17.0.3",
     "@zeit/next-typescript": "^1.1.1",
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "fs-extra": "^10.0.0",
     "marked": "^2.0.3",
     "mkdir": "0.0.2",

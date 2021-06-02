@@ -1,12 +1,25 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.scss'
 import { getSortedPostsData } from "../lib/posts";
+
+import LogoIcon from '../public/logo.svg';
+
+import DownloadIcon from '../public/assets/icons/download.svg';
+// import MenuIcon from '../public/Menu.svg';
+// import LogoIcon from '../public/Logo.svg';
+// import TimeIcon from '../public/time.svg';
+
+import FacebookIcon from '../public/assets/icons/facebook.svg';
+import GithubIcon from '../public/assets/icons/github.svg';
+import TwitterIcon from '../public/assets/icons/rss.svg';
+import VkIcon from '../public/assets/icons/vk.svg';
+import YoutubeIcon from '../public/assets/icons/youtube.svg';
+import RssIcon from '../public/assets/icons/rss.svg';
 
 export default function Home({allPostsData}: any) {
     console.log('allPostsData', allPostsData);
     return (
-        <article className={styles.container}>
+        <section className='container'>
             <Head>
                 <title>Create Next App</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,166 +33,112 @@ export default function Home({allPostsData}: any) {
                 <meta name="msapplication-config" content="favicon/browserconfig.xml"/>
                 <meta name="theme-color" content="#ffffff"/>
             </Head>
-
-            <main className={styles.main}>
-                <h1 className={styles.title}>
-                    Welcome to Lorem ipsum dolor sit amet, consectetur adipisicing.
-                </h1>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, distinctio? Lorem ipsum dolor sit
-                    amet, consectetur adipisicing elit. A ab aperiam at atque deserunt eius et eum facere facilis illum
-                    iusto modi neque numquam obcaecati porro quia, unde! Temporibus, voluptatum.</p>
-
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam.</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque hic id iure iusto libero minus
-                    nemo nihil ut voluptates.</p>
-
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam.</h3>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ullam?</p>
-
-                <section>
+            <header>
+                <div className="logo">
+                    <LogoIcon />
+                </div>
+                <nav>
                     <ul>
-                        <li>This is a list.</li>
-                        <li>It appears completely unstyled.</li>
-                        <li>Structurally, it's still a list.</li>
-                        <li>However, this style only applies to immediate child elements.</li>
-                        <li>Nested lists:
-                            <ul>
-                                <li>are unaffected by this style</li>
-                                <li>will still show a bullet</li>
-                                <li>and have appropriate left margin</li>
-                            </ul>
-                        </li>
-                        <li>This may still come in handy in some situations.</li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Статьи</a></li>
+                        <li><a href="#">Программы</a></li>
+                        <li><a href="#">Об Ubuntu</a></li>
                     </ul>
 
-                    <pre>
-                        <code>sudo apt-add-repository ppa:gwibber-daily/ppa<br/>
-                            sudo apt-get update<br/>
-                            sudo apt-get install gwibber
-                        </code>
-                    </pre>
-
-                    <p>Lorem <a href="https://nextjs.org">Next.js!</a> ipsum dolor sit
-                        amet, <code>pages/index.js</code> consectetur adipisicing elit.
-                        Aliquid, distinctio? Aliquid, distinctio? <code>pages/index.js</code></p>
-                    <p>Lorem ipsum dolor <kbd>A</kbd> sit amet, consectetur <kbd>A</kbd> <kbd>Ctrl</kbd> adipisicing
-                        elit. Aliquid, distinctio?</p>
-
-                    <p><samp>Ваш
-                        браузер поддерживает JavaScript 1.3</samp></p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi deleniti deserunt doloribus,
-                        ea eaque eius eos eum eveniet fugiat illum itaque laboriosam laudantium libero magni modi
-                        mollitia obcaecati pariatur porro quo rerum suscipit tenetur unde veniam veritatis. Est,
-                        excepturi?</p>
-
-                    <blockquote>
-                        <p>A well-known quote, contained in a blockquote element.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi deleniti deserunt
-                            doloribus, ea eaque eius eos eum eveniet fugiat illum itaque laboriosam laudantium libero
-                            magni modi mollitia obcaecati pariatur porro quo rerum suscipit tenetur unde veniam
-                            veritatis. Est, excepturi?</p>
-                    </blockquote>
-
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam.</h1>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam.</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam.</h3>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam.</h4>
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam.</h5>
-                    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam.</h6>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, distinctio?</p>
-
-
-                    <div>
-                        <hr/>
-                        <Link href={`/about`}><a>About</a></Link>
-                        <hr/>
+                    <div className={'download-section'}>
+                        <DownloadIcon />
+                        <a href="#">Скачать Ubuntu</a>
                     </div>
+
+                </nav>
+            </header>
+            <main>
+                {[1, 2, 3, 4, 5].map((item) => (
+                        <article key={item}>
+                            <figure>
+                                <img width={300}
+                                     src="/img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg"
+                                     alt=""/>
+                            </figure>
+                            <header>
+                                <h2>Объявлены первые производители смартфонов c Ubuntu</h2>
+                            </header>
+                            <p>Как Марк Шаттлворт и обещал, были объявлены первые производители смартфонов на базе
+                                операционной системы Ubuntu. Ими стали сразу две компании: испанская Bq и китайская
+                                Meizu.</p>
+                            <footer> <time dateTime="2009-09-04T16:31:24+02:00">21.02.2014</time> </footer>
+                        </article>
+                    )
+                )}
+
+                <div className={'pagination'}>
+                    <Link href={`/2`}><a href="#">Туда</a></Link>
+                    <Link href={`/2`}><a href="#">Сюда</a></Link>
+                </div>
+
+            </main>
+            <aside>
+                <section className={'best-section'}>
+                    <h4>Популярное</h4>
+
+                    <ul>
+                        {[1, 2, 3, 4, 5].map((item) => (
+                                <li key={item}>
+
+                                    <a href={'#'}>Объявлены первые производители смартфонов c Ubuntu</a>
+
+                                    <img width={50}
+                                         src="/img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg"
+                                         alt=""/>
+
+                                </li>
+                            )
+                        )}
+                    </ul>
                 </section>
 
-                <table>
-                    <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </main>
 
-            <figure>
-                <img src="/zorin-small.png" alt="Vercel Logo"/>
-                <figcaption>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, distinctio?
-                </figcaption>
-            </figure>
+            </aside>
+            <footer>
+                <a href="#">О проекте</a>
+                <a href="#">Сотрудничество</a>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ea exercitationem maxime, nobis nostrum
-                odit! Aperiam at exercitationem suscipit voluptatibus!</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <FacebookIcon />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <GithubIcon />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <TwitterIcon />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <VkIcon />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <YoutubeIcon />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <RssIcon />
+                        </a>
+                    </li>
+                </ul>
 
-            <figure>
-                <div className={'img'}>
-                    <div></div>
-                    <img src="/img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg"
-                         alt="Vercel Logo"/>
-                </div>
-                <figcaption>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, distinctio?
-                </figcaption>
-            </figure>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorem eaque magni minus mollitia
-                nesciunt, quod repellendus sunt vel voluptates! Adipisci eaque error iure maxime neque odit repudiandae
-                similique voluptatem.</p>
-
-            <div className={'video'}>
-                <iframe width={680} src="http://www.youtube.com/embed/FocPwTmQZ18" frameBorder="0"
-                        allowFullScreen/>
-            </div>
-
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur assumenda
-                deleniti dignissimos dolorem dolorum ducimus est eum excepturi harum id illo illum laboriosam molestiae
-                natus nulla numquam officia, quia quis quos reprehenderit ut vel veniam voluptatem! A adipisci aliquam
-                nisi nulla quibusdam. Consequatur dolore explicabo in magni odit.</p>
-
-
-            {/*            <footer className={styles.footer}>
-                <a
-                    href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Powered by{' '}
-                    <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo}/>
-                </a>
-            </footer>*/}
-        </article>
+                2008–2021 Новости Ubuntu
+            </footer>
+        </section>
     )
 }
 

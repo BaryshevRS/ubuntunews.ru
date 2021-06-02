@@ -1,11 +1,7 @@
 module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/about',
-        destination: '/posts/pre-rendering',
-        permanent: true,
-      },
-    ]
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    // Important: return the modified config
+
+    return config
   },
 }
