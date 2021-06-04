@@ -2,3 +2,18 @@
   $remValue: ($value / 16) + rem;
   @return $remValue;
 }
+
+html {
+  .mobile {
+    @media (min-width: toRem($media-lg)) {
+      background: green;
+      display: none;
+    }
+  }
+
+  .desktop {
+    @media (max-width: toRem($media-lg)) {
+      display: none;
+    }
+  }
+}
