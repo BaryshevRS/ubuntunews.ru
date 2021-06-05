@@ -2,32 +2,5 @@
 @import "./utils.scss";
 @import "./fonts.scss";
 @import "./base.scss";
-@import "./layout.scss";
-
-.video {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  width: 100%;
-  margin-bottom: 1rem;
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-width: 0;
-    outline-width: 0;
-  }
-}
-
-.post {
-  img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-}
-
+@import "./main.scss";
+@import "./page.scss";

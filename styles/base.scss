@@ -364,4 +364,17 @@ figcaption {
   margin-top: 0.5rem;
 }
 
+::-webkit-scrollbar {
+    height: 18px;
+  }
 
+::-webkit-scrollbar-track {
+    background: var(--color-grey-light); /* color of the tracking area */
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-grey);
+    border-radius: 10px;
+    height: 12px;
+    border: 6px solid #fff;
+}

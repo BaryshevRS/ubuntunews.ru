@@ -6,12 +6,11 @@ import LogoIcon from '../public/logo.svg';
 
 import DownloadIcon from '../public/assets/icons/download.svg';
 import MenuIcon from '../public/assets/icons/menu.svg';
-// import LogoIcon from '../public/Logo.svg';
 import TimeIcon from '../public/assets/icons/time.svg';
 
 import FacebookIcon from '../public/assets/icons/facebook.svg';
 import GithubIcon from '../public/assets/icons/github.svg';
-import TwitterIcon from '../public/assets/icons/rss.svg';
+import TwitterIcon from '../public/assets/icons/twitter.svg';
 import VkIcon from '../public/assets/icons/vk.svg';
 import YoutubeIcon from '../public/assets/icons/youtube.svg';
 import RssIcon from '../public/assets/icons/rss.svg';
@@ -85,13 +84,14 @@ export default function Home({allPostsData}: any) {
                 <section className={'best'}>
                     <h4>Популярное</h4>
 
-                    <ul>
+                    <ul className={'best__list'}>
                         {[1, 2, 3, 4, 5].map((item) => (
-                                <li key={item}>
+                                <li className={'best__item'} key={item}>
 
-                                    <a href={'#'}>Объявлены первые производители смартфонов c Ubuntu</a>
+                                    <a href={'#'}>
+                                        Дайджест новостей Ubuntu №7: GRUB и оценка привлечения крупных производителей</a>
 
-                                    <img width={50}
+                                    <img width={80} height={60}
                                          src="/img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg"
                                          alt=""/>
 
@@ -108,17 +108,17 @@ export default function Home({allPostsData}: any) {
                         <a href="#">Сотрудничество</a>
                     </div>
 
+                    <div className={'footer__copyright'}>
+                        2008–2021 Новости Ubuntu
+                    </div>
+
                     <ul className={'footer__social'}>
                         <li>
                             <a href="#">
                                 <FacebookIcon/>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <GithubIcon/>
-                            </a>
-                        </li>
+
                         <li>
                             <a href="#">
                                 <TwitterIcon/>
@@ -134,6 +134,13 @@ export default function Home({allPostsData}: any) {
                                 <YoutubeIcon/>
                             </a>
                         </li>
+
+                        <li>
+                            <a href="#">
+                                <GithubIcon/>
+                            </a>
+                        </li>
+
                         <li>
                             <a href="#">
                                 <RssIcon/>
@@ -141,9 +148,7 @@ export default function Home({allPostsData}: any) {
                         </li>
                     </ul>
 
-                    <div className={'footer__copyright'}>
-                        2008–2021 Новости Ubuntu
-                    </div>
+
                 </footer>
             </aside>
 
