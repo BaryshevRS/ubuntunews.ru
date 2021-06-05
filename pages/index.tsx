@@ -65,7 +65,9 @@ export default function Home({allPostsData}: any) {
                             </a>
                             <p className={'post-preview__content'}>Как Марк Шаттлворт и обещал, были объявлены первые производители смартфонов на базе
                                 операционной системы Ubuntu. Ими стали сразу две компании: испанская Bq и китайская
-                                Meizu.</p>
+                                Meizu.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid at delectus et minus optio quaerat, quas quibusdam repellendus voluptas. Commodi, consectetur deleniti fugiat in molestiae nesciunt odio officia provident quidem repellendus vel, voluptatem, voluptates. Alias commodi dicta dignissimos, hic id optio pariatur quia. Aliquam delectus dignissimos doloremque optio saepe?
+                            </p>
 
                             <footer className={'post-preview__time'}>
                                 <TimeIcon /><time dateTime="2009-09-04T16:31:24+02:00">21.02.2014</time>
