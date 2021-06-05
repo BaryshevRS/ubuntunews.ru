@@ -51,7 +51,9 @@ export default function Home({allPostsData}: any) {
                 </nav>
             </header>
             <main className={'main'}>
-                <h1>Новости Ubuntu</h1>
+
+                <h1 className={'title'}>Новости Ubuntu</h1>
+
                 {[1, 2, 3, 4, 5].map((item) => (
                         <article className={'post-preview'} key={item}>
                             <a className={'post-preview__img'} href="#">
@@ -68,8 +70,8 @@ export default function Home({allPostsData}: any) {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid at delectus et minus optio quaerat, quas quibusdam repellendus voluptas. Commodi, consectetur deleniti fugiat in molestiae nesciunt odio officia provident quidem repellendus vel, voluptatem, voluptates. Alias commodi dicta dignissimos, hic id optio pariatur quia. Aliquam delectus dignissimos doloremque optio saepe?
                             </p>
 
-                            <footer className={'post-preview__time'}>
-                                <TimeIcon /><time dateTime="2009-09-04T16:31:24+02:00">21.02.2014</time>
+                            <footer className={'time'}>
+                                <TimeIcon /> <time dateTime="2009-09-04T16:31:24+02:00">21.02.2014</time>
                             </footer>
                         </article>
                     )
