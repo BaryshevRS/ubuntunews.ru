@@ -6,10 +6,17 @@
   min-height: 100%;
   display: grid;
   grid-template: minmax(toRem(100), auto) 1fr/ 1fr toRem(300);
-  grid-gap: toRem(50);
+  grid-gap: toRem(30);
   grid-template-areas:
           "header header"
-          "main sidebar"
+          "main main"
+          "sidebar sidebar";
+
+  @media screen and (min-width: toRem($media-lg)) {
+    grid-template-areas:
+            "header header"
+            "main sidebar";
+  }
 }
 
 .header {
@@ -79,6 +86,16 @@
 }
 
 .logo {
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  a:hover,
+  a:active {
+    outline: 0;
+  }
 
   svg {
     width: toRem(82);
@@ -87,12 +104,80 @@
 }
 
 .main {
-  background: grey;
   grid-area: main;
+  display: grid;
+  grid-auto-flow: row;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+
+.post-preview {
+  display: grid;
+  grid-template:  auto auto auto / toRem(260) auto;
+  gap: toRem(10) toRem(20);
+  margin-bottom: toRem(30);
+
+  &__img {
+    height: toRem(195);
+    grid-row: 1 / -1;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      top: 0;
+      left: 0;
+      position: absolute;
+
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    margin-bottom: 0;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__time {
+    svg {
+      fill: var(--color-grey);
+      position: relative;
+      top: toRem(-1);
+      height: 1rem;
+      width: 1rem;
+    }
+
+    time {
+      font-size: 1rem;
+      margin-left: toRem(10);
+      color: var(--color-grey);
+    }
+  }
+
+  &__title {
+    color: var(--color-primary);
+
+    &:visited {
+      color: var(--color-primary);
+    }
+
+    h2 {
+      font-size: toRem(22);
+      margin-bottom: 0;
+    }
+  }
 }
 
 .sidebar {
-  background: blue;
+  background: #ccc;
   grid-area: sidebar;
 }
 

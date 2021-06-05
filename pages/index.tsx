@@ -55,19 +55,19 @@ export default function Home({allPostsData}: any) {
                 <h1>Новости Ubuntu</h1>
                 {[1, 2, 3, 4, 5].map((item) => (
                         <article className={'post-preview'} key={item}>
-                            <a href="#">
-                            <img width={270} height={165}
+                            <a className={'post-preview__img'} href="#">
+                                <img width={260} height={195}
                                  src="/img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg"
                                      alt=""/>
                             </a>
-                            <a href="#">
-                            <h2>Объявлены первые производители смартфонов c Ubuntu</h2>
+                            <a className={'post-preview__title'} href="#">
+                            <h2>Дайджест новостей Ubuntu №8: LTS 12.04.4 и игры под Mir</h2>
                             </a>
-                            <p>Как Марк Шаттлворт и обещал, были объявлены первые производители смартфонов на базе
+                            <p className={'post-preview__content'}>Как Марк Шаттлворт и обещал, были объявлены первые производители смартфонов на базе
                                 операционной системы Ubuntu. Ими стали сразу две компании: испанская Bq и китайская
                                 Meizu.</p>
 
-                            <footer>
+                            <footer className={'post-preview__time'}>
                                 <TimeIcon /><time dateTime="2009-09-04T16:31:24+02:00">21.02.2014</time>
                             </footer>
                         </article>
