@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import { getSortedPostsData } from "../lib/posts";
 
@@ -9,11 +8,7 @@ import { Layout } from "../components/layout/layout";
 export default function Home({allPostsData}: any) {
     console.log('allPostsData', allPostsData);
     return (
-        <Layout>
-            <Head>
-                <title>Новости Ubuntu</title>
-            </Head>
-
+        <Layout title={'Новости Ubuntu Linux'}>
             <h1 className={'title'}>Новости Ubuntu</h1>
 
             {[1, 2, 3, 4, 5].map((item) => (

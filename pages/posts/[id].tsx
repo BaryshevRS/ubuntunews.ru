@@ -1,5 +1,4 @@
 import { getAllPostIds, getPostData } from '../../lib/posts'
-import Head from 'next/head'
 // import Date from '../../components/date'
 import TimeIcon from "../../public/assets/icons/time.svg";
 import { Layout } from "../../components/layout/layout";
@@ -20,11 +19,7 @@ export default function Post({postData}: any) {
             <br />
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>*/
-    return <Layout>
-        <Head>
-            <title>{postData.title}</title>
-        </Head>
-
+    return <Layout title={postData.title}>
         <article className={'post'}>
             <header>
                 <h1>Новости Ubuntu</h1>

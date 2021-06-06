@@ -4,14 +4,16 @@ import { Sidebar } from "./sidebar";
 
 interface IProp {
     children: React.ReactNode;
+    title?: string;
 }
 
-export const Layout: React.FC<IProp> = ({children}) => {
+export const Layout: React.FC<IProp> = ({children, title}) => {
     return (
 
         <div className='wrapper'>
             <Head>
                 <meta charSet="UTF-8"/>
+                <title>{title}</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
                 {/*<base href="http://ubuntunews.ru/" />*/}
