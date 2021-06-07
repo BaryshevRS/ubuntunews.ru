@@ -2,6 +2,7 @@
 import LogoIcon from "../../public/logo.svg";
 import DownloadIcon from "../../public/assets/icons/download.svg";
 import MenuIcon from "../../public/assets/icons/menu.svg";
+import Link from "next/link";
 
 interface IProp {
     children?: React.ReactNode;
@@ -11,7 +12,7 @@ export const Header: React.FC<IProp> = () => {
     return (
         <header className={'header'}>
             <div className="logo">
-                <a href="#"><LogoIcon/></a>
+                <Link href={'/'}><a><LogoIcon/></a></Link>
             </div>
             <nav className={'nav'}>
                 <ul className={'nav__menu desktop'}>

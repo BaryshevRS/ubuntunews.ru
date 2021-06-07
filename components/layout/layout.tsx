@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Header } from "./header";
 import { Sidebar } from "./sidebar";
+import { MobileNav } from "./mobile-nav/mobile-nav";
 
 interface IProp {
     children: React.ReactNode;
@@ -40,6 +41,8 @@ export const Layout: React.FC<IProp> = ({children, title}) => {
             </main>
 
             <Sidebar/>
+
+            <MobileNav />
         </div>
 
     )

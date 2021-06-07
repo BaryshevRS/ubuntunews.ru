@@ -1,3 +1,9 @@
+import { Layout } from "../components/layout/layout";
+
 export default function Custom404() {
-    return <h1>new 404 - Page Not Found</h1>
+  return (
+    <Layout title={'404'}>
+      <h1 className={'title'}>404</h1>
+    </Layout>
+  )
 }
