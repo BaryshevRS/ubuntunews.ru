@@ -17,7 +17,7 @@ export const Layout: React.FC<IProp> = ({children, title}) => {
                 <title>{title}</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-                {/*<base href="http://ubuntunews.ru/" />*/}
+                <base href={process.env.BASE_URL} />
 
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>

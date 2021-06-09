@@ -7,6 +7,7 @@ import { Layout } from "../components/layout/layout";
 
 export default function Home({allPostsData}: any) {
     console.log('allPostsData', allPostsData);
+
     return (
         <Layout title={'Новости Ubuntu Linux'}>
             <h1 className={'title'}>Новости Ubuntu</h1>
@@ -49,7 +50,10 @@ export default function Home({allPostsData}: any) {
 }
 
 export async function getStaticProps() {
-    const allPostsData = getSortedPostsData();
+
+      const allPostsData = getSortedPostsData();
+    // const allPostsData = getPostIdsBySection();
+
     return {
         props: {
             allPostsData

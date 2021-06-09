@@ -3,11 +3,22 @@ import path from 'path'
 import matter from 'gray-matter'
 import remark from 'remark'
 import html from 'remark-html'
+const { promisify } = require("util");
+const globMethod = require('glob');
+const glob = promisify(globMethod);
 
-const postsDirectory = path.join(process.cwd(), 'posts')
+export interface IPostData {
+  id: string;
+  contentHtml: any;
+  title: string;
+  date: string;
+  source?: string;
+}
 
-export function getSortedPostsData(section = '/news') {
-  // Get file names under /posts
+const postsDirectory = path.join(process.cwd(), 'posts');
+
+export function getSortedPostsData() { // section = '/news'
+/*  // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory + section)
   const allPostsData = fileNames.map(fileName => {
     // Remove ".md" from file name to get id
@@ -36,6 +47,28 @@ export function getSortedPostsData(section = '/news') {
     } else {
       return 0
     }
+  })*/
+
+  return {};
+}
+
+export async function getAllPostIdsBySection(section: string = 'news') {
+  let filePaths = [];
+
+  try {
+    filePaths = await glob(`${postsDirectory}/${section}/*/*/*/*\.md`, {});
+  } catch (e) {
+    console.error(e)
+  }
+
+  return filePaths.map((filePath: string) => {
+    const id = path.parse(filePath).base.replace(/\.md$/, '');
+    return {
+      params: {
+        id,
+        filePath
+      }
+    }
   })
 }
 
@@ -50,8 +83,18 @@ export function getAllPostIds() {
     })
 }
 
-export async function getPostData(id: number) {
-    const fullPath = path.join(postsDirectory, `${id}.md`)
+export async function getPostData(id: string) {
+
+  let fullPath = '';
+  try {
+    fullPath = await glob(`${postsDirectory}/*/*/*/*/${id}\.md`, {});
+  } catch (e) {
+    console.error(e)
+  }
+  fullPath = fullPath[0];
+  console.error({fullPath});
+
+  // const fullPath = path.join(postsDirectory, `${id}.md`)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
     // Use gray-matter to parse the post metadata section
