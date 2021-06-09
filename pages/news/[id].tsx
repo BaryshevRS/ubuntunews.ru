@@ -4,6 +4,10 @@ import { Layout } from "../../components/layout/layout";
 import { PostNav } from "../../components/post-nav";
 import Time from "../../components/time";
 import Source from "../../components/source";
+import unified from 'unified'
+import parse from 'remark-parse'
+const remark2react = require('remark-react');
+import NextLink from "../../components/NextLink";
 
 interface IProps {
   postData: IPostData
@@ -21,7 +25,16 @@ export default function Post({postData}: IProps) {
         </div>
       </header>
 
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      {
+        unified()
+          .use(parse)
+          .use(remark2react, {
+            remarkReactComponents: {
+              a: NextLink,
+            }
+          })
+          .processSync(postData.contentHtml).result
+      }
 
       {postData.source && <Source url={postData.source}/>}
     </article>
@@ -30,10 +43,8 @@ export default function Post({postData}: IProps) {
   </Layout>
 }
 
-// Проверяет есть ли контент по запросу из адресной строки
 export async function getStaticPaths() {
   const paths = await getAllPostIdsBySection();
-  console.log('paths', paths);
   return {
     paths,
     fallback: false
@@ -43,8 +54,6 @@ export async function getStaticPaths() {
 export async function getStaticProps({params}: any) {
   // Get external data from the file system, API, DB, etc.
   const postData = await getPostData(params.id);
-
-  // The value of the `props` key will be passed to the component
   return {
     props: {
       postData

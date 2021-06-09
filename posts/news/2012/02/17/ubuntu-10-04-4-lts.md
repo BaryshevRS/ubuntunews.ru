@@ -19,6 +19,6 @@ Ubuntu 10.04.4 это последнее обновление дистрибут
 
 ## Скачать Ubuntu 10.04.4
 
-Для ПК: [ubuntu.com/download/ubuntu/download](http://www.ubuntu.com/download/ubuntu/download)
+Для ПК: [ubuntu.com/download/ubuntu/download](ubuntu/download)
 
 Для сервера: [ubuntu.com/download/server/download](http://www.ubuntu.com/download/server/download)
