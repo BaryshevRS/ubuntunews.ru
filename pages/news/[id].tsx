@@ -4,16 +4,29 @@ import { Layout } from "../../components/layout/layout";
 import { PostNav } from "../../components/post-nav";
 import Time from "../../components/time";
 import Source from "../../components/source";
-import unified from 'unified'
-import parse from 'remark-parse'
-const remark2react = require('remark-react');
-import NextLink from "../../components/NextLink";
+import React from 'react';
+import ReactMarkdown from 'react-markdown'
+import PostLink from "../../components/post/post-link";
+import rehypeRaw from 'rehype-raw'
 
 interface IProps {
   postData: IPostData
 }
 
 export default function Post({postData}: IProps) {
+  const components = {
+    a({children, href}: any) {
+      return <PostLink children={children} href={href}/>
+    },
+    iframe({node, ...props}: any) {
+      return <span className={'video'}>
+        <iframe frameBorder="0"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen {...props} />
+      </span>;
+    }
+  }
   return <Layout title={postData.title}>
     <article className={'post'}>
       <header>
@@ -21,20 +34,11 @@ export default function Post({postData}: IProps) {
 
         <div className={'time'}>
           <TimeIcon/>
-          <Time dateTime={postData.date} />
+          <Time dateTime={postData.date}/>
         </div>
       </header>
 
-      {
-        unified()
-          .use(parse)
-          .use(remark2react, {
-            remarkReactComponents: {
-              a: NextLink,
-            }
-          })
-          .processSync(postData.contentHtml).result
-      }
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} children={postData.content} components={components}/>
 
       {postData.source && <Source url={postData.source}/>}
     </article>

@@ -6,8 +6,8 @@ export interface IProps {
   href: string;
 }
 
-export default function NextLink({children, href}: IProps) {
-  console.log('href', href);
+export default function PostLink({children, href}: IProps) {
+  console.log('href', children);
   const extendLink = href.match(/http|\\\\/g);
 
   const fixedLocalLink = useCallback((link: string) => link.startsWith('/') ? link : `/${link}`, [href]);
