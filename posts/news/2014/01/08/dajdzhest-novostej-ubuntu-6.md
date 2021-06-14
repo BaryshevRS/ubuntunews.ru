@@ -11,9 +11,7 @@ visits: 9535
 ---
 Рассмотрим события, которые произошли в преддверии и после новогодних праздников. Главными из них стали [интервью Марка Шаттлворта](news/intervyu-marka-shattlvorta-o-budushhem-ubuntu-i-konvergenczii) о будущем развитии Ubuntu и подготовка официальной инструкции по совместной установке Ubuntu Touch вместе с Android.
 
-[![](img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg)](img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg)
-
-<figcaption>Автор иллюстрации <a href="http://mrubuntux.deviantart.com/art/Ubuntu14-04-wallpaper-424116506">mrubuntux</a></figcaption>
+[![](img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg 'http://mrubuntux.deviantart.com/art/Ubuntu14-04-wallpaper-424116506')](img/2014/01/08/22-00/ubuntu14-04-wallpaper-by-mrubuntux-d70iae2-11841092374-o.jpg)
 
 ### Dual boot Ubuntu Touch и Android
 

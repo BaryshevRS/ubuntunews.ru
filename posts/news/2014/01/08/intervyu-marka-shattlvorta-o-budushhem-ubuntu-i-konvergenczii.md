@@ -11,9 +11,7 @@ visits: 12153
 ---
 Марк Шаттлворт не теряет времени даром, постоянно посещает множество ИТ мероприятий и даёт интервью различным журналам, среди которых теперь числится [PC Pro](http://www.pcpro.co.uk/news/interviews/386080/mark-shuttleworth-interview-taking-ubuntu-beyond-desktops).
 
-[![](img/2014/01/08/13-00/94824349.jpg)](img/2014/01/08/13-00/94824349.jpg)
-
-<figcaption>Автор фото <a href="http://www.flickr.com/photos/joi/">Joi Ito</a>&nbsp;</figcaption>
+[![](img/2014/01/08/13-00/94824349.jpg 'http://www.flickr.com/photos/joi/')](img/2014/01/08/13-00/94824349.jpg)
 
 ## Содержание интервью
 

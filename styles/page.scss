@@ -29,6 +29,10 @@
   figure {
     display: grid;
     justify-content: center;
+
+    p {
+      margin-bottom: 0;
+    }
   }
 
   header {

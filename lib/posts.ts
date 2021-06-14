@@ -6,6 +6,8 @@ const {promisify} = require("util");
 const globMethod = require('glob');
 const glob = promisify(globMethod);
 
+// const sharp = require('sharp');
+
 export interface IPostData {
   id: string;
   content: any;
@@ -82,6 +84,15 @@ export function getAllPostIds() {
   })
 }
 
+function removeLinkWithImg(content: string): string {
+  return content.replace(/\[(!.*)\)\](.*\.jpg)/g, '$1');
+}
+
+function getImgListFromContent(content: string = ''): Array<string> {
+  const matches = content.matchAll(/!\[.*?\]\((.*?\.jpg).*?\)/gim);
+  return Array.from(matches, m => m[1]);
+}
+
 export async function getPostData(id: string) {
   let fullPath = '';
   try {
@@ -94,7 +105,9 @@ export async function getPostData(id: string) {
 
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);
-  const content = matterResult.content;
+  const x = getImgListFromContent(matterResult.content);
+  console.log(x);
+  const content = removeLinkWithImg(matterResult.content);
 
   // Combine the data with the id and contentHtml
   return {

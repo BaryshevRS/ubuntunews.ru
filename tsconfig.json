@@ -5,7 +5,8 @@
     "jsx": "preserve",
     "lib": [
       "dom",
-      "es2017"
+      "es2020",
+      "es2020.string"
     ],
     "module": "esnext",
     "moduleResolution": "node",

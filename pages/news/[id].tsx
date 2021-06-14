@@ -8,10 +8,12 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown'
 import PostLink from "../../components/post/post-link";
 import rehypeRaw from 'rehype-raw'
+import remarkUnwrapImages from 'remark-unwrap-images';
 // @ts-ignore
 import SimpleReactLightbox from "simple-react-lightbox"
 // @ts-ignore
 import { SRLWrapper } from "simple-react-lightbox";
+import PostImg from '../../components/post/post-img';
 
 interface IProps {
   postData: IPostData
@@ -21,6 +23,9 @@ export default function Post({postData}: IProps) {
   const components = {
     a({children, href}: any) {
       return <PostLink children={children} href={href}/>
+    },
+    img({node, title, ...props}: any) {
+      return <PostImg title={title} props={props} />;
     },
     iframe({node, ...props}: any) {
       return <span className={'video'}>
@@ -48,7 +53,7 @@ export default function Post({postData}: IProps) {
       </header>
       <SimpleReactLightbox>
         <SRLWrapper>
-          <ReactMarkdown rehypePlugins={[rehypeRaw]} children={postData.content} components={components}/>
+          <ReactMarkdown remarkPlugins={[remarkUnwrapImages]} rehypePlugins={[rehypeRaw]} children={postData.content} components={components}/>
         </SRLWrapper>
       </SimpleReactLightbox>
       {postData.source && <Source url={postData.source}/>}
