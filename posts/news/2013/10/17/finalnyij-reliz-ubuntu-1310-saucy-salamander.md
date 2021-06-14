@@ -55,4 +55,4 @@ visits: 23726
 
 Более детально с изменениями можно ознакомиться из [обзора бета релиза](news/finalnyij-beta-reliz-ubuntu-1310).
 
-[<button>Скачать Ubuntu 13.10</button>](ubuntu/download)
+<button>[Скачать Ubuntu 13.10](ubuntu/download)</button>

@@ -34,6 +34,37 @@
   header {
     margin-bottom: 1rem;
   }
+
+  &__btn {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+
+    a {
+      display: inline-grid;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      border: none;
+      transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+      outline: none;
+      padding: 0 3.5rem;
+      height: 2.81rem;
+      border-radius: 7px;
+      background-color: var(--color-orange);
+      box-shadow: 0 4px 14px 0 rgba(var(--color-orange-rgb), 0.39);
+      color: white;
+
+      &:hover {
+        background: rgba(var(--color-orange-rgb), 0.9);
+        box-shadow: 0 6px 20px rgba(var(--color-orange-rgb), 0.23);
+      }
+
+      &:active {
+        background: var(--color-orange-darken);
+      }
+    }
+  }
 }
 
 .post-nav {

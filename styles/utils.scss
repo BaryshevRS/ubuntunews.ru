@@ -7,6 +7,10 @@ $media-md: 620;
   @return $remValue;
 }
 
+@function hexToRGB($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
 html {
   .mobile {
     @media (min-width: toRem($media-lg)) {

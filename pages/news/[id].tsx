@@ -8,6 +8,10 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown'
 import PostLink from "../../components/post/post-link";
 import rehypeRaw from 'rehype-raw'
+// @ts-ignore
+import SimpleReactLightbox from "simple-react-lightbox"
+// @ts-ignore
+import { SRLWrapper } from "simple-react-lightbox";
 
 interface IProps {
   postData: IPostData
@@ -25,6 +29,11 @@ export default function Post({postData}: IProps) {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen {...props} />
       </span>;
+    },
+    button({children}: any) {
+      return <span className={'post__btn'}>
+        {children}
+      </span>;
     }
   }
   return <Layout title={postData.title}>
@@ -37,9 +46,11 @@ export default function Post({postData}: IProps) {
           <Time dateTime={postData.date}/>
         </div>
       </header>
-
-      <ReactMarkdown rehypePlugins={[rehypeRaw]} children={postData.content} components={components}/>
-
+      <SimpleReactLightbox>
+        <SRLWrapper>
+          <ReactMarkdown rehypePlugins={[rehypeRaw]} children={postData.content} components={components}/>
+        </SRLWrapper>
+      </SimpleReactLightbox>
       {postData.source && <Source url={postData.source}/>}
     </article>
 
