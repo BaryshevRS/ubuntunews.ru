@@ -40,5 +40,7 @@ visits: 27247
 Установить индикатор погоды можно в Ubuntu 12.04 и 12.10, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get install my-weather-indicator    
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install my-weather-indicator    
 ```

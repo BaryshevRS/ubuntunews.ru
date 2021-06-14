@@ -26,7 +26,9 @@ visits: 12245
 Установить можно в 12.04 и 12.10:
 
 ```
-sudo add-apt-repository ppa:atareao/lenses sudo apt-get update sudo apt-get install lens-contacts scope-contacts-google
+sudo add-apt-repository ppa:atareao/lenses 
+sudo apt-get update 
+sudo apt-get install lens-contacts scope-contacts-google
 ```
 
 ### Amazon и Ubuntu One Music Store
@@ -40,7 +42,9 @@ sudo add-apt-repository ppa:atareao/lenses sudo apt-get update sudo apt-get inst
 Установить можно в Precise и Quantal:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa sudo apt-get update sudo apt-get install unity-lens-shopping-alternate
+sudo add-apt-repository ppa:scopes-packagers/ppa 
+sudo apt-get update 
+sudo apt-get install unity-lens-shopping-alternate
 ```
 
 ### Области для музыкальной вкладки
@@ -52,7 +56,9 @@ sudo add-apt-repository ppa:scopes-packagers/ppa sudo apt-get update sudo apt-ge
 Установить можно в Quantal, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:markjtully/ppa sudo apt-get update sudo apt-get install unity-scope-clementine unity-scope-guayadeque unity-scope-gmusicbrowser unity-scope-audacious unity-scope-musique
+sudo add-apt-repository ppa:markjtully/ppa 
+sudo apt-get update 
+sudo apt-get install unity-scope-clementine unity-scope-guayadeque unity-scope-gmusicbrowser unity-scope-audacious unity-scope-musique
 ```
 
 ## Для игр
@@ -70,7 +76,9 @@ sudo add-apt-repository ppa:markjtully/ppa sudo apt-get update sudo apt-get inst
 Пакет доступен в 12.10:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa sudo apt-get update sudo apt-get install unity-lens-minecraft
+sudo add-apt-repository ppa:scopes-packagers/ppa 
+sudo apt-get update 
+sudo apt-get install unity-lens-minecraft
 ```
 
 ### Elder Scrolls's Wikia
@@ -82,7 +90,9 @@ sudo add-apt-repository ppa:scopes-packagers/ppa sudo apt-get update sudo apt-ge
 Установить можно в 12.04 и 12.10 с помощью команд ниже:
 
 ```
-sudo add-apt-repository ppa:kroq-gar78/ppa sudo apt-get update sudo apt-get install unity-lens-elderscrollswikia
+sudo add-apt-repository ppa:kroq-gar78/ppa 
+sudo apt-get update 
+sudo apt-get install unity-lens-elderscrollswikia
 ```
 
 ### RuneScape Wikia
@@ -94,7 +104,9 @@ sudo add-apt-repository ppa:kroq-gar78/ppa sudo apt-get update sudo apt-get inst
 Установка доступна только для 12.04:
 
 ```
-sudo apt-add-repository ppa:ryanmichaelmcclure/ppa sudo apt-get update sudo apt-get install unity-lens-runescapewikia
+sudo apt-add-repository ppa:ryanmichaelmcclure/ppa 
+sudo apt-get update 
+sudo apt-get install unity-lens-runescapewikia
 ```
 
 ## Для разработчиков
@@ -118,7 +130,9 @@ sudo apt-add-repository ppa:ryanmichaelmcclure/ppa sudo apt-get update sudo apt-
 Установка линзы поиска по RubyGems доступна во все версии, начиная с Precise.
 
 ```
-sudo add-apt-repository ppa:useful-lenses-team/daily sudo apt-get update sudo apt-get install unity-lens-rubygems
+sudo add-apt-repository ppa:useful-lenses-team/daily 
+sudo apt-get update 
+sudo apt-get install unity-lens-rubygems
 ```
 
 ### PyPi
@@ -130,7 +144,9 @@ sudo add-apt-repository ppa:useful-lenses-team/daily sudo apt-get update sudo ap
 Установить можно в 12.04 и 12.10:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa sudo apt-get update sudo apt-get install unity-lens-pypi
+sudo add-apt-repository ppa:scopes-packagers/ppa 
+sudo apt-get update 
+sudo apt-get install unity-lens-pypi
 ```
 
 ### Graphic Design

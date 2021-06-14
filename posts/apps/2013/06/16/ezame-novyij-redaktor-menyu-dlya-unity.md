@@ -26,5 +26,7 @@ visits: 9033
 Установка доступна только для Ubuntu 13.04, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:caldas-lopes/ppasudo apt-get updatesudo apt-get install gksu ezame
+sudo add-apt-repository ppa:caldas-lopes/ppa
+sudo apt-get update
+sudo apt-get install gksu ezame
 ```

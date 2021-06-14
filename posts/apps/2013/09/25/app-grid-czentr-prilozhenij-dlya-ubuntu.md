@@ -30,5 +30,7 @@ visits: 34819
 Установка доступна под Ubuntu 12.04, 12.10, 13.04 и 13.10, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:appgrid/stable sudo apt-get update sudo apt-get install appgrid
+sudo add-apt-repository ppa:appgrid/stable 
+sudo apt-get update 
+sudo apt-get install appgrid
 ```

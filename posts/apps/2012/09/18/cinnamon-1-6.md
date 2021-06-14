@@ -59,11 +59,15 @@ Cinnamon 1.6 пока не доступен из PPA со стабильной �
 **Стабильный PPA:**
 
 ```
-sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stablesudo apt-get updatesudo apt-get install cinnamon
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
+sudo apt-get update
+sudo apt-get install cinnamon
 ```
 
 **Тестовый PPA:**
 
 ```
-sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-nightlysudo apt-get updatesudo apt-get install cinnamon muffin nemo
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-nightly
+sudo apt-get update
+sudo apt-get install cinnamon muffin nemo
 ```

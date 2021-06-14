@@ -56,7 +56,9 @@ avconv -i in.avi -ss 00:00:00 -t 00:00:30 -c copy out.avi
 Команды для инсталляции из терминала:
 
 ```
-sudo add-apt-repository ppa:samrog131/ppasudo apt-get updatesudo apt-get install qgifer
+sudo add-apt-repository ppa:samrog131/ppa
+sudo apt-get update
+sudo apt-get install qgifer
 ```
 
 Или можно скачать [с сайта проекта](http://sourceforge.net/projects/qgifer/files/).

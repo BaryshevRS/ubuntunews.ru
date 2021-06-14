@@ -40,7 +40,9 @@ OpenShot 1.4.3 включает множество различных измен
 Установка последней версии OpenShot 1.4.3 доступна для всех поддерживаемых версий Ubuntu, включая 12.10. Команды для установки:
 
 ```
-sudo add-apt-repository ppa:openshot.developers/ppasudo apt-get updatesudo apt-get install openshot frei0r-plugins
+sudo add-apt-repository ppa:openshot.developers/ppa
+sudo apt-get update
+sudo apt-get install openshot frei0r-plugins
 ```
 
 Для работы с анимацией также потребуется поставить [Blender](https://launchpad.net/~irie/+archive/blender?field.series_filter=precise) версии 2.6.2 или выше.

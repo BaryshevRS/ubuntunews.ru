@@ -16,7 +16,9 @@ visits: 11110
 Тема пригодна для использования в десктоп окружениях Unity или Gnome Shell. Установить можно в Ubuntu 12.10, 12.04, 11.10 и Linux Mint 13, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:upubuntu-com/iconssudo apt-get updatesudo apt-get install mx-icons
+sudo add-apt-repository ppa:upubuntu-com/icons
+sudo apt-get update
+sudo apt-get install mx-icons
 ```
 
 [![](img/2012/11/03/22-00/icons-1-8151253028-o.jpg)](img/2012/11/03/22-00/icons-1-8151253028-o.jpg)
@@ -26,7 +28,8 @@ sudo add-apt-repository ppa:upubuntu-com/iconssudo apt-get updatesudo apt-get in
 Значки представлены в двух коллекциях, это серые для темных тем и цветные, набор иконок которых пока неполон. Установить можно в Ubuntu 12.04, 12.10, 11.10 и Linux Mint, выполнив в терминале:
 
 ```
-sudo add-apt-repository ppa:noobslab/iconssudo apt-get update
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
 ```
 
 [![](img/2012/11/03/22-00/icons-7-8151227607-o.jpg)](img/2012/11/03/22-00/icons-7-8151227607-o.jpg)
@@ -50,7 +53,9 @@ sudo apt-get install nouvegnome-color
 Оригинальные иконки, которые впишутся практически в любую тему. Установка доступна во все поддерживаемые версии Ubuntu, используя команды в терминале:
 
 ```
-sudo add-apt-repository ppa:noobslab/iconssudo apt-get updatesudo apt-get install piratunbu-icons
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
+sudo apt-get install piratunbu-icons
 ```
 
 [![](img/2012/11/03/22-00/icons-8-8151251676-o.jpg)](img/2012/11/03/22-00/icons-8-8151251676-o.jpg)
@@ -64,7 +69,9 @@ sudo add-apt-repository ppa:noobslab/iconssudo apt-get updatesudo apt-get instal
 Поставить можно в Ubuntu 12.10, 12.04, 11.10 и Linux Mint 13, 12:
 
 ```
-sudo add-apt-repository ppa:upubuntu-com/iconssudo apt-get updatesudo apt-get install azenis-icons
+sudo add-apt-repository ppa:upubuntu-com/icons
+sudo apt-get update
+sudo apt-get install azenis-icons
 ```
 
 ### Hi-Lights 2.7
@@ -72,7 +79,9 @@ sudo add-apt-repository ppa:upubuntu-com/iconssudo apt-get updatesudo apt-get in
 Светлый набор значков, который можно поставить в Ubuntu 12.10, 12.04, 11.10 и Linux Mint 13:
 
 ```
-sudo add-apt-repository ppa:upubuntu-com/iconssudo apt-get updatesudo apt-get install hilights-icons
+sudo add-apt-repository ppa:upubuntu-com/icons
+sudo apt-get update
+sudo apt-get install hilights-icons
 ```
 
 [![](img/2012/11/03/22-00/icons-4-8151252528-o.jpg)](img/2012/11/03/22-00/icons-4-8151252528-o.jpg)
@@ -86,7 +95,9 @@ sudo add-apt-repository ppa:upubuntu-com/iconssudo apt-get updatesudo apt-get in
 Установка доступна в Ubuntu 12.10, 12.04, 11.10 и Linux Mint 13:
 
 ```
-sudo add-apt-repository ppa:upubuntu-com/iconssudo apt-get updatesudo apt-get install gxiria-icons
+sudo add-apt-repository ppa:upubuntu-com/icons
+sudo apt-get update
+sudo apt-get install gxiria-icons
 ```
 
 Выбрать значки можно из любого твикера, например [Unsettings](apps/tweak-unity-with-unsettings-008.html "Unsettings 0.08 – мощный твикер для Ubuntu") или Ubuntu Tweak.

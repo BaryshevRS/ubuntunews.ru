@@ -24,5 +24,7 @@ visits: 13269
 Установить можно из PPA, воспользовавшись следующими командами для терминала:
 
 ```
-sudo add-apt-repository ppa:peterlevi/ppasudo apt-get updatesudo apt-get install variety
+sudo add-apt-repository ppa:peterlevi/ppa
+sudo apt-get update
+sudo apt-get install variety
 ```

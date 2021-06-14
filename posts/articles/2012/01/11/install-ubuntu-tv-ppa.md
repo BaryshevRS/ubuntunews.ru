@@ -30,7 +30,7 @@ sudo apt-get remove lens-video
 2\. Устанавливаем Ubuntu TV используя тестовый PPA:
 
 ```
-sudo add-apt-repository ppa:nilarimogard/test3
+ sudo add-apt-repository ppa:nilarimogard/test3
  sudo apt-get update
  sudo apt-get dist-upgrade
  sudo apt-get install unity-lens-video
@@ -87,6 +87,6 @@ unity-2d-shell -opengl
 
 И нажать клавишу <kbd>F1</kbd>.
 
-Официальная обоина:
+Официальные обои:
 
 [![](img/2012/01/11/21-00/wallpaper-ubuntu-tv-6679790217-o.jpg)](img/2012/01/11/21-00/wallpaper-ubuntu-tv-6679790217-o.jpg)

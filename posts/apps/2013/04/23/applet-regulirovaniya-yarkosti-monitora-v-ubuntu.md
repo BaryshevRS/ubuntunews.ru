@@ -31,5 +31,7 @@ visits: 26165
 Установка доступна из PPA для всех версий Ubuntu, начиная c 11.10. Команды для терминала:
 
 ```
-sudo add-apt-repository ppa:indicator-brightness/ppasudo apt-get updatesudo apt-get install indicator-brightness
+sudo add-apt-repository ppa:indicator-brightness/ppa
+sudo apt-get update
+sudo apt-get install indicator-brightness
 ```

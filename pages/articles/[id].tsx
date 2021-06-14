@@ -7,7 +7,7 @@ export default function NewsPost(props: IPostData) {
 }
 
 export async function getStaticPaths() {
-  const paths = await getAllPostIdsBySection();
+  const paths = await getAllPostIdsBySection('articles');
   return {
     paths,
     fallback: false

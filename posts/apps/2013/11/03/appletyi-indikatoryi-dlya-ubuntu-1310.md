@@ -22,13 +22,17 @@ visits: 40218
 Установка доступна из консоли, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:bhdouglass/indicator-remindorsudo apt-get updatesudo apt-get install indicator-remindor
+sudo add-apt-repository ppa:bhdouglass/indicator-remindor
+sudo apt-get update
+sudo apt-get install indicator-remindor
 ```
 
 Qt версия:
 
 ```
-sudo add-apt-repository ppa:bhdouglass/indicator-remindorsudo apt-get updatesudo apt-get install remindor-qt
+sudo add-apt-repository ppa:bhdouglass/indicator-remindor
+sudo apt-get update
+sudo apt-get install remindor-qt
 ```
 
 ### Stickynotes
@@ -42,7 +46,9 @@ sudo add-apt-repository ppa:bhdouglass/indicator-remindorsudo apt-get updatesudo
 Установка:
 
 ```
-sudo add-apt-repository ppa:umang/indicator-stickynotessudo apt-get updatesudo apt-get install indicator-stickynotes
+sudo add-apt-repository ppa:umang/indicator-stickynotes
+sudo apt-get update
+sudo apt-get install indicator-stickynotes
 ```
 
 ### ClassicMenu
@@ -54,7 +60,9 @@ sudo add-apt-repository ppa:umang/indicator-stickynotessudo apt-get updatesudo a
 Установка:
 
 ```
-sudo add-apt-repository ppa:diesch/testingsudo apt-get updatesudo apt-get install classicmenu-indicator
+sudo add-apt-repository ppa:diesch/testing
+sudo apt-get update
+sudo apt-get install classicmenu-indicator
 ```
 
 ### System Load
@@ -92,7 +100,9 @@ sudo apt-get install diodon diodon-plugins
 Инсталляция:
 
 ```
-sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get install my-weather-indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install my-weather-indicator
 ```
 
 Также обновился ещё один апплет погоды — **Indicator Weather**, отличающийся работой сразу с несколькими городами. Однако при тестировании, к сожалению, он должным образом не заработал. При желании найти его можно [здесь](https://launchpad.net/~weather-indicator-team/+archive/ppa).
@@ -120,7 +130,9 @@ sudo apt-get install indicator-cpufreq
 Установка:
 
 ```
-sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get install touchpad-indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install touchpad-indicator
 ```
 
 **Примечание:** 12.04 больше не поддерживается (старая версия).
@@ -136,7 +148,9 @@ TrueCrypt — программа для шифрования жёстких ди
 Установка
 
 ```
-sudo add-apt-repository ppa:stefansundin/truecryptsudo apt-get updatesudo apt-get install truecrypt
+sudo add-apt-repository ppa:stefansundin/truecrypt
+sudo apt-get update
+sudo apt-get install truecrypt
 ```
 
 **Примечание:** автором не была подготовлена отдельная версия индикатора, а только в комплекте с самой программой.
@@ -150,7 +164,9 @@ sudo add-apt-repository ppa:stefansundin/truecryptsudo apt-get updatesudo apt-ge
 Установка апплета KeePass 2 из PPA:
 
 ```
-sudo add-apt-repository ppa:dlech/keepass2-pluginssudo apt-get updatesudo apt-get install keepass2-plugin-application-indicator
+sudo add-apt-repository ppa:dlech/keepass2-plugins
+sudo apt-get update
+sudo apt-get install keepass2-plugin-application-indicator
 ```
 
 Также доступен ещё один патч для интеграции с глобальным меню. Для его инсталляции нужно добавить PPA выше и выполнить команду:
@@ -172,7 +188,9 @@ sudo apt-get install keepass2-plugin-application-menu
 Установить можно только в Ubuntu 12.04 и 13.04:
 
 ```
-sudo add-apt-repository ppa:elementary-os/unstable-upstreamsudo add-apt-repository ppa:birdie-team/stablesudo apt-get updatesudo apt-get install indicator-synapse libkeybinder-3.0-0
+sudo add-apt-repository ppa:elementary-os/unstable-upstreamsudo add-apt-repository ppa:birdie-team/stable
+sudo apt-get update
+sudo apt-get install indicator-synapse libkeybinder-3.0-0
 ```
 
 ## Удаление

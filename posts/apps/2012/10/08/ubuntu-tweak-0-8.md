@@ -26,7 +26,9 @@ visits: 5086
 Установить Ubuntu Tweak 0.8.0 можно командами ниже для 11.10 и 12.04:
 
 ```
-sudo add-apt-repository ppa:tualatrix/ppasudo apt-get updatesudo apt-get install ubuntu-tweak
+sudo add-apt-repository ppa:tualatrix/ppa
+sudo apt-get update
+sudo apt-get install ubuntu-tweak
 ```
 
 Поддержка 12.10 пока реализована не полностью, поэтому многие опции могут не работать.

@@ -26,7 +26,9 @@ Mark [пишет](http://www.markshuttleworth.com/archives/615), что вдох
 Загрузить пакет нового скролбара можно из [PPA](https://launchpad.net/~ayatana-scrollbar-team/+archive/release):
 
 ```
-sudo apt-add-repository ppa:ayatana-scrollbar-team/releasesudo apt-get updatesudo apt-get install liboverlay-scrollbar-0.1-0
+sudo apt-add-repository ppa:ayatana-scrollbar-team/release
+sudo apt-get update
+sudo apt-get install liboverlay-scrollbar-0.1-0
 ```
 
 Для подключения новой полосы прокрутки к приложениям (возьмём к примеру Banshee) нужно выполнить команду:

@@ -55,5 +55,7 @@ visits: 10719
 Для пользователей Ubuntu доступен специально подготовленный [PPA](https://launchpad.net/~gnome3-team/+archive/gnome3) c GNOME-Shell, плохая новость в том, что он затирает PPA Unity, поэтому запустить их бок-обок не удастся, к финальному релизу Natty проблема будет решена.
 
 ```
-sudo add-apt-repository ppa:gnome3-team/gnome3 sudo apt-get update sudo apt-get dist-upgrade sudo apt-get install gnome-shell
+sudo add-apt-repository ppa:gnome3-team/gnome3 
+sudo apt-get update 
+sudo apt-get dist-upgrade sudo apt-get install gnome-shell
 ```

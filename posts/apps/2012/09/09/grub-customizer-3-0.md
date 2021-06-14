@@ -33,5 +33,7 @@ visits: 25555
 Установка доступна из PPA для всех версий Ubuntu, начиная с 10.04. Команды для установки:
 
 ```
-sudo add-apt-repository ppa:danielrichter2007/grub-customizersudo apt-get updatesudo apt-get install grub-customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt-get update
+sudo apt-get install grub-customizer
 ```

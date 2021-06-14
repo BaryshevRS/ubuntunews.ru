@@ -117,7 +117,9 @@ visits: 15614
 Как уже упоминалось, эта технология будет доступна по умолчанию в Ubuntu 12.10 через обновление в ближайшие несколько недель, а пока её можно установить из специально подготовленного PPA, как для 12.10, так и в 12.04:
 
 ```
-sudo add-apt-repository ppa:webapps/previewsudo apt-get updatesudo apt-get install unity-webapps-preview
+sudo add-apt-repository ppa:webapps/preview
+sudo apt-get update
+sudo apt-get install unity-webapps-preview
 ```
 
 Из PPA также установятся две новые линзы для документов Google и для фотографий (с областью Flickr).

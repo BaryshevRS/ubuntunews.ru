@@ -66,7 +66,9 @@ sudo apt-get install lxde
 Используется в таком популярном дистрибутиве, как Linux Mint.
 
 ```
-sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable  sudo apt-get update  sudo apt-get install cinnamon
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable  
+sudo apt-get update  
+sudo apt-get install cinnamon
 ```
 
 ## 6\. Mate
@@ -82,7 +84,8 @@ sudo add-apt-repository "deb http://packages.mate-desktop.org/repo/ubuntu quanta
 ```
 
 ```
- sudo apt-get update  sudo apt-get install mate-archive-keyring  sudo apt-get update  sudo apt-get install mate-desktop-environment
+sudo apt-get update  
+sudo apt-get install mate-archive-keyring mate-desktop-environment
 ```
 
 ## 7\. E17
@@ -92,7 +95,9 @@ sudo add-apt-repository "deb http://packages.mate-desktop.org/repo/ubuntu quanta
 [![](img/2012/12/09/02-00/e17-8255099035-o.jpg)](img/2012/12/09/02-00/e17-8255099035-o.jpg)
 
 ```
-sudo apt-add-repository ppa:hannes-janetzek/enlightenment-svn  sudo apt-get update  sudo apt-get install e17
+sudo apt-add-repository ppa:hannes-janetzek/enlightenment-svn  
+sudo apt-get update  
+sudo apt-get install e17
 ```
 
 ## 8\. Razor-qt
@@ -102,7 +107,9 @@ sudo apt-add-repository ppa:hannes-janetzek/enlightenment-svn  sudo apt-get upda
 [![](img/2012/12/09/02-00/razorqt-8255097801-o.jpg)](img/2012/12/09/02-00/razorqt-8255097801-o.jpg)
 
 ```
-sudo add-apt-repository ppa:razor-qt  sudo apt-get update  sudo apt-get install razorqt
+sudo add-apt-repository ppa:razor-qt  
+sudo apt-get update  
+sudo apt-get install razorqt
 ```
 
 Дальше будут рассмотрены оконные менеджеры X Window System, которые также могут использоваться, как отдельные сессии.
@@ -298,5 +305,7 @@ sudo apt-get install wmii
 Тем не менее, возможность инсталляции в Ubuntu всё же имеется, но только из тестового PPA, в котором могут и хранятся крайне не стабильные версии пакетов.
 
 ```
-sudo add-apt-repository ppa:elementary-os/daily sudo apt-get update sudo apt-get install elementary-desktop
+sudo add-apt-repository ppa:elementary-os/daily 
+sudo apt-get update 
+sudo apt-get install elementary-desktop
 ```

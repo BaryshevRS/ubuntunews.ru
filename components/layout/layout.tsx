@@ -10,7 +10,6 @@ interface IProp {
 
 export const Layout: React.FC<IProp> = ({children, title}) => {
     return (
-
         <div className='wrapper'>
             <Head>
                 <meta charSet="UTF-8"/>

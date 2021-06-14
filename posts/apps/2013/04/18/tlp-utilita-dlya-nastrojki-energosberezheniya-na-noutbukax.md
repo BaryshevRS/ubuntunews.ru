@@ -27,7 +27,9 @@ visits: 23707
 Инсталляция доступна из PPA, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:linrunner/tlpsudo apt-get updatesudo apt-get install tlp tlp-rdw
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get update
+sudo apt-get install tlp tlp-rdw
 ```
 
 TLP стартует вместе с запуском системы, поэтому после установки потребуется перезайти в сессию. Если этого делать не хочется, можно выполнить команду в терминале:
