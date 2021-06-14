@@ -30,11 +30,11 @@ visits: 22754
 
 Скачать программу можно по следующим ссылкам:
 
-[<button>Скачать пакет для 32-разрядных систем.</button>](http://s.insynchq.com/builds/insync-beta_0.9.18_i386.deb)
+<button>[Скачать пакет для 32-разрядных систем.](http://s.insynchq.com/builds/insync-beta_0.9.18_i386.deb)</button>
 
   
 
-[<button>Скачать пакет для 64-разрядных систем.</button>](http://s.insynchq.com/builds/insync-beta_0.9.18_amd64.deb)
+<button>[Скачать пакет для 64-разрядных систем.](http://s.insynchq.com/builds/insync-beta_0.9.18_amd64.deb)</button>
 
 В случае если они перестали работать их можно найти на это странице.
 

@@ -33,4 +33,4 @@ visits: 10228
 
 Более подробно с изменениями можно ознакомиться на [странице анонса](http://www.linuxmint.com/rel_maya_whatsnew.php).
 
-[<button>Скачать Linux Mint 13</button>](http://www.linuxmint.com/download.php)
+<button>[Скачать Linux Mint 13](http://www.linuxmint.com/download.php)</button>

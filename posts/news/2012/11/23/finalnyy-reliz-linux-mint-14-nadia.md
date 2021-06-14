@@ -77,4 +77,4 @@ Cinnamon очень быстро развивается, с последнего
 *   Gedit 2.30 теперь используется вместо Gedit 3;
 *   В MintSystem добавлены две опции: dns-fix для задания собственной привязки имени хоста в OpenDNS и xchat-systray, добавляющий иконку Xchat на системный трей.
 
-[<button>Скачать Linux Mint 14 Nadia</button>](http://blog.linuxmint.com/?p=2216)
+<button>[Скачать Linux Mint 14 Nadia](http://blog.linuxmint.com/?p=2216)</button>

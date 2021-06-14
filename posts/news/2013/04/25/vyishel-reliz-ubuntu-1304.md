@@ -108,4 +108,4 @@ visits: 12100
 
 В целом можно заметить, что Ubuntu очень динамически развивается и при этом старается по минимуму снизить затраты на свои возросшие издержки, например, [сократив](news/canonical-prekrashhaet-pechat-diskov-s-ne-lts-vyipuskami) объём печати дисков и перенеся саммиты в онлайн.
 
-[<button>Скачать Ubuntu 13.04 Raring Ringtail</button>](http://releases.ubuntu.com/raring/)
+<button>[Скачать Ubuntu 13.04 Raring Ringtail](http://releases.ubuntu.com/raring/)</button>

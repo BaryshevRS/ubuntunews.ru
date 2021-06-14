@@ -84,4 +84,4 @@ visits: 5319
 
 Дистрибутив рекомендуется только для тестирования и ни в коем случае не годится для установки в качестве основной системы.
 
-[<button>Скачать первую бета Ubuntu 12.10</button>](http://releases.ubuntu.com/quantal/)
+<button>[Скачать первую бета Ubuntu 12.10](http://releases.ubuntu.com/quantal/)</button>

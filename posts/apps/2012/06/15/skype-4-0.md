@@ -23,4 +23,4 @@ visits: 7037
 *   Новые иконки статуса и эмоций
 *   В профиле теперь можно сохранять телефонный номер контакта
 
-[<button>Скачать Skype 4.0 в Ubuntu</button>](http://www.skype.com/intl/en/get-skype/on-your-computer/linux/)
+<button>[Скачать Skype 4.0 в Ubuntu](http://www.skype.com/intl/en/get-skype/on-your-computer/linux/)</button>

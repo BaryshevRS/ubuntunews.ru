@@ -23,16 +23,16 @@ visits: 3464
 
 [![](img/2012/08/07/19-00/ubuntu-apps-showdown-2-7733648416-o.jpg)](img/2012/08/07/19-00/ubuntu-apps-showdown-2-7733648416-o.jpg)
 
-[<button>Установить Lightread</button>](https://apps.ubuntu.com/cat/applications/lightread/)
+<button>[Установить Lightread](https://apps.ubuntu.com/cat/applications/lightread/)</button>
 
 **Fogger** – позволяет создать из любого сайта полноценное десктоп приложение, которое можно будет найти поиском через Dash и запустить без использования браузера.
 
 [![](img/2012/08/07/19-00/ubuntu-apps-showdown-7733647458-o.jpg)](img/2012/08/07/19-00/ubuntu-apps-showdown-7733647458-o.jpg)
 
-[<button>Установить Fogger</button>](https://apps.ubuntu.com/cat/applications/fogger/)
+<button>[Установить Fogger](https://apps.ubuntu.com/cat/applications/fogger/)</button>
 
 **Picsaw** – отличная головоломка, особенностью которой является создание пазлов из картинок хранящихся на компьютере.
 
 [![](img/2012/08/07/19-00/ubuntu-apps-showdown-3-7733645158-o.jpg)](img/2012/08/07/19-00/ubuntu-apps-showdown-3-7733645158-o.jpg)
 
-[<button>Установить Picsaw</button>](https://apps.ubuntu.com/cat/applications/picsaw/)
+<button>[Установить Picsaw](https://apps.ubuntu.com/cat/applications/picsaw/)</button>

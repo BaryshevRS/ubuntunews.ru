@@ -31,7 +31,9 @@ visits: 6895
 
 Патч предназначен **только для установки под Ubuntu 12.04 с Nautilus 3.4.2**.
 
-[<button>Скачать патч для 32-бит</button>](https://launchpad.net/nautiluspatchtogglelocationbar/trunk/nautiluspatchtogglelocationbar/+download/nautiluspatch_v3.4.2-0ubuntu3-2_i386.deb) [<button>Скачать патч для 64-бит</button>](https://launchpad.net/nautiluspatchtogglelocationbar/trunk/nautiluspatchtogglelocationbar/+download/nautiluspatch_v3.4.2-0ubuntu3-2_amd64.deb)
+<button>[Скачать патч для 32-бит](https://launchpad.net/nautiluspatchtogglelocationbar/trunk/nautiluspatchtogglelocationbar/+download/nautiluspatch_v3.4.2-0ubuntu3-2_i386.deb)</button>
+
+<button>[Скачать патч для 64-бит](https://launchpad.net/nautiluspatchtogglelocationbar/trunk/nautiluspatchtogglelocationbar/+download/nautiluspatch_v3.4.2-0ubuntu3-2_amd64.deb)</button>
 
 После установки потребуется обязательно перезайти в сессию.
 

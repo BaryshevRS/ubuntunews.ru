@@ -42,4 +42,4 @@ sudo add-apt-repository ppa:nilarimogard/webupd8
 
 Или скачать с официального сайта:
 
-[<button>Скачать MiniTube</button>](http://flavio.tordini.org/minitube)
+<button>[Скачать MiniTube](http://flavio.tordini.org/minitube)</button>

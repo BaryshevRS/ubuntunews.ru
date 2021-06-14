@@ -23,4 +23,4 @@ visits: 5441
 
 Из других новостей стоит отметить создание [официального репозитория](http://repo.steampowered.com/steam/) для Ubuntu, реализацию управления через джойстик и улучшение поддержки для мультимониторных конфигураций.
 
-[<button>Страница для скачивания Steam</button>.](http://store.steampowered.com/about/)
+<button>[Страница для скачивания Steam.](http://store.steampowered.com/about/)</button>

@@ -243,4 +243,4 @@ sudo apt-get remove unity-lens-shopping
 
 В целом же релиз удался.
 
-[<button>Скачать Ubuntu 12.10</button>](http://releases.ubuntu.com/quantal/)
+<button>[Скачать Ubuntu 12.10](http://releases.ubuntu.com/quantal/)</button>

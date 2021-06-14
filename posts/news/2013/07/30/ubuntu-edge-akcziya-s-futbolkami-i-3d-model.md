@@ -19,7 +19,7 @@ visits: 3570
 
 Компания Canonical продолжает подстёгивать интерес, на этот раз, внеся ещё один тип взноса в 50 долларов, за которые, после успешного завершения сбора средств, будет выслана фирменная футболка с логотипом Ubuntu Edge.
 
-[<button>Перейти на сайт Indiegogo</button>](http://www.indiegogo.com/projects/ubuntu-edge)
+<button>[Перейти на сайт Indiegogo](http://www.indiegogo.com/projects/ubuntu-edge)</button>
 
 Как она выглядит можно посмотреть из макетов ниже:
 

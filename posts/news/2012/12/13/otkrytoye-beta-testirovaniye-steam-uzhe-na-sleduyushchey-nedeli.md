@@ -25,7 +25,7 @@ visits: 3731
 *   создание репозитория для инсталляции;
 *   подготовка статистики по доступным играм для Linux.
 
-[<button>Игры доступные для Steam в Ubuntu.</button>](https://support.steampowered.com/kb_article.php?ref=8495-OKZC-0159)
+<button>[Игры доступные для Steam в Ubuntu.](https://support.steampowered.com/kb_article.php?ref=8495-OKZC-0159)</button>
 
 Видео в действии:
 

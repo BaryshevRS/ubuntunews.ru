@@ -29,7 +29,7 @@ visits: 90400
 
 Боевая гоночная игра с широким выбором кораблей, оружия и гоночных треков.
 
-[<button>Установить демо</button>](apt:corebreach-demo)
+<button>[Установить демо](apt:corebreach-demo)</button>
 
 ### 22\. Machinarium
 
@@ -43,7 +43,7 @@ visits: 90400
 
 Захватывающее путешествие по городу роботов Машинариум, где маленькому роботу предстоит проучить обидчиков, попутно спасти похищенную возлюбленную, найти и обезвредить бомбу и познакомиться с самыми необычными обитателями.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/viewtopic.php?t=2443689)
+<button>[Ознакомиться](http://rutracker.org/forum/viewtopic.php?t=2443689)</button>
 
 ### 21\. Cogs
 
@@ -57,7 +57,7 @@ visits: 90400
 
 Игроку предстоит решать увлекательные головоломки из различных механизмов, переставляя их как в «пятнашках». Игра отличается отличным графическим исполнением и включает 50 уникальных уровней.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/viewtopic.php?t=3668438)
+<button>[Ознакомиться](http://rutracker.org/forum/viewtopic.php?t=3668438)</button>
 
 ### 20\. Spiral Knights
 
@@ -81,7 +81,7 @@ visits: 90400
 
 Xonotic является форком Nexuiz и в основном ориентирована на игру в режиме мультиплеера. По геймплею схожа с Quake III Arena, OpenArena или Warsow.
 
-[<button>Установить</button>](apt:xonotic)
+<button>[Установить](apt:xonotic)</button>
 
 ### 18\. Steel Storm
 
@@ -107,7 +107,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Главному герою предстоит открыть тайны своего прошлого, исследуя мрачные закоулки старинного замка, где ему предстоит увидеть ужасающих обитателей этого места, каждая встреча с которыми грозит ему неминуемой смертью.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/viewtopic.php?t=3733375)
+<button>[Ознакомиться](http://rutracker.org/forum/viewtopic.php?t=3733375)</button>
 
 ### 16\. Jets’n’Guns
 
@@ -121,7 +121,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Игрок начинает в качестве наемника, занимающегося искоренением космической преступности. Суть большинства миссий сводится к уничтожению войск диктатора Ксокксса, уточнению местоположения похищенного профессора и квантовой пушки, грозящей уничтожить вселенную.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/viewtopic.php?t=1891821)
+<button>[Ознакомиться](http://rutracker.org/forum/viewtopic.php?t=1891821)</button>
 
 ### 15\. Sacred Gold
 
@@ -135,7 +135,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Огромный мир с колоссальным числом видов монстров, оружия, доспехов, квестов, множеством способов развития героя. В целом достойный наследник легендарного Diablo.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/viewtopic.php?t=1892343)
+<button>[Ознакомиться](http://rutracker.org/forum/viewtopic.php?t=1892343)</button>
 
 ### 14\. Doom 3
 
@@ -149,7 +149,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Капитан Стивенсон снова возвращается встрой и сражается с полчищами адских тварей. В очередной раз кидаясь в бой за спасения человечества.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=Doom+3)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Doom+3)</button>
 
 ### 13\. X3 Reunion
 
@@ -163,7 +163,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Игроку предстоит вести торговые отношения, строить космические комплексы, а также вести военные действия, как индивидуально, так и в составе эскадр против бесчисленных полчищ врагов.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=X3+Reunion)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=X3+Reunion)</button>
 
 ### 12\. Regnum Online
 
@@ -175,7 +175,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Выбирайте одно из трёх враждующих королевств и штурмуйте вражеские замки.
 
-[<button>Установить</button>](apt:regnum-online)
+<button>[Установить](apt:regnum-online)</button>
 
 ### 11\. Alien Arena
 
@@ -189,7 +189,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Игра обладает Quake-подобным геймлеем и позволяет играть в одно- и многопользовательских режимах. Отличается отличной графикой с поддержкой движка для частиц и эффектов, высоким разрешением текстур кожи, отражением в воде и т. п.
 
-[<button>Установить</button>](apt:alien-arena)
+<button>[Установить](apt:alien-arena)</button>
 
 ### 10\. Neverwinter Nights
 
@@ -203,7 +203,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Культовая RPG. Механика которой основана на третьей редакции Dungeons & Dragons, а действие разворачивается в фэнтезийном мире Forgotten Realms.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=Neverwinter+Nights)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Neverwinter+Nights)</button>
 
 ### 9\. Penumbra Series
 
@@ -217,7 +217,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Одна из самых атмосферных мистических игр с отличной графикой и реалистичной физикой.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=Penumbra)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Penumbra)</button>
 
 ### 8\. Shadowgrounds & Shadowgrounds Survivor
 
@@ -231,7 +231,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Мрачные коридоры гордобывающей колонии наполняются монстрами после пронёсшейся радиационной бури. Главному герою, бывшему механику, придётся зачистить место от незваных гостей.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=Shadowgrounds)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Shadowgrounds)</button>
 
 ### 7\. Quake 4
 
@@ -245,7 +245,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Продолжение саги битвы с ужасающими киборгами-людоедами.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=Quake+4)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Quake+4)</button>
 
 ### 6\. World of Goo
 
@@ -271,7 +271,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Индеец-чероки Томми Хоку в одиночку отправляется сражаться с инопланетянами похитившими всех жителей резервации. В чем ему будут помогать дух давно усопшего дедушки.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=Prey)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Prey)</button>
 
 ### 4\. Shank
 
@@ -287,7 +287,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Заточки, бензопила и пара пистолетов с самого начала позволяют творить сумасшедшие вещи. Кромсать, пилить, резать и решетить врагов приходится без перерыва, соединяя удары в длинные и красивые комбо-серии.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=Shank)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Shank)</button>
 
 ### 3\. Trine
 
@@ -301,7 +301,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 Игроку предстоит играть за рыцаря Понтия, мага Амадея и воровку Зою, попутно переключаясь между ними для разгадывания вставших на пути загадок.
 
-[<button>Ознакомиться</button>](http://rutracker.org/forum/tracker.php?f=899&nm=Trine)
+<button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Trine)</button>
 
 ### 2\. Oil Rush
 
@@ -327,7 +327,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 DoTA подобная онлайн игра, в которой игрокам предстоит сражаться в одном из двух лагерей, расположенных на разных сторонах карты, пытаясь захватить базу противника и защищая свою с помощью башен.
 
-[<button>Установить</button>](apt:heroes-of-newerth)
+<button>[Установить](apt:heroes-of-newerth)</button>
 
 Часть игр устанавливаемых из центра приложений берется из репозитория UALinux, установить который можно по следующей инструкции.
 

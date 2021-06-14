@@ -17,7 +17,7 @@ visits: 13936
 
 Для этого надо скачать значки по следующей ссылке:
 
-[<button>Скачать My-humanity</button>](http://gnome-look.org/content/show.php?content=155513)
+<button>[Скачать My-humanity](http://gnome-look.org/content/show.php?content=155513)</button>
 
 Затем распаковать их в скрытую папку «~/.icons», лежащую в домашней директории (Ctrl+H для отображения). Если её нет, то создать.
 

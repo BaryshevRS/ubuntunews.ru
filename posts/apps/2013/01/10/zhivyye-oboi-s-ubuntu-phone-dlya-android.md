@@ -19,6 +19,6 @@ visits: 7413
 
 Установка предназначена для телефонов и планшетов по ссылке ниже:
 
-[<button>Перейти к установке</button>](https://play.google.com/store/apps/details?id=net.kivano.ubuntulwp&feature=md)
+<button>[Перейти к установке](https://play.google.com/store/apps/details?id=net.kivano.ubuntulwp&feature=md)</button>
 
 ![](img/2013/01/10/20-00/ubuntu-live-wallpaper-qr-8367058937-o.jpg)

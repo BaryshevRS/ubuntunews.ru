@@ -30,7 +30,7 @@ AirDroid 2 пока находится на бета-тестиронии, но 
 
 Как уже упоминалось, программа пока не доступна из Google Play, поэтому её нужно вручную загрузить и установить на телефоне.
 
-[<button>Скачать AirDroid 2</button>](http://airdroid.com/invite/airdroid_v2.apk)
+<button>[Скачать AirDroid 2](http://airdroid.com/invite/airdroid_v2.apk)</button>
 
 Приложение имеет два режима работы:
 

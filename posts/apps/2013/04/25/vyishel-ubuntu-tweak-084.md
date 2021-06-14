@@ -19,7 +19,7 @@ visits: 7217
 
 Установить можно, скачав .deb пакет:
 
-[<button>Скачать UT 0.8.4</button>](https://launchpad.net/ubuntu-tweak/0.8.x/0.8.4/+download/ubuntu-tweak_0.8.4-1_all.deb)
+<button>[Скачать UT 0.8.4](https://launchpad.net/ubuntu-tweak/0.8.x/0.8.4/+download/ubuntu-tweak_0.8.4-1_all.deb)</button>
 
 Или воспользовавшись PPA:
 

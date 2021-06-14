@@ -13,11 +13,11 @@ visits: 5350
 
 [![](img/2012/05/20/19-00/ubuntu-precise-pangolin-7233945732-o.jpg)](img/2012/05/20/19-00/ubuntu-precise-pangolin-7233945732-o.jpg)
 
-[<button>Скачать тему</button>](http://half-left.deviantart.com/art/GNOME-Shell-Ubuntu-Precise-Pangolin-302894685)
+<button>[Скачать тему](http://half-left.deviantart.com/art/GNOME-Shell-Ubuntu-Precise-Pangolin-302894685)</button>
 
   
 
-[<button>Скачать Radiance версию</button>](http://half-left.deviantart.com/art/GNOME-Shell-Ubuntu-Precise-Pangolin-Radiance-303531700)
+<button>[Скачать Radiance версию](http://half-left.deviantart.com/art/GNOME-Shell-Ubuntu-Precise-Pangolin-Radiance-303531700)</button>
 
 ### Инструкция по установке
 

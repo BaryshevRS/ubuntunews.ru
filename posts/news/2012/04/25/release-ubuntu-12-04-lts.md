@@ -167,4 +167,4 @@ Unity 2D – легковесный аналог свой 3D реализаци�
 update-manager -d
 ```
 
-[<button>Cкачать Ubuntu 12.04</button>](/ubuntu/#download "Cкачать Ubuntu 12.04")
+<button>[Cкачать Ubuntu 12.04(/ubuntu/#download "Cкачать Ubuntu 12.04")</button>]

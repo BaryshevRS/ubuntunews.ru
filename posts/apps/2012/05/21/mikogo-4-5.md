@@ -30,4 +30,4 @@ visits: 4278
 
 Главной особенностью новой версии Mikogo является кроссплатформенность. Теперь к сеансу удаленной поддержки можно подключиться со всех основных платформ Linux, Windows и Mac, а также с мобильного телефона Android.
 
-[<button>Скачать Mikogo 4.5 для Linux</button>](http://www.mikogo.ru/download/linux-download/)
+<button>[Скачать Mikogo 4.5 для Linux](http://www.mikogo.ru/download/linux-download/)</button>

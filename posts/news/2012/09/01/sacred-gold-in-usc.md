@@ -25,4 +25,4 @@ visits: 6296
 
 Стоимость Sacred Gold в центре приложений равна $15.
 
-[<button>Купить Sacred Gold</button>](https://apps.ubuntu.com/cat/applications/sacred-gold/)
+<button>[Купить Sacred Gold](https://apps.ubuntu.com/cat/applications/sacred-gold/)</button>

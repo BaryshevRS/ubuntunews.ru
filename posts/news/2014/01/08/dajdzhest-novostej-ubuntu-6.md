@@ -27,7 +27,7 @@ visits: 9535
 
 Стоит учесть, что представленная возможность реализована исключительно для разработчиков и не предназначена для обычных пользователей. Саму инструкция по установке можно найти в Ubuntu Wiki.
 
-[<button>Перейти к инструкции</button>](https://wiki.ubuntu.com/Touch/DualBootInstallation)
+<button>[Перейти к инструкции](https://wiki.ubuntu.com/Touch/DualBootInstallation)</button>
 
 ### Meizu может стать производителем смартфонов с Ubuntu
 

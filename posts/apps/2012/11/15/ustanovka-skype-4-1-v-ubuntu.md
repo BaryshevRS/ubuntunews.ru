@@ -17,7 +17,7 @@ visits: 23506
 
 Теперь при авторизации будет предложено войти через обычный логин или через аккаунт созданный в сервисах Microsoft, при выборе последнего можно будет объединить Skype с записями в Windows Live Messenger.
 
-[<button>Скачать Skype 4.1 в Ubuntu</button>](http://www.skype.com/intl/en-us/get-skype/on-your-computer/linux/)
+<button>[Скачать Skype 4.1 в Ubuntu](http://www.skype.com/intl/en-us/get-skype/on-your-computer/linux/)</button>
 
 ## Установка Skype 4.1 в Ubuntu
 

@@ -39,4 +39,4 @@ visits: 4671
 
 Выпуск находится на ранней стадии разработки, поэтому не рекомендуется для установки на рабочие системы и предназначен только для тестирования.
 
-[<button>Скачать первую альфа Ubuntu GNOME Remix</button>](https://wiki.ubuntu.com/UbuntuGNOME/ReleaseNotes#Download_the_Alpha)
+<button>[Скачать первую альфа Ubuntu GNOME Remix](https://wiki.ubuntu.com/UbuntuGNOME/ReleaseNotes#Download_the_Alpha)</button>

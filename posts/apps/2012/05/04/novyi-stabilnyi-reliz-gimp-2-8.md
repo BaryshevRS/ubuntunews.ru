@@ -51,4 +51,4 @@ sudo apt-get install ppa-purge
  sudo apt-get dist-upgrade
 ```
 
-[<button>Скачать GIMP 2.8</button>](http://www.gimp.org/downloads/)
+<button>[Скачать GIMP 2.8](http://www.gimp.org/downloads/)</button>

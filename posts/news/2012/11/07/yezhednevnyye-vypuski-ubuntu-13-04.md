@@ -18,4 +18,4 @@ visits: 5822
 
 Финальный релиз Ubuntu 13.04 стоит ожидать 25 апреля.
 
-[<button>Скачать ежедневные сборки Ubuntu 13.04 Raring Ringtail</button>](http://cdimages.ubuntu.com/daily-live/current/)
+<button>[Скачать ежедневные сборки Ubuntu 13.04 Raring Ringtail](http://cdimages.ubuntu.com/daily-live/current/)</button>

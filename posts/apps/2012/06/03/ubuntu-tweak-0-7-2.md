@@ -21,7 +21,7 @@ visits: 4150
 
 Программа пока не обновлена в PPA, но её можно скачать со [страницы загрузки](https://launchpad.net/ubuntu-tweak/+download).
 
-[<button>Скачать Ubuntu Tweak</button>](https://launchpad.net/ubuntu-tweak/0.7.x/0.7.2/+download/ubuntu-tweak_0.7.2-1_all.deb)
+<button>[Скачать Ubuntu Tweak](https://launchpad.net/ubuntu-tweak/0.7.x/0.7.2/+download/ubuntu-tweak_0.7.2-1_all.deb)</button>
 
 Само PPA:
 

@@ -23,4 +23,4 @@ visits: 5583
 
  <iframe src="http://www.youtube.com/embed/kUPlwxQ0cC4" frameborder="0" width="500" height="281"></iframe>
 
-[<button>Скачать Warsow</button>](http://www.warsow.net/download)
+<button>[Скачать Warsow](http://www.warsow.net/download)</button>

@@ -48,7 +48,7 @@ visits: 17678
 
 В Ubuntu 13.04 установить можно из центра приложений, нажав по ссылке ниже:
 
-[<button>Установка Unity Tweak Tool</button>](apt://unity-tweak-tool)
+<button>[Установка Unity Tweak Tool](apt://unity-tweak-tool)</button>
 
 Для 12.10 нужно будет добавить PPA, используя следующие команды:
 

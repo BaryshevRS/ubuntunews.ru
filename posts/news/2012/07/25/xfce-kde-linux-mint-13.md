@@ -28,7 +28,7 @@ visits: 7005
 
 *   Обновлены темы Mint-X и Mint-Z и улучшена поддержка GTK3.
 
-[<button>Скачать Linux Mint 13 Xfce (811 Мб)</button>](http://blog.linuxmint.com/?p=2088)
+<button>[Скачать Linux Mint 13 Xfce (811 Мб)](http://blog.linuxmint.com/?p=2088)</button>
 
 ### KDE
 
@@ -38,4 +38,4 @@ visits: 7005
 
 Основными нововведениями стали: переход на [KDE 4.8](apps/kde-4-8-released) и добавление новых обоев.
 
-[<button>Скачать Linux Mint 13 KDE (915 Мб)</button>](http://blog.linuxmint.com/?p=2090)
+<button>[Скачать Linux Mint 13 KDE (915 Мб)](http://blog.linuxmint.com/?p=2090)</button>

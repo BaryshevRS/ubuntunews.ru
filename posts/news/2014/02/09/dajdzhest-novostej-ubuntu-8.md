@@ -33,7 +33,7 @@ sudo apt-get install linux-generic-lts-saucy xserver-xorg-lts-saucy
 
 Поддержка продлится до 2017 года, а следующий LTS выйдет уже в апреле.
 
-[<button>Скачать Ubuntu 12.04.4</button>](ubuntu/download)
+<button>[Скачать Ubuntu 12.04.4](ubuntu/download)</button>
 
 ### Vodafone в CAG
 

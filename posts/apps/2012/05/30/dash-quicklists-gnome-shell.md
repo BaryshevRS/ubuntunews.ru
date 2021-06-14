@@ -27,7 +27,7 @@ visits: 6873
 
 Для установки достаточно перейти по ссылке ниже и выбрать переключатель в «on».
 
-[<button>Установить</button>](https://extensions.gnome.org/extension/330/bolt/)
+<button>[Установить](https://extensions.gnome.org/extension/330/bolt/)</button>
 
 ## Quicklists
 
@@ -47,4 +47,4 @@ visits: 6873
 
 Для установки надо также перейти на страницу с расширениями и выбрать переключать в положение «on».
 
-[<button>Установить</button>](https://extensions.gnome.org/extension/322/quicklists/)
+<button>[Установить](https://extensions.gnome.org/extension/322/quicklists/)</button>

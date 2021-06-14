@@ -81,7 +81,7 @@ visits: 8275
 
 Выпуск вполне стабилен, поэтому можно смело ставить на рабочую систему, но в целом конечно лучше подождать финального выпуска намеченного на 18 октября.
 
-[<button>Скачать вторую бета Ubuntu 12.10</button>](https://wiki.ubuntu.com/QuantalQuetzal/TechnicalOverview/Beta2)
+<button>[Скачать вторую бета Ubuntu 12.10](https://wiki.ubuntu.com/QuantalQuetzal/TechnicalOverview/Beta2)</button>
 
 ### Как обновить Ubuntu 12.04 до Ubuntu 12.10
 

@@ -37,4 +37,4 @@ visits: 6895
 
 [![](img/2012/08/31/15-00/a-little-quetzal-by-vgerasimov-7899651174-o.jpg)](img/2012/08/31/15-00/a-little-quetzal-by-vgerasimov-7899651174-o.jpg)
 
-[<button>Скачать обои Ubuntu 12.10</button>](https://launchpad.net/ubuntu/quantal/+source/ubuntu-wallpapers/0.35.0)
+<button>[Скачать обои Ubuntu 12.10](https://launchpad.net/ubuntu/quantal/+source/ubuntu-wallpapers/0.35.0)</button>

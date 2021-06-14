@@ -25,7 +25,7 @@ visits: 7318
 
 Во-первых, скачиваем zip-архив по следующей ссылке:
 
-[<button>Скачать иконки Unity Touch</button>](http://aerilius.deviantart.com/art/Ubuntu-Touch-Launcher-icons-358618366)
+<button>[Скачать иконки Unity Touch](http://aerilius.deviantart.com/art/Ubuntu-Touch-Launcher-icons-358618366)</button>
 
 Теперь запускаем файловый менеджер с правами администратора, используя команду:
 

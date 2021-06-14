@@ -47,4 +47,4 @@ visits: 6022
 
 Glovebox доступен для всех версий Android, начиная с 1.6.
 
-[<button>Glovebox on Google Play</button>](https://play.google.com/store/apps/details?id=com.fb.glovebox)
+<button>[Glovebox on Google Play](https://play.google.com/store/apps/details?id=com.fb.glovebox)</button>

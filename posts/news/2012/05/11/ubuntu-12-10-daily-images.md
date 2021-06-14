@@ -15,4 +15,4 @@ visits: 5419
 
 Сборка является ещё очень сырой и пока не включает каких-то особенных нововведений. Поэтому ставить дистрибутив на рабочий компьютер крайне не рекомендуется, а первый тестовый релиз стоит ожидать уже [7 июня](news/ubuntu-12-10-release-schedule).
 
-[<button>Скачать ежедневные сборки Ubuntu 12.10</button>](http://cdimage.ubuntu.com/daily-live/current/)
+<button>[Скачать ежедневные сборки Ubuntu 12.10](http://cdimage.ubuntu.com/daily-live/current/)</button>
