@@ -13,8 +13,6 @@ visits: 1441
 
 Дистрибутив основан на кодовой базе Ubuntu Linux, использует  легковесное десктоп окружение LXDE, ориентирован на работу в социальных сетях и включает широкий спектр веб приложений.
 
-![Peppermint-Ice-10012010](image/Peppermint-Ice-10012010.png)
-
 Из поддерживаемых online-сервисов и приложений следует выделить: Gmail, YouTube, Twitter, Facebook, Hulu, Last.FM, графический редактора Pixlr, Pandora (создание пользовательского радио), Google Reader, The Cloud Player, Google Calendar и Google Docs.
 
 Характеристики текущего релиза:
