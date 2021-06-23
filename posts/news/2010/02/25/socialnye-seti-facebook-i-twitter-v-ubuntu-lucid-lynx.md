@@ -4,7 +4,7 @@ date: '2010-02-25T23:16:12+03:00'
 uri: 'news/socialnye-seti-facebook-i-twitter-v-ubuntu-lucid-lynx'
 alias: 
   - 'news/291.html'
-tags: 'null'
+tags: ''
 source: ''
 unixtime: 1267128972
 visits: 1370

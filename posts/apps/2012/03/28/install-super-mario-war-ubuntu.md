@@ -13,8 +13,6 @@ visits: 9007
 
 Super Mario War включает множество различных режимов и рассчитана на игру для четырёх человек, вместо которых также можно использовать ботов.
 
-![Super Mario War – мультиплеерная экшен игра](store/farm8.staticflickr.com/7136/7021844879_863a33ae31_d.jpg)
-
 ## Установка Super Mario War в Ubuntu
 
 Для установки потребуется выполнить следующие команды в терминале:
@@ -35,7 +33,8 @@ sudo gedit /usr/share/applications/smw.desktop
 
 и вставим следующий код:
 
-<samp>[Desktop Entry]
+```
+[Desktop Entry]
 Version=1.0
 Type=Application
 Terminal=false
@@ -44,9 +43,9 @@ Exec=smw
 Name=Super Mario War
 Comment=Super Mario War
 Icon=/usr/share/icons/Humanity/apps/128/mario.png
-</samp> 
+```
 
-Cкачаем иконку:
+Скачаем иконку:
 
 ```
 cd /usr/share/icons/Humanity/apps/128/

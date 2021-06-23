@@ -89,7 +89,7 @@ sudo add-apt-repository ppa:tsbarnes/indicator-keylocksudo apt-get updatesudo ap
 
 UbuntuOne indicator-applet позволяет отслеживать информацию о файлах синхронизируясь с аккаунтом UbuntuOne.
 
-![ UbuntuOne Indicator](img/2011/01/10/02-00/one.jpg)  
+![UbuntuOne Indicator](img/2011/01/10/02-00/one.jpg)  
   
 
 ```
