@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from 'fs-extra'
 import path from 'path'
 import matter from 'gray-matter'
 
@@ -6,7 +6,7 @@ const {promisify} = require("util");
 const globMethod = require('glob');
 const glob = promisify(globMethod);
 
-// const sharp = require('sharp');
+const sharp = require('sharp');
 
 export interface IPostData {
   id: string;
@@ -14,9 +14,34 @@ export interface IPostData {
   title: string;
   date: string;
   source?: string;
+  picture: PictureFormats;
 }
 
+export interface IPictureFormat {
+  src?: string,
+  srcset?: string,
+  source: Partial<HTMLSourceElement>[],
+  width: number;
+  height: number;
+}
+
+export type PictureFormats = Record<string, IPictureFormat>;
+
+const fileExists = (s: string) => new Promise(r => fs.access(s, fs.constants.F_OK, e => r(!e)));
+
+const mkDir = (path: string) =>
+  new Promise((res, rej) => {
+    fs.mkdir(path, {recursive: true}, function (err) {
+      if (err) rej(err);
+      res(true);
+    });
+  });
+
 const postsDirectory = path.join(process.cwd(), 'posts');
+const imgDirectory = path.join(process.cwd(), 'public/');
+const nameStaticDirectory = 'public/static/';
+const namePublicStaticDirectory = 'static/';
+const imgStaticDirectory = path.join(process.cwd(), nameStaticDirectory);
 
 export function getSortedPostsData() { // section = '/news'
   /*  // Get file names under /posts
@@ -93,6 +118,94 @@ function getImgListFromContent(content: string = ''): Array<string> {
   return Array.from(matches, m => m[1]);
 }
 
+async function setPostPictureSourceFormats(
+  image: any,
+  sizes: number[],
+  fileShort: string,
+  dir: string,
+  originWidth: number
+) {
+  const avifQuality = {quality: 45, speed: 1};
+  return sizes.map(async (size: number) => {
+    // When the original image is small
+    const fixedSize = originWidth < size ? originWidth : size;
+    const outputImage = `${imgStaticDirectory}${dir}${fixedSize}/${fileShort}.avif`;
+
+    const isStaticImg = await fileExists(outputImage);
+    if (!isStaticImg) {
+      await mkDir(`${imgStaticDirectory}${dir}${fixedSize}`);
+      await image
+        .avif(avifQuality)
+        .resize({width: fixedSize, fit: 'contain'})
+        .toFile(outputImage);
+    }
+
+    const relativePath = outputImage.split(namePublicStaticDirectory)[1];
+    return `${namePublicStaticDirectory}${relativePath} ${fixedSize}w`;
+  });
+}
+
+function setContentSize(width: number, height: number, contentWidth: number) {
+  if (width < contentWidth) {
+    return {
+      width,
+      height
+    }
+  }
+  const contentHeight = height / (width / contentWidth);
+  return {
+    width: contentWidth,
+    height: contentHeight
+  }
+}
+
+async function setPostPictureFormats(images: string[] = []): Promise<PictureFormats> {
+  const sizes = [340, 660];
+  const contentWidth = 660;
+
+  const imgListFormat = images.map(async (img): Promise<Record<string, IPictureFormat>> => {
+    const isOriginImg = await fileExists(imgDirectory + img);
+
+    if (isOriginImg) {
+      const fileShort = path.parse(img).name;
+      const dir = img.split(fileShort)[0];
+
+      const image = sharp(imgDirectory + img);
+      const {width, height} = await image.metadata();
+      const contentSizes = setContentSize(width, height, contentWidth);
+
+      // Generate avif source
+      const sourceFormats = await setPostPictureSourceFormats(image, sizes, fileShort, dir, width);
+      const srcSet: string[] = await Promise.all(sourceFormats);
+
+      return {
+        [img]: {
+          width: contentSizes.width,
+          height: contentSizes.height,
+          source: [
+            {
+              srcset: srcSet.join(', '),
+              type: 'image/avif',
+              sizes: '(min-width: 680px) 660px, calc(100vw - 40px)'
+            }
+          ]
+        }
+      }
+    }
+
+    return {
+      [img]: {
+        width: 0,
+        height: 0,
+        source: []
+      }
+    }
+  });
+
+  const pictureFormats: Record<string, IPictureFormat>[] = await Promise.all(imgListFormat);
+  return pictureFormats.reduce((formats, picture) => ({...formats, ...picture}), {});
+}
+
 export async function getPostData(id: string) {
   let fullPath = '';
   try {
@@ -100,19 +213,21 @@ export async function getPostData(id: string) {
   } catch (e) {
     console.error(e)
   }
-  fullPath = fullPath[0];
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
+  const fileContents = fs.readFileSync(fullPath[0], 'utf8');
 
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);
-  const x = getImgListFromContent(matterResult.content);
-  console.log(x);
+
+  const imgList = getImgListFromContent(matterResult.content);
+  const picture = await setPostPictureFormats(imgList);
+
   const content = removeLinkWithImg(matterResult.content);
 
   // Combine the data with the id and contentHtml
   return {
     id,
     content,
+    picture,
     ...matterResult.data
   }
 }

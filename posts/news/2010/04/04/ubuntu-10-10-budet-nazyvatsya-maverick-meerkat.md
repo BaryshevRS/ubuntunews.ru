@@ -1,5 +1,5 @@
 ---
-title: 'Ubuntu 10.10 будет называться  'Maverick Meerkat''
+title: 'Ubuntu 10.10 будет называться Maverick Meerkat'
 date: '2010-04-04T19:39:32+04:00'
 uri: 'news/ubuntu-10-10-budet-nazyvatsya-maverick-meerkat'
 alias: 

@@ -5,7 +5,7 @@ uri: 'apps/simple-lightdm-manager'
 alias: 
   - 'apps/simple-lightdm-manager.html'
 tags: 'LightDM,Твикер'
-source: 'www.webupd8.org/2011/10/simple-lightdm-manager-change-lightdm.html'
+source: 'http://www.webupd8.org/2011/10/simple-lightdm-manager-change-lightdm.html'
 unixtime: 1317836358
 visits: 14013
 ---

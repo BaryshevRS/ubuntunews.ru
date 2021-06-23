@@ -1,7 +1,7 @@
 ---
 title: 'Вышел Ubuntu 10.04.2 LTS'
 date: '2011-02-18T22:26:19+03:00'
-uri: 'news/releases-ubuntu-10-04-2-lts.html'
+uri: 'news/releases-ubuntu-10-04-2-lts'
 alias: 
   - 'news/сanonical-releases-ubuntu-10-04-2-lts.html'
 tags: '10.04,дистрибутивы,LTS,Ubuntu Linux,релиз'

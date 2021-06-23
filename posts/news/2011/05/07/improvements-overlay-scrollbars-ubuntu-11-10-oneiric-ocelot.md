@@ -1,5 +1,5 @@
 ---
-title: 'Первые улучшения 'Внешних скроллбаров' для Ubuntu 11.10 Oneiric Ocelot'
+title: 'Первые улучшения «Внешних скроллбаров» для Ubuntu 11.10 Oneiric Ocelot'
 date: '2011-05-07T16:39:54+04:00'
 uri: 'news/improvements-overlay-scrollbars-ubuntu-11-10-oneiric-ocelot'
 alias: 

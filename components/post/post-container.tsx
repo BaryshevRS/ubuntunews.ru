@@ -8,20 +8,21 @@ import remarkUnwrapImages from "remark-unwrap-images";
 import rehypeRaw from "rehype-raw";
 import Source from "../source";
 import { PostNav } from "../post-nav";
-import React from "react";
+import React, { useMemo } from "react";
 // @ts-ignore
 import SimpleReactLightbox from "simple-react-lightbox"
 // @ts-ignore
 import { SRLWrapper } from "simple-react-lightbox";
 import { IPostData } from "../../lib/posts";
+import { Components } from "react-markdown/src/ast-to-react";
 
-export default function PostContainer({title, date, content, source}: IPostData) {
-  const components = {
+export default function PostContainer({title, date, content, source, picture}: IPostData) {
+  const components: Components = useMemo<Components>(() => ({
     a({children, href}: any) {
       return <PostLink children={children} href={href}/>
     },
     img({node, title, ...props}: any) {
-      return <PostImg title={title} props={props}/>;
+      return <PostImg picture={picture} title={title} props={props}/>;
     },
     iframe({node, ...props}: any) {
       return <span className={'video'}>
@@ -36,7 +37,7 @@ export default function PostContainer({title, date, content, source}: IPostData)
         {children}
       </span>;
     }
-  };
+  }), [picture]);
 
   return <Layout title={title}>
     <article className={'post'}>

@@ -1,11 +1,11 @@
 ---
 title: 'Запуск Ubuntu Linux 10.10 на лаптопе Google Cr-48'
 date: '2010-12-22T00:02:00+03:00'
-uri: 'news/zapusk-ubuntu-linux-10-10-na-laptope-google-cr-48'
+uri: 'news/ubuntu-10-10-na-google-cr-48'
 alias: 
   - 'news/548.html'
 tags: 'Ubuntu Linux,10.10,Chrome OS,Google Cr-48,Google'
-source: ' '
+source: ''
 unixtime: 1292965320
 visits: 1697
 ---
