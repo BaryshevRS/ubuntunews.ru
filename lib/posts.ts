@@ -183,31 +183,35 @@ async function setPostPictureFormats(images: string[] = []): Promise<PictureForm
   const imgListFormat = images.map(async (img): Promise<Record<string, IPictureFormat>> => {
     const isOriginImg = await fileExists(imgDirectory + img);
 
-    if (isOriginImg) {
-      const fileShort = path.parse(img).name;
-      const dir = img.split(`${fileShort}.jpg`)[0];
+    try {
+      if (isOriginImg) {
+        const fileShort = path.parse(img).name;
+        const dir = img.split(`${fileShort}.jpg`)[0];
 
-      const image = sharp(imgDirectory + img);
-      const {width, height} = await image.metadata();
-      const contentSizes = setContentSize(width, height, contentWidth);
+        const image = sharp(imgDirectory + img);
+        const {width, height} = await image.metadata();
+        const contentSizes = setContentSize(width, height, contentWidth);
 
-      // Generate avif source
-      const sourceFormats = await setPostPictureSourceFormats(image, sizes, fileShort, dir, width);
-      const srcSet: string[] = await Promise.all(sourceFormats);
+        // Generate avif source
+        const sourceFormats = await setPostPictureSourceFormats(image, sizes, fileShort, dir, width);
+        const srcSet: string[] = await Promise.all(sourceFormats);
 
-      return {
-        [img]: {
-          width: contentSizes.width,
-          height: contentSizes.height,
-          source: [
-            {
-              srcset: srcSet.join(', '),
-              type: 'image/avif',
-              sizes: '(min-width: 680px) 660px, calc(100vw - 40px)'
-            }
-          ]
+        return {
+          [img]: {
+            width: contentSizes.width,
+            height: contentSizes.height,
+            source: [
+              {
+                srcset: srcSet.join(', '),
+                type: 'image/avif',
+                sizes: '(min-width: 680px) 660px, calc(100vw - 40px)'
+              }
+            ]
+          }
         }
       }
+    } catch (e) {
+      console.error(e)
     }
 
     return {
