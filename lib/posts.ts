@@ -41,6 +41,7 @@ const postsDirectory = path.join(process.cwd(), 'posts');
 const imgDirectory = path.join(process.cwd(), 'public/');
 const nameStaticDirectory = 'public/static/';
 const namePublicStaticDirectory = 'static/';
+const pathDirectory = path.join(process.cwd(), 'public/static/path/');
 const imgStaticDirectory = path.join(process.cwd(), nameStaticDirectory);
 
 export function getSortedPostsData() { // section = '/news'
@@ -78,36 +79,52 @@ export function getSortedPostsData() { // section = '/news'
   return {};
 }
 
-export async function getAllPostIdsBySection(section: string = 'news') {
-  let filePaths = [];
+export async function getAllPostIdsBySection(section: string) {
+  if (!section) {
+    return {};
+  }
+  const sectionPath = `${pathDirectory}${section}.json`;
+  const isPath = await fileExists(sectionPath);
+  let filePathsParams = {};
 
-  try {
-    filePaths = await glob(`${postsDirectory}/${section}/*/*/*/*\.md`, {});
-  } catch (e) {
-    console.error(e)
+  if (isPath) {
+    const rawData = fs.readFileSync(sectionPath, 'utf8');
+    filePathsParams = JSON.parse(rawData);
+  } else {
+    let filePaths = [];
+
+    try {
+      filePaths = await glob(`${postsDirectory}/${section}/*/*/*/*\.md`, {});
+    } catch (e) {
+      console.error(e)
+    }
+
+    filePathsParams = filePaths.map((filePath: string) => {
+      const id = path.parse(filePath).base.replace(/\.md$/, '');
+      return {
+        params: {
+          id,
+          filePath
+        }
+      }
+    });
+
+    fs.writeFileSync(`${pathDirectory}${section}.json`, JSON.stringify(filePathsParams));
   }
 
-  return filePaths.map((filePath: string) => {
-    const id = path.parse(filePath).base.replace(/\.md$/, '');
-    return {
-      params: {
-        id,
-        filePath
-      }
-    }
-  })
+  return filePathsParams;
 }
 
-export function getAllPostIds() {
-  const fileNames = fs.readdirSync(postsDirectory);
-  return fileNames.map(fileName => {
-    return {
-      params: {
-        id: fileName.replace(/\.md$/, '')
-      }
-    }
-  })
-}
+// export function getAllPostIds() {
+//   const fileNames = fs.readdirSync(postsDirectory);
+//   return fileNames.map(fileName => {
+//     return {
+//       params: {
+//         id: fileName.replace(/\.md$/, '')
+//       }
+//     }
+//   })
+// }
 
 function removeLinkWithImg(content: string): string {
   return content.replace(/\[(!.*)\)\](.*\.jpg)/g, '$1');
