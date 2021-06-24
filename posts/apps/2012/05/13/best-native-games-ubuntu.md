@@ -60,9 +60,7 @@ visits: 90400
 <button>[Ознакомиться](http://rutracker.org/forum/viewtopic.php?t=3668438)</button>
 
 ### 20\. Spiral Knights
-
-<iframe width="500" height="369" src="http://www.youtube.com/embed/izw0ZrgHa6c" frameborder="0" allowfullscreen=""></iframe>
-
+ 
 **Жанр:** MMORPG
 
 **Краткое описание:**
@@ -96,9 +94,7 @@ Xonotic является форком Nexuiz и в основном ориент
 Игроку предстоит играть за мощным танком на антигравитационной подушке, сражаясь с инопланетными захватчиками и вооружившись по последнему слову техники.
 
 ### 17\. Amnesia
-
-<iframe width="500" height="369" src="http://www.youtube.com/embed/M627-obxNzg" frameborder="0" allowfullscreen=""></iframe>
-
+ 
 **Жанр:** Adventure, Horror
 
 **Статус:** [Платная](http://www.amnesiagame.com/#buy)
@@ -290,9 +286,7 @@ Xonotic является форком Nexuiz и в основном ориент
 <button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Shank)</button>
 
 ### 3\. Trine
-
-<iframe width="500" height="284" src="http://www.youtube.com/embed/qJ9JyTLuDdg" frameborder="0" allowfullscreen=""></iframe>
-
+ 
 **Жанр:** Adventure, Platform, Puzzle
 
 **Статус:** [Платная $9.99](http://trine-thegame.com/site/)
@@ -304,9 +298,7 @@ Xonotic является форком Nexuiz и в основном ориент
 <button>[Ознакомиться](http://rutracker.org/forum/tracker.php?f=899&nm=Trine)</button>
 
 ### 2\. Oil Rush
-
-<iframe width="500" height="284" src="http://www.youtube.com/embed/7Vo2qSyQ4S0" frameborder="0" allowfullscreen=""></iframe>
-
+ 
 **Жанр:** RTS
 
 **Статус:** платная. В ЦП за 19.95$
@@ -316,9 +308,7 @@ Xonotic является форком Nexuiz и в основном ориент
 Игроку предстоит управлять и развивать производственные платформы, а также защищать их от нападения вражеских войск и самому осуществлять захват платформ и нефтяных скважин противника.
 
 ### 1\. Heroes of Newerth
-
-<iframe width="500" height="284" src="http://www.youtube.com/embed/K6s5lIA2gUY" frameborder="0" allowfullscreen=""></iframe>
-
+ 
 **Жанр:** RTS, MOBA
 
 **Статус:** бесплатно

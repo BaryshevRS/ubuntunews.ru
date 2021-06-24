@@ -18,8 +18,8 @@ import { Components } from "react-markdown/src/ast-to-react";
 
 export default function PostContainer({title, date, content, source, picture}: IPostData) {
   const components: Components = useMemo<Components>(() => ({
-    a({children, href}: any) {
-      return <PostLink children={children} href={href}/>
+    a({children, href, node}: any) {
+      return <PostLink children={children} href={href} node={node}/>
     },
     img({node, title, ...props}: any) {
       return <PostImg picture={picture} title={title} props={props}/>;

@@ -168,7 +168,7 @@ async function setPostPictureFormats(images: string[] = []): Promise<PictureForm
 
     if (isOriginImg) {
       const fileShort = path.parse(img).name;
-      const dir = img.split(fileShort)[0];
+      const dir = img.split(`${fileShort}.jpg`)[0];
 
       const image = sharp(imgDirectory + img);
       const {width, height} = await image.metadata();
