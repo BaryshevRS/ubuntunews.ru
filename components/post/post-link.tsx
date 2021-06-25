@@ -5,7 +5,7 @@ import { Element } from "react-markdown/src/ast-to-react";
 export interface IProps {
   children: React.ReactChild
   href: string;
-  node: Element;
+  node?: Element;
 }
 
 export default function PostLink({children, href, node}: IProps) {

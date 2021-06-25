@@ -1,30 +1,30 @@
 import { Layout } from "../../components/layout/layout";
 
 export default function PartnersPage() {
-  const projectCode = `<a title="Новости о Ubuntu Linux" href="http://ubuntunews.ru/" >
-<img src="http://ubuntunews.ru/ubuntu.gif"  alt="Новости о Ubuntu Linux"  width="88" height="31" /></a>`;
+  const projectCode = `<a title="Новости о Ubuntu Linux" href="https://ubuntunews.ru/" >
+<img src="https://ubuntunews.ru/ubuntu.gif"  alt="Новости о Ubuntu Linux"  width="88" height="31" /></a>`;
   return (
     <Layout title={'Сотрудничество'}>
       <h1 className={'title'}>Сотрудничество</h1>
 
-      <h2>Дружественные ресурсы</h2>
+      <p>Ниже представлены дружественные ресурсы.</p>
 
       <h3>Про Ubuntu</h3>
 
       <p>
-        <a href="http://softhelp.org.ua/" title="">
+        <a target="_blank" rel="noopener noreferrer" href="http://softhelp.org.ua/" title="">
           <img src="/assets/partners/blog.jpeg" alt="Блог про Убунту Линукс. Просто о важном" width="88"
                height="31"/>
         </a>
       </p>
 
       <p>
-        <a href="http://ubuntu-news.ru/" target="_blank" title="Новости Ubuntu">
+        <a target="_blank" rel="noopener noreferrer" href="http://ubuntu-news.ru/" title="Новости Ubuntu">
           <img src="/assets/partners/un.png" alt="Новости Ubuntu Linux"/></a>
       </p>
       <p>
         <a title="Ubuntu Linux для начинающих" href="http://mirubuntu.ru/">
-          <img alt="Ubuntu Linux для начинающих" src="http://mirubuntu.ru/ubuntu-logo.png" width="88" height="31"
+          <img alt="Ubuntu Linux для начинающих" src="/assets/partners/ubuntu-logo.png" width="88" height="31"
           />
         </a>
       </p>
@@ -71,7 +71,7 @@ export default function PartnersPage() {
 
       <p>
         <a title="Новости о Ubuntu Linux" href="http://ubuntunews.ru/">
-          <img src="http://ubuntunews.ru/ubuntu.gif" alt="Новости о Ubuntu Linux" width="88" height="31"/></a>
+          <img src="https://ubuntunews.ru/ubuntu.gif" alt="Новости о Ubuntu Linux" width="88" height="31"/></a>
       </p>
 
       <textarea

@@ -4,6 +4,7 @@ import VkIcon from "../../public/assets/icons/vk.svg";
 import YoutubeIcon from "../../public/assets/icons/youtube.svg";
 import GithubIcon from "../../public/assets/icons/github.svg";
 import RssIcon from "../../public/assets/icons/rss.svg";
+import PostLink from "../post/post-link";
 
 interface IProp {
     children?: React.ReactNode;
@@ -36,8 +37,8 @@ export const Sidebar: React.FC<IProp> = () => {
             <footer className={'footer'}>
 
                 <div className={'footer__nav'}>
-                    <a href="#">О проекте</a>
-                    <a href="#">Сотрудничество</a>
+                    <PostLink href="/project">О проекте</PostLink>
+                    <PostLink href="/project/partners">Сотрудничество</PostLink>
                 </div>
 
                 <div className={'footer__copyright'}>
@@ -46,37 +47,37 @@ export const Sidebar: React.FC<IProp> = () => {
 
                 <ul className={'footer__social'}>
                     <li>
-                        <a href="#">
+                        <PostLink href="https://www.facebook.com/ubuntunewsrus">
                             <FacebookIcon/>
-                        </a>
+                        </PostLink>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <PostLink href="https://twitter.com/ubuntunewsru/">
                             <TwitterIcon/>
-                        </a>
+                        </PostLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <PostLink href="https://vk.com/ubuntunewsru">
                             <VkIcon/>
-                        </a>
+                        </PostLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <PostLink href="https://www.youtube.com/user/ubuntunewsru">
                             <YoutubeIcon/>
-                        </a>
+                        </PostLink>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <PostLink href="https://github.com/BaryshevRS/ubuntunews.ru">
                             <GithubIcon/>
-                        </a>
+                        </PostLink>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <PostLink href="http://feeds.feedburner.com/ubuntunewsru">
                             <RssIcon/>
-                        </a>
+                        </PostLink>
                     </li>
                 </ul>
 
