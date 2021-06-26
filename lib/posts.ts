@@ -41,7 +41,7 @@ const postsDirectory = path.join(process.cwd(), 'posts');
 const imgDirectory = path.join(process.cwd(), 'public/');
 const nameStaticDirectory = 'public/static/';
 const namePublicStaticDirectory = 'static/';
-const pathDirectory = path.join(process.cwd(), 'public/static/path/');
+// const pathDirectory = path.join(process.cwd(), 'public/static/path/');
 const imgStaticDirectory = path.join(process.cwd(), nameStaticDirectory);
 
 export function getSortedPostsData() { // section = '/news'
@@ -83,14 +83,14 @@ export async function getAllPostIdsBySection(section: string) {
   if (!section) {
     return {};
   }
-  const sectionPath = `${pathDirectory}${section}.json`;
-  const isPath = await fileExists(sectionPath);
+  // const sectionPath = `${pathDirectory}${section}.json`;
+  // const isPath = await fileExists(sectionPath);
   let filePathsParams = {};
 
-  if (isPath) {
-    const rawData = fs.readFileSync(sectionPath, 'utf8');
-    filePathsParams = JSON.parse(rawData);
-  } else {
+  // if (isPath) {
+  //   const rawData = fs.readFileSync(sectionPath, 'utf8');
+  //   filePathsParams = JSON.parse(rawData);
+  // } else {
     let filePaths = [];
 
     try {
@@ -109,8 +109,8 @@ export async function getAllPostIdsBySection(section: string) {
       }
     });
 
-    fs.writeFileSync(`${pathDirectory}${section}.json`, JSON.stringify(filePathsParams));
-  }
+  //   fs.writeFileSync(`${pathDirectory}${section}.json`, JSON.stringify(filePathsParams));
+  // }
 
   return filePathsParams;
 }
@@ -124,6 +124,15 @@ export async function getAllPostIdsBySection(section: string) {
 //       }
 //     }
 //   })
+// }
+
+// export function getAllPosts(fields: string[] = []) {
+//   const slugs = getPostSlugs()
+//   const posts = slugs
+//     .map((slug) => getPostBySlug(slug, fields))
+//     // sort posts by date in descending order
+//     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
+//   return posts
 // }
 
 function removeLinkWithImg(content: string): string {

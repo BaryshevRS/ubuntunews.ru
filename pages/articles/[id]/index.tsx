@@ -1,13 +1,13 @@
-import { IPostData, getPostData, getAllPostIdsBySection } from '../../lib/posts'
 import React from 'react';
-import PostContainer from "../../components/post/post-container";
+import PostContainer from "../../../components/post/post-container";
+import { getAllPostIdsBySection, getPostData, IPostData } from "../../../lib/posts";
 
 export default function NewsPost(props: IPostData) {
   return <PostContainer {...props} />
 }
 
 export async function getStaticPaths() {
-  const paths = await getAllPostIdsBySection('news');
+  const paths = await getAllPostIdsBySection('articles');
   return {
     paths,
     fallback: false
