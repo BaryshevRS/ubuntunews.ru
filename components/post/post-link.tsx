@@ -6,9 +6,10 @@ export interface IProps {
   children: React.ReactChild
   href: string;
   node?: Element;
+  className?: string;
 }
 
-export default function PostLink({children, href, node}: IProps) {
+export default function PostLink({children, href, node, className}: IProps) {
   let extendLink = !!href.match(/http|\\\\/g);
 
   // Added support for apt links
@@ -22,7 +23,7 @@ export default function PostLink({children, href, node}: IProps) {
 
   return !extendLink ? (
     <Link href={`${(fixedLocalLink(href))}`}>
-      <a>
+      <a className={className} >
         {children}
       </a>
     </Link>

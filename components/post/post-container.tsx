@@ -22,7 +22,7 @@ export default function PostContainer({title, date, content, source, picture}: I
       return <PostLink children={children} href={href} node={node}/>
     },
     img({node, title, ...props}: any) {
-      return <PostImg picture={picture} title={title} props={props}/>;
+      return <PostImg picture={picture} title={title} {...props}/>;
     },
     iframe({node, ...props}: any) {
       return <span className={'video'}>

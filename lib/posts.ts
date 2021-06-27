@@ -1,6 +1,9 @@
 import fs from 'fs-extra'
 import path from 'path'
 import matter from 'gray-matter'
+import { getUnixTime, parseISO} from 'date-fns'
+import remark from "remark";
+import strip from "strip-markdown";
 
 const {promisify} = require("util");
 const globMethod = require('glob');
@@ -8,12 +11,20 @@ const glob = promisify(globMethod);
 
 const sharp = require('sharp');
 
+export interface IPostsData {
+  totalCount: number;
+  posts: IPostData[];
+  pageCount: number;
+  currentPage: number;
+}
+
 export interface IPostData {
   id: string;
   content: any;
   title: string;
   date: string;
   source?: string;
+  uri: string;
   picture: PictureFormats;
 }
 
@@ -41,99 +52,120 @@ const postsDirectory = path.join(process.cwd(), 'posts');
 const imgDirectory = path.join(process.cwd(), 'public/');
 const nameStaticDirectory = 'public/static/';
 const namePublicStaticDirectory = 'static/';
-// const pathDirectory = path.join(process.cwd(), 'public/static/path/');
+
 const imgStaticDirectory = path.join(process.cwd(), nameStaticDirectory);
+const postsOnPage = 4;
 
-export function getSortedPostsData() { // section = '/news'
-  /*  // Get file names under /posts
-    const fileNames = fs.readdirSync(postsDirectory + section)
-    const allPostsData = fileNames.map(fileName => {
-      // Remove ".md" from file name to get id
-      const id = fileName.replace(/\.md$/, '')
+function getPageCount(totalCount: number, postsOnPage: number): number {
+  return Math.ceil(totalCount / postsOnPage);
+}
 
-      // Read markdown file as string
-      const fullPath = path.join(postsDirectory, fileName)
-      const fileContents = fs.readFileSync(fullPath, 'utf8')
+export async function getSortedPostsData(sections: string[] = [], currentPage: number = 0): Promise<IPostsData | undefined> {
+  let postsData: any[] = [];
+
+  try {
+    const postsPaths = await glob(`${postsDirectory}/+(${sections.join('|')})/*/*/*/*\.md`, {});
+
+    const allPostsData = postsPaths.map(async (postPath: string) => {
+      // console.log(paths);
+      const id = path.parse(postPath).name;
+      const fileContents = fs.readFileSync(postPath, 'utf8');
 
       // Use gray-matter to parse the post metadata section
-      const matterResult = matter(fileContents)
+      const matterResult: any = matter(fileContents);
+      const {data, content} = matterResult;
+      var timestamp = getUnixTime(parseISO(data.date));
+      const section = postPath.split(`${postsDirectory}/`)[1].split('/')[0];
+      const uri = `/${section}/${id}`;
 
-      // Combine the data with the id
+      // Combine the data with the id and contentHtml
       return {
         id,
-        ...matterResult.data
+        content,
+        timestamp,
+        uri,
+        date: data.date,
+        title: data.title
       }
-    })
-    // Sort posts by date
-    // @ts-ignore
-    return allPostsData.sort(({ date: a }, { date: b }) => {
-      if (a < b) {
-        return 1
-      } else if (a > b) {
-        return -1
-      } else {
-        return 0
-      }
-    })*/
+    });
 
-  return {};
+    postsData = await Promise.all(allPostsData);
+    postsData = postsData.sort((a: any, b: any) => (a.timestamp > b.timestamp ? -1 : 1))
+
+    const totalCount = postsData.length;
+    const pageCount = getPageCount(totalCount, postsOnPage);
+    let pagePosts = postsData.slice(currentPage * postsOnPage, currentPage * postsOnPage + postsOnPage);
+
+    pagePosts = pagePosts.map( async (post) => {
+      const {content} = post;
+      const firstParagraph = content.split(/\r\n|\n/g)[0];
+      const contentStrip = await new Promise((resolve, reject) => {
+        return remark()
+          .use(strip)
+          .process(firstParagraph, function(err, file) {
+            if (err) reject();
+            resolve(String(file));
+          });
+      });
+
+      return {...post,  content: contentStrip };
+    });
+
+    const posts = await Promise.all(pagePosts);
+
+    return {
+      totalCount,
+      posts,
+      pageCount,
+      currentPage
+    };
+  } catch (e) {
+    console.error(e)
+  }
+}
+
+export async function getPaginationIdsBySections(sections: string[]) {
+  try {
+    const postsPaths = await glob(`${postsDirectory}/+(${sections.join('|')})/*/*/*/*\.md`, {});
+    const totalCount = postsPaths.length;
+    const pageCount = getPageCount(totalCount, postsOnPage);
+
+    const params = [];
+    for (var page = 0; page <= pageCount; page++) {
+      params.push({
+        params: {
+          page: page.toString()
+        }
+      });
+    }
+
+    return params;
+  } catch (e) {
+    console.error(e);
+  }
 }
 
 export async function getAllPostIdsBySection(section: string) {
   if (!section) {
     return {};
   }
-  // const sectionPath = `${pathDirectory}${section}.json`;
-  // const isPath = await fileExists(sectionPath);
-  let filePathsParams = {};
+  let filePaths = [];
 
-  // if (isPath) {
-  //   const rawData = fs.readFileSync(sectionPath, 'utf8');
-  //   filePathsParams = JSON.parse(rawData);
-  // } else {
-    let filePaths = [];
+  try {
+    filePaths = await glob(`${postsDirectory}/${section}/*/*/*/*\.md`, {});
+  } catch (e) {
+    console.error(e)
+  }
 
-    try {
-      filePaths = await glob(`${postsDirectory}/${section}/*/*/*/*\.md`, {});
-    } catch (e) {
-      console.error(e)
-    }
-
-    filePathsParams = filePaths.map((filePath: string) => {
-      const id = path.parse(filePath).base.replace(/\.md$/, '');
-      return {
-        params: {
-          id,
-          filePath
-        }
+  return filePaths.map((filePath: string) => {
+    const id = path.parse(filePath).base.replace(/\.md$/, '');
+    return {
+      params: {
+        id
       }
-    });
-
-  //   fs.writeFileSync(`${pathDirectory}${section}.json`, JSON.stringify(filePathsParams));
-  // }
-
-  return filePathsParams;
+    }
+  });
 }
-
-// export function getAllPostIds() {
-//   const fileNames = fs.readdirSync(postsDirectory);
-//   return fileNames.map(fileName => {
-//     return {
-//       params: {
-//         id: fileName.replace(/\.md$/, '')
-//       }
-//     }
-//   })
-// }
-
-// export function getAllPosts(fields: string[] = []) {
-//   const slugs = getPostSlugs()
-//   const posts = slugs
-//     .map((slug) => getPostBySlug(slug, fields))
-//     // sort posts by date in descending order
-//     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-//   return posts
-// }
 
 function removeLinkWithImg(content: string): string {
   return content.replace(/\[(!.*)\)\](.*\.jpg)/g, '$1');
@@ -185,10 +217,7 @@ function setContentSize(width: number, height: number, contentWidth: number) {
   }
 }
 
-async function setPostPictureFormats(images: string[] = []): Promise<PictureFormats> {
-  const sizes = [340, 660];
-  const contentWidth = 660;
-
+async function createPictureFormats(images: string[] = [], maxWidth: number, sizes: number[], sourceSizes: string) {
   const imgListFormat = images.map(async (img): Promise<Record<string, IPictureFormat>> => {
     const isOriginImg = await fileExists(imgDirectory + img);
 
@@ -199,7 +228,7 @@ async function setPostPictureFormats(images: string[] = []): Promise<PictureForm
 
         const image = sharp(imgDirectory + img);
         const {width, height} = await image.metadata();
-        const contentSizes = setContentSize(width, height, contentWidth);
+        const contentSizes = setContentSize(width, height, maxWidth);
 
         // Generate avif source
         const sourceFormats = await setPostPictureSourceFormats(image, sizes, fileShort, dir, width);
@@ -213,7 +242,7 @@ async function setPostPictureFormats(images: string[] = []): Promise<PictureForm
               {
                 srcset: srcSet.join(', '),
                 type: 'image/avif',
-                sizes: '(min-width: 680px) 660px, calc(100vw - 40px)'
+                sizes: sourceSizes
               }
             ]
           }
@@ -231,9 +260,16 @@ async function setPostPictureFormats(images: string[] = []): Promise<PictureForm
       }
     }
   });
-
   const pictureFormats: Record<string, IPictureFormat>[] = await Promise.all(imgListFormat);
   return pictureFormats.reduce((formats, picture) => ({...formats, ...picture}), {});
+}
+
+async function setPostPictureFormats(images: string[] = []): Promise<PictureFormats> {
+  const sizes = [340, 660];
+  const maxWidth = 660;
+  const sourceSizes = '(min-width: 680px) 660px, calc(100vw - 40px)';
+
+  return createPictureFormats(images, maxWidth, sizes, sourceSizes);
 }
 
 export async function getPostData(id: string) {

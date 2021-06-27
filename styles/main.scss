@@ -150,6 +150,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: toRem(100);
 
     @media screen and (min-width: toRem($media-lg)) {
       font-size: 1rem;
@@ -167,6 +168,19 @@
       font-size: toRem(22);
       margin-bottom: 0;
     }
+  }
+}
+
+.pagination {
+  display: grid;
+  grid-auto-flow: column;
+
+  .active {
+    color: red;
+  }
+
+  .disabled {
+    display: none;
   }
 }
 

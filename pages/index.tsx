@@ -1,37 +1,54 @@
-import Link from 'next/link'
-import { getSortedPostsData } from "../lib/posts";
-
+import { getSortedPostsData, IPostData, IPostsData } from "../lib/posts";
+// @ts-ignore
+import ReactPaginate from 'react-paginate';
 import { Layout } from "../components/layout/layout";
 import PostsItem from "../components/posts/posts-item";
+import { useRouter } from "next/router";
+import { useCallback } from "react";
 
-export default function Home({allPostsData}: any) {
-    console.log('allPostsData', allPostsData);
+export default function Home({posts, totalCount, pageCount}: IPostsData) {
+  const router = useRouter();
 
-    return (
-        <Layout title={'Новости Ubuntu Linux'}>
-            <h1 className={'title'}>Новости Ubuntu</h1>
+  const paginationHandler = useCallback(({selected}: { selected: string }) => {
+    const currentPath = router.pathname;
+    console.log('xxxxx', selected)
+    router.push(`${currentPath}page/${selected}`);
+  }, [router]);
 
-            {[1, 2, 3, 4, 5].map((item) => (
-                  <PostsItem key={item} item={item} />
-                )
-            )}
+  return (
+    <Layout title={'Новости Ubuntu Linux'}>
+      <h1 className={'title'}>Новости Ubuntu</h1>
 
-            <div className={'pagination'}>
-                <Link href={`/2`}><a href="#">Туда</a></Link>
-                <Link href={`/2`}><a href="#">Сюда</a></Link>
-            </div>
-        </Layout>
-    )
+      {posts.map((post: IPostData) => (
+          <PostsItem key={post.id} {...post} />
+        )
+      )}
+
+      <div className={'pagination'}>
+        <ReactPaginate
+          previousLabel={'previous'}
+          nextLabel={'next'}
+          breakLabel={'...'}
+          pageCount={pageCount}
+          initialPage={0}
+          breakClassName={'break-me'}
+          totalCount={totalCount}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={5}
+          disableInitialCallback={true}
+          onPageChange={paginationHandler}
+          containerClassName={'pagination'}
+          activeClassName={'active'}
+        />
+      </div>
+    </Layout>
+  )
 }
 
 export async function getStaticProps() {
-
-      const allPostsData = getSortedPostsData();
-    // const allPostsData = getPostIdsBySection();
-
-    return {
-        props: {
-            allPostsData
-        }
-    }
+  const props = await getSortedPostsData(['news', 'apps', 'articles']);
+  console.error('props', props);
+  return {
+    props
+  }
 }

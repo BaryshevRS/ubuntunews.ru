@@ -5,12 +5,12 @@ import { IPictureFormat } from "../../lib/posts";
 export interface IProps {
   title: string;
   picture: Record<string, IPictureFormat>;
-  props: Record<string, string>
+  src: string;
+  alt: string;
 }
 
-export default function PostImg({title, props, picture}: IProps) {
-  const {width, height, source} = picture[props.src];
-
+export default function PostImg({title, alt = '', src, picture}: IProps) {
+  const {width, height, source} = picture[src];
   return (
     <figure>
       <picture>
@@ -24,12 +24,12 @@ export default function PostImg({title, props, picture}: IProps) {
           ))
         }
         <img
-          alt=""
+          alt={alt}
           decoding="async"
           loading="lazy"
           width={width}
           height={height}
-          {...props} />
+        />
 
       </picture>
 
