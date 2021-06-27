@@ -1,5 +1,5 @@
 ---
-title: 'Выпуск Ubuntu 9.10 получил кодовое имя &quot;Karmic Koala&quot;'
+title: 'Выпуск Ubuntu 9.10 получил кодовое имя Karmic Koala'
 date: '2009-02-21T18:02:39+03:00'
 uri: 'news/vypusk-ubuntu-9-10-poluchil-kodovoe-imya-quot-karmic-koala-quot'
 alias: 

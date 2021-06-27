@@ -3,13 +3,13 @@ import Source from "../source";
 import { IPictureFormat } from "../../lib/posts";
 
 export interface IProps {
-  title: string;
+  title?: string;
   picture: Record<string, IPictureFormat>;
   src: string;
-  alt: string;
+  alt?: string;
 }
 
-export default function PostImg({title, alt = '', src, picture}: IProps) {
+export default function PostImg({title = '', alt = '', src, picture}: IProps) {
   const {width, height, source} = picture[src];
   return (
     <figure>

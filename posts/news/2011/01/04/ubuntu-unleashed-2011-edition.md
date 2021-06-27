@@ -1,5 +1,5 @@
 ---
-title: 'Вышла новая редакция книги &quot;Ubuntu Unleashed 2011 Edition&quot;'
+title: 'Вышла новая редакция книги Ubuntu Unleashed 2011 Edition'
 date: '2011-01-04T19:10:01+03:00'
 uri: 'news/ubuntu-unleashed-2011-edition'
 alias: 

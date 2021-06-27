@@ -1,5 +1,5 @@
 ---
-title: 'В Ubuntu появится новый универсальный  элемент &quot;Esfera&quot; '
+title: 'В Ubuntu появится новый универсальный  элемент Esfera'
 date: '2010-03-29T18:50:23+04:00'
 uri: 'news/v-ubuntu-poyavitsya-novyi-universalnyi-element-quot-esfera-quot'
 alias: 

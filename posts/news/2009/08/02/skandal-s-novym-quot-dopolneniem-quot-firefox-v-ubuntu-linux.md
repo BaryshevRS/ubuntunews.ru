@@ -1,5 +1,5 @@
 ---
-title: 'Скандал с новым &quot;дополнением&quot; Firefox в Ubuntu Linux'
+title: 'Скандал с новым дополнением Firefox в Ubuntu Linux'
 date: '2009-08-02T11:53:00+04:00'
 uri: 'news/skandal-s-novym-quot-dopolneniem-quot-firefox-v-ubuntu-linux'
 alias: 

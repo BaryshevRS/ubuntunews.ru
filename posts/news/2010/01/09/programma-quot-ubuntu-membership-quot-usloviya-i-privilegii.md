@@ -1,5 +1,5 @@
 ---
-title: 'Программа &quot;Ubuntu Membership&quot; - условия и привилегии'
+title: 'Программа Ubuntu Membership - условия и привилегии'
 date: '2010-01-09T16:30:20+03:00'
 uri: 'news/programma-quot-ubuntu-membership-quot-usloviya-i-privilegii'
 alias: 

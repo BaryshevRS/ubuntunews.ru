@@ -1,5 +1,5 @@
 ---
-title: 'Представлен перевод книги &quot;Ubuntu Hacks&quot;'
+title: 'Представлен перевод книги Ubuntu Hacks'
 date: '2010-11-09T01:10:56+03:00'
 uri: 'news/predstavlen-perevod-knigi-quot-ubuntu-hacks-quot'
 alias: 

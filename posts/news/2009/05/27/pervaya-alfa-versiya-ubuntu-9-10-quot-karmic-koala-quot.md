@@ -1,5 +1,5 @@
 ---
-title: 'Первая альфа версия Ubuntu 9.10 (&quot;Karmic Koala&quot;)'
+title: 'Первая альфа версия Ubuntu 9.10 (Karmic Koala)'
 date: '2009-05-27T19:11:22+04:00'
 uri: 'news/pervaya-alfa-versiya-ubuntu-9-10-quot-karmic-koala-quot'
 alias: 

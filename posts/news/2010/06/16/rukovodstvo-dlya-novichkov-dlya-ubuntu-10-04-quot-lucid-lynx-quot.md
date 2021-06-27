@@ -1,5 +1,5 @@
 ---
-title: 'Руководство для новичков для Ubuntu 10.04 &quot;Lucid Lynx&quot; '
+title: 'Руководство для новичков для Ubuntu 10.04'
 date: '2010-06-16T14:08:08+04:00'
 uri: 'news/rukovodstvo-dlya-novichkov-dlya-ubuntu-10-04-quot-lucid-lynx-quot'
 alias: 

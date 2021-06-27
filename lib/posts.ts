@@ -25,6 +25,7 @@ export interface IPostData {
   date: string;
   source?: string;
   uri: string;
+  src: string;
   picture: PictureFormats;
 }
 
@@ -58,6 +59,18 @@ const postsOnPage = 4;
 
 function getPageCount(totalCount: number, postsOnPage: number): number {
   return Math.ceil(totalCount / postsOnPage);
+}
+
+async function getPreviewContent(content: string) {
+  const firstParagraph = content.split(/\r\n|\n/g)[0];
+  return await new Promise((resolve, reject) => {
+    return remark()
+      .use(strip)
+      .process(firstParagraph, function(err, file) {
+        if (err) reject();
+        resolve(String(file));
+      });
+  });
 }
 
 export async function getSortedPostsData(sections: string[] = [], currentPage: number = 0): Promise<IPostsData | undefined> {
@@ -98,17 +111,22 @@ export async function getSortedPostsData(sections: string[] = [], currentPage: n
 
     pagePosts = pagePosts.map( async (post) => {
       const {content} = post;
-      const firstParagraph = content.split(/\r\n|\n/g)[0];
-      const contentStrip = await new Promise((resolve, reject) => {
-        return remark()
-          .use(strip)
-          .process(firstParagraph, function(err, file) {
-            if (err) reject();
-            resolve(String(file));
-          });
-      });
+      const previewContent = await getPreviewContent(content);
 
-      return {...post,  content: contentStrip };
+      const sizes = [260];
+      const maxWidth = 260;
+      const sourceSizes = '(min-width: 680px) 660px, calc(100vw - 40px)';
+
+      let picture = null;
+      let src = '';
+      const imgList = getImgListFromContent(content);
+      if (imgList[0]) {
+         src = imgList[0];
+         picture = await createPictureFormats(imgList, maxWidth, sizes, sourceSizes);
+        console.error('picture', picture)
+      }
+
+      return {...post, content: previewContent, picture, src };
     });
 
     const posts = await Promise.all(pagePosts);
@@ -210,7 +228,7 @@ function setContentSize(width: number, height: number, contentWidth: number) {
       height
     }
   }
-  const contentHeight = height / (width / contentWidth);
+  const contentHeight = Math.ceil(height / (width / contentWidth));
   return {
     width: contentWidth,
     height: contentHeight

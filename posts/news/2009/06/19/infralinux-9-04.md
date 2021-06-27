@@ -1,5 +1,5 @@
 ---
-title: 'Выход  Linux дистрибутива InfraLinux 9.04 от компании &quot;Инфра-Ресурс&quot;'
+title: 'Выход  Linux дистрибутива InfraLinux 9.04 от компании Инфра-Ресурс'
 date: '2009-06-19T10:20:28+04:00'
 uri: 'news/infralinux-9-04'
 alias: 

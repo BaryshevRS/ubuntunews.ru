@@ -1,5 +1,5 @@
 ---
-title: 'Вышел &quot;безопасный&quot;  дистрибутив Ubuntu Privacy Remix 9.04r3'
+title: 'Вышел безопасный дистрибутив Ubuntu Privacy Remix 9.04r3'
 date: '2010-01-12T11:29:23+03:00'
 uri: 'news/ubuntu-privacy-remix-9-04r3'
 alias: 

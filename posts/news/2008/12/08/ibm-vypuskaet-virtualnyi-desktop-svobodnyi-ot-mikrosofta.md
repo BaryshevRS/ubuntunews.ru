@@ -1,5 +1,5 @@
 ---
-title: 'IBM выпускает &quot;Виртуальный Десктоп, свободный от Микрософта&quot;'
+title: 'IBM выпускает Виртуальный Десктоп, свободный от Микрософта'
 date: '2008-12-08T18:46:00+03:00'
 uri: 'news/ibm-vypuskaet-virtualnyi-desktop-svobodnyi-ot-mikrosofta'
 alias: 

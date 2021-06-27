@@ -1,5 +1,5 @@
 ---
-title: 'Книга &quot;Art of Community&quot; опубликована в свободном доступе'
+title: 'Книга Art of Community опубликована в свободном доступе'
 date: '2009-09-23T09:24:01+04:00'
 uri: 'news/kniga-quot-art-of-community-quot-opublikovana-v-svobodnom-dostupe'
 alias: 
