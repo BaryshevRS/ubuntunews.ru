@@ -1,4 +1,3 @@
-// @ts-ignore
 import ReactPaginate from 'react-paginate';
 import { useRouter } from "next/router";
 import {
@@ -9,26 +8,17 @@ import {
 } from "../../../lib/posts";
 import { Layout } from "../../../components/layout/layout";
 import PostsItem from "../../../components/posts/posts-item";
-/*https://nextjs.org/docs/api-reference/next/router
-  https://vpilip.com/how-build-simple-pagination-in-nextjs/*/
+import { useCallback } from "react";
 
-export default function Home({posts, totalCount, pageCount}: IPostsData) {
-  console.error('totalCount', totalCount);
+export default function Home({posts, pageCount, currentPage}: IPostsData) {
+  console.error('currentPage', currentPage);
 
   const router = useRouter();
   console.error('router', router);
 
-  // const paginationHandler = (page) => {
-  //   const currentPath = props.router.pathname;
-  //   const currentQuery = props.router.query;
-  //   currentQuery.page = page.selected + 1;
-  //
-  //   props.router.push({
-  //     pathname: currentPath,
-  //     query: currentQuery,
-  //   });
-  //
-  // };
+  const paginationHandler = useCallback(({selected}: { selected: number }) => {
+    router.push(`/page/${selected}`);
+  }, [router]);
 
   return (
     <Layout title={'Новости Ubuntu Linux | Страница'}>
@@ -39,24 +29,20 @@ export default function Home({posts, totalCount, pageCount}: IPostsData) {
         )
       )}
 
-      <div className={'pagination'}>
-        <ReactPaginate
-          previousLabel={'previous'}
-          nextLabel={'next'}
-          breakLabel={'...'}
-          pageCount={pageCount}
-          breakClassName={'break-me'}
-          totalCount={totalCount}
-          marginPagesDisplayed={2}
-          pageRangeDisplayed={5}
-          onPageChange={({selected}: {selected: string}) => {
-            console.log('xxxxx', selected)
-             router.push(`/page/${selected}`);
-          }}
-          containerClassName={'pagination'}
-          activeClassName={'active'}
-        />
-      </div>
+      <ReactPaginate
+        initialPage={+currentPage}
+        previousLabel={'Назад'}
+        nextLabel={'Вперёд'}
+        breakLabel={'...'}
+        pageCount={pageCount}
+        breakClassName={'break-me'}
+        marginPagesDisplayed={2}
+        pageRangeDisplayed={3}
+        onPageChange={paginationHandler}
+        containerClassName={'pagination'}
+        activeClassName={'active'}
+      />
+
     </Layout>
   )
 }
@@ -69,9 +55,9 @@ export async function getStaticPaths() {
   }
 }
 
-export async function getStaticProps({ params }: any) {
+export async function getStaticProps({params}: any) {
   const props = await getSortedPostsData(['news', 'apps', 'articles'], params?.page);
-  console.error({params});
+  console.error('params', params);
   return {
     props
   }

@@ -1,7 +1,7 @@
 .wrapper {
   margin: 0 auto;
   max-width: toRem(1010);
-  padding: 0 toRem(10);
+  padding: 0 toRem(10) toRem(30);
   width: 100%;
   min-height: 100%;
   display: grid;
@@ -106,7 +106,6 @@
 
 .main {
   grid-area: main;
-  //grid-auto-flow: row;
 }
 
 .title {
@@ -174,9 +173,32 @@
 .pagination {
   display: grid;
   grid-auto-flow: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: none;
+    @media screen and (min-width: toRem($media-md)) {
+      display: flex;
+    }
+  }
+
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+
+  .previous, .next {
+    display: flex;
+    font-weight: 500;
+  }
 
   .active {
-    color: red;
+    display: flex;
+    color: var(--color-orange);
+    font-weight: 500;
+    text-decoration: none;
   }
 
   .disabled {
