@@ -55,7 +55,7 @@ const nameStaticDirectory = 'public/static/';
 const namePublicStaticDirectory = 'static/';
 
 const imgStaticDirectory = path.join(process.cwd(), nameStaticDirectory);
-const postsOnPage = 4;
+const postsOnPage = 6;
 
 function getPageCount(totalCount: number, postsOnPage: number): number {
   return Math.ceil(totalCount / postsOnPage);
@@ -113,9 +113,9 @@ export async function getSortedPostsData(sections: string[] = [], currentPage: n
       const {content} = post;
       const previewContent = await getPreviewContent(content);
 
-      const sizes = [260];
+      const sizes = [260, 660];
       const maxWidth = 260;
-      const sourceSizes = '(min-width: 680px) 660px, calc(100vw - 40px)';
+      const sourceSizes = '(min-width: 620px) 260px, calc(100vw - 20px)';
 
       let picture = null;
       let src = '';
@@ -285,7 +285,7 @@ async function createPictureFormats(images: string[] = [], maxWidth: number, siz
 async function setPostPictureFormats(images: string[] = []): Promise<PictureFormats> {
   const sizes = [340, 660];
   const maxWidth = 660;
-  const sourceSizes = '(min-width: 680px) 660px, calc(100vw - 40px)';
+  const sourceSizes = '(min-width: 680px) 660px, calc(100vw - 20px)';
 
   return createPictureFormats(images, maxWidth, sizes, sourceSizes);
 }

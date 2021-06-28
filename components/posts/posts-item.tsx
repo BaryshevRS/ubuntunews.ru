@@ -15,6 +15,9 @@ export default function PostsItem({title, date, content, uri, src, picture}: IPo
     {src && <PostLink className={'post-preview__img'} href={uri}>
       <PostImg picture={picture} src={src}/>
     </PostLink>}
+    {!src && <PostLink className={'post-preview__img'} href={uri}>
+      <img src={'assets/preview.jpg'} alt={''} />
+    </PostLink>}
     <PostLink className={'post-preview__title'} href={uri}>
       <h2>{title}</h2>
     </PostLink>

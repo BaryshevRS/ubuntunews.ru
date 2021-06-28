@@ -29,6 +29,7 @@ export default function PostImg({title = '', alt = '', src, picture}: IProps) {
           loading="lazy"
           width={width}
           height={height}
+          src={src}
         />
 
       </picture>
