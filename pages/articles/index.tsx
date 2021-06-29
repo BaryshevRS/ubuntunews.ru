@@ -1,9 +1,16 @@
-import { Layout } from "../../components/layout/layout";
+import PostsContainer from "../../components/posts/posts-container";
+import { getSortedPostsData, IPostsData } from "../../lib/posts";
 
-export default function ArticlesPage() {
+export default function ArticlesPage(postData: IPostsData) {
   return (
-    <Layout title={'Статьи об Ubuntu Linux'}>
-      <h1 className={'title'}>Статьи об Ubuntu Linux</h1>
-    </Layout>
+    <PostsContainer title={'Статьи об Ubuntu Linux'} path={'/articles/'}
+                    postTitle={'Статьи об Ubuntu Linux'} postData={postData} />
   )
+}
+
+export async function getStaticProps() {
+  const props = await getSortedPostsData(['articles']);
+  return {
+    props
+  }
 }
