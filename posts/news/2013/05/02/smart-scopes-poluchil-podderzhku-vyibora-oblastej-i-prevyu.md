@@ -38,5 +38,7 @@ visits: 3762
 Консольные команды для инсталляции тестового PPA:
 
 ```
-sudo add-apt-repository ppa:ubuntu-unity/experimental-prevalidation sudo apt-get update sudo apt-get dist-upgrade && apt-get install --fix-policy
+sudo add-apt-repository ppa:ubuntu-unity/experimental-prevalidation 
+sudo apt-get update 
+sudo apt-get dist-upgrade && apt-get install --fix-policy
 ```

@@ -81,7 +81,7 @@ sudo apt-get install indicator-multiload
 
 Менеджер буфера обмена, поддерживающий файлы, фотографии и т. п.
 
- [![](img/2013/11/03/13-00/ubuntu-applet-2-10642494203-o.jpg)](img/2013/11/03/13-00/ubuntu-applet-2-10642494203-o.jpg)
+[![](img/2013/11/03/13-00/ubuntu-applet-2-10642494203-o.jpg)](img/2013/11/03/13-00/ubuntu-applet-2-10642494203-o.jpg)
 
 Установка доступна из ЦП.
 

@@ -23,8 +23,8 @@ Lens Toggle – утилита чьё назначение решить эту �
 
 ```
 sudo add-apt-repository ppa:aking1012-com/lenstoggle
- sudo apt-get update
- sudo apt-get install python-lenstoggler
+sudo apt-get update
+sudo apt-get install python-lenstoggler
 ```
 
 Программу можно будет найти поиском «LensToggle» через Dash.

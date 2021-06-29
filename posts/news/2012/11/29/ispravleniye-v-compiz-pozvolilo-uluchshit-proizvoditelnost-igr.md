@@ -19,6 +19,6 @@ visits: 4268
 
 ```
 sudo add-apt-repository ppa:unity-team/sru
- sudo apt-get update
- sudo apt-get install сompiz
+sudo apt-get update
+sudo apt-get install сompiz
 ```

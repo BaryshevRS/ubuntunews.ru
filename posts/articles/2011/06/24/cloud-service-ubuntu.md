@@ -30,7 +30,10 @@ SparkleShare создает папку в домашней директории,
 Для установки в Ubuntu 11.10, 11.04 и 10.10 потребуется выполнить следующие команды.
 
 ```
-mkdir -p ~/.ssh sudo add-apt-repository ppa:warp10/sparkleshare sudo apt-get update sudo apt-get install sparkleshare libwebkit1.1-cil git-core 
+mkdir -p ~/.ssh 
+sudo add-apt-repository ppa:warp10/sparkleshare 
+sudo apt-get update 
+sudo apt-get install sparkleshare libwebkit1.1-cil git-core 
 ```
 
 «mkdir -p ~/.ssh» необходимо для того, что бы избежать «падения» при установки SparkleShare, из-за отсутствия директории «~/.ssh».

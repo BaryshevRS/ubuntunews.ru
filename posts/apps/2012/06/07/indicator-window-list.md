@@ -19,8 +19,8 @@ Window List – небольшой апплет-индикатор для выв
 
 ```
 sudo add-apt-repository ppa:jwigley/window-list
- sudo apt-get update
- sudo apt-get install window-list
+sudo apt-get update
+sudo apt-get install window-list
 ```
 
 После установки программу можно будет найти поиском в Dash.

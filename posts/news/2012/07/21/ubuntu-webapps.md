@@ -131,7 +131,8 @@ sudo apt-get install unity-webapps-preview
 Выполните в терминале следующие команды и перезайдите в сессию.
 
 ```
-sudo apt-get install ppa-purgesudo ppa-purge ppa:webapps/preview
+sudo apt-get install ppa-purge
+sudo ppa-purge ppa:webapps/preview
 ```
 
 ```

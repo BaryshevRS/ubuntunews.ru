@@ -36,7 +36,9 @@ sudo apt-get install indicator-weather
 ![](img/2011/05/10/23-00/indicator-sysmonitor-5707880459-o.jpg)
 
 ```
-sudo add-apt-repository ppa:alexeftimie/ppasudo apt-get updatesudo apt-get install indicator-sysmonitor
+sudo add-apt-repository ppa:alexeftimie/ppa
+sudo apt-get update
+sudo apt-get install indicator-sysmonitor
 ```
 
 ### System Load Indicator
@@ -100,7 +102,9 @@ sudo add-apt-repository ppa:tsbarnes/indicator-keylocksudo apt-get updatesudo ap
 ![](img/2011/05/10/23-00/caffeine-5709385484-o.jpg)
 
 ```
-sudo add-apt-repository ppa:caffeine-developers/ppasudo apt-get updatesudo apt-get install caffeine
+sudo add-apt-repository ppa:caffeine-developers/ppa
+sudo apt-get update
+sudo apt-get install caffeine
 ```
 
 ### Pastie

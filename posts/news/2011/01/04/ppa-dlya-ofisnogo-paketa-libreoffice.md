@@ -18,7 +18,6 @@ visits: 2307
 Установка:
 
 ```
-
 sudo add-apt-repository ppa:libreoffice/ppa
 sudo apt-get update && sudo apt-get install libreoffice 
 ```
@@ -26,13 +25,11 @@ sudo apt-get update && sudo apt-get install libreoffice
 Стилизация под Gnome:
 
 ```
-
 sudo apt-get install libreoffice-gnome
 ```
 
 И для пользователей KDE:
 
 ```
-
 sudo apt-get install libreoffice-kde
 ```

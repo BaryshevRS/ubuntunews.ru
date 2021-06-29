@@ -79,9 +79,9 @@ GNOME 3.4 доступен в Ubuntu 11.10 и 12.04 из тестового PPA,
 ```
 sudo add-apt-repository ppa:ricotz/testing
 sudo add-apt-repository ppa:gnome3-team/gnome3
- sudo apt-get update
- sudo apt-get dist-upgrade
- sudo apt-get install gnome-shell
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get install gnome-shell
 ```
 
 **Обновлено:** Для 12.04 - GNOME 3.4 теперь доступен из репозитория.

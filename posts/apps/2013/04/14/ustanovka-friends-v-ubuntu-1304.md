@@ -44,7 +44,11 @@ Gwibber был полностью удалён из Raring, но не был в�
 Команды добавления PPA и установки Friends из терминала:
 
 ```
-sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-propersudo add-apt-repository ppa:ubuntu-sdk-team/ppasudo add-apt-repository ppa:super-friends/ppasudo apt-get updatesudo apt-get install friends-app unity-lens-friends
+sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-proper
+sudo add-apt-repository ppa:ubuntu-sdk-team/ppa
+sudo add-apt-repository ppa:super-friends/ppa
+sudo apt-get update
+sudo apt-get install friends-app unity-lens-friends
 ```
 
 После чего потребуется перезагрузиться.
@@ -54,5 +58,7 @@ sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-propersudo add-apt-reposito
 ### Откат изменений для 12.10
 
 ```
-sudo apt-get install ppa-purgesudo ppa-purge ppa:super-friends/ppasudo apt-get install gwibber unity-lens-gwibber
+sudo apt-get install ppa-purge
+sudo ppa-purge ppa:super-friends/ppa
+sudo apt-get install gwibber unity-lens-gwibber
 ```

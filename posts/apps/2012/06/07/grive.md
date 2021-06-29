@@ -21,8 +21,8 @@ Grive как раз такая утилита, обладающая почти �
 
 ```
 sudo add-apt-repository ppa:nilarimogard/webupd8
- sudo apt-get update
- sudo apt-get install grive
+sudo apt-get update
+sudo apt-get install grive
 ```
 
 ### Как использовать

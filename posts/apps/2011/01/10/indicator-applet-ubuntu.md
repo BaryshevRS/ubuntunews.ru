@@ -32,7 +32,9 @@ sudo add-apt-repository ppa:michael-astrapi/ppa sudo apt-get update sudo apt-get
   
 
 ```
-sudo add-apt-repository ppa:michael-astrapi/ppasudo apt-get updatesudo apt-get install indicator-virtualbox
+sudo add-apt-repository ppa:michael-astrapi/ppa
+sudo apt-get update
+sudo apt-get install indicator-virtualbox
 ```
 
 ### 3\. Indicator-Dropbox
@@ -49,7 +51,8 @@ sudo add-apt-repository ppa:michael-astrapi/ppasudo apt-get updatesudo apt-get i
 ![Indicator-cpufreq](img/2011/01/10/02-00/cpu.jpg)
 
 ```
-sudo add-apt-repository ppa:artfwo/ppasudo apt-get updatesudo apt-get install indicator-cpufreq
+sudo add-apt-repository ppa:artfwo/ppa
+sudo apt-get updatesudo apt-get install indicator-cpufreq
 ```
 
 ### 5\. Pastie
@@ -104,7 +107,9 @@ Lookit удобный апплет для быстрого создания ск
   
 
 ```
-sudo add-apt-repository ppa:lookit/ppasudo apt-get updatesudo apt-get install lookit
+sudo add-apt-repository ppa:lookit/ppa
+sudo apt-get update
+sudo apt-get install lookit
 ```
 
 После инсталляции Alt + F2 для запуска.

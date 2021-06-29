@@ -20,7 +20,9 @@ visits: 69780
 Для установки последней версии, можно воспользоваться командой в терминале:
 
 ```
-sudo add-apt-repository ppa:deluge-team/ppasudo apt-get update sudo apt-get install deluge
+sudo add-apt-repository ppa:deluge-team/ppa
+sudo apt-get update 
+sudo apt-get install deluge
 ```
 
 ### BitTorrent клиент Transmission
@@ -32,7 +34,9 @@ sudo add-apt-repository ppa:deluge-team/ppasudo apt-get update sudo apt-get inst
 Доступен по умолчанию, для обновления можно воспользоваться командой в терминале:
 
 ```
-sudo add-apt-repository ppa:transmissionbt/ppasudo apt-get updatesudo apt-get upgrade
+sudo add-apt-repository ppa:transmissionbt/ppa
+sudo apt-get update
+sudo apt-get upgrade
 ```
 
 ### BitTorrent клиент qBittorrent
@@ -44,7 +48,9 @@ sudo add-apt-repository ppa:transmissionbt/ppasudo apt-get updatesudo apt-get up
 Клиент доступен из репозитория, для установки можно использовать следующую команду.
 
 ```
-sudo add-apt-repository ppa:hydr0g3n/qbittorrent-unstablesudo apt-get updatesudo apt-get install qbittorrent
+sudo add-apt-repository ppa:hydr0g3n/qbittorrent-unstable
+sudo apt-get update
+sudo apt-get install qbittorrent
 ```
 
 ### BitTorrent клиент KTorrent
@@ -56,7 +62,9 @@ KTorrent не предназначен для работы под Ubuntu исп�
 Команда для инсталляции (требует достаточно много зависимостей).
 
 ```
-sudo add-apt-repository ppa:kubuntu-ppa/backportssudo apt-get updatesudo apt-get install ktorrent
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt-get update
+sudo apt-get install ktorrent
 ```
 
 ### BitTorrent клиент Vuze

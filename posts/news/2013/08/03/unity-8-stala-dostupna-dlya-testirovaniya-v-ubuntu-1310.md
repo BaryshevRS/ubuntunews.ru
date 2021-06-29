@@ -32,7 +32,8 @@ visits: 14472
 Установить можно из центра приложений или командами ниже:
 
 ```
-sudo apt-get updatesudo apt-get install unity8 unity8-fake-env unity8-private
+sudo apt-get update
+sudo apt-get install unity8 unity8-fake-env unity8-private
 ```
 
 Запустить можно командой в терминале:

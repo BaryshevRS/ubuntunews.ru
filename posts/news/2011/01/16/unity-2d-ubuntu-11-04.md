@@ -20,7 +20,6 @@ Unity 2D реализован без использования Open GL, что 
 Произвести установку можно из следующего [PPA](https://launchpad.net/~unity-2d-team/+archive/unity-2d-daily):
 
 ```
-
 sudo add-apt-repository ppa:unity-2d-team/unity-2d-daily 
 sudo apt-get update
 sudo apt-get install unity-qt-default-settings

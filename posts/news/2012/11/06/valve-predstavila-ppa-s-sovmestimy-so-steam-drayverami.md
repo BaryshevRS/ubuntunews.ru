@@ -21,6 +21,6 @@ visits: 7981
 
 ```
 sudo add-apt-repository ppa:ubuntu-x-swat/x-updates
- sudo apt-get update
- sudo apt-get dist-upgrade
+sudo apt-get update
+sudo apt-get dist-upgrade
 ```
