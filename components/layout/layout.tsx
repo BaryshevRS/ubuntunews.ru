@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Header } from "./header";
 import { Sidebar } from "./sidebar";
 import { MobileNav } from "./mobile-nav/mobile-nav";
+import { useState } from "react";
 
 interface IProp {
     children: React.ReactNode;
@@ -9,6 +10,7 @@ interface IProp {
 }
 
 export const Layout: React.FC<IProp> = ({children, title}) => {
+    const [showMobileNav, setShowMobileNav] = useState(false);
     return (
         <div className='wrapper'>
             <Head>
@@ -34,14 +36,14 @@ export const Layout: React.FC<IProp> = ({children, title}) => {
                 <meta name='yandex-verification' content='7f39a8aa154db7c2'/>
             </Head>
 
-            <Header/>
+            <Header onToggleMenu={setShowMobileNav}/>
             <main className={'main'}>
                 {children}
             </main>
 
             <Sidebar/>
 
-            <MobileNav />
+          {showMobileNav && <MobileNav onToggle={setShowMobileNav} />}
         </div>
 
     )

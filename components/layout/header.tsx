@@ -8,9 +8,10 @@ import PostLink from "../post/post-link";
 
 interface IProp {
   children?: React.ReactNode;
+  onToggleMenu: (toggle: boolean) => void;
 }
 
-export const Header: React.FC<IProp> = () => {
+export const Header: React.FC<IProp> = ({onToggleMenu}) => {
   return (
     <header className={'header'}>
       <div className="logo">
@@ -18,8 +19,8 @@ export const Header: React.FC<IProp> = () => {
       </div>
       <nav className={'nav'}>
         <ul className={'nav__menu desktop'}>
-          <li><PostLink href="news">Новости</PostLink></li>
-          <li><PostLink href="apps">Программы</PostLink></li>
+          <li><PostLink href="/news">Новости</PostLink></li>
+          <li><PostLink href="/apps">Программы</PostLink></li>
           <li><PostLink href="/articles">Статьи</PostLink></li>
           <li><PostLink href="/ubuntu">Об Ubuntu</PostLink></li>
         </ul>
@@ -27,7 +28,7 @@ export const Header: React.FC<IProp> = () => {
           <DownloadIcon/>
           <PostLink href="/ubuntu/download">Скачать Ubuntu</PostLink>
         </div>
-        <div className={'nav__toggle mobile'}><MenuIcon/></div>
+        <div className={'nav__toggle mobile'} onClick={() => onToggleMenu(true)}><MenuIcon/></div>
       </nav>
     </header>
   )
