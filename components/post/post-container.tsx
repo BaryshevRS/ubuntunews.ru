@@ -1,6 +1,5 @@
 import PostLink from "./post-link";
 import PostImg from "./post-img";
-import { Layout } from "../layout/layout";
 import TimeIcon from "../../public/assets/icons/time.svg";
 import Time from "../time";
 import ReactMarkdown from "react-markdown";
@@ -39,8 +38,7 @@ export default function PostContainer({title, date, content, source, picture}: I
     }
   }), [picture]);
 
-  return <Layout title={title}>
-    <article className={'post'}>
+  return <article className={'post'}>
       <header>
         <h1>{title}</h1>
 
@@ -60,5 +58,4 @@ export default function PostContainer({title, date, content, source, picture}: I
     </article>
 
 {/*    <PostNav/>*/}
-  </Layout>
 }

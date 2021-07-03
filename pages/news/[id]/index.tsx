@@ -1,9 +1,14 @@
 import React from 'react';
 import PostContainer from "../../../components/post/post-container";
-import { getAllPostIdsBySection, getPostData, IPostData } from "../../../lib/posts";
+import { getAllPostIdsBySection, getLayoutProps, getPostData, ILayoutProps, IPostData } from "../../../lib/posts";
+import { Layout } from "../../../components/layout/layout";
 
-export default function NewsPost(props: IPostData) {
-  return <PostContainer {...props} />
+export default function NewsPost({topPosts, title, ...postData}: IPostData & ILayoutProps) {
+  return (
+    <Layout title={title} topPosts={topPosts}>
+      <PostContainer title={title} {...postData} />
+    </Layout>
+  )
 }
 
 export async function getStaticPaths() {
@@ -16,8 +21,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params}: any) {
   // Get external data from the file system, API, DB, etc.
-  const postData = await getPostData(params.id);
+  const props = await getPostData(params.id);
+  const layoutProps = await getLayoutProps();
   return {
-    props: postData
+    props: {...props, ...layoutProps}
   }
 }
+
