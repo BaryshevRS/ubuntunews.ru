@@ -10,7 +10,9 @@ module.exports = {
     };
     const projectPage = {
       '/project': { page: '/project'},
-      '/project/partners': { page: '/project/partners'}
+      '/project/partners': { page: '/project/partners'},
+      '/project/form': { page: '/project/form'},
+      '/project/message-received': { page: '/project/message-received'}
     };
     const error404Page = {
       '/404': { page: '/404'}

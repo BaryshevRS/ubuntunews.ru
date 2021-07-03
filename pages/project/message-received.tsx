@@ -5,7 +5,7 @@ export default function UbuntuPage({topPosts}: ILayoutProps) {
   return (
     <Layout topPosts={topPosts} title={'Форма связи'}>
       <h1 className={'title'}>Форма связи</h1>
-       <iframe height={'740px'} width={'100%'} src="https://form.123formbuilder.com/my-contact-form-5946302.html"/>
+      <p>Спасибо. Ваше сообщение принято!</p>
     </Layout>
   )
 }
