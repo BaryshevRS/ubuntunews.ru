@@ -19,7 +19,7 @@ export default function PostLink({children, href, node, className}: IProps) {
     extendLink = true;
   }
 
-  const fixedLocalLink = useCallback((link: string) => link.startsWith('/') ? link : `/${link}`, [href]);
+  const fixedLocalLink = useCallback((link: string) => link.startsWith('/') ? link : `/${link}`, []);
 
   return !extendLink ? (
     <Link href={`${(fixedLocalLink(href))}`}>

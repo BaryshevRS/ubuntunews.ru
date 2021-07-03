@@ -1,9 +1,18 @@
-import { getPaginationIdsBySections, getSortedPostsData, IPostsData } from "../../../../lib/posts";
+import {
+  getLayoutProps,
+  getPaginationIdsBySections,
+  getSortedPostsData,
+  ILayoutProps,
+  IPostsData
+} from "../../../../lib/posts";
 import PostsContainer from "../../../../components/posts/posts-container";
+import { Layout } from "../../../../components/layout/layout";
 
-export default function AppsPagination(postData: IPostsData) {
+export default function AppsPagination({topPosts, ...postData}: IPostsData & ILayoutProps) {
   return (
-    <PostsContainer title={`Программы Ubuntu`} path={'/apps/'} postTitle={'Программы Ubuntu'} postData={postData} />
+    <Layout title={'Программы Ubuntu'} topPosts={topPosts}>
+      <PostsContainer title={`Программы Ubuntu`} path={'/apps/'} posts={postData} />
+    </Layout>
   )
 }
 
@@ -17,7 +26,8 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params}: any) {
   const props = await getSortedPostsData(['apps'], params?.page);
+  const layoutProps = await getLayoutProps();
   return {
-    props
+    props: {...props, ...layoutProps}
   }
 }

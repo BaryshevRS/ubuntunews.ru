@@ -11,6 +11,12 @@ const glob = promisify(globMethod);
 
 const sharp = require('sharp');
 
+export interface ILayoutProps {
+  title: string;
+  children: React.ReactNode;
+  topPosts?: IPostData[];
+}
+
 export interface IPostsData {
   totalCount: number;
   posts: IPostData[];
@@ -73,7 +79,10 @@ async function getPreviewContent(content: string) {
   });
 }
 
-export async function getSortedPostsData(sections: string[] = [], currentPage: number = 0): Promise<IPostsData | undefined> {
+export async function getSortedPostsData(
+  sections: string[] = [],
+  currentPage: number = 0
+): Promise<IPostsData | undefined> {
   let postsData: any[] = [];
 
   try {
@@ -121,8 +130,8 @@ export async function getSortedPostsData(sections: string[] = [], currentPage: n
       let src = '';
       const imgList = getImgListFromContent(content);
       if (imgList[0]) {
-         src = imgList[0];
-         picture = await createPictureFormats(imgList, maxWidth, sizes, sourceSizes);
+        src = imgList[0];
+        picture = await createPictureFormats([src], maxWidth, sizes, sourceSizes);
         console.error('picture', picture)
       }
 
@@ -137,6 +146,64 @@ export async function getSortedPostsData(sections: string[] = [], currentPage: n
       pageCount,
       currentPage
     };
+  } catch (e) {
+    console.error(e)
+  }
+}
+
+export async function getTopPostsData(
+  post: string[] = []
+): Promise<IPostData[] | undefined> {
+  let postsData: any[] = [];
+
+  try {
+    const postsPaths = await glob(`${postsDirectory}/*/*/*/*/+(${post.join('|')})\.md`, {});
+
+    const allPostsData = postsPaths.map(async (postPath: string) => {
+      // console.log(paths);
+      const id = path.parse(postPath).name;
+      const fileContents = fs.readFileSync(postPath, 'utf8');
+
+      // Use gray-matter to parse the post metadata section
+      const matterResult: any = matter(fileContents);
+      const {data, content} = matterResult;
+      var timestamp = getUnixTime(parseISO(data.date));
+      const section = postPath.split(`${postsDirectory}/`)[1].split('/')[0];
+      const uri = `/${section}/${id}`;
+
+      // Combine the data with the id and contentHtml
+      return {
+        id,
+        content,
+        timestamp,
+        uri,
+        date: data.date,
+        title: data.title
+      }
+    });
+
+    postsData = await Promise.all(allPostsData);
+    postsData = postsData.sort((a: any, b: any) => (a.timestamp > b.timestamp ? -1 : 1))
+
+    const pagePosts = postsData.map( async (post) => {
+      const {content} = post;
+
+      const sizes = [80];
+      const maxWidth = 80;
+      const sourceSizes = '80px';
+
+      let picture = null;
+      let src = '';
+      const imgList = getImgListFromContent(content);
+      if (imgList[0]) {
+         src = imgList[0];
+         picture = await createPictureFormats([src], maxWidth, sizes, sourceSizes);
+      }
+
+      return {...post, picture, src };
+    });
+
+    return await Promise.all(pagePosts);
   } catch (e) {
     console.error(e)
   }
@@ -313,5 +380,20 @@ export async function getPostData(id: string) {
     content,
     picture,
     ...matterResult.data
+  }
+}
+
+export async function getLayoutProps() {
+  const topPosts = await getTopPostsData(
+    [
+      'dajdzhest-novostej-ubuntu-8',
+      'tweak-after-installing-ubuntu-11-10',
+      '20-alternativ-rabochemu-stolu-unity',
+      'top-5-bit-torrent-clients-ubuntu',
+      'best-native-games-ubuntu'
+    ]
+  );
+  return {
+    topPosts
   }
 }

@@ -19,7 +19,7 @@ import { Components } from "react-markdown/src/ast-to-react";
 export default function PostContainer({title, date, content, source, picture}: IPostData) {
   const components: Components = useMemo<Components>(() => ({
     a({children, href, node}: any) {
-      return <PostLink children={children} href={href} node={node}/>
+      return <PostLink href={href} node={node}>{children}</PostLink>
     },
     img({node, title, ...props}: any) {
       return <PostImg picture={picture} title={title} {...props}/>;
@@ -53,8 +53,7 @@ export default function PostContainer({title, date, content, source, picture}: I
         <SRLWrapper>
           <ReactMarkdown remarkPlugins={[remarkUnwrapImages]}
                          rehypePlugins={[rehypeRaw]}
-                         children={content}
-                         components={components}/>
+                         components={components}>{content}</ReactMarkdown>
         </SRLWrapper>
       </SimpleReactLightbox>
       {source && <Source url={source}/>}

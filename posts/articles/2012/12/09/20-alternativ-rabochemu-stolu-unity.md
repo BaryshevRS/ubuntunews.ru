@@ -298,8 +298,6 @@ sudo apt-get install wmii
 
 К сожалению, она не представлена отдельным пакетом, поэтому её можно установить только вместе с самим дистрибутивом.
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/2uh2JxGyJXU" frameborder="0" allowfullscreen=""></iframe>
-
 Скачать последнюю разрабатываемую версию Elementary OS Luna (первая бета) можно [тут](http://elementaryos.org/journal/luna-beta-1-released).
 
 Тем не менее, возможность инсталляции в Ubuntu всё же имеется, но только из тестового PPA, в котором могут и хранятся крайне не стабильные версии пакетов.

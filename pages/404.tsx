@@ -1,9 +1,17 @@
 import { Layout } from "../components/layout/layout";
+import { getLayoutProps, ILayoutProps } from "../lib/posts";
 
-export default function Custom404() {
+export default function Custom404({topPosts}: ILayoutProps) {
   return (
-    <Layout title={'404'}>
-      <h1 className={'title'}>404</h1>
+    <Layout topPosts={topPosts} title={'Страница не найдена'}>
+      <h1 className={'title'}>Страница не найдена</h1>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const layoutProps = await getLayoutProps();
+  return {
+    props: {...layoutProps}
+  }
 }

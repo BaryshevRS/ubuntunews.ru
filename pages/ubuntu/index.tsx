@@ -1,10 +1,11 @@
 import { Layout } from "../../components/layout/layout";
 import PostLink from "../../components/post/post-link";
 import React from "react";
+import { getLayoutProps, ILayoutProps } from "../../lib/posts";
 
-export default function UbuntuPage() {
+export default function UbuntuPage({topPosts}: ILayoutProps) {
   return (
-    <Layout title={'Об Ubuntu'}>
+    <Layout topPosts={topPosts} title={'Об Ubuntu'}>
       <article className={'post'}>
         <header>
           <h1>Об Ubuntu</h1>
@@ -40,4 +41,11 @@ export default function UbuntuPage() {
       </article>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const layoutProps = await getLayoutProps();
+  return {
+    props: {...layoutProps}
+  }
 }

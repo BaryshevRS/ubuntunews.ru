@@ -1,10 +1,12 @@
 import { Layout } from "../../components/layout/layout";
+import { getLayoutProps, ILayoutProps } from "../../lib/posts";
 
-export default function PartnersPage() {
+export default function PartnersPage({topPosts}: ILayoutProps) {
   const projectCode = `<a title="Новости о Ubuntu Linux" href="https://ubuntunews.ru/" >
 <img src="https://ubuntunews.ru/ubuntu.gif"  alt="Новости о Ubuntu Linux"  width="88" height="31" /></a>`;
+
   return (
-    <Layout title={'Сотрудничество'}>
+    <Layout topPosts={topPosts} title={'Сотрудничество'}>
       <h1 className={'title'}>Сотрудничество</h1>
 
       <p>Ниже представлены дружественные ресурсы.</p>
@@ -80,8 +82,14 @@ export default function PartnersPage() {
         aria-describedby=""
         autoCapitalize="none"
         autoComplete="off"/>
-
-
     </Layout>
   )
 }
+
+export async function getStaticProps() {
+  const layoutProps = await getLayoutProps();
+  return {
+    props: {...layoutProps}
+  }
+}
+

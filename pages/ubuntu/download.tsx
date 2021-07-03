@@ -1,9 +1,10 @@
 import { Layout } from "../../components/layout/layout";
 import React from "react";
+import { getLayoutProps, ILayoutProps } from "../../lib/posts";
 
-export default function DownloadPage() {
+export default function DownloadPage({topPosts}: ILayoutProps) {
   return (
-    <Layout title={'Скачать Ubuntu Linux'}>
+    <Layout topPosts={topPosts} title={'Скачать Ubuntu Linux'}>
 
       <article className={'post'}>
         <header>
@@ -181,4 +182,11 @@ export default function DownloadPage() {
       </article>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const layoutProps = await getLayoutProps();
+  return {
+    props: {...layoutProps}
+  }
 }

@@ -3,25 +3,23 @@ import { useRouter } from "next/router";
 import PostsItem from "./posts-item";
 import ReactPaginate from "react-paginate";
 import { useCallback } from "react";
-import { Layout } from "../layout/layout";
 
 export interface IProps {
   title: string;
-  postTitle: string;
-  postData: IPostsData;
+  posts: IPostsData;
   path: string;
 }
 
-export default function PostsContainer({postTitle, title, path, postData: {posts, currentPage, pageCount}}: IProps) {
+export default function PostsContainer({title, path, posts: {posts, currentPage, pageCount}}: IProps) {
   const router = useRouter();
 
   const paginationHandler = useCallback(({selected}: { selected: number }) => {
     router.push(`${path}page/${selected}`);
-  }, [router]);
+  }, [router, path]);
 
   return (
-    <Layout title={title}>
-      <h1 className={'title'}>{postTitle}</h1>
+    <>
+      <h1 className={'title'}>{title}</h1>
 
       {posts.map((post: IPostData) => (
           <PostsItem key={post.id} {...post} />
@@ -42,6 +40,6 @@ export default function PostsContainer({postTitle, title, path, postData: {posts
         containerClassName={'pagination'}
         activeClassName={'active'}
       />
-    </Layout>
+    </>
   )
 }
