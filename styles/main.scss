@@ -59,6 +59,10 @@
     }
   }
 
+  .active {
+    border-bottom: 2px solid currentColor;
+  }
+
   &__toggle {
     cursor: pointer;
 

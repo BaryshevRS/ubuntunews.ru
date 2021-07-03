@@ -19,10 +19,10 @@ export const Header: React.FC<IProp> = ({onToggleMenu}) => {
       </div>
       <nav className={'nav'}>
         <ul className={'nav__menu desktop'}>
-          <li><PostLink href="/news">Новости</PostLink></li>
-          <li><PostLink href="/apps">Программы</PostLink></li>
-          <li><PostLink href="/articles">Статьи</PostLink></li>
-          <li><PostLink href="/ubuntu">Об Ubuntu</PostLink></li>
+          <li><PostLink activeMatch href="/news">Новости</PostLink></li>
+          <li><PostLink activeMatch href="/apps">Программы</PostLink></li>
+          <li><PostLink activeMatch href="/articles">Статьи</PostLink></li>
+          <li><PostLink activeMatch href="/ubuntu">Об Ubuntu</PostLink></li>
         </ul>
         <div className={'nav__download desktop'}>
           <DownloadIcon/>

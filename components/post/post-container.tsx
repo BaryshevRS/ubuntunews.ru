@@ -7,7 +7,7 @@ import ReactMarkdown from "react-markdown";
 import remarkUnwrapImages from "remark-unwrap-images";
 import rehypeRaw from "rehype-raw";
 import Source from "../source";
-import { PostNav } from "../post-nav";
+// import { PostNav } from "../post-nav";
 import React, { useMemo } from "react";
 // @ts-ignore
 import SimpleReactLightbox from "simple-react-lightbox"
@@ -59,6 +59,6 @@ export default function PostContainer({title, date, content, source, picture}: I
       {source && <Source url={source}/>}
     </article>
 
-    <PostNav/>
+{/*    <PostNav/>*/}
   </Layout>
 }

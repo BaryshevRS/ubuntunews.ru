@@ -1,39 +1,82 @@
 import Link from 'next/link';
-import { useCallback } from "react";
+import { useMemo } from "react";
 import { Element } from "react-markdown/src/ast-to-react";
+import { useRouter } from "next/router";
 
 export interface IProps {
   children: React.ReactChild
   href: string;
   node?: Element;
   className?: string;
+  activeClassName?: string;
+  activeMatch?: boolean;
+  onClick?: () => void
 }
 
-export default function PostLink({children, href, node, className}: IProps) {
-  let extendLink = !!href.match(/http|\\\\/g);
+export default function PostLink(
+  {
+    children,
+    href,
+    node,
+    className,
+    activeMatch,
+    activeClassName,
+    onClick
+  }: IProps) {
+  const router = useRouter();
 
-  // Added support for apt links
-  const nodeHref = node?.properties?.href?.toString();
-  if (nodeHref && nodeHref.match(/^apt/g)) {
-    href = nodeHref;
-    extendLink = true;
-  }
+  const [externalLink, url] = useMemo(() => {
+    let url = href;
+    const host = process.env.BASE_URL || '';
 
-  const fixedLocalLink = useCallback((link: string) => link.startsWith('/') ? link : `/${link}`, []);
+    // External link check
+    let externalLink = !!url.match(/http|\\\\/g);
+    if (host && url.match(host)) {
+      externalLink = false;
+    }
 
-  return !extendLink ? (
-    <Link href={`${(fixedLocalLink(href))}`}>
-      <a className={className} >
-        {children}
-      </a>
+    // Added support for apt links
+    const nodeHref = node?.properties?.href?.toString();
+    if (nodeHref && nodeHref.match(/^apt/g)) {
+      url = nodeHref;
+      externalLink = true;
+    }
+
+    // Added slash for local links
+    if (!url.startsWith('/') && !externalLink && !url.match(host)) {
+      url = `/${url}`;
+    }
+
+    return [externalLink, url];
+  }, [href, node]);
+
+  const classNames = useMemo(() => {
+    const classNames = [];
+    if (className) {
+      classNames.push(className)
+    }
+
+    if (activeMatch) {
+      const match = RegExp(`^${url}`);
+      if (router.asPath.match(match)) {
+        classNames.push(activeClassName || 'active')
+      }
+    }
+
+    return classNames;
+  }, [activeMatch, activeClassName, className]);
+
+  return !externalLink ? (
+    <Link href={url}>
+      <a onClick={onClick} className={classNames.join(' ')}>{children}</a>
     </Link>
   ) : (
     <a
-      href={href}
       target="_blank"
       rel="noopener noreferrer"
-    >
-      {children}
-    </a>
+      href={url}
+      className={classNames.join(' ')}
+      onClick={onClick}
+    >{children}</a>
   );
 }

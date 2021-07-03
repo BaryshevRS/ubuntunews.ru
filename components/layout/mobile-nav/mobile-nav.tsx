@@ -9,19 +9,39 @@ interface IProp {
 }
 
 export const MobileNav: React.FC<IProp> = ({onToggle}) => {
-    return (
-        <div className={classes['mobile-nav']}>
-            <ul className={classes['mobile-nav__menu']}>
-                <li><PostLink href={'/news'}>Новости</PostLink></li>
-                <li><PostLink href={'/apps'}>Программы</PostLink></li>
-                <li><PostLink href={'/articles'}>Статьи</PostLink></li>
-                <li><PostLink href={'/ubuntu'}>Об Ubuntu</PostLink></li>
-            </ul>
-            <div className={classes['mobile-nav__download']}>
-                <DownloadIcon/>
-                <PostLink href={'/ubuntu/download'}>Скачать Ubuntu</PostLink>
-            </div>
-            <div className={classes['mobile-nav__close']} onClick={() => onToggle(false)}><CloseIcon/></div>
-        </div>
-    )
+  return (
+    <div className={classes['mobile-nav']}>
+      <ul className={classes['mobile-nav__menu']}>
+        <li>
+          <PostLink onClick={() => onToggle(false)}
+                    activeClassName={classes['mobile-nav__active']}
+                    activeMatch
+                    href={'/news'}>Новости</PostLink>
+        </li>
+        <li>
+          <PostLink onClick={() => onToggle(false)}
+                    activeClassName={classes['mobile-nav__active']}
+                    activeMatch
+                    href={'/apps'}>Программы</PostLink>
+        </li>
+        <li>
+          <PostLink onClick={() => onToggle(false)}
+                    activeClassName={classes['mobile-nav__active']}
+                    activeMatch
+                    href={'/articles'}>Статьи</PostLink>
+        </li>
+        <li>
+          <PostLink onClick={() => onToggle(false)}
+                    activeClassName={classes['mobile-nav__active']}
+                    activeMatch
+                    href={'/ubuntu'}>Об Ubuntu</PostLink>
+        </li>
+      </ul>
+      <div className={classes['mobile-nav__download']}>
+        <DownloadIcon/>
+        <PostLink href={'/ubuntu/download'}>Скачать Ubuntu</PostLink>
+      </div>
+      <div className={classes['mobile-nav__close']} onClick={() => onToggle(false)}><CloseIcon/></div>
+    </div>
+  )
 };
