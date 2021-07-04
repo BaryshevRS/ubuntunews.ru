@@ -2,6 +2,7 @@
 
 /public/static/img
 /public/sitemap.xml
+/public/feed.xml
 
 # dependencies
 /node_modules

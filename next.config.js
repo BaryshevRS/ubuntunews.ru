@@ -2,6 +2,7 @@ module.exports = {
   webpack: (config, { isServer }) => {
     if (isServer) {
       require('./lib/generation/sitemap');
+      require('./lib/generation/feed');
     }
 
     return config;

@@ -1,7 +1,7 @@
 import fs from 'fs-extra'
 import path from 'path'
 import matter from 'gray-matter'
-import { getUnixTime, parseISO} from 'date-fns'
+import { getUnixTime, parseISO } from 'date-fns'
 import remark from "remark";
 import strip from "strip-markdown";
 
@@ -96,7 +96,7 @@ export async function getSortedPostsData(
       // Use gray-matter to parse the post metadata section
       const matterResult: any = matter(fileContents);
       const {data, content} = matterResult;
-      var timestamp = getUnixTime(parseISO(data.date));
+      const timestamp = getUnixTime(parseISO(data.date));
       const section = postPath.split(`${postsDirectory}/`)[1].split('/')[0];
       const uri = `/${section}/${id}`;
 
