@@ -1,7 +1,13 @@
 module.exports = {
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      require('./lib/generation/sitemap');
+    }
+
+    return config;
+  },
   exportPathMap: async function (
-    defaultPathMap,
-    { dev, dir, outDir, distDir, buildId }
+    defaultPathMap, { dev, dir, outDir, distDir, buildId }
   ) {
     const main = {'/': { page: '/' }};
     const ubuntuPage = {

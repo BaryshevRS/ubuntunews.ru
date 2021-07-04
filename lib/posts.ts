@@ -132,7 +132,6 @@ export async function getSortedPostsData(
       if (imgList[0]) {
         src = imgList[0];
         picture = await createPictureFormats([src], maxWidth, sizes, sourceSizes);
-        console.error('picture', picture)
       }
 
       return {...post, content: previewContent, picture, src };
