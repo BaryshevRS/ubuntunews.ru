@@ -13,6 +13,8 @@ const sharp = require('sharp');
 
 export interface ILayoutProps {
   title: string;
+  description?: string;
+  canonical?: string;
   children: React.ReactNode;
   topPosts?: IPostData[];
 }

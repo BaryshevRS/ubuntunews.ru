@@ -5,16 +5,53 @@ import { MobileNav } from "./mobile-nav/mobile-nav";
 import { useState } from "react";
 import { ILayoutProps } from "../../lib/posts";
 
-export const Layout: React.FC<ILayoutProps> = ({children, title, topPosts}) => {
+export const Layout: React.FC<ILayoutProps> = (
+  {
+    children,
+    title,
+    topPosts,
+    canonical
+  }
+) => {
   const [showMobileNav, setShowMobileNav] = useState(false);
+
+  const baseUrl = process.env.BASE_URL;
+
   return (
     <div className='wrapper'>
       <Head>
         <meta charSet="UTF-8"/>
-        <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <base href={process.env.BASE_URL}/>
+        <title>{title}</title>
+        <meta name="keywords" content="ваши, теги"/>
+        <meta name="description" content="Описание страницы"/>
+        {canonical && <link rel="canonical" href={`${baseUrl}${canonical}`}/>}
+
+        <base href={baseUrl}/>
+
+        <link rel="alternate" href="http://feeds.feedburner.com/Ubuntunewsru" type="application/rss+xml" title="RSS"/>
+
+        <meta property="fb:app_id" content="123456789"/>
+        <meta property="og:url" content="https://example.com/page.html"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Заголовок содержимого"/>
+        <meta property="og:image" content="https://example.com/image.jpg"/>
+        <meta property="og:image:alt" content="Описание того, что находится на изображении (не подпись)"/>
+        <meta property="og:description" content="Описание"/>
+        <meta property="og:site_name" content="Название сайта"/>
+        <meta property="og:locale" content="ru_RU"/>
+        <meta property="article:author" content=""/>
+
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@site_account"/>
+        <meta name="twitter:creator" content="@individual_account"/>
+        <meta name="twitter:url" content="https://example.com/page.html"/>
+        <meta name="twitter:title" content="Заголовок контента"/>
+        <meta name="twitter:description" content="Описание контента менее 200 символов"/>
+        <meta name="twitter:image" content="https://example.com/image.jpg"/>
+        <meta name="twitter:image:alt"
+              content="Текстовое описание изображения,  с ослабленным зрением. Максимум 420 символов."/>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
