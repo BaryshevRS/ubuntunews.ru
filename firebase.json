@@ -773,12 +773,12 @@
       },
       {
         "source": "/apps/:post.html",
-        "destination": "/news/:post",
+        "destination": "/apps/:post",
         "type": 301
       },
       {
         "source": "/articles/:post.html",
-        "destination": "/news/:post",
+        "destination": "/articles/:post",
         "type": 301
       }
     ]
