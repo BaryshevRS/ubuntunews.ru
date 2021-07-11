@@ -1,5 +1,11 @@
 User-agent: *
-Disallow: /
+Disallow: /public/static/img
+Disallow: /public/sitemap.xml
+Disallow: /public/feed.xml
+Disallow: /page/
+Disallow: /news/page/
+Disallow: /apps/page/
+Disallow: /articles/page/
 
 Sitemap: https://ubuntunews.ru/sitemap.xml
 Host: ubuntunews.ru

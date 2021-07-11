@@ -4,6 +4,8 @@
 /public/sitemap.xml
 /public/feed.xml
 
+temp
+
 # dependencies
 /node_modules
 /.pnp
