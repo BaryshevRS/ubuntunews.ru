@@ -11,12 +11,18 @@ const glob = promisify(globMethod);
 
 const sharp = require('sharp');
 
+export type metaOgType = 'article' | 'website';
+
 export interface ILayoutProps {
   title: string;
   description?: string;
+  keywords?: string;
+  urlSocial?: string;
   canonical?: string;
+  image?: string;
   children: React.ReactNode;
   topPosts?: IPostData[];
+  type?: metaOgType;
 }
 
 export interface IPostsData {
@@ -35,6 +41,9 @@ export interface IPostData {
   uri: string;
   src: string;
   picture: PictureFormats;
+  description?:string;
+  tags?:string;
+  image?:string;
 }
 
 export interface IPictureFormat {
@@ -69,7 +78,7 @@ function getPageCount(totalCount: number, postsOnPage: number): number {
   return Math.ceil(totalCount / postsOnPage);
 }
 
-async function getPreviewContent(content: string) {
+async function getPreviewContent(content: string): Promise<string> {
   const firstParagraph = content.split(/\r\n|\n/g)[0];
   return await new Promise((resolve, reject) => {
     return remark()
@@ -374,12 +383,18 @@ export async function getPostData(id: string) {
   const picture = await setPostPictureFormats(imgList);
 
   const content = removeLinkWithImg(matterResult.content);
+  let description = await getPreviewContent(content);
+  if (description && description.length > 247) {
+    description = `${description.slice(0, 247)}&hellip;`
+  }
 
   // Combine the data with the id and contentHtml
   return {
     id,
     content,
+    description,
     picture,
+    image: imgList && imgList[0] || '',
     ...matterResult.data
   }
 }

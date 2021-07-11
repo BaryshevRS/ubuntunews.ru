@@ -11,6 +11,7 @@ export interface IProps {
   activeClassName?: string;
   activeMatch?: boolean;
   onClick?: () => void
+  title?: string;
 }
 
 export default function PostLink(
@@ -21,7 +22,8 @@ export default function PostLink(
     className,
     activeMatch,
     activeClassName,
-    onClick
+    onClick,
+    title
   }: IProps) {
   const router = useRouter();
 
@@ -68,10 +70,11 @@ export default function PostLink(
 
   return !externalLink ? (
     <Link href={url}>
-      <a onClick={onClick} className={classNames.join(' ')}>{children}</a>
+      <a title={title} onClick={onClick} className={classNames.join(' ')}>{children}</a>
     </Link>
   ) : (
     <a
+      title={title}
       target="_blank"
       rel="noopener noreferrer"
       href={url}

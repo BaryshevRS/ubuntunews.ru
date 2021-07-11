@@ -4,7 +4,11 @@ import { Layout } from "../components/layout/layout";
 
 export default function Home({topPosts, ...postData}: IPostsData & ILayoutProps){
   return (
-    <Layout title={'Новости Ubuntu Linux'} topPosts={topPosts}>
+    <Layout title={'Новости Ubuntu Linux'}
+            description={'Новости об Ubuntu Linux, программах и событиях из жизни сообщества.'}
+            topPosts={topPosts}
+            canonical={'/'}
+            urlSocial={'/'}>
       <PostsContainer path={'/'} title={'Новости Ubuntu'} posts={postData} />
     </Layout>
   )

@@ -11,8 +11,12 @@ import { Layout } from "../../../../components/layout/layout";
 
 export default function NewsPagination({topPosts, ...postData}: IPostsData & ILayoutProps) {
   return (
-    <Layout title={'Новости Убунту'} topPosts={topPosts}>
-      <PostsContainer title={`Новости Убунту`} path={'/news/'} posts={postData} />
+    <Layout title={`Новости об Убунту / ${+postData.currentPage + 1}`}
+            canonical={'/news'}
+            topPosts={topPosts}>
+      <PostsContainer title={`Новости об Убунту / ${+postData.currentPage + 1}`}
+                      path={'/news/'}
+                      posts={postData} />
     </Layout>
   )
 }

@@ -10,8 +10,11 @@ import { Layout } from "../../../../components/layout/layout";
 
 export default function AppsPagination({topPosts, ...postData}: IPostsData & ILayoutProps) {
   return (
-    <Layout title={'Программы Ubuntu'} topPosts={topPosts}>
-      <PostsContainer title={`Программы Ubuntu`} path={'/apps/'} posts={postData} />
+    <Layout title={`Программы Ubuntu / ${+postData.currentPage + 1}`}
+            canonical={'/apps'}
+            topPosts={topPosts}>
+      <PostsContainer title={`Программы Ubuntu / ${+postData.currentPage + 1}`}
+                      path={'/apps/'} posts={postData} />
     </Layout>
   )
 }

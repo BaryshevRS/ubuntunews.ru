@@ -9,8 +9,13 @@ export const Layout: React.FC<ILayoutProps> = (
   {
     children,
     title,
+    description,
+    keywords,
     topPosts,
-    canonical
+    urlSocial,
+    canonical,
+    image,
+    type = 'website'
   }
 ) => {
   const [showMobileNav, setShowMobileNav] = useState(false);
@@ -24,34 +29,33 @@ export const Layout: React.FC<ILayoutProps> = (
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <title>{title}</title>
-        <meta name="keywords" content="ваши, теги"/>
-        <meta name="description" content="Описание страницы"/>
-        {canonical && <link rel="canonical" href={`${baseUrl}${canonical}`}/>}
+        {keywords && <meta name="keywords" content={keywords}/>}
+        {description && <meta name="description" content={description}/>}
 
         <base href={baseUrl}/>
+        {canonical && <link rel="canonical" href={`${baseUrl}${canonical}`}/>}
 
         <link rel="alternate" href="http://feeds.feedburner.com/Ubuntunewsru" type="application/rss+xml" title="RSS"/>
 
-        <meta property="fb:app_id" content="123456789"/>
-        <meta property="og:url" content="https://example.com/page.html"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Заголовок содержимого"/>
-        <meta property="og:image" content="https://example.com/image.jpg"/>
-        <meta property="og:image:alt" content="Описание того, что находится на изображении (не подпись)"/>
-        <meta property="og:description" content="Описание"/>
-        <meta property="og:site_name" content="Название сайта"/>
-        <meta property="og:locale" content="ru_RU"/>
-        <meta property="article:author" content=""/>
+        {urlSocial && <>
+          <meta property="fb:app_id" content="127388540662110"/>
+          <meta property="og:url" content={`${baseUrl}${urlSocial}`}/>
+          <meta property="og:type" content={type}/>
+          <meta property="og:title" content={title}/>
+          {image && <meta property="og:image" content={`${baseUrl}/${image}`}/>}
+          {description && <meta property="og:description" content={description}/>}
+          <meta property="og:site_name" content="Новости Ubuntu Linux"/>
+          <meta property="og:locale" content="ru_RU"/>
 
-        <meta name="twitter:card" content="summary"/>
-        <meta name="twitter:site" content="@site_account"/>
-        <meta name="twitter:creator" content="@individual_account"/>
-        <meta name="twitter:url" content="https://example.com/page.html"/>
-        <meta name="twitter:title" content="Заголовок контента"/>
-        <meta name="twitter:description" content="Описание контента менее 200 символов"/>
-        <meta name="twitter:image" content="https://example.com/image.jpg"/>
-        <meta name="twitter:image:alt"
-              content="Текстовое описание изображения,  с ослабленным зрением. Максимум 420 символов."/>
+          <meta name="twitter:card" content="summary"/>
+          <meta name="twitter:site" content="@ubuntunewsru"/>
+          <meta name="twitter:creator" content="@ubuntunewsru"/>
+          <meta name="twitter:url" content={`${baseUrl}${urlSocial}`}/>
+          <meta name="twitter:title" content={title}/>
+          {description && <meta name="twitter:description" content={description}/>}
+          {image && <meta name="twitter:image" content={`${baseUrl}/${image}`}/>}
+        </>
+        }
 
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
@@ -62,8 +66,6 @@ export const Layout: React.FC<ILayoutProps> = (
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="msapplication-config" content="/favicon/browserconfig.xml"/>
         <meta name="theme-color" content="#ffffff"/>
-
-        {/*<link rel="logo" href="/template/img/svg/logo.svg" type="image/svg" />*/}
 
         <meta name="google-site-verification" content="LPQrJDo4SaQ8Guxp4iBR7l1djWL2_ibYQaW9h7Pox64"/>
         <meta name='yandex-verification' content='7f39a8aa154db7c2'/>

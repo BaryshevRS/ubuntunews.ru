@@ -3,10 +3,19 @@ import PostContainer from "../../../components/post/post-container";
 import { getAllPostIdsBySection, getLayoutProps, getPostData, ILayoutProps, IPostData } from "../../../lib/posts";
 import { Layout } from "../../../components/layout/layout";
 
-export default function ArticlePost({topPosts, title, ...postData}: IPostData & ILayoutProps) {
+export default function ArticlePost(
+  {topPosts, title, uri, tags = '', description, image, ...postData}: IPostData & ILayoutProps
+) {
   return (
-    <Layout title={title} topPosts={topPosts}>
-      <PostContainer title={title} {...postData} />
+    <Layout title={title}
+            type={"article"}
+            description={description}
+            image={image}
+            keywords={tags}
+            urlSocial={`/${uri}`}
+            canonical={`/${uri}`}
+            topPosts={topPosts}>
+      <PostContainer title={title} uri={uri} {...postData} />
     </Layout>
   )
 }

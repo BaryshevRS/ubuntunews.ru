@@ -4,7 +4,11 @@ import { getLayoutProps, ILayoutProps } from "../../lib/posts";
 
 export default function DownloadPage({topPosts}: ILayoutProps) {
   return (
-    <Layout topPosts={topPosts} title={'Скачать Ubuntu Linux'}>
+    <Layout topPosts={topPosts}
+            title={'Скачать Ubuntu Linux'}
+            description={'Ссылки на скачивание последних версий Ubuntu'}
+            urlSocial={'/ubuntu/download'}
+            canonical={'/ubuntu/download'}>
 
       <article className={'post'}>
         <header>
@@ -177,8 +181,6 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
           </tr>
           </tbody>
         </table>
-
-
       </article>
     </Layout>
   )

@@ -5,7 +5,11 @@ import { getLayoutProps, ILayoutProps } from "../../lib/posts";
 
 export default function UbuntuPage({topPosts}: ILayoutProps) {
   return (
-    <Layout topPosts={topPosts} title={'Об Ubuntu'}>
+    <Layout topPosts={topPosts}
+            urlSocial={'/ubuntu'}
+            description={'Общая инфомация об Ubuntu'}
+            canonical={'/ubuntu'}
+            title={'Об Ubuntu'}>
       <article className={'post'}>
         <header>
           <h1>Об Ubuntu</h1>

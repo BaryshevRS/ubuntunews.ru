@@ -9,12 +9,14 @@ import { Layout } from "../../../components/layout/layout";
 
 export default function HomePagination({topPosts, ...postData}: IPostsData & ILayoutProps) {
   return (
-    <Layout title={'Новости Ubuntu Linux'} topPosts={topPosts}>
-      <PostsContainer title={`Новости Ubuntu`}
+    <Layout urlSocial={'/'}
+            title={`Новости Ubuntu Linux / ${+postData.currentPage + 1}`}
+            canonical={'/'}
+            topPosts={topPosts}>
+      <PostsContainer title={`Новости Ubuntu / ${+postData.currentPage + 1}`}
                       path={'/'}
-                      posts={postData} />
+                      posts={postData}/>
     </Layout>
-
   )
 }
 

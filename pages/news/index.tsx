@@ -4,8 +4,12 @@ import { Layout } from "../../components/layout/layout";
 
 export default function NewsPage({topPosts, ...postData}: IPostsData & ILayoutProps) {
   return (
-    <Layout title={'Новости Убунту'} topPosts={topPosts}>
-      <PostsContainer title={'Новости Убунту'} path={'/news/'} posts={postData} />
+    <Layout title={'Новости об Убунту'}
+            description={'Обзор новых характеристик, анонсы и новости об Убунту'}
+            topPosts={topPosts}
+            urlSocial={'/news'}
+            canonical={'/news'}>
+      <PostsContainer title={'Новости об Убунту'} path={'/news/'} posts={postData} />
     </Layout>
   )
 }

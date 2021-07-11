@@ -4,7 +4,11 @@ import { Layout } from "../../components/layout/layout";
 
 export default function AppsPage({topPosts, ...postData}: IPostsData & ILayoutProps) {
   return (
-    <Layout title={'Программы Ubuntu'} topPosts={topPosts}>
+    <Layout title={'Программы Ubuntu'}
+            description={'Последние новинки программ доступных под Ubuntu'}
+            topPosts={topPosts}
+            urlSocial={'/apps'}
+            canonical={'/apps'}>
       <PostsContainer title={'Программы Ubuntu'} path={'/apps/'} posts={postData}/>
     </Layout>
   )
