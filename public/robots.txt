@@ -1,7 +1,6 @@
 User-agent: *
-Disallow: /public/static/img
-Disallow: /public/sitemap.xml
-Disallow: /public/feed.xml
+Disallow: /static/img
+Disallow: /feed.xml
 Disallow: /page/
 Disallow: /news/page/
 Disallow: /apps/page/
