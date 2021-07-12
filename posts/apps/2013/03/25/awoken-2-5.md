@@ -33,7 +33,9 @@ visits: 8117
 Установить можно из PPA в Oneiric, Precise, Quantal и Raring, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:alecive/antigone sudo apt-get updatesudo apt-get install awoken-icon-theme
+sudo add-apt-repository ppa:alecive/antigone 
+sudo apt-get update
+sudo apt-get install awoken-icon-theme
 ```
 
 Затем выбрать с помощью твикера, например [Ubuntu Tweak](apps/ubuntu-tweak-8-2), [Unsettings](apps/tweak-unity-with-unsettings-008) или [Unity Tweak Tool](apps/unity-tweak-tool-0-3).

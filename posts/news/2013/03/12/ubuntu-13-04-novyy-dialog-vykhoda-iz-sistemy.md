@@ -13,9 +13,9 @@ visits: 6551
 
 Несмотря на то, что заморозка дистрибутива была в прошлый четверг, Ubuntu 13.04 по-прежнему пополняется новыми возможностями, по всей видимости, это продлится вплоть до конца марта, когда выйдет первый и единственный бета-релиз.
 
-[Видео](http://www.youtube.com/watch?v=fPdrgXEvh3o) с демонстрацией работы:
+[Видео](https://www.youtube.com/watch?v=fPdrgXEvh3o) с демонстрацией работы:
 
- <iframe width="500" height="375" src="http://www.youtube.com/embed/fPdrgXEvh3o" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="375" src="//www.youtube.com/embed/fPdrgXEvh3o" frameborder="0" allowfullscreen=""></iframe>
 
 ### Новый диалог выхода
 

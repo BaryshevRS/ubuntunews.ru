@@ -20,7 +20,7 @@ visits: 29709
 PPA со стабильной версией Chromium:
 
 ```
-sudo add-apt-repository ppa:a-v-shkop/chromium
+ sudo add-apt-repository ppa:a-v-shkop/chromium
  sudo apt-get update
  sudo apt-get install chromium-browser
 ```
@@ -28,7 +28,7 @@ sudo add-apt-repository ppa:a-v-shkop/chromium
 PPA с разрабатываемой версией:
 
 ```
-sudo add-apt-repository ppa:a-v-shkop/chromium-dev
+ sudo add-apt-repository ppa:a-v-shkop/chromium-dev
  sudo apt-get update
  sudo apt-get install chromium-browser
 ```

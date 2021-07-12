@@ -48,8 +48,8 @@ Unsettings ещё одна утилита для тонкой настройки
 
 ```
 sudo add-apt-repository ppa:diesch/testing
- sudo apt-get update
- sudo apt-get install unsettings
+sudo apt-get update
+sudo apt-get install unsettings
 ```
 
 Для Ubuntu 12.04 в PPA лежит старая версия, поэтому для установки свежей версии потребуется скачать следующий .deb пакет.

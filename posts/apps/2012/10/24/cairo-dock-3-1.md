@@ -46,7 +46,7 @@ visits: 17054
 Установить можно, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:cairo-dock-team/ppa
+ sudo add-apt-repository ppa:cairo-dock-team/ppa
  sudo apt-get update
  sudo apt-get install cairo-dock cairo-dock-plug-ins
 ```

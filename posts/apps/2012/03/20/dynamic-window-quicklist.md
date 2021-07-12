@@ -20,7 +20,7 @@ visits: 4410
 Установка доступна только для Ubuntu 12.04:
 
 ```
-sudo apt-add-repository ppa:alanbell/unity
+ sudo apt-add-repository ppa:alanbell/unity
  sudo apt-get update
  sudo apt-get install unity-window-quicklists
 ```

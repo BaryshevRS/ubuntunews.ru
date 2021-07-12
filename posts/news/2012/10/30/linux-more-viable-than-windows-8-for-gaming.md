@@ -21,7 +21,7 @@ visits: 5394
 *   Новые игры на движке Source будут доступны под Linux.
 *   Для разработчиков есть функции установки защиты на игры.
 
-Запись выступления доступна [здесь](http://www.youtube.com/user/ubuntudevelopers).
+Запись выступления доступна [здесь](https://www.youtube.com/user/ubuntudevelopers).
 
 Также стоит отметить, что сейчас активно идёт процесс отбора пользователей на [бета-тестирование клиента Steam](news/steam-for-linux-beta-testing-survey), в котором по сообщениям разработчиков будут представлены такие игры, как **Serious Sam 3, Portal и Team Fortress 2**.
 

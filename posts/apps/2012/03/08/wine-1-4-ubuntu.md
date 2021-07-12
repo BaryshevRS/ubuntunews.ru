@@ -32,8 +32,8 @@ visits: 7377
 
 ```
 sudo add-apt-repository ppa:ubuntu-wine/ppa
- sudo apt-get update
- sudo apt-get install wine1.3
+sudo apt-get update
+sudo apt-get install wine1.3
 ```
 
 Да, там указана wine1.3, так как текущая доступная версия Wine 1.4 тестовая. После того как будет загружен стабильный релиз, он автоматически установится из PPA при обновлении системы.

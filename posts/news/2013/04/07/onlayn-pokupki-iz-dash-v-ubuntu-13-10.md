@@ -19,6 +19,6 @@ visits: 3200
 
 Среди причин задержки до осеннего релиза – поздняя заявка и обеспокоенность о надёжности метода авторизации, особенно остро стоящая при работе с такой чувствительной информацией, как кредитные карты. Тем не менее, для энтузиастов будет представлена возможность попробовать из PPA.
 
-Увидеть демонстрацию работы можно из [видео ниже](http://www.youtube.com/watch?feature=player_embedded&v=QPjaR9ADyh8):
+Увидеть демонстрацию работы можно из [видео ниже](https://www.youtube.com/watch?feature=player_embedded&v=QPjaR9ADyh8):
 
- <iframe width="500" height="375" src="http://www.youtube.com/embed/QPjaR9ADyh8" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="375" src="//www.youtube.com/embed/QPjaR9ADyh8" frameborder="0" allowfullscreen=""></iframe>

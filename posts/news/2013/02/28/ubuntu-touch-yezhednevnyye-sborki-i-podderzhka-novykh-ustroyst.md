@@ -31,7 +31,7 @@ phablet-flash –l
 
 Пакеты, используемые для сборки, также доступны из [PPA](https://launchpad.net/~phablet-team/+archive/ppa).
 
-<iframe src="http://www.youtube.com/embed/fNYgevHf9EI" frameborder="0" width="500" height="281"></iframe>
+<iframe src="//www.youtube.com/embed/fNYgevHf9EI" frameborder="0" width="500" height="281"></iframe>
 
 ### Новые устройства
 

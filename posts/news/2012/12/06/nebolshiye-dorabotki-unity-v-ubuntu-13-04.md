@@ -29,6 +29,6 @@ visits: 6674
 
 Видео с демонстрацией:
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/p3cJgadR1gk" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="//www.youtube.com/embed/p3cJgadR1gk" frameborder="0" allowfullscreen=""></iframe> 
 
 Все рассмотренные изменения в Ubuntu 13.04 не окончательны и к финальному релизу могут полностью поменяться.

@@ -29,7 +29,7 @@ visits: 11990
 
 ```
 sudo add-apt-repository ppa:tiheum/equinox
- sudo apt-get update
+sudo apt-get update
 ```
 
 Для установки темы иконок Faience нужно выполнить следующую команду:

@@ -27,7 +27,9 @@ Nitrux достиг очередной значимой версии 3.0, вкл
 Установить можно в Ubuntu 13.04, 12.10 и 12.04, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:upubuntu-com/nitruxsudo apt-get update sudo apt-get install nitruxos
+sudo add-apt-repository ppa:upubuntu-com/nitrux
+sudo apt-get update 
+sudo apt-get install nitruxos
 ```
 
 После инсталляции иконки можно выбрать в любом понравившемся твикере, например [Ubuntu Tweak](apps/ubuntu-tweak-8-2) или [Unsettings](apps/tweak-unity-with-unsettings-008).
@@ -35,5 +37,6 @@ sudo add-apt-repository ppa:upubuntu-com/nitruxsudo apt-get update sudo apt-get 
 ### Удалить
 
 ```
-sudo apt-get remove nitruxossudo add-apt-repository --remove ppa:upubuntu-com/nitruxsudo apt-get update
+sudo apt-get remove nitruxossudo add-apt-repository --remove ppa:upubuntu-com/nitrux
+sudo apt-get update
 ```

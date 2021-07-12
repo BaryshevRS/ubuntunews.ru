@@ -19,7 +19,7 @@ visits: 7319
 
 В представленном ниже ролике можно будет посмотреть полную демонстрацию работы и методы её применения в повседневной жизни.
 
- <iframe src="http://www.youtube.com/embed/VZ7Nz942yAY" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/VZ7Nz942yAY" frameborder="0" width="500" height="281"></iframe>
 
 ## WiSee
 

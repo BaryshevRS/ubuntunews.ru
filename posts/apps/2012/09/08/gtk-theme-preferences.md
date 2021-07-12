@@ -27,8 +27,8 @@ GTK Theme Preferences доступна для установки из PPA в Ubu
 
 ```
 sudo add-apt-repository ppa:shimmerproject/ppa
- sudo apt-get update
- sudo apt-get install gtk-theme-config
+sudo apt-get update
+sudo apt-get install gtk-theme-config
 ```
 
 После изменения параметров их необходимо сохранить и перезайти в сессию.

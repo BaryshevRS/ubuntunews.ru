@@ -61,7 +61,7 @@ sudo apt-get install linux-generic-lts-saucy xserver-xorg-lts-saucy
 
 Разработчик Canonical, ответственный за реализации описанной выше работы с сотрудниками Valve и SDL, представил результат в виде ролика запуска DOTA2 на Mir:
 
- <iframe src="http://www.youtube.com/embed/arDs7cMEobs" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/arDs7cMEobs" frameborder="0" width="500" height="281"></iframe>
 
 ## Идеи
 

@@ -11,7 +11,7 @@ visits: 2294
 ---
 [Увидела свет](http://releases.ubuntu.com/11.04) первая бета версия Ubuntu 11.04 Natty Narwhal, включающего все новые характеристики из предыдущей [третьей альфы](news/ubuntu-natty-narwhal-11-04-alpha-3), а также некоторые новые изменения, увидеть которые можно из следующего видео:
 
-<iframe title="YouTube video player" width="500" height="405" src="http://www.youtube.com/embed/dOPOGqHuya4" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="405" src="//www.youtube.com/embed/dOPOGqHuya4" frameborder="0" allowfullscreen=""></iframe>
 
 ### Пакеты
 
@@ -66,7 +66,7 @@ Dash получил новый дизайн полосы прокрутки:
 
 Познакомится с тем как выглядит [Unity 2D](news/unity-2d-ubuntu-11-04), для текущей бето-версии можно из видео ниже:
 
-<iframe title="YouTube video player" width="500" height="405" src="http://www.youtube.com/embed/kNYuSrkW_g0" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="405" src="//www.youtube.com/embed/kNYuSrkW_g0" frameborder="0" allowfullscreen=""></iframe>
 
 Финальный релиз планируется 28 апреля.
 

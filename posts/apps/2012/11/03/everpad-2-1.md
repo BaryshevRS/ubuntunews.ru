@@ -24,7 +24,7 @@ visits: 5403
 Установка доступна для Oneiric, Precise и Quantal, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:nvbn-rm/ppa
+ sudo add-apt-repository ppa:nvbn-rm/ppa
  sudo apt-get update
  sudo apt-get install everpad
 ```

@@ -24,7 +24,7 @@ Cinnamon – форк GNOME Shell оформленный в стиле рабо�
 Установка доступна для Ubuntu 11.10 Oneiric Ocelot или 12.04 Precise Pangolin следующими командами:
 
 ```
-sudo add-apt-repository ppa:merlwiz79/cinnamon-ppa
+ sudo add-apt-repository ppa:merlwiz79/cinnamon-ppa
  sudo apt-get update
  sudo apt-get install cinnamon cinnamon-session cinnamon-settings
 ```

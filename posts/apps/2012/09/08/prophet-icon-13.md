@@ -19,8 +19,8 @@ visits: 4076
 
 ```
 sudo add-apt-repository ppa:upubuntu-com/icons
- sudo apt-get update
- sudo apt-get install propheticon13
+sudo apt-get update
+sudo apt-get install propheticon13
 ```
 
 Выбрать тему можно с помощью любого твикера (Gnome Tweak Tool, MyUnity и т. п.) или используя команду в терминале:

@@ -40,7 +40,7 @@ visits: 5952
 Установка Unity 5.0 доступна для Ubuntu 12.04, а также 11.10.
 
 ```
-sudo add-apt-repository ppa:unity-team/staging
+ sudo add-apt-repository ppa:unity-team/staging
  sudo apt-get update
  sudo apt-get dist-upgrade
 ```

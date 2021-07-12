@@ -17,4 +17,4 @@ visits: 4134
 
 С нововведениями можно ознакомиться из демонстрационного видео.
 
-<iframe width="500" height="405" src="http://www.youtube.com/embed/COsG-2z48Dg" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="//www.youtube.com/embed/COsG-2z48Dg" frameborder="0" allowfullscreen=""></iframe>

@@ -17,6 +17,6 @@ visits: 5772
 
 Кроме того, образы выложены для тестирования на [isotracker](http://iso.qa.ubuntu.com/qatracker/milestones/243/builds), где можно найти инструкцию [по инсталляции](http://iso.qa.ubuntu.com/qatracker/milestones/243/builds/42413/downloads), а также [сообщить](https://wiki.ubuntu.com/Touch/Contribute#How_to_report_bugs) о найденных ошибках.
 
-Как с ним работать можно, например, посмотреть на [youtube](http://www.youtube.com/watch?v=KntJcP3ZHLc).
+Как с ним работать можно, например, посмотреть на [youtube](https://www.youtube.com/watch?v=KntJcP3ZHLc).
 
 Для тех, кто вообще впервые решился поставить Ubuntu Touch, нужно воспользоваться [этой инструкцией](https://wiki.ubuntu.com/Touch/Install).

@@ -24,7 +24,7 @@ visits: 5350
 Для работы потребуется установить «User Theme Extension» из PPA командами ниже:
 
 ```
-sudo add-apt-repository ppa:satyajit-happy/themes
+ sudo add-apt-repository ppa:satyajit-happy/themes
  sudo apt-get update
  sudo apt-get install gnome-shell-extensions
 ```

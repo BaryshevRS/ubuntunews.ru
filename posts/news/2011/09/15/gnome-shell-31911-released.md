@@ -17,4 +17,4 @@ visits: 4000
 
 Несмотря на [представленные](http://mail.gnome.org/archives/gnome-announce-list/2011-September/msg00035.html) изменения, официальной информации о доступных аддонах для браузеров пока нет. Более подробно, об используемой технологии, можно ознакомиться из [предыдущего поста](news/gnome-shell-extensions-get-website), а также просмотреть демонстрационный видеоролик.
 
- <iframe width="500" height="369" src="http://www.youtube.com/embed/luZuhn5_b_8" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="369" src="//www.youtube.com/embed/luZuhn5_b_8" frameborder="0" allowfullscreen=""></iframe>

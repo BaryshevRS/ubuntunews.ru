@@ -24,7 +24,7 @@ Minitube — программа для обзора, поиска, проигр�
 ## Установка Minitube 1.7
 
 ```
-sudo add-apt-repository ppa:ferramroberto/minitube
+ sudo add-apt-repository ppa:ferramroberto/minitube
  sudo apt-get update
  sudo apt-get install minitube
 ```
@@ -44,7 +44,7 @@ sudo add-apt-repository ppa:ferramroberto/minitube
 Если линза ещё не установлена, то можно поставить из PPA:
 
 ```
-sudo add-apt-repository ppa:atareao/lenses
+ sudo add-apt-repository ppa:atareao/lenses
  sudo apt-get update
  sudo apt-get install lens-video scope-youtube
 ```

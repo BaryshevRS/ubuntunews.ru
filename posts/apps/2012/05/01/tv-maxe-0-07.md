@@ -28,7 +28,7 @@ TV-Maxe – программа для онлайн просмотра ТВ ка�
 Установка доступна для всех версий Ubuntu, начиная с 10.04, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:venerix/blug
+ sudo add-apt-repository ppa:venerix/blug
  sudo apt-get update
  sudo apt-get install tv-maxe
 ```

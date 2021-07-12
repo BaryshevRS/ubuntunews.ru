@@ -22,7 +22,7 @@ visits: 7947
 Установка доступна для Ubuntu 11.10 и 12.04:
 
 ```
-sudo add-apt-repository ppa:nilarimogard/webupd8
+ sudo add-apt-repository ppa:nilarimogard/webupd8
  sudo apt-get update
  sudo apt-get install indicator-updatemanager
 ```
@@ -48,7 +48,7 @@ Jupiter – апплет ориентированный на продление 
 Установка Jupiter доступна в Ubuntu 12.04, 11.10, 11.04 и 10.10:
 
 ```
-sudo add-apt-repository ppa:webupd8team/jupiter
+ sudo add-apt-repository ppa:webupd8team/jupiter
  sudo apt-get update
  sudo apt-get install jupiter
 ```
@@ -70,7 +70,7 @@ sudo apt-get install jupiter-support-eee
 Установка доступна в Ubuntu 12.04 и 11.10:
 
 ```
-sudo add-apt-repository ppa:atareao/atareao
+ sudo add-apt-repository ppa:atareao/atareao
  sudo apt-get update
  sudo apt-get install google-tasks-indicator 
 ```
@@ -86,7 +86,7 @@ sudo add-apt-repository ppa:atareao/atareao
 Поставить можно в 11.04 и 11.10:
 
 ```
-sudo add-apt-repository ppa:jconti/recent-notifications
+ sudo add-apt-repository ppa:jconti/recent-notifications
  sudo apt-get update
  sudo apt-get install indicator-notifications
 ```

@@ -25,8 +25,8 @@ visits: 7173
 
 Однако функционал сихронизации Rhythmbox с Ubuntu One будет по-прежнему включён, так что на счёт хранения купленной музыки беспокоиться не стоит.
 
-Посмотреть изменения, сделанные в Ubuntu 13.04, можно из [видео](http://www.youtube.com/watch?feature=player_detailpage&v=t_1bhw9HN6M) ниже:
+Посмотреть изменения, сделанные в Ubuntu 13.04, можно из [видео](https://www.youtube.com/watch?feature=player_detailpage&v=t_1bhw9HN6M) ниже:
 
- <iframe src="http://www.youtube.com/embed/t_1bhw9HN6M" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/t_1bhw9HN6M" frameborder="0" width="500" height="281"></iframe>
 
 В связи с сокращением тестовых релизов и упором на ежедневные сборки, первую бета версию можно будет увидеть только 28 марта, а финальный релиз 25 апреля.

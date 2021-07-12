@@ -21,8 +21,8 @@ visits: 10386
 
 ```
 sudo apt-add-repository ppa:the-warl0ck-1989/xfce-appmenu-plugin
- sudo apt-get update
- sudo apt-get install xfce4-appmenu-plugin indicator-appmenu appmenu-gtk appmenu-qt
+sudo apt-get update
+sudo apt-get install xfce4-appmenu-plugin indicator-appmenu appmenu-gtk appmenu-qt
 ```
 
 После инсталляции нужно будет добавить новый апплет на верхнюю панель:

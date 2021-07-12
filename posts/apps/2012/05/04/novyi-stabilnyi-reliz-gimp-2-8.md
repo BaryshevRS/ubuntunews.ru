@@ -38,7 +38,7 @@ sudo apt-get remove gimp-plugin-registry 
 Установка доступна для Ubuntu 12.04 Precise Pangolin и Ubuntu 11.10 из PPA, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+ sudo add-apt-repository ppa:otto-kesselgulasch/gimp
  sudo apt-get update
  sudo apt-get install gimp
 ```

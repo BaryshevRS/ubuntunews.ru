@@ -37,8 +37,7 @@ visits: 8108
 ```
 sudo add-apt-repository ppa:leolik/leolik
 sudo apt-get update
-sudo apt-get install notify-osd libnotify-bin
-pkill notify-osd
+sudo apt-get install notify-osd libnotify-bin pkill notify-osd
 ```
 
 **2.** Устанавливаем графическую утилиту NotifyOSDConfig (с патчем NotifyOSD).

@@ -23,4 +23,4 @@ visits: 4126
 
 Jono Bacon, менеджер по работе с сообществом Ubuntu, представил небольшой сравнительный обзор прототипа Ubuntu Edge с другими флагманами смартфонов на рынке:
 
-<iframe src="http://www.youtube.com/embed/BYM7tCjp0Go" frameborder="0" width="500" height="281"></iframe>
+<iframe src="//www.youtube.com/embed/BYM7tCjp0Go" frameborder="0" width="500" height="281"></iframe>

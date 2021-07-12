@@ -23,7 +23,7 @@ Gwibber получит новый дизайн и будет полностью 
 
 С работой можно ознакомиться из демонстрационного видео.
 
-<iframe width="500" height="314" src="http://www.youtube.com/embed/ZqoaB5uvm-k" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="314" src="//www.youtube.com/embed/ZqoaB5uvm-k" frameborder="0" allowfullscreen=""></iframe>
 
 ## Причина перехода
 

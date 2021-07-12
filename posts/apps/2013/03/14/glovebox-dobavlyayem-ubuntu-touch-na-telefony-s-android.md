@@ -33,9 +33,9 @@ visits: 6022
 *   поддержка добавления виджетов;
 *   регулирование прозрачности.
 
-[Видео](http://www.youtube.com/watch?v=3HrReGAUCGE&feature=player_detailpage) с демонстрацией работы, включающее некоторые платные характеристики:
+[Видео](https://www.youtube.com/watch?v=3HrReGAUCGE&feature=player_detailpage) с демонстрацией работы, включающее некоторые платные характеристики:
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/3HrReGAUCGE" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="//www.youtube.com/embed/3HrReGAUCGE" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Недостатки
 

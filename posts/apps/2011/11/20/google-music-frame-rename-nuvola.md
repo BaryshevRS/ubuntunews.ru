@@ -26,7 +26,7 @@ Google Music Frame – программа, которая использовал
 Grooveshark будет включен с релизом Nuvola 0.4, но если есть желание поставить уже сейчас, то можно воспользоваться тестовой сборкой из PPA, доступной для Ubuntu Lucid, Maverick, Natty, Oneiric и Precise:
 
 ```
-sudo add-apt-repository ppa:nuvola-player-builders/unstable
+ sudo add-apt-repository ppa:nuvola-player-builders/unstable
  sudo apt-get update
  sudo apt-get install google-music-frame
 ```

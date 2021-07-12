@@ -17,9 +17,9 @@ visits: 14845
 
 Больше никаких новых характеристик мы уже не увидим. Всё, что описано ниже войдёт в состав финального релиза, за исключением тех случаев, если не будут выявлены критические ошибки.
 
-[Видео](http://www.youtube.com/watch?v=GEaycPif5fM) с демонстрацией работы:
+[Видео](//www.youtube.com/watch?v=GEaycPif5fM) с демонстрацией работы:
 
-<iframe src="http://www.youtube.com/embed/GEaycPif5fM" frameborder="0" width="500" height="281"></iframe>
+<iframe src="//www.youtube.com/embed/GEaycPif5fM" frameborder="0" width="500" height="281"></iframe>
 
 ## Unity
 

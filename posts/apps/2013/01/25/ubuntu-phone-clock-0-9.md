@@ -24,11 +24,14 @@ visits: 6971
 Установить можно в Ubuntu 12.10, используя PPA ниже:
 
 ```
-sudo add-apt-repository ppa:barbosanascimentogabriel/ubuntu-phone-clock sudo apt-get update sudo apt-get install ubuntu-phone-clock
+sudo add-apt-repository ppa:barbosanascimentogabriel/ubuntu-phone-clock 
+sudo apt-get update 
+sudo apt-get install ubuntu-phone-clock
 ```
 
 В Ubuntu 12.04 надо выполнить следующие команды в терминале:
 
 ```
-wget -O ubuntu-phone-clock.deb http://goo.gl/6b5Cs sudo dpkg -i ubuntu-phone-clock.deb && rm ubuntu-phone-clock.deb
+wget -O ubuntu-phone-clock.deb http://goo.gl/6b5Cs 
+sudo dpkg -i ubuntu-phone-clock.deb && rm ubuntu-phone-clock.deb
 ```

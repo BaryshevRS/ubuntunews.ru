@@ -30,7 +30,7 @@ visits: 16784
 Установить можно из PPA в Ubuntu 11.10 и 12.04:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa
+ sudo add-apt-repository ppa:scopes-packagers/ppa
  sudo apt-get update
  sudo apt-get install unity-lens-utilities unity-scope-cities
 ```
@@ -45,7 +45,7 @@ sudo add-apt-repository ppa:scopes-packagers/ppa
 
 ```
 sudo add-apt-repository ppa:scopes-packagers/ppa
- sudo apt-get update 
+sudo apt-get update 
 sudo apt-get install unity-lens-utilities unity-scope-calculator
 ```
 
@@ -60,7 +60,7 @@ sudo apt-get install unity-lens-utilities unity-scope-calculator
 Установка из PPA (Oneiric, Precise):
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa
+ sudo add-apt-repository ppa:scopes-packagers/ppa
  sudo apt-get update
  sudo apt-get install unity-scope-grooveshark
 ```
@@ -81,7 +81,7 @@ sudo add-apt-repository ppa:scopes-packagers/ppa
 Установить можно в Ubuntu 11.10 и 12.04:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa
+ sudo add-apt-repository ppa:scopes-packagers/ppa
  sudo apt-get update
  sudo apt-get install unity-lens-torrents unity-scope-piratebay
 ```
@@ -105,7 +105,7 @@ gksu gedit /usr/lib/unity-lens-adult/unity-lens-adult
 Установить можно в Ubuntu 11.10 и 12.04:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/adult-scopes
+ sudo add-apt-repository ppa:scopes-packagers/adult-scopes
  sudo apt-get update
  sudo apt-get install unity-lens-adult unity-scope-youporn
 ```
@@ -121,7 +121,7 @@ sudo add-apt-repository ppa:scopes-packagers/adult-scopes
 Установка доступна для Ubuntu 11.10 и 12.04:
 
 ```
-sudo add-apt-repository ppa:markjtully/ppa
+ sudo add-apt-repository ppa:markjtully/ppa
  sudo apt-get update
  sudo apt-get install unity-binaryclock-lens
 ```
