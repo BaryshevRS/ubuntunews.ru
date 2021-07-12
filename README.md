@@ -1,13 +1,14 @@
-# ubuntunews
+# ubuntunews.ru
 
-1. git attributes lfs
-https://git-lfs.github.com/
+В репозиториии представлен статически генерируемый блог на базе Next.js с использованием подхода 
+SSG (static site generation). 
 
-Показывает файлы в хранилище файлов
-git lfs ls-files
+SSG - это статически генерируемый блог со всеми возможностями библиотеки React.js.
 
-Нормализует гит с правилами из .gitattributes
-git add --renormalize .
+В качестве разметки для статей блога используется markdown.
 
-2. Фавиконы
-https://realfavicongenerator.net/
+##Используемые технологии
+
+- Next.js (SSG, typescript)
+- CSS Grid, CSS variables
+- HTML тег picture с форматом сжатия avif.
