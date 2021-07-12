@@ -21,7 +21,7 @@ Plasma Active Two включает ряд новых улучшений, кот�
 
 Демонстрацию работы можно увидеть из следующего видео:
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/UPkYyDiuGyc" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="//www.youtube.com/embed/UPkYyDiuGyc" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Plasma Active в Ubuntu
 

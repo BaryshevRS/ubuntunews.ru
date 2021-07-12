@@ -50,7 +50,7 @@ visits: 11149
 
 С Cinnamon 1.6 в действии можно ознакомиться из видео ниже:
 
- <iframe width="500" height="281" src="http://www.youtube.com/embed/PxSA9Rg4L_8" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="281" src="//www.youtube.com/embed/PxSA9Rg4L_8" frameborder="0" allowfullscreen=""></iframe>
 
 ## Установка Cinnamon 1.6 в Ubuntu
 

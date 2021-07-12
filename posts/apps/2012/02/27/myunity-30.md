@@ -21,7 +21,7 @@ MyUnity, утилита для тонкой настройки Unity, обнов
 
 С демонстрацией работы можно познакомиться из видео ниже:
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/ZTN4Thyz_14" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/ZTN4Thyz_14" frameborder="0" allowfullscreen=""></iframe>
 
 ## Установка MyUnity
 

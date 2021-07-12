@@ -15,7 +15,7 @@ visits: 2060
 
 Детально ознакомится с включенными нововведениями можно из следующего видео, описывающего все визуальные изменения интерфейса в дистрибутиве:
 
-<iframe title="YouTube video player" width="480" height="300" src="http://www.youtube.com/embed/zoUTBsL7M1s" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="300" src="//www.youtube.com/embed/zoUTBsL7M1s" frameborder="0" allowfullscreen=""></iframe>
 
 **Приступим к рассмотрению новых характеристик второй альфы версии Natty:**
 
@@ -88,7 +88,7 @@ Natty включает ядро 2.6.38, которое официально вк
 
 Unity Qt / QML был [выпущен](news/unity-2d-ubuntu-11-04) совсем недавно, и предназначен в первую очередь тем пользователям, у которых система не поддерживает запуск 3D реализации Unity. Однако новое десктоп окружение не будет включено на CD диске Ubuntu 11.04, вместо этого планируется использовать Classic Desktop для работы на устаревшем оборудование, хотя до релиза далеко и все может измениться. Установить Unity 2D можно из следующего [PPA](news/unity-2d-ubuntu-11-04).
 
-<iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/JAVN9isBBok" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="390" src="//www.youtube.com/embed/JAVN9isBBok" frameborder="0" allowfullscreen=""></iframe>
 
 Редакция дистрибутива **Netbook Edition**, больше не будет (объединен с Ubuntu Desktop Edition), останется только для процессоров OMAP
 

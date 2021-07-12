@@ -11,7 +11,7 @@ visits: 9217
 ---
 Представлен новый релиз рабочего стола Cinnamon 1.4 – форка Gnome Shell, призванного совместить традиционный интерфейс Gnome 2 с новыми технологиями лежащими в основе третьей ветке Gnome.
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/sWuxiDDepus" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/sWuxiDDepus" frameborder="0" allowfullscreen=""></iframe>
 
 ## Режим Expo
 

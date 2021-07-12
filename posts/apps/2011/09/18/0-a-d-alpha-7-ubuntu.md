@@ -27,7 +27,7 @@ visits: 6712
 
 С геймплеем можно ознакомиться из представленного ниже видеоролика:
 
- <iframe width="500" height="284" src="http://www.youtube.com/embed/DxB67Vp8_mI" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="284" src="//www.youtube.com/embed/DxB67Vp8_mI" frameborder="0" allowfullscreen=""></iframe>
 
 ## Установка 0 A.D. В Ubuntu
 

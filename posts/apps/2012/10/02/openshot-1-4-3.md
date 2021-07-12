@@ -29,7 +29,7 @@ OpenShot 1.4.3 включает множество различных измен
 
 Видео от разработчиков OpenShot 1.4.3:
 
-<iframe src="http://player.vimeo.com/video/50513213" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="//player.vimeo.com/video/50513213" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 [OpenShot 1.4.3 Released!](http://vimeo.com/50513213) from [Jonathan Thomas](http://vimeo.com/openshot) on [Vimeo](http://vimeo.com).
 

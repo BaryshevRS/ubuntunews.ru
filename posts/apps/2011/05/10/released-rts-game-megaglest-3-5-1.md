@@ -30,7 +30,7 @@ MegaGlest с полностью открытыми исходниками и д�
 *   Мультиплеер до восьми игроков
 *   Игра доступна для Linux и Windows, а также существуют сборки под Mac OS X и FreeBSD
 
-<iframe width="500" height="405" src="http://www.youtube.com/embed/33Ez8mc_PUY" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="//www.youtube.com/embed/33Ez8mc_PUY" frameborder="0" allowfullscreen=""></iframe>
 
 ### Изменения
 

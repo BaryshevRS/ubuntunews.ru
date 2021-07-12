@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=21857'
 unixtime: 1243441409
 visits: 1262
 ---
-Видеоролик с демонстрацией новых возможностей Chrome 2 можно посмотреть на [YouTube](http://www.youtube.com/watch?v=rubd9bqjS64).
+Видеоролик с демонстрацией новых возможностей Chrome 2 можно посмотреть на [YouTube](https://www.youtube.com/watch?v=rubd9bqjS64).
 
 На странице проекта [Chromium](http://code.google.com/p/chromium/) отмечается значительный прогресс в развитии версии браузера для платформ Linux и Mac OS X. Судя по всему первый релиз Chrome для данных платформ выйдет в начале лета, в настоящий момент на сайте браузера для пользователей Linux предлагается заполнить форму для отправки уведомления о доступности Linux-версии.
 

@@ -11,7 +11,7 @@ visits: 4716
 ---
 QMLSaver оригинальная заставка в виде цифровых часов, написанная на Qt4/QML. Работает на Gnome/KDE4. Доступна только для Ubuntu 10.10 Maverick и 11.04 Natty.
 
-<iframe title="YouTube video player" width="500" height="405" src="http://www.youtube.com/embed/dD_G-ZCcfuQ" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="405" src="//www.youtube.com/embed/dD_G-ZCcfuQ" frameborder="0" allowfullscreen=""></iframe>
 
 ### Установка
 

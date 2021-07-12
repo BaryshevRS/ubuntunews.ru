@@ -13,7 +13,7 @@ visits: 7760
 
 Рассмотрим какие изменения были включены с предыдущего бета выпуска:
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/ywTBBLNUejA" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/ywTBBLNUejA" frameborder="0" allowfullscreen=""></iframe>
 
 ## Unity
 

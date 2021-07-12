@@ -19,6 +19,6 @@ visits: 4453
 
 Отдельного внимания стоит уделить возможности доступа к Android прямо из под запущенной Ubuntu.
 
- <iframe src="http://www.youtube.com/embed/F6_Oo-lKVUM" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/F6_Oo-lKVUM" frameborder="0" width="500" height="281"></iframe>
 
 Хотя автор и говорит на португальском, но понять суть можно и без перевода.

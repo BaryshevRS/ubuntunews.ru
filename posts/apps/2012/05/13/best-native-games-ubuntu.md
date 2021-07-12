@@ -13,13 +13,13 @@ visits: 90400
 
 В качестве обзорного ролика было взято одноимённое видео с Youtube.
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/MDXa9B69Ass" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/MDXa9B69Ass" frameborder="0" allowfullscreen=""></iframe>
 
 **Краткое описание и ссылки для скачивания на игры:**
 
 ### 23\. CoreBreach
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/iZ937VIBZlw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/iZ937VIBZlw" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Гонки, Action
 
@@ -33,7 +33,7 @@ visits: 90400
 
 ### 22\. Machinarium
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/ZloMTP89awg" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/ZloMTP89awg" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Квест
 
@@ -47,7 +47,7 @@ visits: 90400
 
 ### 21\. Cogs
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/lZzWVkJ5fZk" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/lZzWVkJ5fZk" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Головоломка
 
@@ -69,7 +69,7 @@ visits: 90400
 
 ### 19\. Xonotic
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/9Zsp1ahGgWE" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="//www.youtube.com/embed/9Zsp1ahGgWE" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Шутер
 
@@ -83,7 +83,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 18\. Steel Storm
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/DmFLEHE5Mn8" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="//www.youtube.com/embed/DmFLEHE5Mn8" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Аркадная стрелялка
 
@@ -107,7 +107,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 16\. Jets’n’Guns
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/sxZ5WSUju04" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/sxZ5WSUju04" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Горизонтальный скролл-шутер
 
@@ -121,7 +121,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 15\. Sacred Gold
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/Q_69JPUQTss" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="//www.youtube.com/embed/Q_69JPUQTss" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** RPG
 
@@ -149,7 +149,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 13\. X3 Reunion
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/Tp0hUfhKJyU" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/Tp0hUfhKJyU" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Космический симулятор
 
@@ -163,7 +163,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 12\. Regnum Online
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/6Rl8SDv4ABw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/6Rl8SDv4ABw" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** MMORPG
 
@@ -175,7 +175,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 11\. Alien Arena
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/Qi08_i-V-Yg" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/Qi08_i-V-Yg" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** FPS
 
@@ -189,7 +189,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 10\. Neverwinter Nights
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/3PZwfMRM_2k" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/3PZwfMRM_2k" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** RPG
 
@@ -203,7 +203,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 9\. Penumbra Series
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/o4q3vnPUUqw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="//www.youtube.com/embed/o4q3vnPUUqw" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Action, Adventure, Stealth
 
@@ -217,7 +217,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 8\. Shadowgrounds & Shadowgrounds Survivor
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/vFZUaQD9G4Q" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/vFZUaQD9G4Q" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Action
 
@@ -231,7 +231,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 7\. Quake 4
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/vteNaMJTjxg" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/vteNaMJTjxg" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Action, Adventure
 
@@ -245,7 +245,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 6\. World of Goo
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/-A_JfkzPwww" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/-A_JfkzPwww" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Логическая
 
@@ -257,7 +257,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 5\. Prey
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/0zQZkpum08A" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="//www.youtube.com/embed/0zQZkpum08A" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Action (Shooter)
 
@@ -271,7 +271,7 @@ Xonotic является форком Nexuiz и в основном ориент
 
 ### 4\. Shank
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/-uQv6blO350" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="//www.youtube.com/embed/-uQv6blO350" frameborder="0" allowfullscreen=""></iframe>
 
 **Жанр:** Аркада, двухмерный платформер
 

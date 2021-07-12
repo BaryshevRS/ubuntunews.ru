@@ -23,7 +23,7 @@ visits: 8026
 
 Видео с демонстрацией работы можно посмотреть ниже:
 
- <iframe width="500" height="369" src="http://www.youtube.com/embed/oCPYKYipINE" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="369" src="//www.youtube.com/embed/oCPYKYipINE" frameborder="0" allowfullscreen=""></iframe>
 
 Характеристики доступны только для Ubuntu 12.04 из последней версии Unity:
 

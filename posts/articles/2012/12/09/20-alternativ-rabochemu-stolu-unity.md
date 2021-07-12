@@ -226,7 +226,7 @@ sudo apt-get install awesome
 
 Почитать об i3 можно [тут](http://habrahabr.ru/post/150100/).
 
-<iframe src="http://www.youtube.com/embed/Wx0eNaGzAZU" frameborder="0" width="500" height="375"></iframe> 
+<iframe src="//www.youtube.com/embed/Wx0eNaGzAZU" frameborder="0" width="500" height="375"></iframe> 
 
 ### Установка
 
@@ -274,7 +274,7 @@ gksu nautilus
 sudo apt-get install dwm
 ```
 
-<iframe src="http://www.youtube.com/embed/Q0iKB4Pgl4g" frameborder="0" width="500" height="375"></iframe>
+<iframe src="//www.youtube.com/embed/Q0iKB4Pgl4g" frameborder="0" width="500" height="375"></iframe>
 
 ## 21\. wmii
 

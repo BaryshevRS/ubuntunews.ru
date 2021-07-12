@@ -19,7 +19,7 @@ visits: 2708
 
 Скачать Vertigo можно здесь, после загрузки нужно распаковать архив, перейти в папку **«/bin»** и запустить скрипт **«play\_vertigo.sh»**.
 
-<iframe title="YouTube video player" width="500" height="311" src="http://www.youtube.com/embed/6x6BfZNGabc" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="311" src="//www.youtube.com/embed/6x6BfZNGabc" frameborder="0" allowfullscreen=""></iframe>
 
 ### Установка через терминал
 

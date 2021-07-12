@@ -28,6 +28,6 @@ module.exports = {
     return {...main, ...ubuntuPage, ...projectPage, ...error404Page};
   },
   env: {
-    BASE_URL: 'http://localhost:3000'
+    BASE_URL: 'https://ubuntunews.ru'
   }
 };

@@ -36,7 +36,7 @@ visits: 15614
 
 **Видео с демонстрацией работы:**
 
-<iframe src="http://www.youtube.com/embed/x7vF-AB7SF4" frameborder="0" width="500" height="281"></iframe>
+<iframe src="//www.youtube.com/embed/x7vF-AB7SF4" frameborder="0" width="500" height="281"></iframe>
 
 ## Поддерживаемые сервисы
 

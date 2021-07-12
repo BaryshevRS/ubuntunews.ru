@@ -33,4 +33,4 @@ firefox http://127.0.0.1:8080/
 
 Посмотреть в действие можно из скринкаста от разработчика Александра Ларсона (Alexander Larsson):
 
-<iframe src="http://player.vimeo.com/video/21062117" width="480" height="320" frameborder="0"></iframe>
+<iframe src="//player.vimeo.com/video/21062117" width="480" height="320" frameborder="0"></iframe>

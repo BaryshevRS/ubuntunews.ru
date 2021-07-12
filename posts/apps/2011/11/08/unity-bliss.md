@@ -39,4 +39,4 @@ sudo checkinstall
 
 Видео с демонстрацией работы:
 
-<iframe src="http://player.vimeo.com/video/31596017?title=0&amp;byline=0&amp;portrait=0" width="500" height="255" frameborder="0" webkitallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="//player.vimeo.com/video/31596017?title=0&amp;byline=0&amp;portrait=0" width="500" height="255" frameborder="0" webkitallowfullscreen="" allowfullscreen=""></iframe>
