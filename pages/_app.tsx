@@ -1,5 +1,6 @@
 import '../styles/globals.scss'
 import { useEffect } from "react";
+import { ThemeProvider } from "../context/theme-context";
 
 function MyApp({ Component, pageProps }: any) {
   useEffect(() => {
@@ -17,7 +18,9 @@ function MyApp({ Component, pageProps }: any) {
     }
   }, []);
 
-  return <Component {...pageProps} />
+  return <ThemeProvider>
+    <Component {...pageProps} />
+  </ThemeProvider>
 }
 
 export default MyApp;
