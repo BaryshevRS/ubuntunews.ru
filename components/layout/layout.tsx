@@ -19,9 +19,7 @@ export const Layout: React.FC<ILayoutProps> = (
   }
 ) => {
   const [showMobileNav, setShowMobileNav] = useState(false);
-
   const baseUrl = process.env.BASE_URL;
-
   return (
     <div className={`wrapper`}>
       <Head>
