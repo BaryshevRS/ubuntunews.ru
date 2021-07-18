@@ -30,7 +30,7 @@ visits: 8276
 Новая версия скроллбара доступна для установки в Ubuntu 11.10 из PPA:
 
 ```
-sudo apt-add-repository ppa:ayatana-scrollbar-team/release
+ sudo apt-add-repository ppa:ayatana-scrollbar-team/release
  sudo apt-get update
  sudo apt-get upgrade
 ```

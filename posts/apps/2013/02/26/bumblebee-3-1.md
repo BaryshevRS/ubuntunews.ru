@@ -40,7 +40,9 @@ visits: 14455
 Установить можно из стабильного PPA для всех версий Ubuntu, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:bumblebee/stablesudo apt-get updatesudo apt-get install bumblebee bumblebee-nvidia
+sudo add-apt-repository ppa:bumblebee/stable
+sudo apt-get update
+sudo apt-get install bumblebee bumblebee-nvidia
 ```
 
 После инсталляции потребуется перезагрузиться. Проверить корректность работы можно командой:

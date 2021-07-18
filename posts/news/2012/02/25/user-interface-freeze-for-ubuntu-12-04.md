@@ -15,7 +15,7 @@ visits: 8604
 
 ### Unity Greeter
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/_OgNqHamqes" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="//www.youtube.com/embed/_OgNqHamqes" frameborder="0" allowfullscreen=""></iframe>
 
 Изменился интерфейс Unity Greeter (экрана входа в систему), который теперь обзавёлся новой анимацией для выбора рабочих столов, выделенных соответствующими эмблемками.
 
@@ -35,7 +35,7 @@ visits: 8604
 
 Теперь ползунок для всплывающих скроллбаров (Overlay Scrollbar) может быть использован для изменения ширины окна.
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/MoXhfnmODbk" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="//www.youtube.com/embed/MoXhfnmODbk" frameborder="0" allowfullscreen=""></iframe>
 
 ### Ubuntu One
 

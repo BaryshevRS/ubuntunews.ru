@@ -28,7 +28,7 @@ visits: 14395
 Установка доступна из PPA только для Ubuntu 12.04:
 
 ```
-sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+ sudo add-apt-repository ppa:otto-kesselgulasch/gimp
  sudo apt-get update
  sudo apt-get install gimp
 ```

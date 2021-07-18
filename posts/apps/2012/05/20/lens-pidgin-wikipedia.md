@@ -24,7 +24,7 @@ Pidgin – мультипротокольный клиент мгновенны�
 Установить можно из PPA для Ubuntu Precise и Quantal:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa
+ sudo add-apt-repository ppa:scopes-packagers/ppa
  sudo apt-get update
  sudo apt-get install unity-lens-pidgin
 ```
@@ -40,7 +40,7 @@ sudo add-apt-repository ppa:scopes-packagers/ppa
 Установить можно в Precise и Quantal с помощью команд ниже:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa
+ sudo add-apt-repository ppa:scopes-packagers/ppa
  sudo apt-get update
  sudo apt-get install unity-lens-wikipedia
 ```

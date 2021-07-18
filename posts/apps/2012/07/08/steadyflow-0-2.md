@@ -26,5 +26,7 @@ visits: 3203
 Установить можно для 11.10 и 12.04, выполнив в терминале:
 
 ```
-sudo add-apt-repository ppa:sikon/steadyflow sudo apt-get update sudo apt-get install steadyflow
+sudo add-apt-repository ppa:sikon/steadyflow 
+sudo apt-get update 
+sudo apt-get install steadyflow
 ```

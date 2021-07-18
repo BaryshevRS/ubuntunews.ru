@@ -11,7 +11,7 @@ visits: 2400
 ---
 Canonical [представила](http://www.ubuntu.com/testing/natty/alpha3) третью альфа версию [Ubuntu](ubuntu) 11.04 "Natty Narwhal", это последний из трех запланированных альфа выпусков, теперь дистрибутив перейдет на этап бета-тестирования, Финальный релиз появится 28 апреля, до этого выйдут еще две беты, [релиза кандидата](news/ubuntu-11-04-to-drop-release-candidate-get-beta-2) на этот раз не будет.
 
-<iframe title="YouTube video player" width="480" height="300" src="http://www.youtube.com/embed/imR3QzwLlDg" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="300" src="//www.youtube.com/embed/imR3QzwLlDg" frameborder="0" allowfullscreen=""></iframe>
 
 Основные изменений были произведены в Dash и в панели Unity, а также в таких специфичных для Ubuntu приложениях как AppMenu, Ubuntu Software Center, AppIndicators, Ubuntu One, обновление получил и Ubuntu Live CD инсталлятор.
 
@@ -87,7 +87,7 @@ Ubuntu 11.04 Live CD инсталлятор получил новый дизай
 
 Unity 2D не будет включен в Ubuntu 11.04 Live CD, тем не менее это вполне достойное десктоп окружение не требующие в своей работе современных графических карт и проприетарных  драйверов, на текущий момент также получил [новые характеристики](news/new-unity-2d-design-way-video), с которыми можно ознакомиться из видео.
 
-<iframe title="YouTube video player" width="480" height="300" src="http://www.youtube.com/embed/K3jm7xM8kv4" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="300" src="//www.youtube.com/embed/K3jm7xM8kv4" frameborder="0" allowfullscreen=""></iframe>
 
 Следующий бета релиз будет 31 марта.
 

@@ -11,7 +11,7 @@ visits: 9217
 ---
 Представлен новый релиз рабочего стола Cinnamon 1.4 – форка Gnome Shell, призванного совместить традиционный интерфейс Gnome 2 с новыми технологиями лежащими в основе третьей ветке Gnome.
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/sWuxiDDepus" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/sWuxiDDepus" frameborder="0" allowfullscreen=""></iframe>
 
 ## Режим Expo
 
@@ -59,7 +59,7 @@ visits: 9217
 Пользователи [Linux Mint 12](news/linux-mint-12) могут установить из репозитория, для Ubuntu 11.10 и 12.04 можно воспользоваться PPA:
 
 ```
-sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
+ sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
  sudo apt-get update
  sudo apt-get install cinnamon
 ```

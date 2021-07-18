@@ -17,14 +17,14 @@ Gloobus Preview – шустрый вьювер для просмотра изо
 
 Видео с демонстрацией работы:
 
- <iframe width="500" height="284" src="http://www.youtube.com/embed/CaU1L1Z75j8" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="284" src="//www.youtube.com/embed/CaU1L1Z75j8" frameborder="0" allowfullscreen=""></iframe>
 
 ## Установка Gloobus Preview в Ubuntu
 
 Установить можно в Ubuntu 12.04 и 11.10 из официального PPA, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:gloobus-dev/gloobus-preview
+ sudo add-apt-repository ppa:gloobus-dev/gloobus-preview
  sudo apt-get update
  sudo apt-get install gloobus-preview gloobus-sushi
 ```

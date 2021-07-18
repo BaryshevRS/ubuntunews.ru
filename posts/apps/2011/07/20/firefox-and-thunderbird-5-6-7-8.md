@@ -32,7 +32,7 @@ sudo apt-get dist-upgrade
 7.0 (Aurora):
 
 ```
- sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
 sudo apt-get update
 sudo apt-get dist-upgrade
 ```
@@ -58,7 +58,7 @@ sudo apt-get dist-upgrade
 6.0 (Beta):
 
 ```
- sudo add-apt-repository ppa:mozillateam/thunderbird-next
+sudo add-apt-repository ppa:mozillateam/thunderbird-next
 sudo apt-get update
 sudo apt-get dist-upgrade 
 ```

@@ -15,7 +15,7 @@ visits: 5179
 
 Увидеть работу в действие можно из видео ниже:
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/pt20KjcPVsQ" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="//www.youtube.com/embed/pt20KjcPVsQ" frameborder="0" allowfullscreen=""></iframe> 
 
 Патч уже [отправлен](http://chromiumcodereview.appspot.com/9773024) на одобрение для включения в Chromium и возможно уже к финальному релизу Precise Pangolin новая технологиях будет доступна для широкого использования.
 

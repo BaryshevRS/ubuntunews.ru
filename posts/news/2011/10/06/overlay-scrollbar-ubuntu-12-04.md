@@ -13,7 +13,7 @@ visits: 4874
 
 Видео обзор был представлен сотрудником компании Canonical по имени Andrea Cimitan:
 
- <iframe src="http://player.vimeo.com/video/30096481?title=0&amp;byline=0&amp;portrait=0" width="500" height="345" frameborder="0" webkitallowfullscreen="" allowfullscreen=""></iframe>
+ <iframe src="//player.vimeo.com/video/30096481?title=0&amp;byline=0&amp;portrait=0" width="500" height="345" frameborder="0" webkitallowfullscreen="" allowfullscreen=""></iframe>
 
 Вот что он пишет по работе скроллбаров в видео:
 

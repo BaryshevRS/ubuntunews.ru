@@ -11,7 +11,7 @@ visits: 11903
 ---
 Вышла вторая и последняя альфа версия Ubuntu 12.04 Precise Pangolin, включающая различные улучшения пользовательского интерфейса и обновлённые версии программ.
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/IEPTgZBDS68" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="//www.youtube.com/embed/IEPTgZBDS68" frameborder="0" allowfullscreen=""></iframe>
 
 **Рассмотрим нововведения:**
 

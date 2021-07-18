@@ -46,7 +46,7 @@ Ubuntu Tweak – это одно из самых популярных сторо
 
 ```
 sudo add-apt-repository  ppa:tualatrix/next
- sudo apt-get update 
+sudo apt-get update 
 sudo apt-get install ubuntu-tweak 
 ```
 

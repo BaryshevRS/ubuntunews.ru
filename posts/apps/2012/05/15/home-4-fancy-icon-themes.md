@@ -22,7 +22,7 @@ visits: 20739
 Команды в терминале для установки:
 
 ```
-sudo add-apt-repository ppa:tiheum/equinox
+ sudo add-apt-repository ppa:tiheum/equinox
  sudo apt-get update
  sudo apt-get install faenza-icon-theme
 ```
@@ -41,7 +41,7 @@ sudo add-apt-repository ppa:tiheum/equinox
 *   Faience-Ocre – оранжевые папки
 
 ```
-sudo add-apt-repository ppa:tiheum/equinox
+ sudo add-apt-repository ppa:tiheum/equinox
  sudo apt-get update
  sudo apt-get install faience-icon-theme
 ```
@@ -55,7 +55,7 @@ sudo add-apt-repository ppa:tiheum/equinox
 [![](img/2012/05/15/23-00/awoken-7205102794-o.jpg)](img/2012/05/15/23-00/awoken-7205102794-o.jpg)
 
 ```
-sudo add-apt-repository ppa:alecive/antigone
+ sudo add-apt-repository ppa:alecive/antigone
  sudo apt-get update
  sudo apt-get install awoken-icon-theme
 ```
@@ -67,7 +67,7 @@ sudo add-apt-repository ppa:alecive/antigone
 [![](img/2012/05/15/23-00/fs-icons-7205106008-o.jpg)](img/2012/05/15/23-00/fs-icons-7205106008-o.jpg)
 
 ```
-sudo add-apt-repository ppa:kroq-gar78/ppa
+ sudo add-apt-repository ppa:kroq-gar78/ppa
  sudo apt-get update
  sudo apt-get install fs-icons-ubuntu
 ```

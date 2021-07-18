@@ -23,6 +23,6 @@ visits: 10211
 
 В любом случае идея о превращении Ubuntu в роллинг-дистрибутив обсуждается уже давно, но пока какого-либо окончательно решения в этом вопросе не принято.
 
-Разговор начинается с 42-ой минуты (на английском) из [видео](http://www.youtube.com/watch?v=AQvOIExkCaw) ниже:
+Разговор начинается с 42-ой минуты (на английском) из [видео](https://www.youtube.com/watch?v=AQvOIExkCaw) ниже:
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/AQvOIExkCaw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="//www.youtube.com/embed/AQvOIExkCaw" frameborder="0" allowfullscreen=""></iframe>

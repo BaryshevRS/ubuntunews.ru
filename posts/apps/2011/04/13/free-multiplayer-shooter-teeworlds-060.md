@@ -28,6 +28,6 @@ Teeworlds, - это захватывающий 2D шутер с мультяшн
 
 Посмотреть на игру можно из демонстрационного видео:
 
-<iframe title="YouTube video player" width="500" height="405" src="http://www.youtube.com/embed/jsI8hv8IB_I" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="405" src="//www.youtube.com/embed/jsI8hv8IB_I" frameborder="0" allowfullscreen=""></iframe>
 
 Скачать можно [отсюда](http://www.teeworlds.com/?page=downloads) или посмотреть не обновилась ли Teeworlds в «центре приложений Ubuntu», на текущий момент пока доступна только версия 0.5.2-2.

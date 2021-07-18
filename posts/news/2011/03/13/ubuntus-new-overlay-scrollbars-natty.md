@@ -19,7 +19,7 @@ Mark [пишет](http://www.markshuttleworth.com/archives/615), что вдох
 
 В блоге дизайнеров Canonical [представлено](http://design.canonical.com/2011/03/introducing-overlay-scrollbars-in-unity/) видео демонстрирующие новый скролбар в действие.
 
-<iframe src="http://player.vimeo.com/video/20523493" width="480" height="360" frameborder="0"></iframe>
+<iframe src="//player.vimeo.com/video/20523493" width="480" height="360" frameborder="0"></iframe>
 
 Представленный прототип не является конечным вариантом и до финального релиза Natty возможно будет переработан.
 

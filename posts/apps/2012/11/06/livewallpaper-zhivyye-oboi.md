@@ -37,7 +37,7 @@ visits: 13158
 Установить можно в Precise, Quantal, используя команды в терминале:
 
 ```
-sudo add-apt-repository ppa:fyrmir/livewallpaper-stable
+ sudo add-apt-repository ppa:fyrmir/livewallpaper-stable
  sudo apt-get update
  sudo apt-get install livewallpaper livewallpaper-config livewallpaper-indicator
 ```

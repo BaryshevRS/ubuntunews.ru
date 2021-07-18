@@ -15,7 +15,7 @@ OpenMW – кроссплатформенный движок с открытым
 
 В последней версии 0.15 можно наблюдать множество новых характеристик, такие как проработанную физику и систему движений игрока, взаимодействие с ландшафтом, а также различные улучшения пользовательского интерфейса.
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/kkOCH6bWqeo" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="//www.youtube.com/embed/kkOCH6bWqeo" frameborder="0" allowfullscreen=""></iframe> 
 
 ### Что нового:
 

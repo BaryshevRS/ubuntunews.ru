@@ -32,7 +32,9 @@ visits: 4978
 Установить можно в Ubuntu 13.04, 12.10, 12.04 или 11.10, используя следующие команды:
 
 ```
-sudo add-apt-repository ppa:samrog131/ppa sudo apt-get update sudo apt-get install photo
+sudo add-apt-repository ppa:samrog131/ppa 
+sudo apt-get update 
+sudo apt-get install photo
 ```
 
 Стоит отметить, что в PPA присутствует множество обновлений для KDE, поэтому репозиторий после установки лучше отключить, например, выполнив в терминале команду ниже:

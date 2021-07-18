@@ -11,7 +11,7 @@ visits: 5112
 ---
 После длительного перерыва команда журнала UserAndLINUX вновь взялась за работу и с новыми силами выпустила два новых издания и приложение. Содержание выпусков представляет собой компиляцию статей с тематических сайтов и авторского материала.
 
-<iframe src="http://www.youtube.com/embed/Y2a0ExTtnI0" frameborder="0" width="500" height="375"></iframe> 
+<iframe src="//www.youtube.com/embed/Y2a0ExTtnI0" frameborder="0" width="500" height="375"></iframe> 
 
 ### UserAndLINUX v13.10: Идеальный рабочий стол
 
@@ -26,7 +26,7 @@ visits: 5112
 *   Игровая платформа NVIDIA на базе Android и Tegra 4
 *   Китайское правительство [выбрало Ubuntu](news/ubuntu-stala-ofitsialnoy-os-kitaya) в качестве стандартной операционной системы
 
- <iframe src="http://www.youtube.com/embed/lpG1fVRZzJY" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/lpG1fVRZzJY" frameborder="0" width="500" height="281"></iframe>
 
 ### UserAndLINUX v13.11:
 

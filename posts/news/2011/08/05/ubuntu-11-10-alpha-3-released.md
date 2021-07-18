@@ -17,7 +17,7 @@ visits: 5998
 
 Отдельно стоит отметить [новый плагин](news/new-application-switcher-ambiance) переключения окон (<kbd>CTRL</kbd>+<kbd>TAB</kbd>), для которого вместо искомой комбинации клавиш пока используется <kbd>Alt</kbd>+<kbd>Tab</kbd>:
 
-<iframe src="http://www.youtube.com/embed/T7vj7AV7Fjo" frameborder="0" width="500" height="314"></iframe>
+<iframe src="//www.youtube.com/embed/T7vj7AV7Fjo" frameborder="0" width="500" height="314"></iframe>
 
 ## Приложения
 
@@ -35,7 +35,7 @@ visits: 5998
 
 Клиент микроблоггинга Gwibber был полностью переработан. Пользовательский интерфейс для которого стал более отзывчивей и дружелюбней, а количество потребляемых системных ресурсов стало значительно меньше.
 
-<iframe src="http://www.youtube.com/embed/ZqoaB5uvm-k" frameborder="0" width="500" height="314"></iframe>
+<iframe src="//www.youtube.com/embed/ZqoaB5uvm-k" frameborder="0" width="500" height="314"></iframe>
 
 ## Апплеты
 

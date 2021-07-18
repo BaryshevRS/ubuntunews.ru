@@ -37,7 +37,9 @@ visits: 11675
 Установить можно из PPA, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:alessandrofac93/bumblebee-config-gtk-devsudo apt-get update sudo apt-get install bumblebee-config-gtk
+sudo add-apt-repository ppa:alessandrofac93/bumblebee-config-gtk-dev
+sudo apt-get update 
+sudo apt-get install bumblebee-config-gtk
 ```
 
 Сообщить об ошибках можно на странице [Launchpad](https://bugs.launchpad.net/bumblebee-config-gtk).

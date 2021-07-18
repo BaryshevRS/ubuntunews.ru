@@ -15,12 +15,12 @@ visits: 4410
 
 Принцип работы скрипта заключается в возможности переключиться между запущенными окнами, просто нажав иконку нужного приложения на панели Unity и вызвав контекстное меню правым кликам мыши. В меню сверху должно будет вывестись все доступные окна, список которых обновляется динамически в зависимости от их количества.
 
- <iframe width="500" height="284" src="http://www.youtube.com/embed/hjkh5VI8CTI" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="284" src="//www.youtube.com/embed/hjkh5VI8CTI" frameborder="0" allowfullscreen=""></iframe>
 
 Установка доступна только для Ubuntu 12.04:
 
 ```
-sudo apt-add-repository ppa:alanbell/unity
+ sudo apt-add-repository ppa:alanbell/unity
  sudo apt-get update
  sudo apt-get install unity-window-quicklists
 ```

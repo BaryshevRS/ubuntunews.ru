@@ -28,8 +28,6 @@ deb http://archive.canonical.com/ubuntu/ lucid partner
 deb http://packages.medibuntu.org/ lucid free non-free
 ```
 
-  
-
 ```
 
  sudo apt-get update

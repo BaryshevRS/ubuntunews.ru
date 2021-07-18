@@ -19,7 +19,7 @@ visits: 1943
 
 Посмотреть на работу в действии можно из демонстрационного видео:
 
-<iframe src="http://player.vimeo.com/video/26015470?title=0&amp;byline=0&amp;portrait=0" width="500" height="335" frameborder="0"></iframe>
+<iframe src="//player.vimeo.com/video/26015470?title=0&amp;byline=0&amp;portrait=0" width="500" height="335" frameborder="0"></iframe>
 
 Также в планах улучшения скроллбара предстоят следующие задачи:
 

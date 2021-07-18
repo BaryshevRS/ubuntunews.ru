@@ -31,14 +31,14 @@ visits: 7565
 
 Демонстрация работы:
 
- <iframe width="500" height="369" src="http://www.youtube.com/embed/h_bkPbbJlUk" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="369" src="//www.youtube.com/embed/h_bkPbbJlUk" frameborder="0" allowfullscreen=""></iframe>
 
 Установка доступна для тестирования только пользователям Ubuntu 12.04:
 
 ```
 sudo add-apt-repository ppa:ojno/unity-minimize-on-click
- sudo apt-get update
- sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get upgrade
 ```
 
 И потребуется перезайти в сессию для вступления изменения в силу.

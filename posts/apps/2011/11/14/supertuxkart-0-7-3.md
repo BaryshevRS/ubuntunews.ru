@@ -29,6 +29,6 @@ visits: 4378
 *   Улучшен bubble gum
 *   Различные багофиксы
 
- <iframe width="500" height="369" src="http://www.youtube.com/embed/8r8CDgWDltY" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="369" src="//www.youtube.com/embed/8r8CDgWDltY" frameborder="0" allowfullscreen=""></iframe>
 
 [PPA](https://launchpad.net/%7Estk/+archive/dev) **ppa:stk/dev** пока не обновлен. Исходники можно скачать [отсюда](http://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/0.7.3/).

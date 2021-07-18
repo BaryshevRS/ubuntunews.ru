@@ -32,7 +32,7 @@ visits: 7360
 
 Видео с демонстрацией последней версии:
 
- <iframe width="500" height="281" src="http://www.youtube.com/embed/I_xDEJrf6q4" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="281" src="//www.youtube.com/embed/I_xDEJrf6q4" frameborder="0" allowfullscreen=""></iframe>
 
 ## Установка 0 A.D. в Ubuntu
 

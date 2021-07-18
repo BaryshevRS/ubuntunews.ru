@@ -13,7 +13,7 @@ visits: 3609
 
 Разработанное дополнение позволяет пользователям Ubuntu читать и редактировать «Evolution Data Server (EDS)» прямо из Thunderbird, что фактически предоставляет доступ к Ubuntu One, Google Contacts и собственно локальной адресной книге GNOME Evolution.
 
-<iframe src="http://player.vimeo.com/video/27260055?title=0&amp;byline=0&amp;portrait=0" width="500" height="360" frameborder="0"></iframe>
+<iframe src="//player.vimeo.com/video/27260055?title=0&amp;byline=0&amp;portrait=0" width="500" height="360" frameborder="0"></iframe>
 
 Аддон экспериментальный и ориентирован для работы под Ubuntu Oneiric с Thunderbird версии 6.0 или выше.
 

@@ -24,7 +24,9 @@ visits: 3354
 Установить можно из PPA для Ubuntu 12.04 или 12.10, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:scopes-packagers/ppa sudo apt-get update sudo apt-get install unity-lens-news
+sudo add-apt-repository ppa:scopes-packagers/ppa 
+sudo apt-get update 
+sudo apt-get install unity-lens-news
 ```
 
 И перезайти в сессию.

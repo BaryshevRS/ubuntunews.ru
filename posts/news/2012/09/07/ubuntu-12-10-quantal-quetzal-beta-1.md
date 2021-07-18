@@ -11,7 +11,7 @@ visits: 5319
 ---
 Представлена первая бета версия Ubuntu 12.10 Quantal Quetzal, вышедшая с множеством улучшений и добавлением новых характеристик. Финальный выпуск дистрибутива стоит ожидать 18 октября.
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/fb6IH8GMndk" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="//www.youtube.com/embed/fb6IH8GMndk" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Unity
 

@@ -53,5 +53,7 @@ visits: 17678
 Для 12.10 нужно будет добавить PPA, используя следующие команды:
 
 ```
-sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily sudo apt-get update sudo apt-get install unity-tweak-tool
+sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily 
+sudo apt-get update 
+sudo apt-get install unity-tweak-tool
 ```

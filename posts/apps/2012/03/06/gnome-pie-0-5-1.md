@@ -26,8 +26,8 @@ visits: 5249
 
 ```
 sudo add-apt-repository ppa:simonschneegans/testing
- sudo apt-get update
- sudo apt-get install gnome-pie
+sudo apt-get update
+sudo apt-get install gnome-pie
 ```
 
 PPA доступна для всех версий, начиная с Ubuntu 10.10.

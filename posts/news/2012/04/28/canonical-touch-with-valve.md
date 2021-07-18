@@ -13,7 +13,7 @@ visits: 5134
 
 Разговор начинается с 52:14 минуты (на английском):
 
- <iframe src="http://www.youtube.com/embed/5-SmNPjMcRQ?fs=1&amp;feature=oembed&amp;start=3134" frameborder="0" width="500" height="355"></iframe>
+ <iframe src="//www.youtube.com/embed/5-SmNPjMcRQ?fs=1&amp;feature=oembed&amp;start=3134" frameborder="0" width="500" height="355"></iframe>
 
 Steam – сервис для скачивания, установки, активирования, обновления игр, как от самой компании Valve, так и от сторонних разработчиков.
 

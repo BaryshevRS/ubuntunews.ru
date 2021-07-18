@@ -28,7 +28,7 @@ visits: 8108
 
 Видео с демонстрацией работы:
 
-<iframe src="http://www.youtube.com/embed/1CAWU18JkjE" frameborder="0" width="500" height="281"></iframe>
+<iframe src="//www.youtube.com/embed/1CAWU18JkjE" frameborder="0" width="500" height="281"></iframe>
 
 ## Установка патча NotifyOSD и NotifyOSDConfig в Ubuntu 12.04
 
@@ -37,8 +37,7 @@ visits: 8108
 ```
 sudo add-apt-repository ppa:leolik/leolik
 sudo apt-get update
-sudo apt-get install notify-osd libnotify-bin
-pkill notify-osd
+sudo apt-get install notify-osd libnotify-bin pkill notify-osd
 ```
 
 **2.** Устанавливаем графическую утилиту NotifyOSDConfig (с патчем NotifyOSD).

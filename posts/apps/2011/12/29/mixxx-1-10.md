@@ -34,7 +34,7 @@ visits: 8370
 Программа доступна для установки в Ubuntu 10.04 и до 11.10 включительно:
 
 ```
-sudo add-apt-repository ppa:mixxx/mixxx
+ sudo add-apt-repository ppa:mixxx/mixxx
  sudo apt-get update
  sudo apt-get install mixxx libportaudio2
 ```

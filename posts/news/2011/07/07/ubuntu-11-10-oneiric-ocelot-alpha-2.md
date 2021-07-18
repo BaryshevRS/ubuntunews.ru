@@ -13,7 +13,7 @@ visits: 4951
 
 С нововведениями можно ознакомиться из демонстрационного видео, в котором подробно представлены все наработки для Unity, Unity 2D и GNOME Shell.
 
-<iframe width="500" height="405" src="http://www.youtube.com/embed/m5Hy6694rAk" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="//www.youtube.com/embed/m5Hy6694rAk" frameborder="0" allowfullscreen=""></iframe>
 
 ## Оформление
 

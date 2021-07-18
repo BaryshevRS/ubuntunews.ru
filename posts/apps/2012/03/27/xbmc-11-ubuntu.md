@@ -39,7 +39,7 @@ XBMC – свободный кроссплатформенный медиа-це
 Пользователи Ubuntu 11.10, 11.04, 10.10 или 10.04 могут установить из стабильного PPA, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:team-xbmc/ppa
+ sudo add-apt-repository ppa:team-xbmc/ppa
  sudo apt-get update
  sudo apt-get install xbmc
 ```
@@ -47,7 +47,7 @@ sudo add-apt-repository ppa:team-xbmc/ppa
 Для 12.04 поддержки нет, но можно воспользоваться неофициальным PPA:
 
 ```
-sudo apt-add-repository ppa:nathan-renniewaldock/xbmc-stable
+ sudo apt-add-repository ppa:nathan-renniewaldock/xbmc-stable
  sudo apt-get update
  sudo apt-get install xbmc
 ```

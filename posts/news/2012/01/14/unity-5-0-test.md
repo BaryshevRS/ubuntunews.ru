@@ -31,7 +31,7 @@ visits: 5952
 
 С демонстрацией работы можно ознакомиться из следующего видео:
 
-<iframe width="500" height="369" src="http://www.youtube.com/embed/FocPwTmQZ18" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="369" src="//www.youtube.com/embed/FocPwTmQZ18" frameborder="0" allowfullscreen=""></iframe> 
 
 Рассмотренные характеристики настраиваются через CCSM (CompizConfig Settings Manager), установка которого доступна из центра приложений.
 
@@ -40,7 +40,7 @@ visits: 5952
 Установка Unity 5.0 доступна для Ubuntu 12.04, а также 11.10.
 
 ```
-sudo add-apt-repository ppa:unity-team/staging
+ sudo add-apt-repository ppa:unity-team/staging
  sudo apt-get update
  sudo apt-get dist-upgrade
 ```

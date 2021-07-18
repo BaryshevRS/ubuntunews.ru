@@ -20,7 +20,7 @@ Qreator – очень простой и удобный инструмент д�
 Установка доступна только для Ubuntu 12.04, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:dpm/ppa
+ sudo add-apt-repository ppa:dpm/ppa
  sudo apt-get update
  sudo apt-get install qreator
 ```

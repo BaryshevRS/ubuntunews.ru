@@ -32,6 +32,6 @@ visits: 7183
 
 ```
 sudo add-apt-repository ppa:minetestdevs/stable
- sudo apt-get update
- sudo apt-get install minetestc55
+sudo apt-get update
+sudo apt-get install minetestc55
 ```

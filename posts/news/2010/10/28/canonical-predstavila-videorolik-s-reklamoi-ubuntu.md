@@ -11,7 +11,7 @@ visits: 1102
 ---
 Компания Canonical, обеспечивающая коммерческую поддержку популярного Linux-дистрибутива Ubuntu, представила 80-секундный видеоролик с рекламой Ubuntu.
 
-<iframe src="http://player.vimeo.com/video/16103930" width="480" height="250" frameborder="0"></iframe>
+<iframe src="//player.vimeo.com/video/16103930" width="480" height="250" frameborder="0"></iframe>
 
 Над этим видео работала команда дизайнеров из Canonical. «Ролик был создан для использования нашими партнерами с целью продвижения Open Source и в частности нашего любимого дистрибутива», — поясняется в блоге Canonical Design Blog.
 

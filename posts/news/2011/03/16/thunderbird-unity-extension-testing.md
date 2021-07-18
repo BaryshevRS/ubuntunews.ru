@@ -17,6 +17,6 @@ visits: 2400
 
 Посмотреть в действие можно из следующего видео:
 
-<iframe src="http://player.vimeo.com/video/21027015" width="480" height="340" frameborder="0"></iframe>
+<iframe src="//player.vimeo.com/video/21027015" width="480" height="340" frameborder="0"></iframe>
 
 Желающие попробовать новое дополнение могут загрузить его с addons.mozilla.org, после загрузки потребуется перегрузить Unity для поддержки контекстного меню, так как версия находится на этапе тестирования возможны и другие баги, об которых можно сообщить на [Launchpad.net](http://launchpad.net/unitylauncher-extension).

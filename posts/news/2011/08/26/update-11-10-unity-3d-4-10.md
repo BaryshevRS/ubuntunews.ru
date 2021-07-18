@@ -11,7 +11,7 @@ visits: 9512
 ---
 С 25-го августа пользовательский интерфейс перешел на стадию заморозки так, что новый релиз десктоп оболочки Unity 3D 4.10 будет окончательным внешним видом Unity в Ubuntu 11.10, конечно некоторые небольшие доработки все еще будут вноситься, но не каких масштабных изменений мы уже не увидим.
 
-<iframe width="500" height="311" src="http://www.youtube.com/embed/Yp1Sdw4mQ1w" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="311" src="//www.youtube.com/embed/Yp1Sdw4mQ1w" frameborder="0" allowfullscreen=""></iframe>
 
 ## Что нового в Unity 3D 4.10:
 

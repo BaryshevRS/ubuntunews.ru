@@ -67,11 +67,14 @@ visits: 6699
 Установка доступна для Raring из официального тестового PPA:
 
 ```
-sudo add-apt-repository ppa:ubuntu-unity/experimental-certified sudo apt-get updatesudo apt-get dist-upgrade
+sudo add-apt-repository ppa:ubuntu-unity/experimental-certified 
+sudo apt-get update
+sudo apt-get dist-upgrade
 ```
 
 Удалить:
 
 ```
-sudo apt-get install ppa-purge sudo ppa-purge ppa:ubuntu-unity/experimental-certified
+sudo apt-get install ppa-purge 
+sudo ppa-purge ppa:ubuntu-unity/experimental-certified
 ```

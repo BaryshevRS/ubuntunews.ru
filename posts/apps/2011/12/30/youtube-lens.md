@@ -18,7 +18,7 @@ visits: 4311
 Для установки предоставляется линза «lens-video» и область поиска по Youtube – «scope-youtube»:
 
 ```
-sudo add-apt-repository ppa:atareao/lenses
+ sudo add-apt-repository ppa:atareao/lenses
  sudo apt-get update
  sudo apt-get install lens-video scope-youtube
 ```

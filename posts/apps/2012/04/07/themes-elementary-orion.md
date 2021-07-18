@@ -46,7 +46,7 @@ visits: 10050
 Также можно поставить тему иконок Elementary из PPA:
 
 ```
-sudo add-apt-repository ppa:elementary-os/testing
+ sudo add-apt-repository ppa:elementary-os/testing
  sudo apt-get update
  sudo apt-get install elementary-icon-theme
 ```
@@ -68,7 +68,7 @@ Orion включает темы для GTK2/3, XFCE, Openbox и Unity, а так
 Установить можно в Ubuntu 12.04 или 11.10, выполнив команды в терминале:
 
 ```
-sudo add-apt-repository ppa:satyajit-happy/themes
+ sudo add-apt-repository ppa:satyajit-happy/themes
  sudo apt-get update
  sudo apt-get install orion-gtk-theme
 ```

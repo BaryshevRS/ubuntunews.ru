@@ -23,8 +23,8 @@ OOO Thubnailer - небольшая утилита для файлового м�
 
 ```
 sudo add-apt-repository ppa:flimm/ooo-thumbnailer
- sudo apt-get update
- sudo apt-get install ooo-thumbnailer
+sudo apt-get update
+sudo apt-get install ooo-thumbnailer
 ```
 
 После инсталляции потребуется перегрузить Nautilus:

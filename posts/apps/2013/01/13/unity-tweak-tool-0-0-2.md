@@ -19,9 +19,9 @@ visits: 10720
 
 Unity-Tweak-Tool находится в активной разработке и постоянно пополняется новым функционалом. Из существующих характеристик стоит выделить возможность отключения отслеживания сайтов, подключаемых как веб-приложения, гибкую настройку тем и апплетов-индикаторов, например, можно выбрать музыкальный плеер по умолчанию.
 
-[Видео](http://www.youtube.com/watch?v=ixl_2QpRdy0) с обзором интерфейса:
+[Видео](https://www.youtube.com/watch?v=ixl_2QpRdy0) с обзором интерфейса:
 
-<iframe width="500" height="375" src="http://www.youtube.com/embed/ixl_2QpRdy0" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="375" src="//www.youtube.com/embed/ixl_2QpRdy0" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка твикера Unity-Tweak-Tool в Ubuntu
 

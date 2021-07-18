@@ -31,7 +31,7 @@ Recoll – десктоп утилита для [полнотекстового 
 Установка доступна из PPA для Ubuntu 12.04, 11.10 и 11.04, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:recoll-backports/recoll-1.15-on
+ sudo add-apt-repository ppa:recoll-backports/recoll-1.15-on
  sudo apt-get update
  sudo apt-get install recoll-lens recoll
 ```

@@ -39,14 +39,14 @@ visits: 17054
 
 Видео с демонстрацией работы Cairo Dock 3.1:
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/2isiqVEcaio" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="//www.youtube.com/embed/2isiqVEcaio" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка Cairo Dock в Ubuntu
 
 Установить можно, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:cairo-dock-team/ppa
+ sudo add-apt-repository ppa:cairo-dock-team/ppa
  sudo apt-get update
  sudo apt-get install cairo-dock cairo-dock-plug-ins
 ```

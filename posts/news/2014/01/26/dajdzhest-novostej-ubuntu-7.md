@@ -82,11 +82,11 @@ visits: 21865
 
 Мультизадачность:
 
-<iframe src="http://player.vimeo.com/video/84360939" width="500" height="279"></iframe> 
+<iframe src="//player.vimeo.com/video/84360939" width="500" height="279"></iframe> 
 
 Анимация переходов:
 
-<iframe src="http://www.youtube.com/embed/LCG0sB5jAeM" frameborder="0" width="500" height="375"></iframe> 
+<iframe src="//www.youtube.com/embed/LCG0sB5jAeM" frameborder="0" width="500" height="375"></iframe> 
 
 ## Ubuntu 14.04
 

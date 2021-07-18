@@ -20,6 +20,6 @@ Ubuntu TV – это проект нацеленный на установку U
 *   Анимированный показ погоды
 *   Стилизация параметров системы и меню сессии
 
-<iframe width="500" height="375" src="http://www.youtube.com/embed/KMgQpS8F6_o" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="375" src="//www.youtube.com/embed/KMgQpS8F6_o" frameborder="0" allowfullscreen=""></iframe> 
 
 Данный ролик раскрывает потенциал Ubuntu TV (Unity), как достаточно гибкую платформу для разработки, где можно реализовать свои творческие идеи.

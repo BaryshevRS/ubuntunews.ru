@@ -26,7 +26,8 @@ deb http://packages.linuxmint.com/ lisa main upstream import
 Теперь установим, выполнив команды в терминале:
 
 ```
-sudo apt-get update sudo apt-get install mint-meta-mate
+sudo apt-get update 
+sudo apt-get install mint-meta-mate
 ```
 
 После выхода из системы, в меню выбора рабочих столов, можно будет выбрать MATE.

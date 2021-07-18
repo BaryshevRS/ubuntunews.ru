@@ -17,7 +17,7 @@ visits: 9033
 
 [![](img/2013/08/06/21-00/8362258914.jpg)](img/2013/08/06/21-00/8362258914.jpg)
 
-<iframe src="http://www.youtube.com/embed/E3RQx4__Sg8" frameborder="0" width="500" height="281"></iframe>
+<iframe src="//www.youtube.com/embed/E3RQx4__Sg8" frameborder="0" width="500" height="281"></iframe>
 
 Дата релиза пока не известна, но ожидается в конце года.
 
@@ -25,7 +25,7 @@ visits: 9033
 
 [Natural Selection II](http://ru.wikipedia.org/wiki/Natural_Selection_2) – многопользовательский футуристический шутер от первого лица в режиме стратегии реального времени.
 
- <iframe src="http://www.youtube.com/embed/hp-4iaKXP68" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/hp-4iaKXP68" frameborder="0" width="500" height="281"></iframe>
 
 Всё говорит о том, что игра наконец-таки выйдет под Linux и уже этой осенью.
 
@@ -35,7 +35,7 @@ visits: 9033
 
 [Обзор от igromania.ru.](http://www.igromania.ru/articles/208392/Monaco_Whats_Yours_Is_Mine.htm)
 
- <iframe src="http://www.youtube.com/embed/hC7b6642AWM" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/hC7b6642AWM" frameborder="0" width="500" height="281"></iframe>
 
 На счёт поддержки вот, что разработчик написал на странице сообщества Steam:
 
@@ -45,7 +45,7 @@ visits: 9033
 
 С помощью [Garry’s Mod](http://ru.wikipedia.org/wiki/Garry%E2%80%99s_Mod) можно проводить любые действия с объектами и персонажами из игр на базе движка Source, например, менять текстуры, изменять выражения лиц, пропорции предметов, в общем, список действий ограничен только фантазией.
 
- <iframe src="http://www.youtube.com/embed/jDchc5Ww_i8" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/jDchc5Ww_i8" frameborder="0" width="500" height="281"></iframe>
 
 Уже существует бета версия, так что ждать релиз осталось не так долго.
 
@@ -53,7 +53,7 @@ visits: 9033
 
 **Air Conflict: Pacific Carrier** – авиасимулятор, посвященный событиям второй мировой войны.
 
- <iframe src="http://www.youtube.com/embed/P5lzzYdAB9A" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/P5lzzYdAB9A" frameborder="0" width="500" height="281"></iframe>
 
 Что говорят разработчики:
 
@@ -63,6 +63,6 @@ visits: 9033
 
 [Worms Reloaded](http://ru.wikipedia.org/wiki/Worms:_Reloaded) – двухмерная пошаговая стратегия, являющаяся частью серии игр Worms.
 
- <iframe src="http://www.youtube.com/embed/xO7rHL3yeJ8" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/xO7rHL3yeJ8" frameborder="0" width="500" height="281"></iframe>
 
 Игра также ожидается под Linux, или, по крайней мере, очень [на это похоже](http://www.gamingonlinux.com/articles/worms-reloaded-looks-set-to-hit-linux.2173).

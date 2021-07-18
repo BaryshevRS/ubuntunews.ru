@@ -17,7 +17,7 @@ visits: 5292
 
 Side Stage – это не что иное, как разбивка экрана планшета на две области, в одной из которых можно делать звонок, а во второй работать с установленными приложениями. Увидеть в действии можно из [презентации](https://www.youtube.com/watch?v=PF7L4825HhU&list;=UUdb2Dl1wSg87NuBnpMKMqgA&index;=1) (на русском) с Марком Шаттлвортом.
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/PF7L4825HhU" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="//www.youtube.com/embed/PF7L4825HhU" frameborder="0" allowfullscreen=""></iframe> 
 
 В остальном характеристики такие же, как и в версии для телефонов, например, те же индикаторы, управление голосом, веб-приложения, панель Unity и т.п.
 
@@ -43,9 +43,9 @@ Side Stage – это не что иное, как разбивка экрана
 *   10-12 дюймовый экран;
 *   мультитач на 4-10 пальцев.
 
-**[Трейлер](http://www.youtube.com/watch?feature=player_embedded&v=5_4fXQcxFRs) с демонстрацией работы:**
+**[Трейлер](https://www.youtube.com/watch?feature=player_embedded&v=5_4fXQcxFRs) с демонстрацией работы:**
 
- <iframe src="http://www.youtube.com/embed/5_4fXQcxFRs" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="//www.youtube.com/embed/5_4fXQcxFRs" frameborder="0" width="500" height="281"></iframe>
 
 ### Когда
 

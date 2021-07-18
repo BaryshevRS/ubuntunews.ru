@@ -13,7 +13,7 @@ visits: 2565
 
 Widelands доступна в «Центре приложений», последнюю версию можно загрузить также используя PPA.
 
-<iframe width="500" height="405" src="http://www.youtube.com/embed/FhvIelt0Ers" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="//www.youtube.com/embed/FhvIelt0Ers" frameborder="0" allowfullscreen=""></iframe>
 
 ### Изменения в последней 16 версии:
 

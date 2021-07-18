@@ -24,7 +24,7 @@ visits: 5544
 Для установки Selene в Ubuntu 12.04 Precise Pangolin выполните следующие команды в терминале:
 
 ```
-sudo add-apt-repository ppa:tista/selene
+ sudo add-apt-repository ppa:tista/selene
  sudo apt-get update
  sudo apt-get install selene-theme 
 ```

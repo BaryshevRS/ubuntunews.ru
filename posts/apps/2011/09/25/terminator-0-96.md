@@ -23,7 +23,7 @@ Terminator — один из лучших эмуляторов терминал�
 
 Из представленного ниже видеоролика можно ознакомиться с имеющимися характеристиками приложения.
 
-<iframe width="500" height="284" src="http://www.youtube.com/embed/K5JWLlh5IKc" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="//www.youtube.com/embed/K5JWLlh5IKc" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка Terminator 0.96
 
