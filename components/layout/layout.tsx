@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Header } from "./header";
 import { Sidebar } from "./sidebar";
 import { MobileNav } from "./mobile-nav/mobile-nav";
-import { useState } from "react";
+import React, { useState } from "react";
 import { ILayoutProps } from "../../lib/posts";
 
 export const Layout: React.FC<ILayoutProps> = (
@@ -23,7 +23,7 @@ export const Layout: React.FC<ILayoutProps> = (
   const baseUrl = process.env.BASE_URL;
 
   return (
-    <div className='wrapper'>
+    <div className={`wrapper`}>
       <Head>
         <meta charSet="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

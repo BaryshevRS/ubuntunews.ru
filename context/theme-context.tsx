@@ -1,40 +1,36 @@
-import React, { createContext, Dispatch, ReactNode, SetStateAction, useEffect, useState } from 'react'
+import React, { createContext, ReactNode, useEffect } from 'react'
+import useLocalStorage from '../hooks/use-local-storage';
 
-export type ThemeType = 'light' | 'dark';
+export enum ThemeEnum {
+  Light = 'light',
+  Dark = 'dark'
+}
 
 type ThemeContextType = {
-  state: ThemeType | null;
-  setState?: Dispatch<SetStateAction<ThemeType>>;
+  themeState: ThemeEnum;
+  setThemeState?: (value: ThemeEnum) => void;
 };
 
-export const ThemeContext = createContext<ThemeContextType>({state: 'light'});
+export const ThemeContext = createContext<ThemeContextType>({themeState: ThemeEnum.Light});
 const ThemeKey = 'theme';
 
 type IProps = {
   children: ReactNode;
 };
 
-export function ThemeProvider({ children }: IProps) {
-  let defaultState;
-
-  if (typeof window !== "undefined") {
-    defaultState = window.localStorage.getItem(ThemeKey) || 'light';
-  }
-
-  const [state, setState] = useState<ThemeType>(defaultState as ThemeType);
-  const value = React.useMemo(() => ({state, setState}), [state]);
+export function ThemeProvider({children}: IProps) {
+  const [themeState, setThemeState] = useLocalStorage<ThemeEnum>(ThemeKey, ThemeEnum.Light);
+  const value = React.useMemo(() => ({themeState, setThemeState}), [themeState]);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      localStorage.setItem(ThemeKey, JSON.stringify(state));
-    }
-  }, [state]);
+    document.documentElement.setAttribute('data-theme', themeState);
+  }, [themeState]);
 
   return (
     <>
       <ThemeContext.Provider value={value}>
-      {children}
+        {children}
       </ThemeContext.Provider>
-      </>
+    </>
   );
 }
