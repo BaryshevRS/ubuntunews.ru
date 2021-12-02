@@ -1,6 +1,6 @@
 {
   "name": "ubuntunews.ru",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Новости Ubuntu",
   "main": "index.js",
   "dependencies": {
@@ -8,7 +8,7 @@
     "date-fns-tz": "^1.1.4",
     "glob": "^7.1.7",
     "gray-matter": "^4.0.3",
-    "next": "^11.0.1",
+    "next": "^12.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-markdown": "^6.0.2",
@@ -16,7 +16,7 @@
     "rehype-raw": "^5.1.0",
     "remark": "^13.0.0",
     "remark-unwrap-images": "^2.1.0",
-    "sass": "1.32",
+    "sass": "^1.44.0",
     "simple-react-lightbox": "^3.6.6",
     "strip-markdown": "^4.0.0"
   },

@@ -66,7 +66,7 @@ export const Layout: React.FC<ILayoutProps> = (
         <meta name="theme-color" content="#ffffff"/>
 
         <meta name="google-site-verification" content="LPQrJDo4SaQ8Guxp4iBR7l1djWL2_ibYQaW9h7Pox64"/>
-        <meta name='yandex-verification' content='7f39a8aa154db7c2'/>
+        <meta name="yandex-verification" content="294e02817c1b649d" />
       </Head>
 
       <Header onToggleMenu={setShowMobileNav}/>
