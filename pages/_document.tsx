@@ -42,8 +42,10 @@ class MyDocument extends Document {
               __html: compress(ga),
             }}
           />
-          <noscript><div><img src="https://mc.yandex.ru/watch/2978071"
-                              style={{position: 'absolute', left: '-9999px'}} alt="" /></div></noscript>
+
+          <script async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9301389543928531"
+                  crossOrigin="anonymous" />
         </Head>
         <body>
         <Main/>
