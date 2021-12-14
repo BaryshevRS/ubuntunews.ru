@@ -32,10 +32,10 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
           выпуском патчей обновлений безопасности.
         </p>
 
-        <h2 id="20.04">Скачать Ubuntu 20.04.2 LTS</h2>
+        <h2 id="20.04">Скачать Ubuntu 20.04.3 LTS</h2>
         <p>Это самая последняя версия, включающая в себя все новые и передовые технологии работы с
           компьютером.</p>
-        <p>Для скачивания Ubuntu 20.04.2 через торрент или напрямую можно кликнуть по нужной ссылке из таблицы
+        <p>Для скачивания Ubuntu 20.04.3 через торрент или напрямую можно кликнуть по нужной ссылке из таблицы
           ниже.</p>
         <table className="table  table-bordered">
           <tbody>
@@ -54,20 +54,20 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
             <td rowSpan={1}>Мир</td>
             <td className="ltd">Десктоп</td>
 
-            <td className="ltd"><a href="http://releases.ubuntu.com/20.04/ubuntu-20.04.2.0-desktop-amd64.iso"
+            <td className="ltd"><a href="http://releases.ubuntu.com/20.04/ubuntu-20.04.3-desktop-amd64.iso"
                                    rel="nofollow">amd64</a></td>
 
-            <td className="ltd"><a href="http://releases.ubuntu.com/20.04/ubuntu-20.04.2.0-desktop-amd64.iso.torrent"
+            <td className="ltd"><a href="http://releases.ubuntu.com/20.04/ubuntu-20.04.3-desktop-amd64.iso.torrent"
                                    rel="nofollow">amd64</a></td>
           </tr>
           <tr>
             <td rowSpan={1}>Россия</td>
             <td>Десктоп</td>
 
-            <td><a href="http://mirror.yandex.ru/ubuntu-releases/20.04/ubuntu-20.04.2.0-desktop-amd64.iso"
+            <td><a href="http://mirror.yandex.ru/ubuntu-releases/20.04/ubuntu-20.04.3-desktop-amd64.iso"
                    rel="nofollow">amd64</a></td>
 
-            <td><a href="http://mirror.yandex.ru/ubuntu-releases/20.04/ubuntu-20.04.2.0-desktop-amd64.iso.torrent"
+            <td><a href="http://mirror.yandex.ru/ubuntu-releases/20.04/ubuntu-20.04.3-desktop-amd64.iso.torrent"
                    rel="nofollow">amd64</a></td>
           </tr>
           </tbody>
@@ -82,10 +82,10 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
         <p>Поддержка их кратковременна,
           всего три месяца после выхода новой версии, так что если выбрали этот путь, то придётся постоянно обновляться.</p>
 
-        <h2 id="21.04">Скачать Ubuntu 21.04</h2>
+        <h2 id="21.10">Скачать Ubuntu 21.10</h2>
         <p>Это последняя промежуточная версия, включающая в себя все новые и передовые технологии работы с
           компьютером.</p>
-        <p>Для скачивания Ubuntu 18.10 через торрент или напрямую можно кликнуть по нужной ссылке из таблицы ниже.</p>
+        <p>Для скачивания через торрент или напрямую можно кликнуть по нужной ссылке из таблицы ниже.</p>
         <table className="table  table-bordered">
           <tbody>
           <tr>
@@ -103,20 +103,20 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
             <td rowSpan={1}>Мир</td>
             <td className="ltd">Десктоп</td>
 
-            <td className="ltd"><a href="http://releases.ubuntu.com/21.04/ubuntu-21.04-desktop-amd64.iso"
+            <td className="ltd"><a href="http://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso"
                                    rel="nofollow">amd64</a></td>
 
-            <td className="ltd"><a href="http://releases.ubuntu.com/21.04/ubuntu-21.04-desktop-amd64.iso.torrent"
+            <td className="ltd"><a href="http://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso.torrent"
                                    rel="nofollow">amd64</a></td>
           </tr>
           <tr>
             <td rowSpan={1}>Россия</td>
             <td>Десктоп</td>
 
-            <td><a href="http://mirror.yandex.ru/ubuntu-releases/21.04/ubuntu-21.04-desktop-amd64.iso"
+            <td><a href="http://mirror.yandex.ru/ubuntu-releases/21.10/ubuntu-21.10-desktop-amd64.iso"
                    rel="nofollow">amd64</a></td>
 
-            <td><a href="http://mirror.yandex.ru/ubuntu-releases/21.04/ubuntu-21.04-desktop-amd64.iso.torrent"
+            <td><a href="http://mirror.yandex.ru/ubuntu-releases/21.10/ubuntu-21.10-desktop-amd64.iso.torrent"
                    rel="nofollow">amd64</a></td>
           </tr>
           </tbody>
