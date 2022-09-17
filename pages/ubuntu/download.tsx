@@ -31,10 +31,10 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
           Так как их поддержка составляет пять лет и по истечению ещё пятилетний период с выпуском патчей обновлений безопасности.
         </p>
 
-        <h2 id="22.04">Скачать Ubuntu 22.04 LTS</h2>
+        <h2 id="22.04">Скачать Ubuntu 22.04.1 LTS</h2>
         <p>Это самая последняя версия, включающая в себя все новые и передовые технологии работы с
           компьютером.</p>
-        <p>Для скачивания Ubuntu 22.04 через торрент или напрямую можно кликнуть по нужной ссылке из таблицы
+        <p>Для скачивания Ubuntu 22.04.1 через торрент или напрямую можно кликнуть по нужной ссылке из таблицы
           ниже.</p>
         <table className="table  table-bordered">
           <tbody>
@@ -53,26 +53,26 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
             <td rowSpan={1}>Мир</td>
             <td className="ltd">Десктоп</td>
 
-            <td className="ltd"><a href="https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso"
+            <td className="ltd"><a href="https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-desktop-amd64.iso"
                                    rel="nofollow">amd64</a></td>
 
-            <td className="ltd"><a href="https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent"
+            <td className="ltd"><a href="https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-desktop-amd64.iso.torrent"
                                    rel="nofollow">amd64</a></td>
           </tr>
           <tr>
             <td rowSpan={1}>Россия</td>
             <td>Десктоп</td>
 
-            <td><a href="https://mirror.yandex.ru/ubuntu-releases/22.04/ubuntu-22.04-desktop-amd64.iso"
+            <td><a href="https://mirror.yandex.ru/ubuntu-releases/22.04.1/ubuntu-22.04.1-desktop-amd64.iso"
                    rel="nofollow">amd64</a></td>
 
-            <td><a href="https://mirror.yandex.ru/ubuntu-releases/22.04/ubuntu-22.04-desktop-amd64.iso.torrent"
+            <td><a href="https://mirror.yandex.ru/ubuntu-releases/22.04.1/ubuntu-22.04.1-desktop-amd64.iso.torrent"
                    rel="nofollow">amd64</a></td>
           </tr>
           </tbody>
         </table>
 
-        <h2>Промежуточные</h2>
+{/*        <h2>Промежуточные</h2>
         <p>Выходят каждые полгода и несут в себе новые и экспериментальные функции, так что если хотите идти в ногу со временем, этот выпуск будет актуален.
           </p>
 
@@ -115,7 +115,7 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
                    rel="nofollow">amd64</a></td>
           </tr>
           </tbody>
-        </table>
+        </table>*/}
 
         <h2>Архитектуры образов</h2>
 
