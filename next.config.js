@@ -1,9 +1,26 @@
+const path = require("path");
 module.exports = {
   webpack: (config, { isServer }) => {
     if (isServer) {
       require('./lib/generation/sitemap');
       require('./lib/generation/feed');
     }
+
+    config.module.rules.push({
+      test: /\.svg$/,
+      issuer: /\.tsx?$/,
+      include: [
+        path.resolve(__dirname, "components"),
+        path.resolve(__dirname, "public"),
+      ],
+      use: [
+        'next-swc-loader',
+        {
+          loader: '@svgr/webpack',
+          options: { babel: false }
+        }
+      ],
+    });
 
     return config;
   },
@@ -28,6 +45,6 @@ module.exports = {
     return {...main, ...ubuntuPage, ...projectPage, ...error404Page};
   },
   env: {
-    BASE_URL: 'https://ubuntunews.ru'
+    BASE_URL: 'http://localhost:3000', // https://ubuntunews.ru'
   }
 };

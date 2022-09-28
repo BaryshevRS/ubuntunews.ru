@@ -1,4 +1,3 @@
-// import Head from "next/head";
 import LogoIcon from "../../public/logo.svg";
 import DownloadIcon from "../../public/assets/icons/download.svg";
 import MenuIcon from "../../public/assets/icons/menu.svg";
