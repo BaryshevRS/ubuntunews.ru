@@ -31,7 +31,6 @@ export default function PostImg({title = '', alt = '', src, picture}: IProps) {
           height={height}
           src={src}
         />
-
       </picture>
 
       {title && <figcaption><Source url={title}/></figcaption>}

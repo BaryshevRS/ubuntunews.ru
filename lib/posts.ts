@@ -4,6 +4,7 @@ import matter from 'gray-matter'
 import { getUnixTime, parseISO } from 'date-fns'
 import remark from "remark";
 import strip from "strip-markdown";
+import { sidebarTopPosts } from "../consts/sidebar";
 
 const {promisify} = require("util");
 const globMethod = require('glob');
@@ -400,15 +401,7 @@ export async function getPostData(id: string) {
 }
 
 export async function getLayoutProps() {
-  const topPosts = await getTopPostsData(
-    [
-      'dajdzhest-novostej-ubuntu-8',
-      'tweak-after-installing-ubuntu-11-10',
-      '20-alternativ-rabochemu-stolu-unity',
-      'top-5-bit-torrent-clients-ubuntu',
-      'best-native-games-ubuntu'
-    ]
-  );
+  const topPosts = await getTopPostsData(sidebarTopPosts);
   return {
     topPosts
   }

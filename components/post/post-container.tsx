@@ -8,12 +8,11 @@ import rehypeRaw from "rehype-raw";
 import Source from "../source";
 // import { PostNav } from "../post-nav";
 import React, { useMemo } from "react";
-// @ts-ignore
-import SimpleReactLightbox from "simple-react-lightbox"
-// @ts-ignore
-import { SRLWrapper } from "simple-react-lightbox";
 import { IPostData } from "../../lib/posts";
 import { Components } from "react-markdown/src/ast-to-react";
+import LightGallery from 'lightgallery/react';
+
+import 'lightgallery/css/lightgallery.css';
 
 export default function PostContainer({title, date, content, source, picture}: IPostData) {
   const components: Components = useMemo<Components>(() => ({
@@ -39,23 +38,23 @@ export default function PostContainer({title, date, content, source, picture}: I
   }), [picture]);
 
   return <article className={'post'}>
-      <header>
-        <h1>{title}</h1>
+    <header>
+      <h1>{title}</h1>
+      <div className={'time'}>
+        <TimeIcon/>
+        <Time dateTime={date}/>
+      </div>
+    </header>
+    <LightGallery
+      speed={500}
+      selector={'img'}>
+      <ReactMarkdown remarkPlugins={[remarkUnwrapImages]}
+                     rehypePlugins={[rehypeRaw]}
+                     components={components}>{content}</ReactMarkdown>
+    </LightGallery>
+    {source && <Source url={source}/>}
+  </article>
 
-        <div className={'time'}>
-          <TimeIcon/>
-          <Time dateTime={date}/>
-        </div>
-      </header>
-      <SimpleReactLightbox>
-        <SRLWrapper>
-          <ReactMarkdown remarkPlugins={[remarkUnwrapImages]}
-                         rehypePlugins={[rehypeRaw]}
-                         components={components}>{content}</ReactMarkdown>
-        </SRLWrapper>
-      </SimpleReactLightbox>
-      {source && <Source url={source}/>}
-    </article>
-
-{/*    <PostNav/>*/}
+  {/*    <PostNav/>*/
+  }
 }
