@@ -16,8 +16,8 @@ export const ThemeToggle: React.FC<IProp> = () => {
     <div className={'grid end'}>
       <div onClick={() => setThemeState?.(themeState === ThemeEnum.Dark ? ThemeEnum.Light : ThemeEnum.Dark)}
            className={classes['theme-toggle']}>
-        {hasMounted && themeState === ThemeEnum.Dark && <BedtimeIcon/>}
-        {hasMounted && themeState === ThemeEnum.Light && <SunnyIcon/>}
+        {hasMounted && themeState === ThemeEnum.Dark && <SunnyIcon/>}
+        {hasMounted && themeState === ThemeEnum.Light && <BedtimeIcon/>}
       </div>
     </div>
   )
