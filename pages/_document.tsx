@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
-import { ga, ym } from '../consts/mertics';
+import { ga, ym } from '../lib/consts/mertics';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {

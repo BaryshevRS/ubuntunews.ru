@@ -3,7 +3,7 @@ import { ThemeContext, ThemeEnum } from "../../context/theme-context";
 import BedtimeIcon from "../../public/assets/icons/bedtime.svg";
 import SunnyIcon from "../../public/assets/icons/sunny.svg";
 import classes from "./theme-toggle.module.scss"
-import useHasMounted from "../../hooks/use-has-mounted";
+import useHasMounted from "../../lib/hooks/use-has-mounted";
 
 interface IProp {
   onToggle?: (toggle: boolean) => void;

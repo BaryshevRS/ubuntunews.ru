@@ -19,7 +19,7 @@ export const Layout: React.FC<ILayoutProps> = (
   }
 ) => {
   const [showMobileNav, setShowMobileNav] = useState(false);
-  const baseUrl = process.env.BASE_URL;
+  const baseUrl = process.env.NEXT_PUBLIC_HOST;
   return (
     <div className={`wrapper`}>
       <Head>

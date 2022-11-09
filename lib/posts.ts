@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import { getUnixTime, parseISO } from 'date-fns'
 import remark from "remark";
 import strip from "strip-markdown";
-import { sidebarTopPosts } from "../consts/sidebar";
+import { sidebarTopPosts } from "./consts/sidebar";
 
 const {promisify} = require("util");
 const globMethod = require('glob');

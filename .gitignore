@@ -4,6 +4,10 @@
 /public/sitemap.xml
 /public/feed.xml
 
+.env
+.env.development
+.env.production
+
 temp
 
 # dependencies

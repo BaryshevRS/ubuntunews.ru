@@ -29,7 +29,7 @@ export default function PostLink(
 
   const [externalLink, url] = useMemo(() => {
     let url = href;
-    const host = process.env.BASE_URL || '';
+    const host = process.env.NEXT_PUBLIC_HOST || '';
 
     // External link check
     let externalLink = !!url.match(/http|\\\\/g);
