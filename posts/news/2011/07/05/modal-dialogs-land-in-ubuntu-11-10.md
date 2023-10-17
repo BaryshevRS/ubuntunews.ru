@@ -19,6 +19,6 @@ visits: 3935
 
 Из видео ниже можно ознакомиться с работой модальных окон в Unity 3D.
 
-<iframe width="500" height="314" src="//www.youtube.com/embed/42ofOHSJ3Ys" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="314" src="https://www.youtube.com/embed/42ofOHSJ3Ys" frameborder="0" allowfullscreen=""></iframe>
 
 Как и большинство плагинов Compiz, «unity dialog handler» можно настроить через CCSM (Compiz Configuration Settings Manager). Из доступных опций: изменение прозрачность модального окна и время исчезновения.

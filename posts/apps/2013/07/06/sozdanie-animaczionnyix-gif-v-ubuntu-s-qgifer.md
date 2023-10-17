@@ -47,7 +47,7 @@ avconv -i in.avi -ss 00:00:00 -t 00:00:30 -c copy out.avi
 
 Ниже представлено обучающее видео, из которого можно почерпнуть основные навыки работы с программой, например, создание GIF, оптимизации размера, управление цветом и вставка объектов.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/SNTf5eNdL4Q" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="https://www.youtube.com/embed/SNTf5eNdL4Q" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка QGifer в Ubuntu
 

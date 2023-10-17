@@ -28,7 +28,7 @@ visits: 8549
 
 Официальная видео презентация Cairo Dock 2.4.0
 
-<iframe src="//www.youtube.com/embed/NE6FFKhc66A" frameborder="0" width="500" height="284"></iframe> 
+<iframe src="https://www.youtube.com/embed/NE6FFKhc66A" frameborder="0" width="500" height="284"></iframe> 
 
 ## Установка Cairo Dock 2.4.0 в Ubuntu
 

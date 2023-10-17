@@ -19,7 +19,7 @@ visits: 14845
 
 [Видео](//www.youtube.com/watch?v=GEaycPif5fM) с демонстрацией работы:
 
-<iframe src="//www.youtube.com/embed/GEaycPif5fM" frameborder="0" width="500" height="281"></iframe>
+<iframe src="https://www.youtube.com/embed/GEaycPif5fM" frameborder="0" width="500" height="281"></iframe>
 
 ## Unity
 

@@ -15,4 +15,4 @@ Steel Storm : Burning Retribution (Episode II) инди-шутер, для ко�
 
 Игра также будет доступна для Steam и [Desura](http://www.desura.com/games/steel-storm) и выйдет в ближайшие две недели, а пока можно попробовать бесплатную версию первого эпизода, скачать который можно [отсюда](http://www.steel-storm.com/content/?page_id=6).
 
-<iframe width="500" height="314" src="//www.youtube.com/embed/gUAFprC7T3o" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="314" src="https://www.youtube.com/embed/gUAFprC7T3o" frameborder="0" allowfullscreen=""></iframe>

@@ -13,7 +13,7 @@ visits: 1940
 
 Обновлена Plymouth тема, теперь она более сглаженная на вид и текстовый Plymouth установлен по умолчанию.
 
-<iframe title="YouTube video player" width="500" height="311" src="//www.youtube.com/embed/kvsttTHXz3Q" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="311" src="https://www.youtube.com/embed/kvsttTHXz3Q" frameborder="0" allowfullscreen=""></iframe>
 
 После загрузки с Live CD можно будет выбрать профиль и тему с возможностью предпросмотра. Десктоп профиль стилизован под KDE/Linux и Mint's Gnome, для более привычной работы пользователям этих дистрибутивов.
 

@@ -25,4 +25,4 @@ visits: 1697
 
 На  сайте [The Chromium Projects](https://sites.google.com/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48) можно ознакомится с инструкцией по установки Ubuntu на Google Cr-48.
 
- <iframe width="480" height="385" src="//www.youtube.com/embed/UimfEI85WZo" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="480" height="385" src="https://www.youtube.com/embed/UimfEI85WZo" frameborder="0" allowfullscreen=""></iframe>

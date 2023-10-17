@@ -26,4 +26,4 @@ visits: 8653
 
 Трейлер:
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/-cSFPIwMEq4" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/-cSFPIwMEq4" frameborder="0" allowfullscreen=""></iframe>

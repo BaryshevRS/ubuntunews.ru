@@ -11,7 +11,7 @@ visits: 4260
 ---
 Вышла обновленная версия Xonotic 0.5 – свободного однопользовательского 3D шутера от первого лица.
 
-<iframe width="500" height="311" src="//www.youtube.com/embed/s0k7yIh9gjA" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="311" src="https://www.youtube.com/embed/s0k7yIh9gjA" frameborder="0" allowfullscreen=""></iframe>
 
 ## О Xonotic
 

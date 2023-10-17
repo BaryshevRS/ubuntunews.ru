@@ -23,7 +23,7 @@ visits: 6223
 
 Демонстрацию работы с Unity и Gnome Shell в первой альфа Oneiric Ocelot можно посмотреть в следующем видео:
 
-<iframe width="500" height="405" src="//www.youtube.com/embed/kUbx9cCL5MQ" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="https://www.youtube.com/embed/kUbx9cCL5MQ" frameborder="0" allowfullscreen=""></iframe>
 
 ## Скачать первую альфу Ubuntu 11.10
 

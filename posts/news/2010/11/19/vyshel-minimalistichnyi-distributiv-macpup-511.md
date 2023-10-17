@@ -11,7 +11,7 @@ visits: 4524
 ---
 [Вышел](http://hardkap.net/forums/topic/macpup-511) минималистичный дистрибутив Macpup 511 основанный на [Puppy Linux 5.1.1](news/vyshel-distributiv-lucid-puppy-5-1),  совместимый с Ubuntu 10.04 , использующий десктоп окружение Enlightenment e17 и стилизованный под Apple's Mac OS X.
 
- <iframe width="480" height="360" src="//www.youtube.com/embed/7qXwQBc-5mQ" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="480" height="360" src="https://www.youtube.com/embed/7qXwQBc-5mQ" frameborder="0" allowfullscreen=""></iframe>
 
 Характеристики выпуска:
 

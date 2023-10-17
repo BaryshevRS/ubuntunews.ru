@@ -13,4 +13,4 @@ visits: 1935
 
 С нововведениями можно ознакомиться из видео ниже, установить можно из следующего [PPA](news/unity-2d-ubuntu-11-04).
 
-<iframe title="YouTube video player" width="480" height="390" src="//www.youtube.com/embed/5MGh1Jso6zI" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="390" src="https://www.youtube.com/embed/5MGh1Jso6zI" frameborder="0" allowfullscreen=""></iframe>

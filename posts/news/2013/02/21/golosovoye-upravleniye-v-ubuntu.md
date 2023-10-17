@@ -24,7 +24,7 @@ Linux-разработчик McClain провёл демонстрацию ут�
 
 Из [видео](http://youtu.be/HfrQrjH3AGw) ниже можно увидеть механизм работы на примере действующего прототипа.
 
- <iframe width="500" height="281" src="//www.youtube.com/embed/HfrQrjH3AGw" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="281" src="https://www.youtube.com/embed/HfrQrjH3AGw" frameborder="0" allowfullscreen=""></iframe>
 
 ### Как работает
 

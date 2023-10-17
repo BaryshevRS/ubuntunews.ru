@@ -17,7 +17,7 @@ visits: 3019
 
 Концепцию работы можно просмотреть из демонстрационного видео:
 
-<iframe width="500" height="314" src="//www.youtube.com/embed/gG_mATRHm3M" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="314" src="https://www.youtube.com/embed/gG_mATRHm3M" frameborder="0" allowfullscreen=""></iframe>
 
 Принципы заложенные в Webian Shell схожи по своей сути на используемые в Google Chrome OS, т.е замещение стандартного пользовательского интерфейса на использование веб ориентированных сервисов и приложений.
 

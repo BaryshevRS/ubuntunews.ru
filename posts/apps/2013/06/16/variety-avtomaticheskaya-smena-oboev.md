@@ -15,7 +15,7 @@ visits: 13269
 
 Программа прекрасно себя чувствует во всех популярных десктоп окружениях, будь то Unity, GNOME Shell, KDE, LXDE, Xfce, Cinnamon, MATE или Pantheon. В последней версии также была включена поддержка редакций [Linux Mint 15](news/uvidela-svet-linux-mint-15) с Cinnamon 1.8 и MATE 1.6.
 
- <iframe src="//www.youtube.com/embed/0o2bKHFPMTc" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="https://www.youtube.com/embed/0o2bKHFPMTc" frameborder="0" width="500" height="281"></iframe>
 
 Из особенностей новой версии стоит отметить поддержку работы с LightDM и багфиксы, включая исправление проблемы с выбором папок.
 

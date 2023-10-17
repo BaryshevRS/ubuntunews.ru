@@ -21,7 +21,7 @@ Unity-Tweak-Tool находится в активной разработке и 
 
 [Видео](https://www.youtube.com/watch?v=ixl_2QpRdy0) с обзором интерфейса:
 
-<iframe width="500" height="375" src="//www.youtube.com/embed/ixl_2QpRdy0" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="375" src="https://www.youtube.com/embed/ixl_2QpRdy0" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка твикера Unity-Tweak-Tool в Ubuntu
 

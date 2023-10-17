@@ -21,7 +21,7 @@ Speed Dreams это открытая кроссплатформенная гон
 
 В Speed Dreams 2.0 также планировалось реализовать режим мультиплеера, но в силу нехватки времени разработчики [ищут](http://sourceforge.net/apps/trac/speed-dreams/wiki/helpWanted) желающих помочь в реализации данного мода для будущих версий игры.
 
-<iframe width="500" height="369" src="//www.youtube.com/embed/Wd4Kmu--PYA" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="369" src="https://www.youtube.com/embed/Wd4Kmu--PYA" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка Speed Dreams 2 beta 1 в Ubuntu
 

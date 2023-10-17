@@ -11,7 +11,7 @@ visits: 5677
 ---
 Вышла вторая и последняя бета версия Ubuntu 11.10 Oneiric Ocelot. Рассмотри, что же изменилось относительно предыдущей [бета релиза](news/ubuntu-11-10-oneiric-ocelot-beta-1), вышедшего ранее в начале месяца.
 
-<iframe src="//www.youtube.com/embed/XaAdbyEMQmk" frameborder="0" width="500" height="284"></iframe>
+<iframe src="https://www.youtube.com/embed/XaAdbyEMQmk" frameborder="0" width="500" height="284"></iframe>
 
 ## Что нового в бета 2 Ubuntu 11.10:
 

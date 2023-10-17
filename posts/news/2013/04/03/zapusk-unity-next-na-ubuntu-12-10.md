@@ -19,7 +19,7 @@ visits: 5285
 
 Посмотреть в работе можно из [видео](//www.youtube.com/watch?v=R4gXaf08GTI):
 
-<iframe width="500" height="375" src="//www.youtube.com/embed/R4gXaf08GTI" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="375" src="https://www.youtube.com/embed/R4gXaf08GTI" frameborder="0" allowfullscreen=""></iframe> 
 
 Представленная программа позволяет поближе познакомиться с новой современной оболочкой Unity, а также попробовать в действии различные интерфейсные элементы, такие как Dash, панель Unity, меню индикаторов и т. д. Также она позволяет взглянуть на систему под углами различных форм-факторов устройств, просто масштабируя окно приложения под желаемые разрешения.
 

@@ -21,6 +21,6 @@ visits: 5583
 *   Улучшение пользовательского интерфейса. К примеру, на фоне теперь можно наблюдать реальную карту, вместо ранее используемого видео.
 *   Полный список изменений можно найти тут.
 
- <iframe src="//www.youtube.com/embed/kUPlwxQ0cC4" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="https://www.youtube.com/embed/kUPlwxQ0cC4" frameborder="0" width="500" height="281"></iframe>
 
 <button>[Скачать Warsow](http://www.warsow.net/download)</button>

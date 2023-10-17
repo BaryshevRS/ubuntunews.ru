@@ -49,8 +49,8 @@ visits: 6209
 
 [Видео](https://www.youtube.com/watch?v=b7i6EpOPGR0) Engadget:
 
- <iframe width="500" height="281" src="//www.youtube.com/embed/b7i6EpOPGR0" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="281" src="https://www.youtube.com/embed/b7i6EpOPGR0" frameborder="0" allowfullscreen=""></iframe>
 
 [Видео](https://www.youtube.com/watch?v=XkyYKqKUYXA) TheVerge:
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/XkyYKqKUYXA" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/XkyYKqKUYXA" frameborder="0" allowfullscreen=""></iframe>

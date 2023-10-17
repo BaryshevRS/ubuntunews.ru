@@ -25,7 +25,7 @@ visits: 5742
 
 С коротким видео демонстрации работы можно ознакомиться ниже:
 
-<iframe src="//www.youtube.com/embed/_2tGHfmM-TU" frameborder="0" width="500" height="375"></iframe> 
+<iframe src="https://www.youtube.com/embed/_2tGHfmM-TU" frameborder="0" width="500" height="375"></iframe> 
 
 Более подробно вопросы по работе с планшетами будут рассмотрены на саммите, проходящим уже на следующей недели.
 

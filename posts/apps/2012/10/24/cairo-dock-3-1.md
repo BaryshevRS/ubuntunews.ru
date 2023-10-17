@@ -39,7 +39,7 @@ visits: 17054
 
 Видео с демонстрацией работы Cairo Dock 3.1:
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/2isiqVEcaio" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="https://www.youtube.com/embed/2isiqVEcaio" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка Cairo Dock в Ubuntu
 

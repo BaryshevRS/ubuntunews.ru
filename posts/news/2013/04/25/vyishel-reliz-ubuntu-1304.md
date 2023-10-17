@@ -15,7 +15,7 @@ visits: 12100
 
 Так как с момента выхода бета-релиза, подразумевающего под собой заморозку характеристик дистрибутива, не произошло сколько-нибудь существенных изменений, так что поверхностно рассмотрим только ключевые изменения из них. Более подробно можно ознакомиться с тем, что было сделано из [прошлого анонса.](news/obzor-beta-ubuntu-13-04-raring-ringtail)
 
-<iframe src="//www.youtube.com/embed/GEaycPif5fM" frameborder="0" width="500" height="281"></iframe>
+<iframe src="https://www.youtube.com/embed/GEaycPif5fM" frameborder="0" width="500" height="281"></iframe>
 
 ## Основные графические изменения:
 

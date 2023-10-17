@@ -31,7 +31,7 @@ visits: 7565
 
 Демонстрация работы:
 
- <iframe width="500" height="369" src="//www.youtube.com/embed/h_bkPbbJlUk" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="369" src="https://www.youtube.com/embed/h_bkPbbJlUk" frameborder="0" allowfullscreen=""></iframe>
 
 Установка доступна для тестирования только пользователям Ubuntu 12.04:
 

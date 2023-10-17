@@ -19,7 +19,7 @@ visits: 30513
 
 Это замечательная новая технология, имеющая широкие перспективы в будущем, поэтому приятно осознавать, что в создании такого инновационного проекта разработчики отдают своё предпочтение Ubuntu. Её использование можно наблюдать со второй минуты (2.08), где авторами был сделан акцент на знакомый всем нам дистрибутив.
 
- <iframe width="500" height="281" src="//www.youtube.com/embed/Qe10ExwzCqk" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="281" src="https://www.youtube.com/embed/Qe10ExwzCqk" frameborder="0" allowfullscreen=""></iframe>
 
 Подобный случай уже не редкость, всё чаще и чаще можно видеть Ubuntu при воплощении передовых изобретений, таких как, например, [полуавтономный робот](news/dajdzhest-novostej-ubuntu-4) или [«мыслящий» квадрокоптер](news/dajdzhest-novostej-ubuntu-3).
 

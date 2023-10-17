@@ -17,6 +17,6 @@ visits: 9304
 
 Демонстрация работы показана в видео:
 
-<iframe width="500" height="369" src="//www.youtube.com/embed/38zYRLm7qbI" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="369" src="https://www.youtube.com/embed/38zYRLm7qbI" frameborder="0" allowfullscreen=""></iframe> 
 
 Это версия Unity Greeter пока доступна только для Ubuntu 12.04 из [Ubuntu Desktop PPA](https://launchpad.net/~ubuntu-desktop/+archive/ppa), но в ближайшее время обновится и в официальном репозитории Precise.

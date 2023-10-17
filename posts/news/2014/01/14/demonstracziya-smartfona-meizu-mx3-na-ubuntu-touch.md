@@ -13,7 +13,7 @@ visits: 26664
 
 [![](img/2014/01/14/21-00/meizu-mx3-ubuntu-touch-4-11950276405-o.jpg)](img/2014/01/14/21-00/meizu-mx3-ubuntu-touch-4-11950276405-o.jpg)
 
- <iframe src="//www.youtube.com/embed/R8zd_LfeCFs" frameborder="0" width="500" height="375"></iframe>
+ <iframe src="https://www.youtube.com/embed/R8zd_LfeCFs" frameborder="0" width="500" height="375"></iframe>
 
 Хотя каких-либо имён будущих партнёров так и не было названо, но по распространяющимся в интернете слухам, одним из таких производителей может стать китайская электронная компания Meizu. В сети были представлены фото и даже видео с запуском Ubuntu Touch на смартфоне этой фирмы. Стоит отметить, что это уже не первый случай появления [подобной информации](news/dajdzhest-novostej-ubuntu-6).
 

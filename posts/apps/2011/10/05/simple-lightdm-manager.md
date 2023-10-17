@@ -19,7 +19,7 @@ visits: 14013
 
 Демонстрационное видео:
 
-<iframe width="500" height="284" src="//www.youtube.com/embed/wAVvTsXejrg" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="https://www.youtube.com/embed/wAVvTsXejrg" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка
 

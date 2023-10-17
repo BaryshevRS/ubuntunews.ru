@@ -15,7 +15,7 @@ Red Eclipse трехмерный шутер от первого лица, раб
 
 Гемплей Red Eclipse похож на Quake, основана на движке Cube 2 Sauerbraten, поддерживающий различные графические эффекты, отражения, тени, свет, физику частиц и прочее, есть возможностью редактирования карт.
 
-<iframe title="YouTube video player" class="youtube-player" type="text/html" width="480" height="390" src="//www.youtube.com/embed/7SNMJocLqoM" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" class="youtube-player" type="text/html" width="480" height="390" src="https://www.youtube.com/embed/7SNMJocLqoM" frameborder="0" allowfullscreen=""></iframe>
 
 Red Eclipse доступна для загрузки  из SVN, но энтузиасты (Giovanni), создали специальный PPA для пользователей [Ubuntu](ubuntu/) 10.10. Размер игры для скачивания составляет 1Гб.
 

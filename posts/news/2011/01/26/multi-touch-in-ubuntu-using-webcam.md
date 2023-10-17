@@ -15,4 +15,4 @@ visits: 2880
 
 Технология позволяет работать с [Ubuntu](ubuntu/) Unity и с совместимыми мультитач приложениями. Более подробную информацию и материалы для инсталляции можно посмотреть на сайте проекта, а также ознакомиться с демонстрационным видео.
 
- <iframe width="480" height="390" src="//www.youtube.com/embed/J6k76vuw9Rk" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="480" height="390" src="https://www.youtube.com/embed/J6k76vuw9Rk" frameborder="0" allowfullscreen=""></iframe>

@@ -15,7 +15,7 @@ visits: 6296
 
 Это стало возможным за счёт того, что Canonical заключила партнёрское соглашение с игровой компанией [Linux Game Publishing](http://www.linuxgamepublishing.com/). Которая ответила, что «рада началу сотрудничества и началу поставки отличных Linux портов ваших любимых игр из центра приложений».
 
-<iframe src="//www.youtube.com/embed/yZ9LY_LVqWU" frameborder="0" width="500" height="375"></iframe> 
+<iframe src="https://www.youtube.com/embed/yZ9LY_LVqWU" frameborder="0" width="500" height="375"></iframe> 
 
 ### Sacred Gold
 

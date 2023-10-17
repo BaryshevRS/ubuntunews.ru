@@ -13,7 +13,7 @@ visits: 4400
 
 Red Eclipse обладает динамичным, Quake-подобным геймплеем с возможностью редактирования карт и работы как в однопользовательском, так и в режиме мультиплеера. В качестве движка используется Cube Engine 2, работающий с SDL и OpenGL.
 
-<iframe width="500" height="314" src="//www.youtube.com/embed/mjHVb3z72tM" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="314" src="https://www.youtube.com/embed/mjHVb3z72tM" frameborder="0" allowfullscreen=""></iframe>
 
 ## Что нового в релизе 1.1
 

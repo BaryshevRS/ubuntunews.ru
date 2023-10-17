@@ -19,9 +19,9 @@ visits: 2250
 *   Встроенный редактор, позволяет создавать собственный карты кооперативом через сеть
 *   Кроссплатформенность: Windows, Linux/BSD и Mac OSX.
 
-<iframe title="YouTube video player" width="480" height="300" src="//www.youtube.com/embed/RYXDg35dobc" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="300" src="https://www.youtube.com/embed/RYXDg35dobc" frameborder="0" allowfullscreen=""></iframe>
 
-<iframe title="YouTube video player" width="480" height="300" src="//www.youtube.com/embed/J5vAx0zJSkU" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="300" src="https://www.youtube.com/embed/J5vAx0zJSkU" frameborder="0" allowfullscreen=""></iframe>
 
 Red Eclipse сейчас не доступен через PPA на Launchpad, поэтому для инсталляции потребуется добавить сторонние PPA:
 

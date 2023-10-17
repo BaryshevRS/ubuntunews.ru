@@ -17,7 +17,7 @@ Gloobus Preview – шустрый вьювер для просмотра изо
 
 Видео с демонстрацией работы:
 
- <iframe width="500" height="284" src="//www.youtube.com/embed/CaU1L1Z75j8" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="284" src="https://www.youtube.com/embed/CaU1L1Z75j8" frameborder="0" allowfullscreen=""></iframe>
 
 ## Установка Gloobus Preview в Ubuntu
 

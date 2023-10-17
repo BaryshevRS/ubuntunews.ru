@@ -11,7 +11,7 @@ visits: 3683
 ---
 Представлена новая версия основанной на Ubuntu 10.04 Lucid Lynx сборки КСоНоМи 10.2, старающиеся объединить в одном решении лучшие свободные инструменты, а также справочную систему и открытую платформу на базе ядра Linux для дизайнеров, инженеров и разработчиков программного обеспечения.
 
- <iframe width="480" height="385" src="//www.youtube.com/embed/gh_rvJmwH8c" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="480" height="385" src="https://www.youtube.com/embed/gh_rvJmwH8c" frameborder="0" allowfullscreen=""></iframe>
 
 **Особенности выпуска:**
 

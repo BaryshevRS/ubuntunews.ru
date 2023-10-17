@@ -26,4 +26,4 @@ visits: 3538
 
 Обсуждение в UbuntuOnAir Hangout среди разработчиков (на английском).
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/z04ndWaVfJs" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/z04ndWaVfJs" frameborder="0" allowfullscreen=""></iframe>

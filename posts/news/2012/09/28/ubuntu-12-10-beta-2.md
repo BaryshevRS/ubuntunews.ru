@@ -13,7 +13,7 @@ visits: 8275
 
 [Видео](https://www.youtube.com/watch?v=6mfmHxjzF6g&feature=player_embedded) с последними изменениями во второй бета Ubuntu 12.10:
 
-<iframe src="//www.youtube.com/embed/6mfmHxjzF6g" frameborder="0" width="500" height="281"></iframe>
+<iframe src="https://www.youtube.com/embed/6mfmHxjzF6g" frameborder="0" width="500" height="281"></iframe>
 
 ## Линзы
 

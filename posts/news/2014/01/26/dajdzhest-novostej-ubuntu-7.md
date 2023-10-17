@@ -86,7 +86,7 @@ visits: 21865
 
 Анимация переходов:
 
-<iframe src="//www.youtube.com/embed/LCG0sB5jAeM" frameborder="0" width="500" height="375"></iframe> 
+<iframe src="https://www.youtube.com/embed/LCG0sB5jAeM" frameborder="0" width="500" height="375"></iframe> 
 
 ## Ubuntu 14.04
 

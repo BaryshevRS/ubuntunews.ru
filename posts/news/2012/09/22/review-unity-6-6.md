@@ -11,7 +11,7 @@ visits: 4869
 ---
 В Ubuntu 12.10 Quantal Quetzal была [загружена](https://launchpad.net/ubuntu/quantal/+source/unity/6.6.0-0ubuntu1) новая версия Unity 6.6, вышедшая с двумя новыми линзами и анимацией для обзора файлов в Dash.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/gGGWiNGPfNE" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/gGGWiNGPfNE" frameborder="0" allowfullscreen=""></iframe>
 
 ## Линзы
 
@@ -55,7 +55,7 @@ sudo apt-get remove unity-lens-shopping
 
 Из линзы приложений был удалён фильтр по рейтингу (звёздочки), а в категории предлагаемых к установке теперь выводится список новинок.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/b3BFmIdzgsY" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/b3BFmIdzgsY" frameborder="0" allowfullscreen=""></iframe>
 
 Ещё одним изменением стало появление новой анимации для устанавливаемых программ из интерфейса обзора Dash, не требующей запуска центра приложений.
 

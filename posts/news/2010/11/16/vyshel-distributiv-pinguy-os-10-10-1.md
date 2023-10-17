@@ -23,7 +23,7 @@ visits: 1757
 
 Пример работы  Nautilus Easy Union
 
- <iframe width="470" height="380" src="//www.youtube.com/embed/27fjQXufE5M" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="470" height="380" src="https://www.youtube.com/embed/27fjQXufE5M" frameborder="0" allowfullscreen=""></iframe>
 
 *   Добавлен Giver для передачи файлов по локальной сети
 *   кнопки блокировки (Caps Lock, Num Lock and Scroll Lock) всплывающих оповещений NotifyOSD

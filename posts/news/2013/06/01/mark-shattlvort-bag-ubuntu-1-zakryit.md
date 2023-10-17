@@ -25,4 +25,4 @@ visits: 6653
 
 Полный комментарий можно [найти тут](https://bugs.launchpad.net/ubuntu/+bug/1/comments/1834).
 
- <iframe src="//www.youtube.com/embed/R839f66OKNc" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="https://www.youtube.com/embed/R839f66OKNc" frameborder="0" width="500" height="281"></iframe>

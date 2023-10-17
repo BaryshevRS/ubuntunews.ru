@@ -11,7 +11,7 @@ visits: 12636
 ---
 Wallch программа предназначенная для автоматической смены обоев на рабочем столе и ориентированая для работы под десктоп окружением Gnome.
 
-<iframe width="500" height="311" src="//www.youtube.com/embed/xPpy_m98aWc" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="311" src="https://www.youtube.com/embed/xPpy_m98aWc" frameborder="0" allowfullscreen=""></iframe>
 
 ## Основные характеристики
 

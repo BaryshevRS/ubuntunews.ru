@@ -11,7 +11,7 @@ visits: 7128
 ---
 Unity 5.10 – это последний релиз десктоп оболочки Unity для Ubuntu 12.04, вышедший с множеством багофиксов и небольшими визуальными улучшениями.
 
-<iframe width="500" height="284" src="//www.youtube.com/embed/IBmfDiC9uu8" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="https://www.youtube.com/embed/IBmfDiC9uu8" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Что изменилось:
 

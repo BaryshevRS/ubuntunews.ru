@@ -15,7 +15,7 @@ Canonical начала тестирование [портала разработ
 
 **Демонстрацию работы можно увидеть из следующего ролика:**
 
-<iframe width="500" height="405" src="//www.youtube.com/embed/CZYqT5PnPCs" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="https://www.youtube.com/embed/CZYqT5PnPCs" frameborder="0" allowfullscreen=""></iframe>
 
 Необходимостью создания портала стало то, что после включения [возможности покупки](news/v-ubuntu-software-center-poyavilos-platnoe-po) приложений через центр приложений Ubuntu, реализованные в Ubuntu 10.10, рост числа программ был достаточно медлен, чем ожидалось, во многом из-за того, что добавление приложений от ISV производилось вручную. Для решения сложившейся ситуации стало принятие решения о создание стандартной программы для разработчиков (ISV).
 

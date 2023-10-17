@@ -19,11 +19,11 @@ visits: 12325
 
 Перевод выступления Марка, сделанный сайтом [reDroid](http://redroid.ru/perevod-chto-takoe-ubuntu-phone/):
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/ASnV-stx6IA" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/ASnV-stx6IA" frameborder="0" allowfullscreen=""></iframe>
 
 Кроме того, был подготовлен [промо-ролик](//www.youtube.com/watch?feature=player_embedded&v=LoXpLUr5WB4) с демонстрацией основных возможностей работы.
 
- <iframe src="//www.youtube.com/embed/LoXpLUr5WB4" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="https://www.youtube.com/embed/LoXpLUr5WB4" frameborder="0" width="500" height="281"></iframe>
 
 Само же мероприятие, на котором будет официально представлен первый рабочий прототип, пройдёт в Лас-Вегасе на выставке потребительской электроники (CES) с 8 по 11 января.
 
@@ -31,7 +31,7 @@ visits: 12325
 
 <iframe id="viddler-ac8413f3" src="http://www.viddler.com/embed/ac8413f3/?f=1&amp;offset=0&amp;autoplay=0&amp;secret=106830881&amp;disablebranding=0&amp;view_secret=106830881" frameborder="0" width="500" height="349"></iframe> 
 
-<iframe src="//www.youtube.com/embed/kXWnMTm7We8" frameborder="0" width="500" height="281"></iframe>
+<iframe src="https://www.youtube.com/embed/kXWnMTm7We8" frameborder="0" width="500" height="281"></iframe>
 
 ### Достоинства
 

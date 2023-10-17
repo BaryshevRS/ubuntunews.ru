@@ -19,4 +19,4 @@ visits: 3860
 
 Макет же предлагает перенести настройки не в качестве отдельной утилиты, а сделать его неотъемлемой частью интерфейса. Как уже было отмечено, это не официальный концепт дизайна от Canonical так, что возьмут на заметку такое решение или нет, разработчики Ubuntu, покажет время.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/u8l88vsouEc" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/u8l88vsouEc" frameborder="0" allowfullscreen=""></iframe>

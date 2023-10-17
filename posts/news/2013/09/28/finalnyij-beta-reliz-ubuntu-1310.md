@@ -11,7 +11,7 @@ visits: 15931
 ---
 [Представлена](https://lists.ubuntu.com/archives/ubuntu-announce/2013-September/000176.html) финальная бета-версия Ubuntu 13.10 Saucy Salamander, ознаменовавшая начало открытого тестирования среди всех желающих. Выпуск в отличии от прошлых релизов не так богат на новые характеристики. Из того, чем может похвастать релиз, можно отметить первоначальную поддержу нового графического сервера Mir и Smart Scopes.
 
-<iframe src="//www.youtube.com/embed/rqVbv8ULoCc" frameborder="0" width="500" height="315"></iframe> 
+<iframe src="https://www.youtube.com/embed/rqVbv8ULoCc" frameborder="0" width="500" height="315"></iframe> 
 
 ## Smart Scopes
 

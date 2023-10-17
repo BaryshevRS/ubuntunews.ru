@@ -24,9 +24,9 @@ visits: 8512
 *   Полноценная однопользовательская компания с увлекательным сюжетом.
 *   Практически безграничные возможности для создания собственных предметов.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/tTrg_k6jjgQ" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="https://www.youtube.com/embed/tTrg_k6jjgQ" frameborder="0" allowfullscreen=""></iframe> 
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/2GtZljO6Obw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/2GtZljO6Obw" frameborder="0" allowfullscreen=""></iframe>
 
 Игра уже почти завершена и сейчас находится на стадии закрытого бета тестирования. **Ожидаемая дата релиза намечена на август.**
 

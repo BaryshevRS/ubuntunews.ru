@@ -19,6 +19,6 @@ Unity (3D) получил обновление в [Ubuntu](ubuntu/) 11.04 и в�
 
 Обзор изменений можно посмотреть из следующего видео:
 
- <iframe width="500" height="281" src="//www.youtube.com/embed/kOuMKfV20qo" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="281" src="https://www.youtube.com/embed/kOuMKfV20qo" frameborder="0" allowfullscreen=""></iframe>
 
 С полным списком можно ознакомиться на [launchpad.net](https://launchpad.net/ubuntu/+source/unity/3.2.12-0ubuntu1)
