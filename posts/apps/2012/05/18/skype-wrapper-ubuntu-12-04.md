@@ -36,7 +36,7 @@ Skype-Wrapper – небольшой плагин для VoIP клиента Sky
 ```
 sudo add-apt-repository ppa:skype-wrapper/ppa
  sudo apt-get update
- sudo apt-get install skype-wrapper
+ sudo apt-get install skype-wrapper
 ```
 
 Теперь надо перейти в папку «/usr/share/applications» и перетащить соответствующий значок на панель Unity (у нужного в свойствах будет написано skype-wrapper). Затем запустить и подтвердить запрос на авторизацию в всплывающем окне.

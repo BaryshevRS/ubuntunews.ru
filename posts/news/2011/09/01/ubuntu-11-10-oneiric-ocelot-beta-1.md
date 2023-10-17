@@ -13,7 +13,7 @@ visits: 17835
 
 Рассмотрим, что же нового было включено относительно предыдущих альфа выпусков:
 
- <iframe src="https://www.youtube.com/embed/9gVQ5KbnQ-g" frameborder="0" width="500" height="311"></iframe>
+ <iframe src="https://www.youtube.com/embed/9gVQ5KbnQ-g" frameborder="0" width="500" height="311"></iframe>
 
 ## Unity
 

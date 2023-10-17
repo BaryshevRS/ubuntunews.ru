@@ -11,7 +11,7 @@ visits: 6106
 ---
 Вчера стал доступен официальный релиз рабочего стола GNOME 3.2, вышедший с множеством долгожданных нововведений, которые сейчас и рассмотрим.
 
-<iframe width="500" height="284" src="https://www.youtube.com/embed/2i2QAbWuZRU" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="https://www.youtube.com/embed/2i2QAbWuZRU" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Что нового в GNOME 3.2:
 

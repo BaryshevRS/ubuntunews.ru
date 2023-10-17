@@ -34,6 +34,6 @@ visits: 1412
 *   **SQLite**: У Linux регрессия
 *   **[Stream Memory Bench](http://www.cs.virginia.edu/stream/)** (w/ OpenMP): Ubuntu в два раза быстрее FreeBSD 8
 *   **Threaded I/O tester**
-    *   64MB Write / 32 Threads: Linux быстрее в 2-2,5 раза.  
+    *   64MB Write / 32 Threads: Linux быстрее в 2-2,5 раза.  
     *   64MB Random Write / 32 Threads: У FreeBSD регрессия
     *   64MB Read / 32 Threads: Ubuntu в 2 раза быстрее FreeBSD 7.2 и в 3 раза быстрее FreeBSD 8

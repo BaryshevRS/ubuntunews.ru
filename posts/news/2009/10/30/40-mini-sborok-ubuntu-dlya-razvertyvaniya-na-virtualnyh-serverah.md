@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=24050'
 unixtime: 1256921548
 visits: 1901
 ---
-Проект TurnKey Linux [представил](http://www.turnkeylinux.org/news/200910-release-40-new-appliances-amazon-ec2) подборку из 40 готовых минималистичных сборок Ubuntu 8.04.3 LTS, пригодных для быстрого развертывания в Cloud-окружениях Amazon EC2 или для использования в качестве гостевых ОС в таких системах виртуализации, как VMware, Xen HVM,  KVM или VirtualBox.
+Проект TurnKey Linux [представил](http://www.turnkeylinux.org/news/200910-release-40-new-appliances-amazon-ec2) подборку из 40 готовых минималистичных сборок Ubuntu 8.04.3 LTS, пригодных для быстрого развертывания в Cloud-окружениях Amazon EC2 или для использования в качестве гостевых ОС в таких системах виртуализации, как VMware, Xen HVM,  KVM или VirtualBox.
 
 Средний размер [каждой сборки](http://www.turnkeylinux.org/) - 150Мб. Сразу после установки пользователь имеет возможность получить полностью работоспособные из коробки рабочие окружения с LAMP (Linux, Apache, MySQL, PHP/Python/Perl), Ruby on Rails, Joomla, MediaWiki, Wordpress, Drupal, Apache Tomcat, LAPP, Django, MySQL, PostgreSQL и т.д. Управление программным обеспечением производится через специально подготовленный web-интерфейс.
 
@@ -18,4 +18,4 @@ visits: 1901
 *   Комплексные пакеты: Контроллер Windows домена; BitTorrnet сервер; Файловый сервер; пнфраструктура для контроля версий ПО;
 *   Наборы для предприятий: Zimbra, OpenBravo, tWiki, MovableType и MindTouch Deki;
 *   Управление web-контентом: Moodle, DokuWiki, MoinMoin, и Gallery.
-*   Системы для организации службы поддержки и отслеживания ошибок: BugZilla, Mantis, OTRS, Trac,  RedMine и Project Pier.
+*   Системы для организации службы поддержки и отслеживания ошибок: BugZilla, Mantis, OTRS, Trac,  RedMine и Project Pier.

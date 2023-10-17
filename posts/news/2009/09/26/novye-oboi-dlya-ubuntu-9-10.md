@@ -9,6 +9,6 @@ source: ''
 unixtime: 1253911897
 visits: 1002
 ---
-Canonical [предоставила вниманию](http://news.softpedia.com/news/The-Final-Artwork-of-Ubuntu-9-10-122665.shtml) обои к предстоящему выходу Ubuntu 9.10 (Karmic Koala), кроме уже опубликованных  [“астрономических”](http://news.softpedia.com/news/Ubuntu-9-10-039-s-New-Wallpapers-and-More-122551.shtml), появились 17 новых, просмотреть некоторые из которых можно [тут](http://news.softpedia.com/news/The-Final-Artwork-of-Ubuntu-9-10-122665.shtml).
+Canonical [предоставила вниманию](http://news.softpedia.com/news/The-Final-Artwork-of-Ubuntu-9-10-122665.shtml) обои к предстоящему выходу Ubuntu 9.10 (Karmic Koala), кроме уже опубликованных  [“астрономических”](http://news.softpedia.com/news/Ubuntu-9-10-039-s-New-Wallpapers-and-More-122551.shtml), появились 17 новых, просмотреть некоторые из которых можно [тут](http://news.softpedia.com/news/The-Final-Artwork-of-Ubuntu-9-10-122665.shtml).
 
 Из изменений в оформление альфа версий Ubuntu 9.10, можно выделить переделанные темы: возможность изменять на понравившиеся цвета, особенно у границ и новые проработанные иконки.

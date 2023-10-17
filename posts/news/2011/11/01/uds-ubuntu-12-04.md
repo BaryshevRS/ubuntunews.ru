@@ -61,6 +61,6 @@ visits: 4049
 
 *   Переключение фонового изображения в зависимости от смены пользователя, где в качестве фона будут выводиться используемые обои.
 
- <iframe width="500" height="369" src="https://www.youtube.com/embed/seQ6C-yEpCw" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="369" src="https://www.youtube.com/embed/seQ6C-yEpCw" frameborder="0" allowfullscreen=""></iframe>
 
 *   Тема хамелеон, когда различные элементы интерфейса будут меняться в зависимости от цветовой гаммы используемых обоев.

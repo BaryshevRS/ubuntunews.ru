@@ -9,7 +9,7 @@ source: ''
 unixtime: 1270152203
 visits: 1171
 ---
-[Вышел](http://www.pc-os.org/2010/03/pcos-1011-released.html) корректирующий релиз дистрибутивов: PC/OS OpenWorkstation 10.1.1 PC/OS GNOME 10.1.1 и PC/OS WebStation 10.1.1 с   баго-фиксами и нововведениями в предверии будущего релиза PC/OS 11.
+[Вышел](http://www.pc-os.org/2010/03/pcos-1011-released.html) корректирующий релиз дистрибутивов: PC/OS OpenWorkstation 10.1.1 PC/OS GNOME 10.1.1 и PC/OS WebStation 10.1.1 с   баго-фиксами и нововведениями в предверии будущего релиза PC/OS 11.
 
 ### В этой версии стоит отметить:
 
@@ -21,5 +21,5 @@ visits: 1171
 
 ### скачать:
 
-*   pc-os-openworkstation-10-1-1.iso.zip 
+*   pc-os-openworkstation-10-1-1.iso.zip 
 *   pc-os-gnome-10-1-1.iso

@@ -28,4 +28,4 @@ visits: 4263
 *   Браузер Firefox замещен Chromium
 *   Поддержка Flash
 
-Скачать можно отсюда:  wattOSR4.iso (527МБ)
+Скачать можно отсюда:  wattOSR4.iso (527МБ)

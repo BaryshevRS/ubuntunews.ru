@@ -16,7 +16,7 @@ visits: 2086
 *   Основан на пакетной базе Lubuntu 10.04
 *   Ядро обновлено до 2.6.32 версии
 *   Оконный менеджер Openbox 3.4.10
-*   LXSession 0.4.3 использующийся для  запуска LXDE окружения
+*   LXSession 0.4.3 использующийся для  запуска LXDE окружения
 *   X.Org Server 1.7.5
 *   Дисплейный менеджер LXDM
 *   Улучшенный файловый менеджер PCManFM2
@@ -31,6 +31,6 @@ visits: 2086
 *   Видеокарта способная поддерживать разрешение 800×600
 *   CD-ROM или USB порт
 
-Скачать:  linuxmint-9-lxde-cd-i386.iso
+Скачать:  linuxmint-9-lxde-cd-i386.iso
 
 С полными нововведениями можно ознакомиться в релизе Mint 9, и для [LXDE](http://linuxmint.com/rel_isadora_lxde_whatsnew.php "Linux Mint 9 LXDE") версии.

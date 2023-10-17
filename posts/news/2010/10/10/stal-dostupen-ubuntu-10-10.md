@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=28230'
 unixtime: 1286711679
 visits: 2378
 ---
-Официально [доступен](https://lists.ubuntu.com/archives/ubuntu-announce/2010-October/000139.html) релиз Linux дистрибутива Ubuntu 10.10 “Maverick Meerkat”. Дистрибутив доступен в редакциях для десктопов, серверов, cloud-окружений (Server for UEC and EC2) и нетбуков (Netbook Edition). Одновременно выпущены релизы смежных проектов: [Kubuntu](http://www.kubuntu.org/) (KDE 4.5.1),  [Xubuntu](http://xubuntu.org/news/10.10-release) (XFCE 4.6), Mythbuntu, [Edubuntu](http://www.edubuntu.com/news/10.10-release) (с подборкой обучающего ПО) и [Ubuntu Studio](https://wiki.ubuntu.com/UbuntuStudio/) (для обработки мультимедиа информации).  Основные новшества Ubuntu 10.10: 
+Официально [доступен](https://lists.ubuntu.com/archives/ubuntu-announce/2010-October/000139.html) релиз Linux дистрибутива Ubuntu 10.10 “Maverick Meerkat”. Дистрибутив доступен в редакциях для десктопов, серверов, cloud-окружений (Server for UEC and EC2) и нетбуков (Netbook Edition). Одновременно выпущены релизы смежных проектов: [Kubuntu](http://www.kubuntu.org/) (KDE 4.5.1),  [Xubuntu](http://xubuntu.org/news/10.10-release) (XFCE 4.6), Mythbuntu, [Edubuntu](http://www.edubuntu.com/news/10.10-release) (с подборкой обучающего ПО) и [Ubuntu Studio](https://wiki.ubuntu.com/UbuntuStudio/) (для обработки мультимедиа информации).  Основные новшества Ubuntu 10.10: 
 
 *   **Десктоп**
     *   В комплект включен новый свободный набор шрифтов Ubuntu, специально разработанный дизайнерской фирмой Dalton Maag по заказу компании Canonical. Пример начертания можно посмотреть здесь.
@@ -43,7 +43,7 @@ visits: 2378
     *   Индикатор времени теперь включает в себя полноценный виджет для работы с календарем.
     *   В качестве базового музыкального проигрывателя задействован Banshee, в качестве программы для чтения почты - Evolution Express.
     *   Для управления фотографиями осуществлена миграция на программу Shotwell.
-    *   План по использованию Chromium в качестве браузера по умолчанию отменен, как и раньше в поставку входит Firefox; 
+    *   План по использованию Chromium в качестве браузера по умолчанию отменен, как и раньше в поставку входит Firefox; 
         
 *   **Программы и драйверы**
     *   Осуществлен переход на Linux-ядро 2.6.35;

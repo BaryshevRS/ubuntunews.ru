@@ -30,7 +30,7 @@ visits: 11995
 Установка MyUnity доступна для Ubuntu 11.04 и 11.10 из PPA, для чего надо выполнить ряд команд в терминале:
 
 ```
-sudo add-apt-repository ppa:myunity/ppa
+sudo add-apt-repository ppa:myunity/ppa
  sudo apt-get update
  sudo apt-get install myunity
 ```

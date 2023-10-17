@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import { useMemo } from "react";
-import { Element } from "react-markdown/src/ast-to-react";
+import { ReactElement, useMemo } from "react";
+
 import { useRouter } from "next/router";
 
 export interface IProps {
-  children: React.ReactChild
+  children: ReactElement | string
   href: string;
   node?: Element;
   className?: string;
@@ -37,12 +37,12 @@ export default function PostLink(
       externalLink = false;
     }
 
-    // Added support for apt links
-    const nodeHref = node?.properties?.href?.toString();
-    if (nodeHref && nodeHref.match(/^apt/g)) {
-      url = nodeHref;
-      externalLink = true;
-    }
+    // // Added support for apt links
+    // const nodeHref = node?.properties?.href?.toString();
+    // if (nodeHref && nodeHref.match(/^apt/g)) {
+    //   url = nodeHref;
+    //   externalLink = true;
+    // }
 
     // Added slash for local links
     if (!url.startsWith('/') && !externalLink && !url.match(host)) {
@@ -69,8 +69,7 @@ export default function PostLink(
   }, [activeMatch, activeClassName, className]);
 
   return !externalLink ? (
-    <Link href={url}>
-      <a title={title} onClick={onClick} className={classNames.join(' ')}>{children}</a>
+    <Link href={url} title={title} onClick={onClick} className={classNames.join(' ')}>{children}
     </Link>
   ) : (
     <a

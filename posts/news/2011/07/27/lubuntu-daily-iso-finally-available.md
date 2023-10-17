@@ -21,6 +21,6 @@ Lubuntu был [принят](news/ubuntu-makes-lubuntu-official-derivative), в
 
 Главной особенностью дистрибутива Lubuntu является использование легковесного десктоп окружения LXDE. Среди других включенных приложений: браузер Chromium, оконный менеджер Openbox, файловый менеджер Pcmanfm, Abiword и Gnumeric для офисной работы, мессенджер Pidgin IM, аудио плеер Audacious, Gnome-mplayer, а также различные LXDE компоненты.
 
-Скачать ежедневные сборки Lubuntu 11.10  можно со [следующей страницы](http://cdimage.ubuntu.com/lubuntu/daily-live/current/).
+Скачать ежедневные сборки Lubuntu 11.10  можно со [следующей страницы](http://cdimage.ubuntu.com/lubuntu/daily-live/current/).
 
 Ознакомиться с текущей стабильной версией Lubuntu 11.04 можно [тут](news/lxde-lubuntu-11-04-released).

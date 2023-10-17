@@ -33,7 +33,7 @@ OpenShot 1.4.3 включает множество различных измен
 
 [OpenShot 1.4.3 Released!](http://vimeo.com/50513213) from [Jonathan Thomas](http://vimeo.com/openshot) on [Vimeo](http://vimeo.com).
 
- 
+ 
 
 ## Установка OpenShot 1.4.3 в Ubuntu
 

@@ -13,7 +13,7 @@ visits: 2143
 
 Дистрибутив основан на Ubuntu 10.10 Maverick Meerkat,с обновленным ядром 2.6.35 с поддержкой новых драйверов. Важным моментом является переход для видеокарт Nvidia на свободный драйвер Nouveau, и улучшенная поддержка беспроводных адаптеров.
 
- <iframe width="480" height="360" src="https://www.youtube.com/embed/7ctOTX58mFk" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="480" height="360" src="https://www.youtube.com/embed/7ctOTX58mFk" frameborder="0" allowfullscreen=""></iframe>
 
 **Характеристики и нововведения в выпуске:**
 

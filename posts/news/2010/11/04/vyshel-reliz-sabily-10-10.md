@@ -9,9 +9,9 @@ source: ''
 unixtime: 1288875875
 visits: 1421
 ---
-Команда разработчиков Sabily аннонсировала выпуск новой версии дистрибутива Sabily 10.10, под кодовым именем Al-Quds. Дистрибутив включает набор исламских приложений, и утилиты для фильтрации веб контента. 
+Команда разработчиков Sabily аннонсировала выпуск новой версии дистрибутива Sabily 10.10, под кодовым именем Al-Quds. Дистрибутив включает набор исламских приложений, и утилиты для фильтрации веб контента. 
 
-Нововведения: 
+Нововведения: 
 
 *   Новые “Al-Quds” картинки и обои, обновленный [plymouth](http://www.google.ru/url?sa=t&source=web&cd=1&ved=0CBwQFjAA&url=http%3A%2F%2Fpackages.ubuntu.com%2Fru%2Flucid%2Fplymouth-theme-ubuntu-logo&rct=j&q=plymouth%20ubuntu&ei=i6bSTJyWIY7Nswb-vNSPDQ&usg=AFQjCNFfRVwLLFY4M_5vQi2rYMXiR42_zg&cad=rja) и GDM темы
 *   Новые скринсейверы

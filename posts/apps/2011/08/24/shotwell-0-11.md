@@ -30,7 +30,7 @@ Shotwell включен по умолчанию в Ubuntu и поддержив�
 Скачать можно воспользовавшись PPA:
 
 ```
-sudo add-apt-repository ppa:yorba/ppa 
+sudo add-apt-repository ppa:yorba/ppa 
 sudo apt-get update 
 sudo apt-get install shotwell
 ```

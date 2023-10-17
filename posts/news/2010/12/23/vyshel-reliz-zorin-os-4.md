@@ -9,7 +9,7 @@ source: ''
 unixtime: 1293056498
 visits: 1852
 ---
-[Вышел](http://zorin-os.webs.com/apps/blog/entries/show/5627492-zorin-os-4-core-and-premium-releases-are-now-available-) релиз Zorin OS 4 основанный на Ubuntu Linux 10.10, и ориентированный для работы начинающими пользователями, в качестве десктоп окружения в дистрибутиве используется GNOME, в планах выпуск LXDE редакции. Zorin OS стилизован под ОС Windows, и содержит множество Windows подобных программ. Главной целью дистрибутива является безболезненный переход с платформы Windows на Linux. 
+[Вышел](http://zorin-os.webs.com/apps/blog/entries/show/5627492-zorin-os-4-core-and-premium-releases-are-now-available-) релиз Zorin OS 4 основанный на Ubuntu Linux 10.10, и ориентированный для работы начинающими пользователями, в качестве десктоп окружения в дистрибутиве используется GNOME, в планах выпуск LXDE редакции. Zorin OS стилизован под ОС Windows, и содержит множество Windows подобных программ. Главной целью дистрибутива является безболезненный переход с платформы Windows на Linux. 
 
 ![](img/2010/12/23/01-00/zorin-small.jpg)
 

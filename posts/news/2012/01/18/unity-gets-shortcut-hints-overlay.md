@@ -23,13 +23,13 @@ visits: 8026
 
 Видео с демонстрацией работы можно посмотреть ниже:
 
- <iframe width="500" height="369" src="https://www.youtube.com/embed/oCPYKYipINE" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="369" src="https://www.youtube.com/embed/oCPYKYipINE" frameborder="0" allowfullscreen=""></iframe>
 
 Характеристики доступны только для Ubuntu 12.04 из последней версии Unity:
 
 ```
 
-sudo add-apt-repository ppa:unity-team/staging
+sudo add-apt-repository ppa:unity-team/staging
 sudo apt-get update
 sudo apt-get dist-upgrade
 ```

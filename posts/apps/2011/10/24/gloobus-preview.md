@@ -9,7 +9,7 @@ source: 'http://www.webupd8.org/2011/10/using-gloobus-preview-with-nautilus-32.h
 unixtime: 1319484794
 visits: 6215
 ---
-Gloobus Preview — программа для быстрого предпросмотра изображений, документов (pdf, odf, ods, и т. д.), аудио (mp3, wav, ogg и т.д), видео (avi, ogg, mkv, flv, и т.д.), папок, архивов, шрифтов и множество других файлов.
+Gloobus Preview — программа для быстрого предпросмотра изображений, документов (pdf, odf, ods, и т. д.), аудио (mp3, wav, ogg и т.д), видео (avi, ogg, mkv, flv, и т.д.), папок, архивов, шрифтов и множество других файлов.
 
 [![](img/2011/10/24/23-00/gloobus-6277127539-o.jpg)](img/2011/10/24/23-00/gloobus-6277127539-o.jpg)
 

@@ -23,7 +23,7 @@ visits: 1606
 ### Установка
 
 ```
-sudo add-apt-repository ppa:ayatana-scrollbar-team/release
+sudo add-apt-repository ppa:ayatana-scrollbar-team/release
 sudo apt-get update
 sudo apt-get install liboverlay-scrollbar-0.2-0
 ```

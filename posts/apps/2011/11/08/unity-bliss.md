@@ -21,12 +21,12 @@ visits: 5940
 
 ## Установка Unity Bliss
 
-Скачаем исходники пакета из PPA:  [launchpad.net/unity-lens-bliss](https://launchpad.net/unity-lens-bliss)
+Скачаем исходники пакета из PPA:  [launchpad.net/unity-lens-bliss](https://launchpad.net/unity-lens-bliss)
 
 Для установки сначала распакуем архив в домашнюю директорию, а затем последовательно выполним ряд команд в терминале:
 
 ```
-cd unity-lens-bliss-0.1.3
+cd unity-lens-bliss-0.1.3
 sudo apt-get install checkinstall
 ./configure --prefix=/usr --sysconfdir=/etc
 make 

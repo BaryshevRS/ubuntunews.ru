@@ -31,4 +31,4 @@ MakerBot Replicator 2 – принтер, предназначенный для 
 
 В этом году ожидается выпуск следующей версии принтера «Replicator 2X» с рядом новых характеристик, главными из которых являются поддержка печати в несколько цветов или материалов, что естественно отразится и на цене.
 
- <iframe src="https://www.youtube.com/embed/f8jx69iVl4c" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="https://www.youtube.com/embed/f8jx69iVl4c" frameborder="0" width="500" height="281"></iframe>

@@ -17,7 +17,7 @@ visits: 3963
 
 Своё мнение о первом дне акции также выразила Джейн Зильбер (Jane Silber), исполняющий директор Canonical, которая выражает благодарность всем участникам и восхищена показанными результатами.
 
-<iframe src="https://www.youtube.com/embed/c8Ezwg5LKd4" frameborder="0" width="500" height="281"></iframe> 
+<iframe src="https://www.youtube.com/embed/c8Ezwg5LKd4" frameborder="0" width="500" height="281"></iframe> 
 
 **Обращение Джейн:**
 

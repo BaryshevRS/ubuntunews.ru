@@ -13,7 +13,7 @@ visits: 2412
 
 Однодневный саммит будет включать обзор мультитач поддержки Ubuntu, включая драйверы для ядра, стека X-сервера и приложений, а также будет рассмотрен набор жестов для UTouch.
 
-<iframe width="500" height="369" src="https://www.youtube.com/embed/WRZCAHqz23A" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="369" src="https://www.youtube.com/embed/WRZCAHqz23A" frameborder="0" allowfullscreen=""></iframe> 
 
 На сессии ко всему прочему будут подняты вопросы отладки ошибок ядра Linux, сотрудничество с Canonical и как проводить тестирование ISO образов.
 

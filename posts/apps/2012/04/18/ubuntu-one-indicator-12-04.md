@@ -24,7 +24,7 @@ visits: 7321
 Для установки выполним следующие команды из терминала:
 
 ```
-sudo add-apt-repository ppa:rye/ubuntuone-extras
+sudo add-apt-repository ppa:rye/ubuntuone-extras
  sudo apt-get update
  sudo apt-get install indicator-ubuntuone
 ```

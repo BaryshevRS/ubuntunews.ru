@@ -31,7 +31,7 @@ visits: 5952
 
 С демонстрацией работы можно ознакомиться из следующего видео:
 
-<iframe width="500" height="369" src="https://www.youtube.com/embed/FocPwTmQZ18" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="369" src="https://www.youtube.com/embed/FocPwTmQZ18" frameborder="0" allowfullscreen=""></iframe> 
 
 Рассмотренные характеристики настраиваются через CCSM (CompizConfig Settings Manager), установка которого доступна из центра приложений.
 

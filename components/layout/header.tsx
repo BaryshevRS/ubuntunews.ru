@@ -14,7 +14,7 @@ export const Header: React.FC<IProp> = ({onToggleMenu}) => {
   return (
     <header className={'header'}>
       <div className="logo">
-        <Link href={'/'}><a><LogoIcon/></a></Link>
+        <Link href={'/'}> <LogoIcon/> </Link>
       </div>
       <nav className={'nav'}>
         <ul className={'nav__menu desktop'}>

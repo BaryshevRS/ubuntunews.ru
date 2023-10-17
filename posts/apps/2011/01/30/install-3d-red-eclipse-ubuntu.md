@@ -17,7 +17,7 @@ Red Eclipse трехмерный шутер от первого лица, раб
 
 <iframe title="YouTube video player" class="youtube-player" type="text/html" width="480" height="390" src="https://www.youtube.com/embed/7SNMJocLqoM" frameborder="0" allowfullscreen=""></iframe>
 
-Red Eclipse доступна для загрузки  из SVN, но энтузиасты (Giovanni), создали специальный PPA для пользователей [Ubuntu](ubuntu/) 10.10. Размер игры для скачивания составляет 1Гб.
+Red Eclipse доступна для загрузки  из SVN, но энтузиасты (Giovanni), создали специальный PPA для пользователей [Ubuntu](ubuntu/) 10.10. Размер игры для скачивания составляет 1Гб.
 
 ```
 sudo add-apt-repository ppa:itachi-sama-amaterasu/redeclipse-client

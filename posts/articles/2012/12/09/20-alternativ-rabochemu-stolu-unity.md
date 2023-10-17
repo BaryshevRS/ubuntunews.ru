@@ -226,7 +226,7 @@ sudo apt-get install awesome
 
 Почитать об i3 можно [тут](http://habrahabr.ru/post/150100/).
 
-<iframe src="https://www.youtube.com/embed/Wx0eNaGzAZU" frameborder="0" width="500" height="375"></iframe> 
+<iframe src="https://www.youtube.com/embed/Wx0eNaGzAZU" frameborder="0" width="500" height="375"></iframe> 
 
 ### Установка
 

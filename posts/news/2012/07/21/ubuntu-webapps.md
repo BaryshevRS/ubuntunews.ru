@@ -83,7 +83,7 @@ visits: 15614
 *   Cut the Rope (cuttherope.ie)
 *   Angry Birds (chrome.angrybirds.com)
 *   Lord of Ultima (lordofultima.com)
-*   Command and Conquer: Tiberium Alliances (alliances.commandandconquer.com)
+*   Command and Conquer: Tiberium Alliances (alliances.commandandconquer.com)
 
 ### Офисные приложения
 

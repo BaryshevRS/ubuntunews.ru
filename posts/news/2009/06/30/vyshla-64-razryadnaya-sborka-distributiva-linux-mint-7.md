@@ -9,4 +9,4 @@ source: 'http://www.offensive-security.com/blog/backtrack/backtrack-pre-final-pu
 unixtime: 1246371860
 visits: 906
 ---
-[Вышла](http://www.linuxmint.com/blog/?p=910)  64-разрядная сборка дистрибутива Linux Mint 7, основанная на кодовой базе Ubuntu 9.04. Подробнее о Linux Mint 7 можно прочитать в анонсе 32-разрядной сборки.
+[Вышла](http://www.linuxmint.com/blog/?p=910)  64-разрядная сборка дистрибутива Linux Mint 7, основанная на кодовой базе Ubuntu 9.04. Подробнее о Linux Mint 7 можно прочитать в анонсе 32-разрядной сборки.

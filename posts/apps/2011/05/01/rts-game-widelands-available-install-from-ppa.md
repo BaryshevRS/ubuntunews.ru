@@ -33,7 +33,7 @@ Widelands доступна в «Центре приложений», после�
 ### Установка Widelands через PPA:
 
 ```
-sudo add-apt-repository ppa:timo-wingender/ppa
+sudo add-apt-repository ppa:timo-wingender/ppa
 sudo apt-get update
 sudo apt-get install widelands
 ```

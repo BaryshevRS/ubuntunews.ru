@@ -24,14 +24,14 @@ Minitube — программа для обзора, поиска, проигр�
 ## Установка Minitube 1.7
 
 ```
- sudo add-apt-repository ppa:ferramroberto/minitube
+ sudo add-apt-repository ppa:ferramroberto/minitube
  sudo apt-get update
  sudo apt-get install minitube
 ```
 
 ### Настройка
 
-Для установки Minitube в качестве программы для просмотра, надо запустить конфигурационную утилиту «YouTube Scope Configurator».
+Для установки Minitube в качестве программы для просмотра, надо запустить конфигурационную утилиту «YouTube Scope Configurator».
 
 [![YouTube Scope Configurator](img/2012/01/12/12-00/youtube-lens-minitube-6683629525-o.jpg)](img/2012/01/12/12-00/youtube-lens-minitube-6683629525-o.jpg)
 
@@ -44,7 +44,7 @@ Minitube — программа для обзора, поиска, проигр�
 Если линза ещё не установлена, то можно поставить из PPA:
 
 ```
- sudo add-apt-repository ppa:atareao/lenses
+ sudo add-apt-repository ppa:atareao/lenses
  sudo apt-get update
  sudo apt-get install lens-video scope-youtube
 ```

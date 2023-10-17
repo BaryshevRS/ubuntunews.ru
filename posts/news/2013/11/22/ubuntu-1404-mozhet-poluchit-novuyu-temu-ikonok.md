@@ -23,4 +23,4 @@ visits: 17569
 
 К сожалению, презентация из видео с демонстрацией нового дизайна пока не представлена. Сам ролик можно посмотреть ниже:
 
- <iframe width="500" height="281" src="https://www.youtube.com/embed/0AEvSIX41lk" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="281" src="https://www.youtube.com/embed/0AEvSIX41lk" frameborder="0" allowfullscreen=""></iframe>

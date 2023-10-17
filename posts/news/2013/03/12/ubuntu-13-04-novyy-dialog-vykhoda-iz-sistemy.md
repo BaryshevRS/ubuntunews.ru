@@ -15,7 +15,7 @@ visits: 6551
 
 [Видео](https://www.youtube.com/watch?v=fPdrgXEvh3o) с демонстрацией работы:
 
- <iframe width="500" height="375" src="https://www.youtube.com/embed/fPdrgXEvh3o" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="375" src="https://www.youtube.com/embed/fPdrgXEvh3o" frameborder="0" allowfullscreen=""></iframe>
 
 ### Новый диалог выхода
 

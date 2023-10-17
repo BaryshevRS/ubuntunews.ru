@@ -35,7 +35,7 @@ visits: 2275
 Загрузить можно из PPA:
 
 ```
-sudo add-apt-repository ppa:stk/daily
+sudo add-apt-repository ppa:stk/daily
 sudo apt-get update
 sudo apt-get install supertuxkart
  

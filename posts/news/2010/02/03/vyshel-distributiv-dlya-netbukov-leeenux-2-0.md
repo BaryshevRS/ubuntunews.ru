@@ -13,4 +13,4 @@ visits: 1577
 
 В качестве пользовательского окружения задействован интерфейс из проекта Moblin. В состав включены такие программы, как Firefox 3.6 (в качестве Flash-плагина установлен Gnash),
 
-AbiWord, Gnumeric,  Thunderbird, Pigin, двухпанельный файловый менеджер GNOME Commander, система для ведения заметок Gnote, видеоплеер Totem, музыкальный проигрыватель Rhythmbox.
+AbiWord, Gnumeric,  Thunderbird, Pigin, двухпанельный файловый менеджер GNOME Commander, система для ведения заметок Gnote, видеоплеер Totem, музыкальный проигрыватель Rhythmbox.

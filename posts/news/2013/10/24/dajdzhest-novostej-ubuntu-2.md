@@ -58,7 +58,7 @@ visits: 9401
 
 Звук по умолчанию:
 
- <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/115301705" frameborder="no" scrolling="no" width="100%" height="100"></iframe>
+ <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/115301705" frameborder="no" scrolling="no" width="100%" height="100"></iframe>
 
 Творчество от Sam Hulick:
 

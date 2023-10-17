@@ -17,6 +17,6 @@ visits: 4058
 
 Демонстрация представлена, на мобильном телефоне Motorola ATRIX 2, менеджером по продукции Ричардом Коллинзом (Richard Collins).
 
-<iframe width="500" height="284" src="https://www.youtube.com/embed/wzc0uMXGFBY" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="https://www.youtube.com/embed/wzc0uMXGFBY" frameborder="0" allowfullscreen=""></iframe> 
 
 В ролике в основном фигурируют уже заявленные характеристики, такие как быстрая стыковка и переключение на рабочий стол Ubuntu, а также достаточно хорошая скорость загрузки офисного пакета LibreOffice, сопоставимая с запуском на обычном ПК.

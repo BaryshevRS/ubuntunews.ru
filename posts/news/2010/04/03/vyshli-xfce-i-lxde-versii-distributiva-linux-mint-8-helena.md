@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=26061'
 unixtime: 1270296356
 visits: 1666
 ---
-Для загрузки [доступны](http://www.linuxmint.com/blog/?p=1340) сборки дистрибутива Linux Mint 8 с десктоп-окружением на базе [XFCE](http://www.linuxmint.com/blog/?p=1340) (iso 690 Мб) и [LXDE](http://www.linuxmint.com/blog/?p=1339) (iso 670 Мб). XFCE сборка основана на Xubuntu 9.10 и включает Linux ядро 2.6.31, XFCE 4.6.1, Xorg 7.4.  В LXDE сборке отмечено использование оконного менеджера Openbox 3.4.7.2, файлового менеджера PCManFM 0.5.2 и музыкального плеера Exaile. Улучшения, добавленные в LXDE и XFCE редакциях, аналогичны изменениям в базовой версии Linux Mint 8.
+Для загрузки [доступны](http://www.linuxmint.com/blog/?p=1340) сборки дистрибутива Linux Mint 8 с десктоп-окружением на базе [XFCE](http://www.linuxmint.com/blog/?p=1340) (iso 690 Мб) и [LXDE](http://www.linuxmint.com/blog/?p=1339) (iso 670 Мб). XFCE сборка основана на Xubuntu 9.10 и включает Linux ядро 2.6.31, XFCE 4.6.1, Xorg 7.4.  В LXDE сборке отмечено использование оконного менеджера Openbox 3.4.7.2, файлового менеджера PCManFM 0.5.2 и музыкального плеера Exaile. Улучшения, добавленные в LXDE и XFCE редакциях, аналогичны изменениям в базовой версии Linux Mint 8.
 
 **Основные отличия Linux Mint 8 с Fluxbox, LXDE и Xfce:**
 

@@ -25,4 +25,4 @@ Elementary иконки от Dan Rabbit с некоторыми модифика
 
 ![Elementary иконки](img/2011/01/19/23-00/elementary-icons.jpg)
 
-С подробностями можно ознакомится со [следующей страницы](https://wiki.ubuntu.com/Lubuntu/Artwork/Incoming/Natty), где можно [скачать тему](https://wiki.ubuntu.com/Lubuntu/Artwork/Incoming/Natty?action=AttachFile&do=view&target=ozone_theme.tar.gz)  и новые обои.
+С подробностями можно ознакомится со [следующей страницы](https://wiki.ubuntu.com/Lubuntu/Artwork/Incoming/Natty), где можно [скачать тему](https://wiki.ubuntu.com/Lubuntu/Artwork/Incoming/Natty?action=AttachFile&do=view&target=ozone_theme.tar.gz)  и новые обои.

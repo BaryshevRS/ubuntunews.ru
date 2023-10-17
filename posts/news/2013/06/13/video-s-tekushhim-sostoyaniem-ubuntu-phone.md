@@ -19,4 +19,4 @@ Jono Bacon, менеджер по работе с сообществом, опу
 
 **Искомое видео:**
 
- <iframe src="https://www.youtube.com/embed/Q566IGyVB0o" frameborder="0" width="500" height="375"></iframe>
+ <iframe src="https://www.youtube.com/embed/Q566IGyVB0o" frameborder="0" width="500" height="375"></iframe>

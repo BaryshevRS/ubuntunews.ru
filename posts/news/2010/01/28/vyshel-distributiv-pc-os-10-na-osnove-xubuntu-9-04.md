@@ -27,6 +27,6 @@ visits: 1428
 *   медиаплеер [aTunes](http://www.atunes.org/) по умолчанию в OpenWorkstation
 *   Профиксены известные баги и уязвимости
 
-Скачать: pc-os-openworkstation10.iso (1.3 Гб) 
+Скачать: pc-os-openworkstation10.iso (1.3 Гб) 
 
 pc-os-webstation10.iso (680 Мб)

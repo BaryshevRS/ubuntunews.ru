@@ -25,4 +25,4 @@ visits: 6317
 
 Увидеть работу в полном действии можно из видео ниже:
 
- <iframe src="https://www.youtube.com/embed/GfwYeit_BJs" frameborder="0" width="500" height="315"></iframe>
+ <iframe src="https://www.youtube.com/embed/GfwYeit_BJs" frameborder="0" width="500" height="315"></iframe>

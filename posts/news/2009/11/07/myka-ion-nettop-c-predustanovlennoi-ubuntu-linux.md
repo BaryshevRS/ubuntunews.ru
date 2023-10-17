@@ -9,7 +9,7 @@ source: ''
 unixtime: 1257542941
 visits: 2041
 ---
-Компания Myka анонсировала компактный неттоп , построенный на базе аппаратной платформы [nVidia Ion](http://www.nvidia.ru/page/sff.html), c предустановленной  Ubuntu Linux . в который включено мультимедийным ПО
+Компания Myka анонсировала компактный неттоп , построенный на базе аппаратной платформы [nVidia Ion](http://www.nvidia.ru/page/sff.html), c предустановленной  Ubuntu Linux . в который включено мультимедийным ПО
 
 Boxee и [XBMC](http://xbmc.org/), также поддерживает Flash и умеет принимать потоковое видео с сайта [Hulu](http://www.hulu.com/).
 

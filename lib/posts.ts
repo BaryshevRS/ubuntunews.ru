@@ -2,13 +2,15 @@ import fs from 'fs-extra'
 import path from 'path'
 import matter from 'gray-matter'
 import { getUnixTime, parseISO } from 'date-fns'
-import remark from "remark";
-import strip from "strip-markdown";
-import { sidebarTopPosts } from "./consts/sidebar";
 
-const {promisify} = require("util");
-const globMethod = require('glob');
-const glob = promisify(globMethod);
+import { sidebarTopPosts } from "./consts/sidebar";
+import { remark } from "remark";
+import { glob } from "glob";
+import strip from 'strip-markdown'
+// import strip from 'strip-markdown'
+// const {promisify} = require("util");
+// const globMethod = require('glob');
+// const glob = promisify(globMethod);
 
 const sharp = require('sharp');
 
@@ -82,8 +84,10 @@ function getPageCount(totalCount: number, postsOnPage: number): number {
 async function getPreviewContent(content: string): Promise<string> {
   const firstParagraph = content.split(/\r\n|\n/g)[0];
   return await new Promise((resolve, reject) => {
+
     return remark()
-      .use(strip)
+        // @ts-ignore
+       .use(strip)
       .process(firstParagraph, function(err, file) {
         if (err) reject();
         resolve(String(file));
@@ -178,7 +182,7 @@ export async function getTopPostsData(
       // Use gray-matter to parse the post metadata section
       const matterResult: any = matter(fileContents);
       const {data, content} = matterResult;
-      var timestamp = getUnixTime(parseISO(data.date));
+      let timestamp = getUnixTime(parseISO(data.date));
       const section = postPath.split(`${postsDirectory}/`)[1].split('/')[0];
       const uri = `/${section}/${id}`;
 
@@ -245,7 +249,7 @@ export async function getAllPostIdsBySection(section: string) {
   if (!section) {
     return {};
   }
-  let filePaths = [];
+  let filePaths: string[] = [];
 
   try {
     filePaths = await glob(`${postsDirectory}/${section}/*/*/*/*\.md`, {});
@@ -369,7 +373,7 @@ async function setPostPictureFormats(images: string[] = []): Promise<PictureForm
 }
 
 export async function getPostData(id: string) {
-  let fullPath = '';
+  let fullPath: string[] = []
   try {
     fullPath = await glob(`${postsDirectory}/*/*/*/*/${id}\.md`, {});
   } catch (e) {

@@ -17,7 +17,7 @@ visits: 3439
 
 Демонстрацию работы можно посмотреть в следующем видеоролике:
 
-<iframe width="500" height="284" src="https://www.youtube.com/embed/AoI0GkZSwEg" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="https://www.youtube.com/embed/AoI0GkZSwEg" frameborder="0" allowfullscreen=""></iframe> 
 
 **Добавлено:** ещё один ролик.
 

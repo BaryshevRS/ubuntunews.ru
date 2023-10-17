@@ -11,7 +11,7 @@ visits: 4137
 ---
 Представлено новое видео с демонстрацией работы следующей версией MyUnity 4.0.
 
-<iframe width="500" height="375" src="https://www.youtube.com/embed/MeDUK3cFOXQ" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="375" src="https://www.youtube.com/embed/MeDUK3cFOXQ" frameborder="0" allowfullscreen=""></iframe> 
 
 MyUnity — легковесная утилита для тонкой настройки различных компонентов Ubuntu, таких как число рабочих столов, шрифты, GTK+ темы, размер, прозрачность и эффекты для панели Unity, а также ещё множества других параметров.
 

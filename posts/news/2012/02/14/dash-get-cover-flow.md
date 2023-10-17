@@ -13,7 +13,7 @@ visits: 4672
 
 Как пишут разработчики:
 
-> Cover Flow – это анимированный, трёхмерный пользовательский интерфейс для визуального листания документов, обложек альбомов и т. п.
+> Cover Flow – это анимированный, трёхмерный пользовательский интерфейс для визуального листания документов, обложек альбомов и т. п.
 
 [![](img/2012/02/14/22-00/coverflow-6876613775-o.jpg)](img/2012/02/14/22-00/coverflow-6876613775-o.jpg)
 
@@ -23,4 +23,4 @@ visits: 4672
 
 С демонстрацией работы можно познакомиться из следующего видео:
 
- <iframe width="500" height="369" src="https://www.youtube.com/embed/GaqL9JgiMWw" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="369" src="https://www.youtube.com/embed/GaqL9JgiMWw" frameborder="0" allowfullscreen=""></iframe>

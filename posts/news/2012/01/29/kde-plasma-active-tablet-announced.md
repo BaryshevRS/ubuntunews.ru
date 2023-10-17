@@ -29,4 +29,4 @@ visits: 5496
 
 С демонстрацией работы KDE Plasma Active можно ознакомиться из следующего видео:
 
- <iframe width="500" height="284" src="https://www.youtube.com/embed/UPkYyDiuGyc" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="500" height="284" src="https://www.youtube.com/embed/UPkYyDiuGyc" frameborder="0" allowfullscreen=""></iframe>

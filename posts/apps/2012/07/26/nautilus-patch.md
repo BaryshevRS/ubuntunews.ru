@@ -44,5 +44,5 @@ visits: 6895
 Откройте терминал и введите команду:
 
 ```
-sudo apt-get remove nautiluspatch 
+sudo apt-get remove nautiluspatch 
 ```

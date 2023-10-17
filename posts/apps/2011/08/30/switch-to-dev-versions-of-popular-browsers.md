@@ -28,8 +28,8 @@ ppa:mozillateam/firefox-next
 Для установки еще более нестабильных версий, таких как Aurora и Nightly, можно воспользоваться следующими PPA:
 
 ```
-8.0 (Aurora): ppa:ubuntu-mozilla-daily/firefox-aurora 
-9.0 (Nightly): ppa:ubuntu-mozilla-daily/ppa 
+8.0 (Aurora): ppa:ubuntu-mozilla-daily/firefox-aurora 
+9.0 (Nightly): ppa:ubuntu-mozilla-daily/ppa 
 ```
 
 Этими PPA также пользуется и почтовый клиент Thunderbird, поэтому после обновления (upgrade), он также будет замещен на нестабильную версию.

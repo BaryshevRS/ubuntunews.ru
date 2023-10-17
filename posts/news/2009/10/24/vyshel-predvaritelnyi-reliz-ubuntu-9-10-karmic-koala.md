@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=23954'
 unixtime: 1256331086
 visits: 1021
 ---
-Компания Canonical выпустила релиз-кандидат  Ubuntu 9.10 (Karmic Koala).
+Компания Canonical выпустила релиз-кандидат  Ubuntu 9.10 (Karmic Koala).
 
 Выход финальной версии этой ОС как известно , ожидается 29 октября этого года, скачать Ubuntu 9.10 RC версию можно от сюда.
 

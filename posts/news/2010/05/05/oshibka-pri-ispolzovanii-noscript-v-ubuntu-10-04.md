@@ -11,4 +11,4 @@ visits: 1317
 ---
 Разработчик популярного Firefox-дополнения NoScript [обратил](http://hackademix.net/2010/05/04/bug-in-ubuntu-1004-crashing-your-desktop-via-firefox-noscript/) внимание пользователей на наличие в Ubuntu 10.04 неприятной [ошибки](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/539772), приводящей к краху X-сервера при выполнении определенных действий в Firefox. Ошибка замечена при использовании дополнения NoScript (при клике на пиктограмму), но сообщается, что она может проявляться и при других обстоятельствах.
 
-Наличие проблемы  подтверждено в пакете xorg-server, обновление которого доступно пока только в PPA-репозитории (sudo add-apt-repository ppa:bryceharrington/purple && apt-get update && apt-get upgrade).
+Наличие проблемы  подтверждено в пакете xorg-server, обновление которого доступно пока только в PPA-репозитории (sudo add-apt-repository ppa:bryceharrington/purple && apt-get update && apt-get upgrade).

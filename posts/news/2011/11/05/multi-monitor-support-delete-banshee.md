@@ -15,7 +15,7 @@ visits: 5347
 
 Видео с демонстрацией работы:
 
- <iframe src="https://www.youtube.com/embed/lbwNMnNUGFA" frameborder="0" width="500" height="369"></iframe>
+ <iframe src="https://www.youtube.com/embed/lbwNMnNUGFA" frameborder="0" width="500" height="369"></iframe>
 
 ## Удаление Banshee
 
