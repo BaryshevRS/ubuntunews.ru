@@ -2,7 +2,7 @@ import { Layout } from "../../components/layout/layout";
 import { getLayoutProps, ILayoutProps } from "../../lib/posts";
 import { ChangeEvent, FormEvent, useMemo, useState } from "react";
 
-export default function UbuntuPage({topPosts}: ILayoutProps) {
+export default function ProjectFormPage({topPosts}: ILayoutProps) {
   const [ fields, setFields] = useState<Record<string, string>>({
     name: '',
     email: '',

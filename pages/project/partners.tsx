@@ -16,13 +16,6 @@ export default function PartnersPage({topPosts}: ILayoutProps) {
       <h3>Про Ubuntu</h3>
 
       <p>
-        <PostLink href="http://softhelp.org.ua/" title="">
-          <img src="/assets/partners/blog.jpeg" alt="Блог про Убунту Линукс. Просто о важном" width="88"
-               height="31"/>
-        </PostLink>
-      </p>
-
-      <p>
         <PostLink href="http://ubuntu-news.ru/" title="Новости Ubuntu">
           <img src="/assets/partners/un.png" alt="Новости Ubuntu Linux"/></PostLink>
       </p>

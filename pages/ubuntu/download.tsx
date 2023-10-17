@@ -20,6 +20,48 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
 
         <p>Релизы дистрибутива делятся на два типа: промежуточные и LTS (Long Term Support).</p>
 
+
+       <h2>Промежуточные</h2>
+        <p>Выходят каждые полгода и несут в себе новые и экспериментальные функции,
+          так что если хотите идти в ногу со временем, этот выпуск будет актуален.
+          </p>
+
+        <p>Поддержка их кратковременна, всего 9 месяцев после релиза, поэтому обязательно придётся обновляться до новой версии.</p>
+
+        <h2 id="23.10">Скачать актуальную Ubuntu 23.10.1</h2>
+
+        <p>Для скачивания через торрент или напрямую можно кликнуть по нужной ссылке из таблицы ниже.</p>
+        <table className="table  table-bordered">
+          <tbody>
+          <tr>
+            <td rowSpan={1} colSpan={1}></td>
+            <td colSpan={1}>По прямой ссылке</td>
+            <td colSpan={1}>Через Торрент</td>
+          </tr>
+
+          <tr>
+            <td rowSpan={1}>Мир</td>
+
+
+            <td className="ltd"><a href="http://releases.ubuntu.com/23.10/ubuntu-23.10.1-desktop-amd64.iso"
+                                   rel="nofollow">amd64</a></td>
+
+            <td className="ltd"><a href="http://releases.ubuntu.com/23.10/ubuntu-23.10.1-desktop-amd64.iso.torrent"
+                                   rel="nofollow">amd64</a></td>
+          </tr>
+          <tr>
+            <td rowSpan={1}>Россия</td>
+
+
+            <td><a href="http://mirror.yandex.ru/ubuntu-releases/23.10/ubuntu-23.10.1-desktop-amd64.iso"
+                   rel="nofollow">amd64</a></td>
+
+            <td><a href="http://mirror.yandex.ru/ubuntu-releases/23.10/ubuntu-23.10.1-desktop-amd64.iso.torrent"
+                   rel="nofollow">amd64</a></td>
+          </tr>
+          </tbody>
+        </table>
+
         <h2>Длительная поддержка (LTS)</h2>
 
         <p>Это версии с длительным периодом поддержки, выходящие раз в два
@@ -31,91 +73,39 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
           Так как их поддержка составляет пять лет и по истечению ещё пятилетний период с выпуском патчей обновлений безопасности.
         </p>
 
-        <h2 id="22.04">Скачать Ubuntu 22.04.1 LTS</h2>
+        <h2 id="22.04">Скачать Ubuntu 22.04.3 LTS</h2>
         <p>Это самая последняя версия, включающая в себя все новые и передовые технологии работы с
           компьютером.</p>
-        <p>Для скачивания Ubuntu 22.04.1 через торрент или напрямую можно кликнуть по нужной ссылке из таблицы
+        <p>Для скачивания Ubuntu 22.04.3 через торрент или напрямую можно кликнуть по нужной ссылке из таблицы
           ниже.</p>
         <table className="table  table-bordered">
           <tbody>
           <tr>
-            <td rowSpan={2} colSpan={2}></td>
+            <td rowSpan={1} colSpan={1}></td>
             <td colSpan={1}>По прямой ссылке</td>
             <td colSpan={1}>Через Торрент</td>
           </tr>
-          <tr>
 
-            <td>64-бит</td>
-
-            <td>64-бит</td>
-          </tr>
           <tr>
             <td rowSpan={1}>Мир</td>
-            <td className="ltd">Десктоп</td>
-
-            <td className="ltd"><a href="https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-desktop-amd64.iso"
+            <td className="ltd"><a href="https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-desktop-amd64.iso"
                                    rel="nofollow">amd64</a></td>
 
-            <td className="ltd"><a href="https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-desktop-amd64.iso.torrent"
+            <td className="ltd"><a href="https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso.torrent"
                                    rel="nofollow">amd64</a></td>
           </tr>
           <tr>
             <td rowSpan={1}>Россия</td>
-            <td>Десктоп</td>
 
-            <td><a href="https://mirror.yandex.ru/ubuntu-releases/22.04.1/ubuntu-22.04.1-desktop-amd64.iso"
+
+            <td><a href="https://mirror.yandex.ru/ubuntu-releases/22.04.3/ubuntu-22.04.3-desktop-amd64.iso"
                    rel="nofollow">amd64</a></td>
 
-            <td><a href="https://mirror.yandex.ru/ubuntu-releases/22.04.1/ubuntu-22.04.1-desktop-amd64.iso.torrent"
+            <td><a href="https://mirror.yandex.ru/ubuntu-releases/22.04.3/ubuntu-22.04.3-desktop-amd64.iso.torrent"
                    rel="nofollow">amd64</a></td>
           </tr>
           </tbody>
         </table>
-
-{/*        <h2>Промежуточные</h2>
-        <p>Выходят каждые полгода и несут в себе новые и экспериментальные функции, так что если хотите идти в ногу со временем, этот выпуск будет актуален.
-          </p>
-
-        <p>Поддержка их кратковременна, всего 9 месяцев после релиза, поэтому придётся постоянно обновляться.</p>
-
-        <h2 id="21.10">Скачать Ubuntu 21.10</h2>
-
-        <p>Для скачивания через торрент или напрямую можно кликнуть по нужной ссылке из таблицы ниже.</p>
-        <table className="table  table-bordered">
-          <tbody>
-          <tr>
-            <td rowSpan={2} colSpan={2}></td>
-            <td colSpan={1}>По прямой ссылке</td>
-            <td colSpan={1}>Через Торрент</td>
-          </tr>
-          <tr>
-
-            <td>64-бит</td>
-
-            <td>64-бит</td>
-          </tr>
-          <tr>
-            <td rowSpan={1}>Мир</td>
-            <td className="ltd">Десктоп</td>
-
-            <td className="ltd"><a href="http://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso"
-                                   rel="nofollow">amd64</a></td>
-
-            <td className="ltd"><a href="http://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso.torrent"
-                                   rel="nofollow">amd64</a></td>
-          </tr>
-          <tr>
-            <td rowSpan={1}>Россия</td>
-            <td>Десктоп</td>
-
-            <td><a href="http://mirror.yandex.ru/ubuntu-releases/21.10/ubuntu-21.10-desktop-amd64.iso"
-                   rel="nofollow">amd64</a></td>
-
-            <td><a href="http://mirror.yandex.ru/ubuntu-releases/21.10/ubuntu-21.10-desktop-amd64.iso.torrent"
-                   rel="nofollow">amd64</a></td>
-          </tr>
-          </tbody>
-        </table>*/}
 
         <h2>Архитектуры образов</h2>
 
@@ -140,7 +130,7 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
         <table className="table  table-bordered">
           <tbody>
           <tr>
-            <td rowSpan={2} colSpan={2}></td>
+            <td rowSpan={2} colSpan={1}></td>
             <td colSpan={2}>По прямой ссылке</td>
             <td colSpan={2}>Через Торрент</td>
           </tr>
@@ -152,7 +142,7 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
           </tr>
           <tr>
             <td rowSpan={1}>Мир</td>
-            <td className="ltd">Десктоп</td>
+
             <td className="ltd"><a href="https://releases.ubuntu.com/16.04/ubuntu-16.04.6-desktop-i386.iso"
                                    rel="nofollow">i386</a></td>
             <td className="ltd"><a href="https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso"
@@ -164,7 +154,7 @@ export default function DownloadPage({topPosts}: ILayoutProps) {
           </tr>
           <tr>
             <td rowSpan={1}>Россия</td>
-            <td>Десктоп</td>
+
             <td><a href="https://mirror.yandex.ru/ubuntu-releases/16.04/ubuntu-16.04.6-desktop-i386.iso"
                    rel="nofollow">i386</a></td>
             <td><a href="https://mirror.yandex.ru/ubuntu-releases/16.04/ubuntu-16.04.7-desktop-amd64.iso"
