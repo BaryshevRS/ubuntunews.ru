@@ -20,7 +20,9 @@ visits: 8293
 Тема иконок доступна для установки из PPA для Ubuntu 11.10, 12.04 и 12.10, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:noobslab/iconssudo apt-get updatesudo apt-get install malys-ex
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
+sudo apt-get install malys-ex
 ```
 
 [Nitrux OS](http://deviantn7k1.deviantart.com/art/Nitrux-OS-Icons-293634207) – глянцевая тема иконок, которая хорошо впишется, как в Unity, так и в Gnome Shell.
@@ -32,7 +34,9 @@ sudo add-apt-repository ppa:noobslab/iconssudo apt-get updatesudo apt-get instal
 Установка из PPA доступна только для Ubuntu 12.04:
 
 ```
-sudo add-apt-repository ppa:upubuntu-com/themessudo apt-get updatesudo apt-get install nitruxos
+sudo add-apt-repository ppa:upubuntu-com/themes
+sudo apt-get update
+sudo apt-get install nitruxos
 ```
 
 ### Как установить темы иконок

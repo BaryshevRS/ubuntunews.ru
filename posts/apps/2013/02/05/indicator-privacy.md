@@ -20,7 +20,9 @@ visits: 4115
 Установка индикатора доступна для Ubuntu 12.10, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:diesch/testingsudo apt-get updatesudo apt-get install indicator-privacy
+sudo add-apt-repository ppa:diesch/testing
+sudo apt-get update
+sudo apt-get install indicator-privacy
 ```
 
 Запустить можно, введя в Dash - «privacy indicator».

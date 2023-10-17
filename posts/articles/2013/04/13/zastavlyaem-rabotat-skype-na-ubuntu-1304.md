@@ -48,7 +48,8 @@ sudo chmod 0755 /usr/bin/skype
 Откатить изменения, и вернуть как было, можно следующими командами:
 
 ```
-sudo rm /usr/bin/skypesudo mv /usr/bin/skype-bin /usr/bin/skype
+sudo rm /usr/bin/skype
+sudo mv /usr/bin/skype-bin /usr/bin/skype
 ```
 
 Описанное выше – лично не тестировалось, но по отзывам должно работать.

@@ -18,11 +18,15 @@ visits: 2305
 Для установка XFCE 4.8 в Ubuntu 10.04 Lucid Lynx (только для 32 бит).
 
 ```
-sudo add-apt-repository ppa:alexx2000/xfcesudo apt-get updatesudo apt-get install xubuntu-desktop
+sudo add-apt-repository ppa:alexx2000/xfce
+sudo apt-get update
+sudo apt-get install xubuntu-desktop
 ```
 
 Для Ubuntu 10.10 Maverick Meerkat (32 и 64 бит), XFCE можно установить используя следующие команды:
 
 ```
-sudo add-apt-repository ppa:koshi/xfce-4.8sudo apt-get updatesudo apt-get install xubuntu-desktop
+sudo add-apt-repository ppa:koshi/xfce-4.8
+sudo apt-get update
+sudo apt-get install xubuntu-desktop
 ```

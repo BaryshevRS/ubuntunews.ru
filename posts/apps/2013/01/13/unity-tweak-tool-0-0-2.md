@@ -28,5 +28,7 @@ Unity-Tweak-Tool находится в активной разработке и 
 Установить твикер можно из официального тестового PPA для Quantal и Raring, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-dailysudo apt-get updatesudo apt-get install unity-tweak-tool
+sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily
+sudo apt-get update
+sudo apt-get install unity-tweak-tool
 ```
