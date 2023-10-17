@@ -41,7 +41,7 @@ visits: 6873
 
 но и просто при клике по иконке приложения в обзоре.
 
- [![](img/2012/05/30/23-00/gnome-shell-quicklists-dash-7303640444-o.jpg)](img/2012/05/30/23-00/gnome-shell-quicklists-dash-7303640444-o.jpg)
+ [![](img/2012/05/30/23-00/gnome-shell-quicklists-dash-7303640444-o.jpg)](img/2012/05/30/23-00/gnome-shell-quicklists-dash-7303640444-o.jpg)
 
 ### Установка Quicklists в GNOME Shell
 

@@ -15,7 +15,7 @@ visits: 7118
 
 MyPaint ориентирована в первую очередь на рисование, а не на обработку изображений, как, например, это делает GIMP, поэтому в ней не встретишь многих привычных инструментов, а лишь функционал необходимый для художников. Программа отличается простым интуитивным интерфейсом, неограниченным холстом, широким выбором кистей, поддержкой работы со слоями и возможностью запуска под различными операционными системами, будь то Linux, Windows или Mac OSX.
 
- <iframe src="//player.vimeo.com/video/56621515?portrait=0" width="500" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+ <iframe src="//player.vimeo.com/video/56621515?portrait=0" width="500" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 ### Основные изменения
 

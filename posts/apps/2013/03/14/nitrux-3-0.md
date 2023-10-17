@@ -37,6 +37,7 @@ sudo apt-get install nitruxos
 ### Удалить
 
 ```
-sudo apt-get remove nitruxossudo add-apt-repository --remove ppa:upubuntu-com/nitrux
+sudo apt-get remove nitruxos
+sudo add-apt-repository --remove ppa:upubuntu-com/nitrux
 sudo apt-get update
 ```

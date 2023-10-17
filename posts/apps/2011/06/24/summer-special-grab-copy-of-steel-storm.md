@@ -19,6 +19,6 @@ visits: 2235
 
 Специальное предложение с 70% скидкой продлится до 5 июля.
 
-<iframe width="500" height="314" src="//www.youtube.com/embed/DmFLEHE5Mn8" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="314" src="https://www.youtube.com/embed/DmFLEHE5Mn8" frameborder="0" allowfullscreen=""></iframe>
 
-<iframe width="500" height="314" src="//www.youtube.com/embed/zrDIhVYOf-0" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="314" src="https://www.youtube.com/embed/zrDIhVYOf-0" frameborder="0" allowfullscreen=""></iframe>

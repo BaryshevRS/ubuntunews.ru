@@ -20,7 +20,7 @@ visits: 3684
 *   Для работы с аудио-видео: Audio Player (DeaDBeef 0.4 RU), Brasero, Furius ISO Mount, ISO Master, SMPlayer, aumix-gtk, gtk-recordMyDesktop.
 *   С графикой: GColor2, GPicView, mtPaint
 *   Для работы в интернет: браузер SeaMonkey 2.0.5, GnomePPP, почтовый клиент Sylpheed 3.0.2, Transmission 2.0.1, Wicd 1.7.0, gWakeOnLan 0.5, qutIM 0.2, D4X, Remmina 0.7.4, pppoeconf
-*   Офисные:  AbiWord 2.8.2, Gnumeric 1.10.1, Osmo 0.2.8, Evince 2.30.3
+*   Офисные:  AbiWord 2.8.2, Gnumeric 1.10.1, Osmo 0.2.8, Evince 2.30.3
 *   Стандартные: Galculator, LXTerminal, Leafpad, NicoEdit, Parcellite, Xpad, File-Roller, Менеджер паролей (fpm2), снимок экрана GnomeScreenshotTool, MidnightCommander
 
 На установочном диске также имеется кэш пакетов (300Мб), который позволит установить при необходимости дополнительное ПО:

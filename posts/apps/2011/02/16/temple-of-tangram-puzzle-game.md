@@ -15,7 +15,7 @@ visits: 2308
 
 По началу прохождения игры выглядит изрядно простой, но с увеличением уровней становится все более захватывающей и увлекательной головоломкой.
 
-<iframe title="YouTube video player" width="480" height="300" src="//www.youtube.com/embed/HpvJiEcniWs" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="300" src="https://www.youtube.com/embed/HpvJiEcniWs" frameborder="0" allowfullscreen=""></iframe>
 
 ### Характеристики Temple Of Tangram
 

@@ -45,7 +45,7 @@ Ubuntu Tweak – это одно из самых популярных сторо
 Установка доступна под Natty и Oneiric, но под Oneiric все еще возможны проблемы со стабильностью, кроме того пока не реализованы функции: центра и источников приложений.
 
 ```
-sudo add-apt-repository  ppa:tualatrix/next
+sudo add-apt-repository  ppa:tualatrix/next
 sudo apt-get update 
 sudo apt-get install ubuntu-tweak 
 ```

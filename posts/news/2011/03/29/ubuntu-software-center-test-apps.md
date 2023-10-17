@@ -21,4 +21,4 @@ sudo apt-get install qtnx
 
 Посмотреть в действие можно из следующего видео:
 
-<iframe title="YouTube video player" width="500" height="405" src="//www.youtube.com/embed/DGvJHuhknbk" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="405" src="https://www.youtube.com/embed/DGvJHuhknbk" frameborder="0" allowfullscreen=""></iframe>

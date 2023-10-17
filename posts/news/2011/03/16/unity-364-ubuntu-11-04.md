@@ -11,7 +11,7 @@ visits: 2115
 ---
 Рассмотрим, что нового в [Ubuntu](ubuntu/) 11.04 из визуальных изменения в текущей версии графической оболочки Unity 3.6.4:
 
-<iframe title="YouTube video player" width="480" height="390" src="//www.youtube.com/embed/nqS2s1TEDnk" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="480" height="390" src="https://www.youtube.com/embed/nqS2s1TEDnk" frameborder="0" allowfullscreen=""></iframe>
 
 По нажатию ALT + F2 откроется окно Dash, в котором при написание команды выводится визуальный список доступных программ и утилит подходящих по названию, а также Dash запоминает выполненные команды и выводит их в отдельной группе.
 

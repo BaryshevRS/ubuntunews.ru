@@ -15,7 +15,7 @@ visits: 9470
 
 В Heroes of Newerth предстоит сражаться в одном из двух лагерей, расположенных на разных сторонах карты, пытаясь захватить базу противника используя авто-респанившиеся «крипы» и защищая свою базу с помощью башен. В среднем бой длится порядка 40-50 минут.
 
-<iframe width="500" height="314" src="//www.youtube.com/embed/Yet9DZ5SZ0g" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="314" src="https://www.youtube.com/embed/Yet9DZ5SZ0g" frameborder="0" allowfullscreen=""></iframe>
 
 ## Бесплатные и проверенные аккаунты
 

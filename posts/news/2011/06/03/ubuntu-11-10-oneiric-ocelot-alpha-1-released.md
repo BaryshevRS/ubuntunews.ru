@@ -23,13 +23,13 @@ visits: 6223
 
 Демонстрацию работы с Unity и Gnome Shell в первой альфа Oneiric Ocelot можно посмотреть в следующем видео:
 
-<iframe width="500" height="405" src="//www.youtube.com/embed/kUbx9cCL5MQ" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="https://www.youtube.com/embed/kUbx9cCL5MQ" frameborder="0" allowfullscreen=""></iframe>
 
 ## Скачать первую альфу Ubuntu 11.10
 
 Загрузить можно по этой ссылке: cdimage.ubuntu.com
 
-В дистрибутиве пока не до конца портирована графическая тема и Unity на GTK3, а также возможны проблемы со стабильностью работы,  поэтому устанавливать на основную систему не рекомендуется.
+В дистрибутиве пока не до конца портирована графическая тема и Unity на GTK3, а также возможны проблемы со стабильностью работы,  поэтому устанавливать на основную систему не рекомендуется.
 
 [Следующий](news/releaseschedule-ubuntu-11-10-oneiric-ocelot) тестовый релиз выйдет седьмого июля.
 

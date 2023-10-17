@@ -25,4 +25,4 @@ visits: 10211
 
 Разговор начинается с 42-ой минуты (на английском) из [видео](https://www.youtube.com/watch?v=AQvOIExkCaw) ниже:
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/AQvOIExkCaw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/AQvOIExkCaw" frameborder="0" allowfullscreen=""></iframe>

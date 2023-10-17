@@ -28,7 +28,9 @@ visits: 4196
 ## Как установить Stellarium 0.11.3 в Ubuntu
 
 ```
-sudo add-apt-repository ppa:stellarium/stellarium-releasessudo apt-get updatesudo apt-get install stellarium
+sudo add-apt-repository ppa:stellarium/stellarium-releases
+sudo apt-get update
+sudo apt-get install stellarium
 ```
 
 Об ошибках можно сообщить здесь: [bugs.launchpad.net/stellarium](https://bugs.launchpad.net/stellarium)

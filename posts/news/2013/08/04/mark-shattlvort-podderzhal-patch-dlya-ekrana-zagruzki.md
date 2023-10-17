@@ -19,4 +19,4 @@ visits: 7153
 
 А вот так выглядит [финальная работа](https://plus.google.com/114762164224008090488/posts/ex4tNv2KWSW), сделанная автором Mathias Lindberg через час:
 
- ![](img/2013/08/04/21-00/raring.jpg)
+ ![](img/2013/08/04/21-00/raring.jpg)

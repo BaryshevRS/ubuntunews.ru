@@ -28,7 +28,7 @@ visits: 2220
 *   Устранена проблема с кодировкой в никнеймах игроков
 *   Переработаны звуки для DFSG совместимости
 
-<iframe title="YouTube video player" width="500" height="311" src="//www.youtube.com/embed/OB8B8ZxufEs" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="311" src="https://www.youtube.com/embed/OB8B8ZxufEs" frameborder="0" allowfullscreen=""></iframe>
 
 Загрузить можно по следующей ссылке: [sourceforge.net](http://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/0.7.1/)
 

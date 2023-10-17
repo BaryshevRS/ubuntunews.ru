@@ -7,7 +7,7 @@ export default function UbuntuPage({topPosts}: ILayoutProps) {
   return (
     <Layout topPosts={topPosts}
             urlSocial={'/ubuntu'}
-            description={'Общая инфомация об Ubuntu'}
+            description={'Общая информация об Ubuntu'}
             canonical={'/ubuntu'}
             title={'Об Ubuntu'}>
       <article className={'post'}>

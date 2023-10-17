@@ -31,7 +31,7 @@ visits: 27247
 
 [![](img/2012/12/25/20-00/my-weather-5-8306620765-o.jpg)](img/2012/12/25/20-00/my-weather-5-8306620765-o.jpg)
 
-Включить и выбрать их можно на вкладке  «месторасположения».
+Включить и выбрать их можно на вкладке  «месторасположения».
 
 [![](img/2012/12/25/20-00/my-weather-1-8306625251-o.jpg)](img/2012/12/25/20-00/my-weather-1-8306625251-o.jpg)
 
@@ -42,5 +42,5 @@ visits: 27247
 ```
 sudo add-apt-repository ppa:atareao/atareao
 sudo apt-get update
-sudo apt-get install my-weather-indicator    
+sudo apt-get install my-weather-indicator    
 ```

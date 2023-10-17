@@ -17,4 +17,4 @@ visits: 7424
 
 Демонстрация работы движка на примере игры ShadowGun:
 
- <iframe src="//www.youtube.com/embed/7aVttB25oPo" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="https://www.youtube.com/embed/7aVttB25oPo" frameborder="0" width="500" height="281"></iframe>

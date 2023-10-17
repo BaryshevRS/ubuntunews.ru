@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=22125'
 unixtime: 1245391197
 visits: 900
 ---
-[Доступна](http://www.mail-archive.com/ubuntu-devel-announce@lists.ubuntu.com/msg00346.html)  вторая альфа версия [Ubuntu 9.10](http://www.ubuntu.com/testing/karmic/alpha2). Во второй альфа версии продолжена работа по обновлению версий программ в пакетах.
+[Доступна](http://www.mail-archive.com/ubuntu-devel-announce@lists.ubuntu.com/msg00346.html)  вторая альфа версия [Ubuntu 9.10](http://www.ubuntu.com/testing/karmic/alpha2). Во второй альфа версии продолжена работа по обновлению версий программ в пакетах.
 
 Основные улучшения:
 

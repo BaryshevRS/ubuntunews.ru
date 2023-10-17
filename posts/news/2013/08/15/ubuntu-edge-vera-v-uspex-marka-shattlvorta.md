@@ -27,4 +27,4 @@ visits: 4781
 
 Подготовлена живая демонстрация полностью собранного макета, которую можно посмотреть ниже:
 
-<iframe src="//www.youtube.com/embed/izPS28UVrsw" frameborder="0" width="500" height="281"></iframe>
+<iframe src="https://www.youtube.com/embed/izPS28UVrsw" frameborder="0" width="500" height="281"></iframe>

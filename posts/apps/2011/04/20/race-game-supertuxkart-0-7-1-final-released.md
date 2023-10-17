@@ -11,7 +11,7 @@ visits: 2275
 ---
 [Вышла](http://supertuxkart.blogspot.com/2011/04/supertuxkart-071-released.html) финальная версия аркадной гоночной игры SuperTuxKart 0.7.1, с множеством новых характеристик и возможностей относительно предыдущего релиза 0.7.
 
-<iframe title="YouTube video player" width="500" height="311" src="//www.youtube.com/embed/OB8B8ZxufEs" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="311" src="https://www.youtube.com/embed/OB8B8ZxufEs" frameborder="0" allowfullscreen=""></iframe>
 
 ### Что нового в финальной версии:
 
@@ -35,7 +35,7 @@ visits: 2275
 Загрузить можно из PPA:
 
 ```
-sudo add-apt-repository ppa:stk/daily
+sudo add-apt-repository ppa:stk/daily
 sudo apt-get update
 sudo apt-get install supertuxkart
  

@@ -15,7 +15,7 @@ visits: 5780
 
 Суть нового способа, выбора запущенных программ, заключается в добавлении в контекстное меню ещё одного подраздела со списком окон.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/mMZJQiykXmE" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="281" src="https://www.youtube.com/embed/mMZJQiykXmE" frameborder="0" allowfullscreen=""></iframe> 
 
 Подобная вариация, изменения текущего окна, может быть удобна не только для пользователей любящих работать с мышью, но и в целом позволяет улучшить юзабилити системы, предлагая воспользоваться одним из оптимальных способов.
 

@@ -28,7 +28,7 @@ visits: 8108
 
 Видео с демонстрацией работы:
 
-<iframe src="//www.youtube.com/embed/1CAWU18JkjE" frameborder="0" width="500" height="281"></iframe>
+<iframe src="https://www.youtube.com/embed/1CAWU18JkjE" frameborder="0" width="500" height="281"></iframe>
 
 ## Установка патча NotifyOSD и NotifyOSDConfig в Ubuntu 12.04
 

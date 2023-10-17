@@ -1,32 +1,19 @@
 const path = require("path");
 module.exports = {
+  swcMinify: false,
   webpack: (config, { isServer }) => {
     if (isServer) {
       require('./lib/generation/sitemap');
-      require('./lib/generation/feed');
+      // require('./lib/generation/feed');
     }
 
     config.module.rules.push({
-      test: /\.svg$/,
-      issuer: /\.tsx?$/,
-      include: [
-        path.resolve(__dirname, "components"),
-        path.resolve(__dirname, "public"),
-      ],
-      use: [
-        'next-swc-loader',
-        {
-          loader: '@svgr/webpack',
-          options: { babel: false }
-        }
-      ],
+      test: /\.svg$/i,
+      use: ['@svgr/webpack'],
     });
-
     return config;
   },
-  exportPathMap: async function (
-    defaultPathMap, { dev, dir, outDir, distDir, buildId }
-  ) {
+  exportPathMap: async function () {
     const main = {'/': { page: '/' }};
     const ubuntuPage = {
       '/ubuntu': { page: '/ubuntu'},
@@ -45,6 +32,6 @@ module.exports = {
     return {...main, ...ubuntuPage, ...projectPage, ...error404Page};
   },
   env: {
-    BASE_URL: 'https://ubuntunews.ru'
+    BASE_URL: 'http://localhost:3000'
   }
 };

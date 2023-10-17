@@ -26,6 +26,6 @@ visits: 14540
 *   Поддержка драйвера [Nouveau](http://ru.wikipedia.org/wiki/Nouveau) для пакета из Ubuntu PPA
 *   «optirun --status» теперь показывает статус Bumblebee и GPU используемой системы
 *   Упрощена конфигурация Xorg, что позволяет использовать его с настройками по умолчанию
-*    Полный список нововведений можно найти [тут](http://bumblebee-project.org/release-notes-3.0).
+*    Полный список нововведений можно найти [тут](http://bumblebee-project.org/release-notes-3.0).
 
 [Установить](https://github.com/Bumblebee-Project/Bumblebee/wiki/Install-and-usage) Bumblebee 3.0 «Tumbleweed» в Ubuntu можно из следующего PPA: [launchpad.net/~bumblebee/+archive/stable](https://launchpad.net/~bumblebee/+archive/stable)

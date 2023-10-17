@@ -1,4 +1,4 @@
-import { compress } from "../lib/utils";
+import { compress } from "../utils";
 
 export const ga = compress(`window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

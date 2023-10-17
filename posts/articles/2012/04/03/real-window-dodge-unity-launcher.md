@@ -13,7 +13,7 @@ visits: 17105
 
 С небольшой демонстрацией работы можно ознакомиться из следующего ролика:
 
-<iframe width="500" height="284" src="//www.youtube.com/embed/xUJBvD0TxIw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="https://www.youtube.com/embed/xUJBvD0TxIw" frameborder="0" allowfullscreen=""></iframe>
 
 Стоит отметить, что если уже установлена старая версия скрипта, то его потребуется удалить:
 

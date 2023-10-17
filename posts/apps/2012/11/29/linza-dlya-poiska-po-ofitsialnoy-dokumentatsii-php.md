@@ -20,7 +20,9 @@ visits: 3089
 Установка доступна только для Ubuntu 12.10, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:asimlqt22/ppa  sudo apt-get updatesudo apt-get install unity-lens-php
+sudo add-apt-repository ppa:asimlqt22/ppa  
+sudo apt-get update
+sudo apt-get install unity-lens-php
 ```
 
 И перезайти в сессию.

@@ -22,8 +22,8 @@ Disper-indicator предназначен для работы с видеока�
 Для установки потребуется выполнить следующие команды:
 
 ```
-sudo add-apt-repository ppa:disper-dev/ppa
-sudo add-apt-repository ppa:nmellegard/disper-indicator-ppa
+sudo add-apt-repository ppa:disper-dev/ppa
+sudo add-apt-repository ppa:nmellegard/disper-indicator-ppa
 sudo apt-get update
 sudo apt-get install disper disper-indicator
 ```

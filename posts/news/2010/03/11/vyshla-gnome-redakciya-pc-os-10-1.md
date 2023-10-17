@@ -9,7 +9,7 @@ source: ''
 unixtime: 1268255485
 visits: 1224
 ---
-В семействе пополнение, по пожеланию пользователей [вышла](http://www.pc-os.org/2010/03/pcos-openworkstation-101-gnome-released.html) новая редакция дистрибутива PC/OS 10.1   “OpenWorkstation GNOME”.
+В семействе пополнение, по пожеланию пользователей [вышла](http://www.pc-os.org/2010/03/pcos-openworkstation-101-gnome-released.html) новая редакция дистрибутива PC/OS 10.1   “OpenWorkstation GNOME”.
 
 Характеристики:
 

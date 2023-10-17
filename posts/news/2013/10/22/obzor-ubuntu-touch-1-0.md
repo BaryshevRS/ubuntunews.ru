@@ -11,7 +11,7 @@ visits: 9515
 ---
 Рассмотрим характеристики **Ubuntu Touch 1.0** — мобильной редакции Ubuntu, вышедшей 17 октября вместе с [Ubuntu 13.10](news/finalnyij-reliz-ubuntu-1310-saucy-salamander). Новая версия системы призвана расширить границы использования дистрибутива не только на десктопы или сервера, но и на устройства с сенсорным экраном.
 
-<iframe src="//www.youtube.com/embed/cr7sXf3OciY" frameborder="0" width="500" height="360"></iframe>
+<iframe src="https://www.youtube.com/embed/cr7sXf3OciY" frameborder="0" width="500" height="360"></iframe>
 
 Ubuntu Touch 1.0 — это первый стабильный выпуск, чья разработка велась целых десять месяцев после анонса в начале января. На текущий момент компания Canonical не поставляет её в комплекте с какими-либо устройствами и поддерживает только четыре платформы:
 

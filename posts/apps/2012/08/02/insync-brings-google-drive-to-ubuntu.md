@@ -13,7 +13,7 @@ visits: 8095
 
 Insync – приложение претендующее на роль наиболее завершенной из них.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/kbnCSUFAyTE" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/kbnCSUFAyTE" frameborder="0" allowfullscreen=""></iframe>
 
 Кроме само-собой разумеющейся мгновенной синхронизации между файлами на компьютере и хранящимися на сервере Google Drive, программа позволяет редактировать документы, делиться ссылками через Nautilus, а также информировать о передачах и ошибках из апплета-индикатора.
 

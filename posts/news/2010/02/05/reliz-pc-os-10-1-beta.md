@@ -9,7 +9,7 @@ source: ''
 unixtime: 1265400903
 visits: 1095
 ---
-[Вышла](http://www.pc-os.org/2010/02/pcos-openworkstation-101-beta-released.html) первая бета версия дистрибутива PC/OS 10.1 основанного на  Xubuntu , после стабильной сборки PC/OS 10.
+[Вышла](http://www.pc-os.org/2010/02/pcos-openworkstation-101-beta-released.html) первая бета версия дистрибутива PC/OS 10.1 основанного на  Xubuntu , после стабильной сборки PC/OS 10.
 
 В текущей версии обновлены:
 

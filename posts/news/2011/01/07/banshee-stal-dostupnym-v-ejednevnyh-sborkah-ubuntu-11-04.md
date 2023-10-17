@@ -17,4 +17,4 @@ visits: 1804
 
 Посмотреть на Banshee в действии и на новые наработки в глобальном меню можно из следующего видео
 
- <iframe width="480" height="385" src="//www.youtube.com/embed/WqjwGfYSJNU" frameborder="0" allowfullscreen=""></iframe>
+ <iframe width="480" height="385" src="https://www.youtube.com/embed/WqjwGfYSJNU" frameborder="0" allowfullscreen=""></iframe>

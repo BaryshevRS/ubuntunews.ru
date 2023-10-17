@@ -188,7 +188,8 @@ sudo apt-get install keepass2-plugin-application-menu
 Установить можно только в Ubuntu 12.04 и 13.04:
 
 ```
-sudo add-apt-repository ppa:elementary-os/unstable-upstreamsudo add-apt-repository ppa:birdie-team/stable
+sudo add-apt-repository ppa:elementary-os/unstable-upstream
+sudo add-apt-repository ppa:birdie-team/stable
 sudo apt-get update
 sudo apt-get install indicator-synapse libkeybinder-3.0-0
 ```
@@ -204,5 +205,6 @@ sudo apt-get remove НАЗВАНИЕ_ПРОГРАММЫsudo apt-add-repository -
 Например, для truecrypt, это выглядит так:
 
 ```
-sudo apt-get remove truecryptsudo apt-add-repository --remove ppa:stefansundin/truecrypt
+sudo apt-get remove truecrypt
+sudo apt-add-repository --remove ppa:stefansundin/truecrypt
 ```

@@ -13,7 +13,7 @@ visits: 4013
 
 Для демонстрации его работы был создан небольшой ролик, в котором был описан процесс ввода пинкода.
 
-<iframe width="500" height="375" src="//www.youtube.com/embed/F9rzfu9ZjHY" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="375" src="https://www.youtube.com/embed/F9rzfu9ZjHY" frameborder="0" allowfullscreen=""></iframe>
 
 Стоит отметить, что также поддерживается ввод пароля, но в видео это не было показано.
 
@@ -23,6 +23,6 @@ visits: 4013
 
 К слову сказать, получилось совсем неплохо, кроме того, автор постарался и вдобавок представил детальное видео-описание.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/Hn0JIL8Dmoo" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/Hn0JIL8Dmoo" frameborder="0" allowfullscreen=""></iframe>
 
 Прислушаются ли к его мнению разработчики или нет – покажет время.

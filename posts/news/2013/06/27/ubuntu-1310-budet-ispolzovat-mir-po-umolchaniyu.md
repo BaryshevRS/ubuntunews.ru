@@ -19,6 +19,6 @@ visits: 8259
 
 Ниже можно увидеть демонстрацию работы Unity 7, GNOME 3, KDE, Xfce и LXDE, запушенных поверх XMir:
 
-<iframe src="//www.youtube.com/embed/8h0m-ZjPxe8" frameborder="0" width="500" height="281"></iframe> 
+<iframe src="https://www.youtube.com/embed/8h0m-ZjPxe8" frameborder="0" width="500" height="281"></iframe> 
 
 Представленный анонс не затрагивает производные дистрибутивы Ubuntu, которые вправе сами решать какие системные компоненты им использовать, например, [Kubuntu уже определился](news/kubuntu-ne-budet-podderzhivat-mir-po-umolchaniyu) и не будет работать на Mir.

@@ -17,7 +17,7 @@ visits: 11623
 
 В качестве движка для симуляции машин используется Vdrift, а весь рендеринг выполняет Ogre3D. Среди других используемых технологий PagedGeometry для отрисовки декораций (деревья, трава) и MyGUI.
 
-<iframe width="500" height="405" src="//www.youtube.com/embed/-KDZGnM0jDM" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="\\www.youtube.com/embed/-KDZGnM0jDM" frameborder="0" allowfullscreen=""></iframe>
 
 ## Рекомендуемые системные требования
 

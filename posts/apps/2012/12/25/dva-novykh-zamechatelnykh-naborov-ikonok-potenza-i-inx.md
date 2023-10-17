@@ -26,13 +26,17 @@ Potenza пригодна для светлых и тёмных тем, а так
 Для установки нужно выполнить следующие команды в терминале:
 
 ```
-sudo add-apt-repository ppa:noobslab/potenzasudo apt-get updatesudo apt-get install potenza
+sudo add-apt-repository ppa:noobslab/potenza
+sudo apt-get update
+sudo apt-get install potenza
 ```
 
 ### Установка Potenza Orange
 
 ```
-sudo add-apt-repository ppa:noobslab/potenzasudo apt-get updatesudo apt-get install potenza-orange
+sudo add-apt-repository ppa:noobslab/potenza
+sudo apt-get update
+sudo apt-get install potenza-orange
 ```
 
 ## iNX
@@ -48,7 +52,9 @@ sudo add-apt-repository ppa:noobslab/potenzasudo apt-get updatesudo apt-get inst
 ### Установка iNX
 
 ```
-sudo add-apt-repository ppa:noobslab/nitrux-ossudo apt-get updatesudo apt-get install inx-icons
+sudo add-apt-repository ppa:noobslab/nitrux-os
+sudo apt-get update
+sudo apt-get install inx-icons
 ```
 
 Выбрать иконки можно из любого твикера, например: Unsettings или Ubuntu Tweak.

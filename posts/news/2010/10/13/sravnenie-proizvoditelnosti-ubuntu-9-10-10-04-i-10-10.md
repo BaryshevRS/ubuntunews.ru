@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=28257'
 unixtime: 1286991176
 visits: 2270
 ---
-Ресурс Phoronix провел тестирование производительности трех последних релизов дистрибутива Ubuntu Linux. 
+Ресурс Phoronix провел тестирование производительности трех последних релизов дистрибутива Ubuntu Linux. 
 
 *   В 5 тестах (Nexuiz, Bullet Physics Engine, SmallPT, 7-Zip, ffmpeg) релизы 9.10, 10.04 и 10.10 показали примерно одинаковую производительность.
 *   В 4 тестах (Warsow 100HT, Apache Benchmark, Loopback TCP, IOzone 100HT) производительность Ubuntu 10.10 заметно возросла;

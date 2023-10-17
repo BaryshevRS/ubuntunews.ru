@@ -48,7 +48,9 @@ sudo apt-get install indicator-sysmonitor
 [![](img/2011/05/10/23-00/indicator-multiload-5708445792-o.jpg)](img/2011/05/10/23-00/indicator-multiload-5708445792-o.jpg)
 
 ```
-sudo add-apt-repository ppa:indicator-multiload/stable-dailysudo apt-get updatesudo apt-get install indicator-multiload
+sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo apt-get update
+sudo apt-get install indicator-multiload
 ```
 
 ### Touchpad Indicator
@@ -58,7 +60,9 @@ sudo add-apt-repository ppa:indicator-multiload/stable-dailysudo apt-get updates
 [![](img/2011/05/10/23-00/touchpad-indicator-5708446314-o.jpg)](img/2011/05/10/23-00/touchpad-indicator-5708446314-o.jpg)
 
 ```
-sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get install touchpad-indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install touchpad-indicator
 ```
 
 ### Battery Status Indicator
@@ -68,7 +72,9 @@ sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get insta
 ![](img/2011/05/10/23-00/battery-status-5709397304-o.jpg)
 
 ```
-sudo apt-add-repository ppa:iaz/battery-statussudo apt-get updatesudo apt-get install battery-status
+sudo apt-add-repository ppa:iaz/battery-status
+sudo apt-get update
+sudo apt-get install battery-status
 ```
 
 Для запуска «создадим кнопку запуска» со следующей командой:
@@ -82,7 +88,9 @@ sudo apt-add-repository ppa:iaz/battery-statussudo apt-get updatesudo apt-get in
 Простой апплет-индикатор для переключения рабочих столов и поддержкой переключения рабочих мест в Unity, более подробно можно ознакомиться [здесь](apps/adjust-number-workspaces-in-unity-with-indicator-workspaces).
 
 ```
-sudo add-apt-repository ppa:geod/ppa-geodsudo apt-get updatesudo apt-get install indicator-workspaces
+sudo add-apt-repository ppa:geod/ppa-geod
+sudo apt-get update
+sudo apt-get install indicator-workspaces
 ```
 
 ### Keylock Application Indicator
@@ -92,7 +100,9 @@ sudo add-apt-repository ppa:geod/ppa-geodsudo apt-get updatesudo apt-get install
 ![](img/2011/05/10/23-00/indicator-keylock-5708819973-o.jpg)
 
 ```
-sudo add-apt-repository ppa:tsbarnes/indicator-keylocksudo apt-get updatesudo apt-get install indicator-keylock
+sudo add-apt-repository ppa:tsbarnes/indicator-keylock
+sudo apt-get update
+sudo apt-get install indicator-keylock
 ```
 
 ### Caffeine Application Indicator
@@ -114,7 +124,9 @@ sudo apt-get install caffeine
 ![](img/2011/05/10/23-00/past-5709385188-o.jpg)
 
 ```
-sudo add-apt-repository ppa:hel-sheep/pastiesudo apt-get updatesudo apt-get install pastie
+sudo add-apt-repository ppa:hel-sheep/pastie
+sudo apt-get update
+sudo apt-get install pastie
 ```
 
 ### MyWeather Indicator
@@ -124,7 +136,9 @@ sudo add-apt-repository ppa:hel-sheep/pastiesudo apt-get updatesudo apt-get inst
 ![](img/2011/05/10/23-00/pogoda-a-5709385274-o.jpg)
 
 ```
-sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get install my-weather-indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install my-weather-indicator
 ```
 
 Более полный список апплетов доступен на [askubuntu](http://askubuntu.com/questions/30334/list-of-application-indicators).

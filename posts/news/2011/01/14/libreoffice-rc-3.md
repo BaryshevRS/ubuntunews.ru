@@ -15,6 +15,6 @@ visits: 1285
 
 В релиз включено несколько патчей специально для поддержки Ubuntu 10.10, среди других изменений: добавлены переводы, брендинговые обновления (замена элементов оформления OpenOffice.org), багофиксы и общие улучшение производительности.
 
-  C полным списком изменений можно ознакомиться на [странице релиза](http://cgit.freedesktop.org/libreoffice/build/plain/NEWS?id=libreoffice-3.3.0.3).
+  C полным списком изменений можно ознакомиться на [странице релиза](http://cgit.freedesktop.org/libreoffice/build/plain/NEWS?id=libreoffice-3.3.0.3).
 
 Загрузить можно через [PPA](news/ppa-dlya-ofisnogo-paketa-libreoffice) или со [страницы загрузки](http://www.libreoffice.org/download/).

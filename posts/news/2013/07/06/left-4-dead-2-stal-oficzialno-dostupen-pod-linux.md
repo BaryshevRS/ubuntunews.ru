@@ -19,4 +19,4 @@ visits: 7483
 
 Трейлер с демонстрацией геймплея Left 4 Dead 2 можно посмотреть ниже:
 
- <iframe src="//www.youtube.com/embed/9XIle_kLHKU" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="https://www.youtube.com/embed/9XIle_kLHKU" frameborder="0" width="500" height="281"></iframe>

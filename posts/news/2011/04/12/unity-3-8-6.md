@@ -22,4 +22,4 @@ visits: 1911
 
 Полный список изменений 3.8.6 доступен [здесь](https://launchpad.net/ubuntu/natty/+source/unity/3.8.6-0ubuntu1), посмотреть новые характеристики можно из следующего видео:
 
-<iframe title="YouTube video player" width="500" height="405" src="//www.youtube.com/embed/a5GwcWCJNgE" frameborder="0" allowfullscreen=""></iframe>
+<iframe title="YouTube video player" width="500" height="405" src="https://www.youtube.com/embed/a5GwcWCJNgE" frameborder="0" allowfullscreen=""></iframe>

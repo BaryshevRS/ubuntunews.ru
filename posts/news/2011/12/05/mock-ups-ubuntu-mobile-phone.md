@@ -17,12 +17,12 @@ visits: 7022
 
 Из всех представленных, макеты сделанные дизайнером Nick Rutledge, выполнены в более традиционных для мобильных устройств стиле.
 
- [![](img/2011/12/05/17-00/ubuntu-mobile-phone-6459606027-o.jpg)](img/2011/12/05/17-00/ubuntu-mobile-phone-6459606027-o.jpg)
+ [![](img/2011/12/05/17-00/ubuntu-mobile-phone-6459606027-o.jpg)](img/2011/12/05/17-00/ubuntu-mobile-phone-6459606027-o.jpg)
 
 В макетах разработанных дизайнером [Sam Horne](http://ginjaninja405.deviantart.com/art/Ubuntu-with-mobile-Unity-268863703), главный акцент сделан на стандартных элементах интерфейса Unity, таких как: панель Unity и поисковая форма Dash.
 
- [![](img/2011/12/05/17-00/ubuntu-mobile-phone-2-6459606603-o.jpg)](img/2011/12/05/17-00/ubuntu-mobile-phone-2-6459606603-o.jpg)
+ [![](img/2011/12/05/17-00/ubuntu-mobile-phone-2-6459606603-o.jpg)](img/2011/12/05/17-00/ubuntu-mobile-phone-2-6459606603-o.jpg)
 
 Последний макет от дизайнера [Musl1m](http://musl1m.deviantart.com/art/Ubuntu-Phone-Explained-271229476) выполнен в стиле темы иконок Faenza и отличается проработанной навигацией для приложений.
 
- [![](img/2011/12/05/17-00/ubuntu-mobile-phone-1-6459607609-o.jpg)](img/2011/12/05/17-00/ubuntu-mobile-phone-1-6459607609-o.jpg)
+ [![](img/2011/12/05/17-00/ubuntu-mobile-phone-1-6459607609-o.jpg)](img/2011/12/05/17-00/ubuntu-mobile-phone-1-6459607609-o.jpg)

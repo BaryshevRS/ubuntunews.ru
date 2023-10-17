@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=28832'
 unixtime: 1291148619
 visits: 5962
 ---
-Ресурс phoronix.com провел тестирование производительности в котором приняли участие такие дистрибутивы как Ubuntu, Red Hat Enterprise Linux 6.0, Red Hat Enterprise Linux 5.5, openSUSE и Debian. 
+Ресурс phoronix.com провел тестирование производительности в котором приняли участие такие дистрибутивы как Ubuntu, Red Hat Enterprise Linux 6.0, Red Hat Enterprise Linux 5.5, openSUSE и Debian. 
 
 **Распределение мест по результатам тестирования:**
 
@@ -19,7 +19,7 @@ visits: 5962
 *   POV-Ray, Smallpt, 7-Zip: Ubuntu, Debian, openSUSE и RHEL6 примерно на одном уровне, RHEL5 немного отстает
 *   LZMA: Лидирует RHEL6, остальные немного отстают
 *   MAFFT, GraphicsMagick, Parallel BZIP2, FFmpeg, LAME MP3: все дистрибутивы примерно на одном уровне
-*   NAS Parallel Benchmark: Лидируют openSUSE и RHEL5,  Ubuntu, Debian и RHEL6 немного отстают
+*   NAS Parallel Benchmark: Лидируют openSUSE и RHEL5,  Ubuntu, Debian и RHEL6 немного отстают
 *   Himeno: Лидирует RHEL5, почти следом идет RHEL6, остальные процентов на 15 отстают
 *   HMMer: RHEL5 заметно отстает, остальные держатся примерно на одном уровне
 
@@ -34,4 +34,4 @@ visits: 5962
 **В тестирование принимали участие две системы:**
 
 *   AMD Quad-Core Opteron 2384 CPUs (восемь ядер по 2.70GHz), материнская плата Tyan S2932 с чипсетом NVIDIA MCP55, 4GB оперативной памяти DDR2 ECC Registered, жесткий диск 160GB Western Digital WD1600YS-01S и видеокарта ATI FirePro V8800
-*   Intel Core i5 750 CPU (четыре ядра по 2.67GHz), материнская плата  ECS P55H-A , 4GB DDR3, 500GB Western Digital WD5000AADS-0 Serial ATA и видеокарта  ATI Radeon HD 5770
+*   Intel Core i5 750 CPU (четыре ядра по 2.67GHz), материнская плата  ECS P55H-A , 4GB DDR3, 500GB Western Digital WD5000AADS-0 Serial ATA и видеокарта  ATI Radeon HD 5770

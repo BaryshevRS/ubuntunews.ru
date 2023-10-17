@@ -23,11 +23,11 @@ visits: 10228
 
 [![](img/2012/05/24/09-00/mdm-7260188774-o.jpg)](img/2012/05/24/09-00/mdm-7260188774-o.jpg)
 
- [![](img/2012/05/24/09-00/linux-mint-13-login-preferences-7260189050-o.jpg)](img/2012/05/24/09-00/linux-mint-13-login-preferences-7260189050-o.jpg)
+ [![](img/2012/05/24/09-00/linux-mint-13-login-preferences-7260189050-o.jpg)](img/2012/05/24/09-00/linux-mint-13-login-preferences-7260189050-o.jpg)
 
 Также улучшена тема Mint-X, которая теперь поддерживает GTK 3.4 (для Cinnamon редакции).
 
- [![](img/2012/05/24/09-00/linux-mint-13-theme-7260188958-o.jpg)](img/2012/05/24/09-00/linux-mint-13-theme-7260188958-o.jpg)
+ [![](img/2012/05/24/09-00/linux-mint-13-theme-7260188958-o.jpg)](img/2012/05/24/09-00/linux-mint-13-theme-7260188958-o.jpg)
 
 [![](img/2012/05/24/09-00/linux-mint-13-theme-2-7260188850-o.jpg)](img/2012/05/24/09-00/linux-mint-13-theme-2-7260188850-o.jpg)
 

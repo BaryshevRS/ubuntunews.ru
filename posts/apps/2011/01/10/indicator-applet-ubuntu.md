@@ -9,7 +9,7 @@ source: 'http://maketecheasier.com/15-useful-appindicator-applets-for-ubuntu/201
 unixtime: 1294615935
 visits: 28824
 ---
-Индикаторы приложений (indicator-applet) были включены в Ubuntu в качестве замены стандартных апплетов Gnome. Они представляют из себя небольшие апплеты для отображения информации из различных приложений, располагаясь последовательно на панели, также могут использоваться для доступа и настройки программ без необходимости их запуска.
+Индикаторы приложений (indicator-applet) были включены в Ubuntu в качестве замены стандартных апплетов Gnome. Они представляют собой небольшие апплеты для отображения информации из различных приложений, располагаясь последовательно на панели, также могут использоваться для доступа и настройки программ без необходимости их запуска.
 
 Рассмотрим ряд индикаторов приложений недоступных в репозитории Ubuntu, ставить их все необязательно, но возможно некоторые из них окажутся полезными:
 
@@ -21,7 +21,9 @@ visits: 28824
   
 
 ```
-sudo add-apt-repository ppa:michael-astrapi/ppa sudo apt-get update sudo apt-get install desktopnova indicator-desktopnova
+sudo add-apt-repository ppa:michael-astrapi/ppa 
+sudo apt-get update 
+sudo apt-get install desktopnova indicator-desktopnova
 ```
 
 ### 2\. Indicator-VirtualBox
@@ -46,13 +48,14 @@ sudo apt-get install indicator-virtualbox
 
 ### 4\. Indicator-cpufreq
 
-С помошью Indicator-cpufreq можно быстро сменить частоту процессора. Апплет будет полезен пользователям нетбуков, позволяя дольше сохранять заряд батарей, переводя процессор в режим энергосбережения.
+С помощью Indicator-cpufreq можно быстро сменить частоту процессора. Апплет будет полезен пользователям нетбуков, позволяя дольше сохранять заряд батарей, переводя процессор в режим энергосбережения.
 
 ![Indicator-cpufreq](img/2011/01/10/02-00/cpu.jpg)
 
 ```
 sudo add-apt-repository ppa:artfwo/ppa
-sudo apt-get updatesudo apt-get install indicator-cpufreq
+sudo apt-get update
+sudo apt-get install indicator-cpufreq
 ```
 
 ### 5\. Pastie
@@ -63,7 +66,9 @@ sudo apt-get updatesudo apt-get install indicator-cpufreq
   
 
 ```
-sudo add-apt-repository ppa:hel-sheep/pastiesudo apt-get updatesudo apt-get install pastie
+sudo add-apt-repository ppa:hel-sheep/pastie
+sudo apt-get update
+sudo apt-get install pastie
 ```
 
 ### 6\. Indicator-workspace
@@ -74,7 +79,9 @@ sudo add-apt-repository ppa:hel-sheep/pastiesudo apt-get updatesudo apt-get inst
   
 
 ```
-sudo add-apt-repository ppa:geod/ppa-geodsudo apt-get updatesudo apt-get install indicator-workspaces
+sudo add-apt-repository ppa:geod/ppa-geod
+sudo apt-get update
+sudo apt-get install indicator-workspaces
 ```
 
 ### 7\. Indicator-keylock
@@ -85,7 +92,9 @@ sudo add-apt-repository ppa:geod/ppa-geodsudo apt-get updatesudo apt-get install
   
 
 ```
-sudo add-apt-repository ppa:tsbarnes/indicator-keylocksudo apt-get updatesudo apt-get install indicator-keylock
+sudo add-apt-repository ppa:tsbarnes/indicator-keylock
+sudo apt-get update
+sudo apt-get install indicator-keylock
 ```
 
 ### 8\. UbuntuOne Indicator
@@ -96,7 +105,9 @@ UbuntuOne indicator-applet позволяет отслеживать инфор�
   
 
 ```
-sudo add-apt-repository ppa:rye/ubuntuone-extrassudo apt-get updatesudo apt-get install ubuntuone-indicator
+sudo add-apt-repository ppa:rye/ubuntuone-extras
+sudo apt-get update
+sudo apt-get install ubuntuone-indicator
 ```
 
 ### 9\. Lookit
@@ -144,7 +155,9 @@ DEB пакет для инсталляции качать отсюда.
 Поддержка только для Ubuntu Maverick
 
 ```
-sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get install touchpad-indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install touchpad-indicator
 ```
 
 ### 13\. My Weather Indicator
@@ -157,7 +170,9 @@ sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get insta
 Поддержка также только для Ubuntu Maverick
 
 ```
-sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get install my-weather-indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install my-weather-indicator
 ```
 
 ### 14\. Google Reader Indicator
@@ -170,7 +185,9 @@ sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get insta
 Доступен для Ubuntu Maverick
 
 ```
-sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get install google-reader-indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install google-reader-indicator
 ```
 
 ### 15\. Indicator-sysmonitor
@@ -178,7 +195,9 @@ sudo add-apt-repository ppa:atareao/atareaosudo apt-get updatesudo apt-get insta
 Индикатор показывает загруженность процессора и процент использования оперативной памяти.
 
 ```
-sudo add-apt-repository ppa:alexeftimie/ppa sudo apt-get update sudo apt-get install indicator-sysmonitor
+sudo add-apt-repository ppa:alexeftimie/ppa 
+sudo apt-get update 
+sudo apt-get install indicator-sysmonitor
 ```
 
 ### 16\. Различный апплеты для медиа проигрывателей

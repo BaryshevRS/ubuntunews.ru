@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=24086'
 unixtime: 1257328752
 visits: 2029
 ---
-Опубликованы результаты сравнения  производительности CentOS 5.4, OpenSuSE 11.2-rc и Ubuntu 9.10:
+Опубликованы результаты сравнения  производительности CentOS 5.4, OpenSuSE 11.2-rc и Ubuntu 9.10:
 
 *   CentOS оказался быстрее в 7 тестах (sqlite, IOzone, Threaded I/O tester, C-Ray, GraphicsMagick, NAS Parallel Benchmark, SPECViewPerf 9);
 *   OpenSuSE оказался быстрее в 3 тестах (PostgreSQL pgbench, MAFFT, NAS Parallel Benchmark);

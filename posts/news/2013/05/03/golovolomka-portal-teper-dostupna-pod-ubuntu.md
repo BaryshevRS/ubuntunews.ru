@@ -17,6 +17,6 @@ visits: 7379
 
 Portal – игра в жанре «головоломки от первого лица», заслужившая высокие оценки и множество наград, включая такую, как лучшая игра года 2007. Купить её можно [в Steam](http://store.steampowered.com/app/400) по цене 199 руб.
 
-<iframe src="//www.youtube.com/embed/TluRVBhmf8w" frameborder="0" width="500" height="281"></iframe> 
+<iframe src="https://www.youtube.com/embed/TluRVBhmf8w" frameborder="0" width="500" height="281"></iframe> 
 
 Никакой официальной информации на счёт портирования второй части игры пока неизвестно, но вряд ли компания Valve остановится на полпути.

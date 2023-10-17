@@ -17,4 +17,4 @@ visits: 2768
 
 Работу можно просмотреть из демонстрационного видео:
 
-<iframe width="500" height="405" src="//www.youtube.com/embed/luZuhn5_b_8" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="https://www.youtube.com/embed/luZuhn5_b_8" frameborder="0" allowfullscreen=""></iframe>

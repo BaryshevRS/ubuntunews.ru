@@ -32,7 +32,7 @@ visits: 7679
 Перед обновлением нужно удалить ранее установленный пакет GIMP Plugin Registry, во избежание проблем с совместимостью.
 
 ```
-sudo apt-get remove gimp-plugin-registry 
+sudo apt-get remove gimp-plugin-registry 
 ```
 
 Установка доступна для Ubuntu 12.04 Precise Pangolin и Ubuntu 11.10 из PPA, используя команды ниже:

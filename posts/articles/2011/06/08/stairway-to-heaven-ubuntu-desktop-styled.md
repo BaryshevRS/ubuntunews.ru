@@ -29,7 +29,7 @@ visits: 6948
 
 ### Ссылки на скачивание:
 
-*   AWN тема: [votritis.deviantart.com](http://votritis.deviantart.com/art/Floaty-Panel-AWN-theme-198569673)
+*   AWN тема: [votritis.deviantart.com](http://votritis.deviantart.com/art/Floaty-Panel-AWN-theme-198569673)
 *   Conky тема: [votritis.deviantart.com](http://votritis.deviantart.com/art/Reloj-Conky-208415121)
 *   Обои: [hotiron.deviantart.com](http://hotiron.deviantart.com/art/tomorrow-144528974)
-*   CoverGloobus: [xegi90.deviantart.com](http://xegi90.deviantart.com/art/Square-ONE-for-CoverGloobus-182733446)
+*   CoverGloobus: [xegi90.deviantart.com](http://xegi90.deviantart.com/art/Square-ONE-for-CoverGloobus-182733446)

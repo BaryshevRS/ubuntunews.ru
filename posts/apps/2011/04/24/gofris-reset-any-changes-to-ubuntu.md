@@ -20,7 +20,9 @@ Gofris будет идеальным решением для работы Ubuntu
 ### Установка
 
 ```
-sudo add-apt-repository ppa:tldm217/gofrissudo apt-get updatesudo apt-get install gofris-en
+sudo add-apt-repository ppa:tldm217/gofris
+sudo apt-get update
+sudo apt-get install gofris-en
 ```
 
 Из недостатков, нет русской локализации и пока доступна только для Ubuntu 10.10 и 10.04.

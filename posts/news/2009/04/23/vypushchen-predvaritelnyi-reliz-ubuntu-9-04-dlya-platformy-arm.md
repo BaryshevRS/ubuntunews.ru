@@ -9,4 +9,4 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=21348'
 unixtime: 1240468520
 visits: 987
 ---
-[Выпущен](http://www.mail-archive.com/ubuntu-devel-announce@lists.ubuntu.com/msg00330.html) предварительный релиз  Ubuntu 9.04 для платформы ARMv7 (процессоры ARM Cortex-A8 и A9). Релиз ARM-сборки состоится одновременно с базовым вариантом Ubuntu 9.04 - 23 апреля.
+[Выпущен](http://www.mail-archive.com/ubuntu-devel-announce@lists.ubuntu.com/msg00330.html) предварительный релиз  Ubuntu 9.04 для платформы ARMv7 (процессоры ARM Cortex-A8 и A9). Релиз ARM-сборки состоится одновременно с базовым вариантом Ubuntu 9.04 - 23 апреля.

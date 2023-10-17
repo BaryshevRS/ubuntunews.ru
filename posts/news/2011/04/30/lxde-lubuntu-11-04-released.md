@@ -23,7 +23,7 @@ Lubuntu со своим «традиционным» рабочим столом
 *   Оконный менеджер Lxdm
 *   Браузер Chromium
 *   Почтовый, новостной клиент Sylpheed
-*   Мессенджер  Pidgin
+*   Мессенджер  Pidgin
 *   Вместо LibreOffice используются AbiWord и GNUmeric
 *   Менеджер архивов File Roller вместо Xarchiver
 *   Audacious стал аудио плеером по умолчанию, заменив собой Aqualung

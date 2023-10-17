@@ -22,5 +22,7 @@ Sublime Text предлагает бесплатное неограниченн�
 Для тех, кто не знаком с Sublime Text может поставить из PPA вторую версию, вышедшую 6 месяцев назад.
 
 ```
-sudo add-apt-repository ppa:webupd8team/sublime-text-2sudo apt-get updatesudo apt-get install sublime-text
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
 ```

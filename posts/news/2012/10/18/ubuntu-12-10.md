@@ -13,7 +13,7 @@ visits: 21050
 
 Релиз включает множество различных нововведений. Это и дальнейшее развитие десктоп оболочки Unity, более глубокая интеграция с онлайн сервисами, добавление поддержки нового оборудования и общее улучшение функциональности и внешнего вида.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/_MHI7TSkJJ8" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/_MHI7TSkJJ8" frameborder="0" allowfullscreen=""></iframe>
 
 ## Unity
 

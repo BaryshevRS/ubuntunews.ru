@@ -1,5 +1,5 @@
 import React, { createContext, ReactNode, useEffect } from 'react'
-import useLocalStorage from '../hooks/use-local-storage';
+import useLocalStorage from '../lib/hooks/use-local-storage';
 
 export enum ThemeEnum {
   Light = 'light',

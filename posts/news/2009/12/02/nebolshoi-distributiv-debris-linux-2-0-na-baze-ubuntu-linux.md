@@ -23,4 +23,4 @@ Debris Linux 2.0 - дистрибутив основанный на пакетн
 *   почтовый клиент Claws Mail
 *   клиент для мгновенного обмена сообщениями Pidgin
 *   ftp-клиент gFTP
-*   программы для настройки gParted, NetworkManager,  Gufw/ufw (Ubuntu Firewall), NDISwrapper.
+*   программы для настройки gParted, NetworkManager,  Gufw/ufw (Ubuntu Firewall), NDISwrapper.

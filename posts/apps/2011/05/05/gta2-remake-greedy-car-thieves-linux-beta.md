@@ -17,7 +17,7 @@ visits: 3743
 
 Целью разработки Greedy Car Thieves было создание клона GTA на новом движке, с более стабильным мультиплеером и поддержкой современных графических эффектов.
 
-<iframe width="500" height="405" src="//www.youtube.com/embed/pxAMVhLNVX0" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="https://www.youtube.com/embed/pxAMVhLNVX0" frameborder="0" allowfullscreen=""></iframe>
 
 ### Характеристики:
 

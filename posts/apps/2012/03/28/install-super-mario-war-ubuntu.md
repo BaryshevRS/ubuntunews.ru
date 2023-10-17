@@ -54,4 +54,4 @@ sudo wget http://findicons.com/files/icons/2231/super_mario/128/mario.png
 
 Теперь значок игры можно будет найти через Dash и перетащить на панель Unity.
 
-<iframe width="500" height="369" src="//www.youtube.com/embed/2YVZ9ORzKd4" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="369" src="https://www.youtube.com/embed/2YVZ9ORzKd4" frameborder="0" allowfullscreen=""></iframe>

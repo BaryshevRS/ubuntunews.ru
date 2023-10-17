@@ -9,7 +9,7 @@ source: ''
 unixtime: 1282590005
 visits: 1132
 ---
-Вышел релиз  Greenie Linux 7.1L чехословатской локализации Ubuntu 10.04 LTS.
+Вышел релиз  Greenie Linux 7.1L чехословатской локализации Ubuntu 10.04 LTS.
 
 Из нововведений:
 

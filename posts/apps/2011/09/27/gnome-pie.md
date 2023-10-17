@@ -25,7 +25,7 @@ Gnome Pie состоит из нескольких самостоятельны�
 
 С работой можно ознакомиться из демонстрационного видеоролика:
 
-<iframe width="500" height="284" src="//www.youtube.com/embed/TFQDyZyMxO4" frameborder="0" allowfullscreen=""></iframe> 
+<iframe width="500" height="284" src="https://www.youtube.com/embed/TFQDyZyMxO4" frameborder="0" allowfullscreen=""></iframe> 
 
 ## Установка Gnome Pie в Ubuntu
 

@@ -25,7 +25,7 @@ visits: 3307
 *   Software Centre
 *   Shotwell
 *   Медиа плеер Totem
-*   Empathy 
+*   Empathy 
 *   Nautilus-Elementary
 
 Для загрузки доступна 32-битная сборка, скачать которую можно торрентом с [сайта проекта](http://elementaryos.org/).

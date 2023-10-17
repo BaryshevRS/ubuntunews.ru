@@ -15,7 +15,7 @@ visits: 3721
 
 Сам ролик выполнен на английском, но главное содержание можно понять и без перевода.
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/iv1Z7bf4jXY" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/iv1Z7bf4jXY" frameborder="0" allowfullscreen=""></iframe>
 
 Примечательно то, что технология хоть и анонсирована, но каких-либо объявлений на счёт поставки устройств совмещающих в себе Ubuntu и Android пока нет.
 

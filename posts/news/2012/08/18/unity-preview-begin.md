@@ -35,7 +35,7 @@ visits: 3921
 
 ### Видео с демонстрацией работы.
 
-<iframe src="//www.youtube.com/embed/WC2f_Xy_g5s" frameborder="0" width="500" height="375"></iframe>
+<iframe src="https://www.youtube.com/embed/WC2f_Xy_g5s" frameborder="0" width="500" height="375"></iframe>
 
 Из ролика можно видеть, что ещё не все характеристики реализованы так, как нужно. Например, музыка открывается в Rhythmbox, вместо Dash.
 

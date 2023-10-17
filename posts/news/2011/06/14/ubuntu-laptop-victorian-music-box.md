@@ -30,7 +30,7 @@ visits: 3482
 
 *   Для запуска используется специальный старинный заводной ключ
 
-<iframe width="500" height="405" src="//www.youtube.com/embed/L6ZeAnLQgao" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="405" src="https://www.youtube.com/embed/L6ZeAnLQgao" frameborder="0" allowfullscreen=""></iframe>
 
 Ноутбук не предназначен для продажи, но планируется сделать еще несколько, которые будут доступны для покупки. Также возможна реализация небольших версий, используя нетбуки Lenovo или подобные.
 

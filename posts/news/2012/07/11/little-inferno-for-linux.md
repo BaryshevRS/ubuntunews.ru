@@ -15,6 +15,6 @@ Little Inferno довольна необычна и уникально в сво
 
 Первый тизер:
 
- <iframe src="//www.youtube.com/embed/-0TniR3Ghxc" frameborder="0" width="500" height="281"></iframe>
+ <iframe src="https://www.youtube.com/embed/-0TniR3Ghxc" frameborder="0" width="500" height="281"></iframe>
 
 **Выход игры планируется зимой**, но уже сейчас можно [сделать предзаказ за 15$](http://tomorrowcorporation.com/littleinferno) и поучаствовать в бета-тестирование, правда доступным только для платформы ОС Windows. Также планируется выпустить версии под Linux и Mac, но в отличие от Windows, тестирование пока недоступно.

@@ -19,7 +19,7 @@ visits: 1247
 
 Fluxbox редакция дистрибутива Linux Mint 6.0
 
-[Редакция](http://www.linuxmint.com/blog/?p=724)  LiveCD дистрибутива [Linux Mint 6.0](http://www.linuxmint.com/rel_felicia_fluxbox.php), основанная на использовании оконного менеджера Fluxbox 1.0.0. Дистрибутив основан на Xubuntu 8.10 и может работать на компьютерах с 128Мб ОЗУ. Из программ, на диске присутствуют Linux ядро 2.6.27, Xorg 7.4, Firefox 3, Pidgin, Sylpheed, XChat, Abiword, Gnumeric, Orage calendar, Mplayer, MPD, GIMP, GPicView, Thunar file manager, XFCE4 Terminal emulator.  В состав новой версии добавлен новый графический интерфейс для управления установкой приложений “Software Manager”, новая система меню Mint-FM2, дисплейный менеджер Slim.
+[Редакция](http://www.linuxmint.com/blog/?p=724)  LiveCD дистрибутива [Linux Mint 6.0](http://www.linuxmint.com/rel_felicia_fluxbox.php), основанная на использовании оконного менеджера Fluxbox 1.0.0. Дистрибутив основан на Xubuntu 8.10 и может работать на компьютерах с 128Мб ОЗУ. Из программ, на диске присутствуют Linux ядро 2.6.27, Xorg 7.4, Firefox 3, Pidgin, Sylpheed, XChat, Abiword, Gnumeric, Orage calendar, Mplayer, MPD, GIMP, GPicView, Thunar file manager, XFCE4 Terminal emulator.  В состав новой версии добавлен новый графический интерфейс для управления установкой приложений “Software Manager”, новая система меню Mint-FM2, дисплейный менеджер Slim.
 
 XFCE редакция дистрибутива Linux Mint 6
 

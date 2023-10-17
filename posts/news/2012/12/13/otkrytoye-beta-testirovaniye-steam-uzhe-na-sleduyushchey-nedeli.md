@@ -29,4 +29,4 @@ visits: 3731
 
 Видео в действии:
 
-<iframe src="//www.youtube.com/embed/mZUUpslJj1Y" frameborder="0" width="500" height="281"></iframe>
+<iframe src="https://www.youtube.com/embed/mZUUpslJj1Y" frameborder="0" width="500" height="281"></iframe>

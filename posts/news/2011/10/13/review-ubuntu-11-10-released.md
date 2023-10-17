@@ -15,7 +15,7 @@ visits: 21134
 
 Как известно по умолчанию в качестве десктоп окружения в Ubuntu используется Unity, а для систем, графические карты которых не поддерживают новый интерфейс, включён рабочий стол Unity 2D, являющийся независимой QT реализацией, но с практически полностью идентичным интерфейсом. Также стоит отметить, что при загрузке в меню выбора рабочего стола теперь отсутствует классический десктоп Gnome, который при желании можно [доустановить](articles/installing-using-classic-gnome-desktop) или поставить [Gnome Shell](apt://gnome-shell).
 
-<iframe width="500" height="284" src="//www.youtube.com/embed/3XPyUMLg2hY" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="284" src="https://www.youtube.com/embed/3XPyUMLg2hY" frameborder="0" allowfullscreen=""></iframe>
 
 ## Интерфейс
 

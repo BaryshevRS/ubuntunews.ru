@@ -33,9 +33,9 @@ visits: 13510
 Для установки нужно добавить PPA, используя команды ниже:
 
 ```
-sudo add-apt-repository ppa:skype-wrapper/ppa
+sudo add-apt-repository ppa:skype-wrapper/ppa
  sudo apt-get update
- sudo apt-get install skype-wrapper 
+ sudo apt-get install skype-wrapper 
 ```
 
 Теперь нужно перелогиниться и запустить Skype.

@@ -19,6 +19,6 @@ visits: 7886
 
 Трейлер можно посмотреть ниже:
 
-<iframe src="//www.youtube.com/embed/7DUCA8wK9Ls" frameborder="0" width="500" height="281"></iframe> 
+<iframe src="https://www.youtube.com/embed/7DUCA8wK9Ls" frameborder="0" width="500" height="281"></iframe> 
 
 Игра доступна для покупки [через Steam](http://store.steampowered.com/app/43160/) за 599 pуб.

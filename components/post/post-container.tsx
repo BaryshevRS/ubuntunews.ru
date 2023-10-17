@@ -2,14 +2,13 @@ import PostLink from "./post-link";
 import PostImg from "./post-img";
 import TimeIcon from "../../public/assets/icons/time.svg";
 import Time from "../time";
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown, { Components } from "react-markdown";
 import remarkUnwrapImages from "remark-unwrap-images";
 import rehypeRaw from "rehype-raw";
 import Source from "../source";
 // import { PostNav } from "../post-nav";
 import React, { useMemo } from "react";
 import { IPostData } from "../../lib/posts";
-import { Components } from "react-markdown/src/ast-to-react";
 import LightGallery from 'lightgallery/react';
 
 import 'lightgallery/css/lightgallery.css';
@@ -24,8 +23,7 @@ export default function PostContainer({title, date, content, source, picture}: I
     },
     iframe({node, ...props}: any) {
       return <span className={'video'}>
-        <iframe frameBorder="0"
-                loading="lazy"
+        <iframe loading="lazy"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen {...props} />
       </span>;
@@ -54,7 +52,4 @@ export default function PostContainer({title, date, content, source, picture}: I
     </LightGallery>
     {source && <Source url={source}/>}
   </article>
-
-  {/*    <PostNav/>*/
-  }
 }

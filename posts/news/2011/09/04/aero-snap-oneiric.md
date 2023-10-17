@@ -17,6 +17,6 @@ visits: 4686
 
 Посмотреть в действие можно из следующего видеоролика:
 
-<iframe width="500" height="311" src="//www.youtube.com/embed/c7NBWPzFKYw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="500" height="311" src="https://www.youtube.com/embed/c7NBWPzFKYw" frameborder="0" allowfullscreen=""></iframe>
 
 Реализация новой версии скорее всего не будет включена к октябрьскому релизу, а более вероятно можно будет увидеть в Ubuntu 12.04 в апреле.

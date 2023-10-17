@@ -11,7 +11,7 @@ visits: 4663
 ---
 Nyan Cat (Нянкот) не требуется в представление, но для тех кто не в курсе, это ролик на ютуб с котом и вокалом, который чуть более, чем полностью состоит из слова «Ня».
 
-<iframe src="//www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" width="500" height="375"></iframe>
+<iframe src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" width="500" height="375"></iframe>
 
 Рассмотрим, как же приручить этого някающего кота к нам на десктоп.
 

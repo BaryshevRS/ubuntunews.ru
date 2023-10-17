@@ -9,7 +9,7 @@ source: 'http://www.opennet.ru/opennews/art.shtml?num=21787'
 unixtime: 1243440717
 visits: 1578
 ---
-Сравнение  производительности Ubuntu 9.04 и Mac OS X 10.5.6. В 17 из 29 тестах Apple Mac OS X 10.5.6 оказалась быстрее Ubuntu 9.04. Ubuntu Linux оказался сильнее при измерении времени компиляции, Иифрования в OpenSSL и в тестах Java SciMark.  Mac OS X опередил  Ubuntu в тестах на измерение производительности 2D и 3D графики, кодирования звука, выполнение операций с плавающей точкой, тестах SQLite, Crafty, PostgreSQL и Sunflow Rendering System.
+Сравнение  производительности Ubuntu 9.04 и Mac OS X 10.5.6. В 17 из 29 тестах Apple Mac OS X 10.5.6 оказалась быстрее Ubuntu 9.04. Ubuntu Linux оказался сильнее при измерении времени компиляции, Иифрования в OpenSSL и в тестах Java SciMark.  Mac OS X опередил  Ubuntu в тестах на измерение производительности 2D и 3D графики, кодирования звука, выполнение операций с плавающей точкой, тестах SQLite, Crafty, PostgreSQL и Sunflow Rendering System.
 
 Вторая попытка сравнения производительности Ubuntu 9.04 и Mac OS X 10.5.6
 
