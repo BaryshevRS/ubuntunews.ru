@@ -1,9 +1,10 @@
 const path = require("path");
 module.exports = {
+  swcMinify: false,
   webpack: (config, { isServer }) => {
     if (isServer) {
       require('./lib/generation/sitemap');
-      require('./lib/generation/feed');
+      // require('./lib/generation/feed');
     }
 
     config.module.rules.push({

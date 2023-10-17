@@ -1,3 +1,5 @@
+"use client"
+
 import { IPostData, IPostsData } from "../../lib/posts";
 import { useRouter } from "next/router";
 import PostsItem from "./posts-item";
@@ -34,8 +36,9 @@ export default function PostsContainer({title, path, posts: {posts, currentPage,
         breakLabel={'...'}
         pageCount={pageCount}
         breakClassName={'break-me'}
-        marginPagesDisplayed={2}
-        pageRangeDisplayed={3}
+        marginPagesDisplayed={1}
+        pageRangeDisplayed={2}
+        renderOnZeroPageCount={null}
         onPageChange={paginationHandler}
         containerClassName={'pagination'}
         activeClassName={'active'}
