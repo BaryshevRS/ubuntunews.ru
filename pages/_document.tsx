@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
 import { ga, ym } from '../lib/consts/mertics';
+import Script from "next/script";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -25,6 +26,17 @@ class MyDocument extends Document {
               __html: (ga),
             }}
           />
+
+            <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-17349676-1"></Script>
+            <Script>
+                {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-17349676-1');
+                `}
+            </Script>
           <script async
                   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9301389543928531"
                   crossOrigin="anonymous" />
