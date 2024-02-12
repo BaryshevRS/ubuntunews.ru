@@ -1,6 +1,7 @@
 const path = require("path");
 module.exports = {
   swcMinify: false,
+  output: 'export',
   webpack: (config, { isServer }) => {
     if (isServer) {
       require('./lib/generation/sitemap');

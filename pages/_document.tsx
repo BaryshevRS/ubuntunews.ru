@@ -28,7 +28,7 @@ class MyDocument extends Document {
           />
 
             <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-17349676-1"></Script>
-            <Script>
+            <Script id='ga'>
                 {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
