@@ -44,7 +44,7 @@ export const Footer: React.FC<IProp> = () => {
             </PostLink>
           </li>
           <li>
-            <PostLink href="http://feeds.feedburner.com/ubuntunewsru">
+            <PostLink href="https://feeds.feedburner.com/ubuntunewsru">
               <RssIcon/>
             </PostLink>
           </li>
